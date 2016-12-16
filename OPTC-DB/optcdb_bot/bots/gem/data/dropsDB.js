@@ -804,7 +804,7 @@ module.exports = {
             global: true,
             condition: 'You may only bring PSY units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Damage Reduction Forbidden Tome']],
+            challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Defence Boost Forbidden Tome']],
             "All Difficulties": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
         },
 
@@ -880,7 +880,7 @@ module.exports = {
             global: true,
             condition: '30: Non-Striker, Evolver, or Booster class characters are weakend; 15: Fighter and Shooter class characters are weakened (Note: Multi-class characters such as Striker / Slasher are not affected)',
             challenge: 'Total Damage dealt to enemies in one turn',
-            challengeData: [['120,000 Damage','1x Blue Elder'],['600,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['2,500,000 Damage','1x CDR Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['120,000 Damage','1x Blue Elder'],['600,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['2,500,000 Damage','1x Cooldown Reduction Forbidden Tome, 2x Rainbow Gems']],
             "All Difficulties": [ 509, 511, -402, -400, -374, -357, -259, -212, -209 ]
         },
 
@@ -982,7 +982,7 @@ module.exports = {
             global: true,
             condition: '30: Non-Free Spirit, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['600,000','1x Blue Elder'],['2,000,000','1x RCV Cotton Candy, 1x Rainbow Gem'],['5,000,000','1x Anti-Lock Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['600,000','1x Blue Elder'],['2,000,000','1x RCV Cotton Candy, 1x Rainbow Gem'],['5,000,000','1x Lock Resistance Forbidden Tome, 2x Rainbow Gems']],
             "Japan": [ 712, 714, 715, -716, -546, -541, -520, -400, -202, -363, -204 ],
             "Global": [ 712, 714, 715, -716, -643, -546, -541, -400, -202, -363, -204 ]
         },
@@ -1060,7 +1060,7 @@ module.exports = {
             global: true,
             condition: 'You can only bring Shooter and Driven units. (No Evo/Boosters)',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['400,000 Damage','1x QCK Elder Turtle'],['1,400,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['4,000,000 Damage','2x Rainbow Gems, 1x Despair Forbidden Tome']],
+            challengeData: [['400,000 Damage','1x QCK Elder Turtle'],['1,400,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['4,000,000 Damage','2x Rainbow Gems, 1x Despair Resistance Forbidden Tome']],
             "All Difficulties": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
         },
 
@@ -1069,7 +1069,7 @@ module.exports = {
             thumb: 866,
             condition: "None",
             challenge:'Total number of hits above 50,000',
-            challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Anti-Silence Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Despair Resistance Forbidden Tome, 2x Rainbow Gems']],
             "All Difficulties": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
         },
 
@@ -1246,8 +1246,14 @@ module.exports = {
         
         {
             name: "Big Mom Pirates!",
-            thumb: 1355,
+            thumb: 1357,
             "All Difficulties": [ 1356, 1358, -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610 ]
+        },
+        
+        {
+            name: "Soldier-san's Training!",
+            thumb: 1384,
+            "All Difficulties": [ 1383, 1385, -748, -1234, -1075, -1230, -1155, -1154, -846, -842, -739 ]
         },
         
     ],
@@ -1456,7 +1462,7 @@ module.exports = {
             name: 'Battle Royal! Oars',
             thumb: 893,
             challenge:'Total number of hits above 50,000',
-            challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Anti-Bind Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Bind Resistance Forbidden Tome, 2x Rainbow Gems']],
             "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
         },
 
@@ -1465,9 +1471,8 @@ module.exports = {
             thumb: 683,
             global: true,
             challenge: 'Total number of hits over 30,000',
-            challengeData: [['10 Times','Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 659, 680, 682, 684, 1200, 1198 ],
-            "Completion Units": [686]
+            challengeData: [['Japan Rewards', ''],['10 Times','#686 Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems'], ['Global Rewards', ''],['10 Times','1x Bind Resistance Forbidden Tome, 1x Despair Resistance Forbidden Tome, 1x Auto-Heal Forbidden Tome, 1x Rainbow Gem'],['35 Times','1x Red Elder Turtle, 1x Blue Elder Turtle, 1x Green Elder Turtle, 1x Yellow Elder Turtle, 1x Black Elder Turtle, 2x Rainbow Gems'],['72 Times','5x Rainbow Gems']],
+            "All Difficulties": [ 659, 680, 682, 684, 1200, 1198 ]
         },
         
         {
@@ -1485,37 +1490,52 @@ module.exports = {
         {
             name: 'Coliseum',
             thumb: 779,
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1292, 1294, 1309, 1311 ]
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311, 1339, 1340, 1377 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311, 1339, 1340, 1377 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1292, 1294, 1309, 1311, 1337, 1339, 1340, 1375, 1377 ]
         },
         
         {
             name: 'Rescue Ace Event - Akainu',
             thumb: 1283,
-            challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "All Difficulties": [ -261, -562, -720, -748, -935 ]
         },
         
         {
             name: 'Rescue Ace Event - Aokiji',
             thumb: 1280,
-            challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "All Difficulties": [ -416, -459, -530, -669, -578 ]
         },
         
         {
             name: 'Rescue Ace Event - Kizaru',
             thumb: 1228,
-            challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "All Difficulties": [ -367, -649, -718, -870, -1001 ]
         },
         
         {
-            name: 'Young Whitebeard Event',
+            name: 'Invasion! Young Whitebeard',
             thumb: 1258,
-            challenge: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
+            condition: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
             "All Difficulties": [ 1257 ]
+        },
+        
+        {
+            name: 'Invasion! Red Hair Shanks',
+            thumb: 1380,
+            condition: "Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Shanks.",
+            "All Difficulties": [ 1379 ]
+        },
+        
+        {
+            name: 'The Flashback Before the Reunion! Fight all your Enemies!',
+            thumb: null,
+            condition: "The fight gets more difficult every time you complete it until it gets to 40 stamina.",
+            "Final Stage": [ 37, 38, 53, 55, 43, 36, 45, 57, 65, 203, 205, 383, 395, 397, 399, 401, 464, 465, 541, 545, 630, 632, 728, 730, 815, 889, 893, 973, 1055, 1057, 1158, 1156, 1227, 1228, 1280, 1283, 1353],
+            "Evolvers and Boosters": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 115, 116, 117, 118, 266, 300, 301, 302, 303, 304, 1180, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
         },
 
    ]
