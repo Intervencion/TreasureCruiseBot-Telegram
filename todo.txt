@@ -11,5 +11,6 @@ Attacks every turn for ****
 Under 50%: nothing
 Under 20%: deals **** damage
 ]
+Maybe @TreasureCruiseBot raid mihawk
 -Add github link
 -Add contact stuff
