@@ -1,0 +1,15 @@
+-Add ships
+-Add (basic) guides (hint for the crews?)
+[
+For example
+Raid Mihawk (30 sta)
+HP:****
+
+Preemptively deals **** damage
+
+Attacks every turn for ****
+Under 50%: nothing
+Under 20%: deals **** damage
+]
+-Add github link
+-Add contact stuff
