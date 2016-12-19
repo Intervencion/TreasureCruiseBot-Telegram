@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 var path = require('path');
 var base = path.join(__dirname, '../..');
@@ -67,6 +67,13 @@ function getDetail(id, detail) {
     }
     return unit_special.replaceEntities() || false;
   }
+  if (detail === 'sailor') {
+    var unit_sailor = unit_details && unit_details.sailor || '';
+    if (unit_sailor&& unit_sailor.hasOwnProperty('japan')) {
+      unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global;
+    }
+    return unit_sailor.replaceEntities() || false;
+  }
 }
 
 function getCaptainAbility(id) {
@@ -127,6 +134,20 @@ function getCooldowns(id) {
     unit_cooldown_max = Array.isArray(unit_cooldown) && unit_cooldown[1];
   if (unit_cooldown) {
     return (unit_cooldown_min && (unit_cooldown_min !== unit_cooldown_max)) ? 'Cooldown: ' + unit_cooldown_min + ' (' + unit_cooldown_max + ')' + '\n\n' : 'Cooldown: ' + (unit_cooldown_min || unit_cooldown) + '\n\n';
+  }
+  return false;
+}
+
+function getSailorAbility(id) {
+  var unit_details = details[id],
+    unit_sailor = unit_details && unit_details.sailor,
+    unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
+    unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
+    response;
+  if (unit_sailor) {
+    response = '<b>Sailor Ability:</b>\n';
+    response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : unit_sailor.replaceEntities() + '\n\n';
+    return response;
   }
   return false;
 }
@@ -260,6 +281,7 @@ function getUnitInfo(id, type) {
     unit_captain_notes = getNotes(details[id] && details[id].captainNotes, type),
     unit_special_notes = getNotes(details[id] && details[id].specialNotes, type),
     unit_cooldown = getCooldowns(id, type),
+    unit_sailor = getSailorAbility(id),
     unit_drops = getDrops(id, type),
     unit_evolutions = getEvolutions(id, type),
     response;
@@ -269,6 +291,7 @@ function getUnitInfo(id, type) {
     response += unit_captain_notes || '';
     response += unit_special || '';
     response += unit_special_notes || '';
+    response += unit_sailor || '';
     response += unit_cooldown || '';
     response += unit_drops || '';
     response += unit_evolutions || '';

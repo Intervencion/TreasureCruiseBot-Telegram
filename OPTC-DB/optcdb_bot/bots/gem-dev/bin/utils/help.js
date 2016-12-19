@@ -32,7 +32,7 @@ function getHelpText() {
   response += 'Developed by trashbytes\n';
   response += 'Maintained by @Intervencion\n\n';
 /*  response += '<b>Note:</b> This bot is under heavy development so bugs may appear every now and then.\n\n';*/
-  response += 'Database: 2016-10-18\n';
+  response += 'Database: 2016-12-18\n';
   return response;
 }
 
