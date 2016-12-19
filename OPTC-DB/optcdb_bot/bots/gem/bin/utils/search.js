@@ -43,17 +43,25 @@ function getInlineSearchResults(query, offset) {
     response = [];
     for (var i = offset; i < offset + 10; i++) {
       if (results[i]) {
+		  var desc;
+		  var rating = database.getUnit(results[i])[3];
+		  
+		  if(rating == 6){
+		  desc = '\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f';
+		  } else {
+		  desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
+		  }
         response.push({
           type: 'article',
           id: String(results[i]),
           title: database.getUnit(results[i])[0],
           parse_mode: 'HTML',
-          description: '\u2B50\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, database.getUnit(results[i])[3]) || '\🌟\🌟\🌟\🌟\🌟\🌟'.substr(0, database.getUnit(results[6])[3] === 6),
+          description: desc,
           message_text: database.getUnitInfo(results[i], 'inline'),
           thumb_url: (database.getUnit(results[i]).indexOf(null) === -1) ? 'http://onepiece-treasurecruise.com/wp-content/uploads/f' + String('0000' + (results[i])).slice(-4).replace(/(057[54])/, '0$1') + '.png' : 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png'
         });
-      }
     }
+      }
     return response;
   }
   if (offset === 0) {
