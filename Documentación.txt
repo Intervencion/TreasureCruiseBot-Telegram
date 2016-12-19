@@ -1,0 +1,9 @@
+\bots\gem\bin\app\app.js -> ?
+\bots\gem\bin\data\database.js -> Ficha personajes
+\bots\gem\bin\utils\drops.js -> /drops & /bonus
+\bots\gem\bin\utils\help.js -> /help
+\bots\gem\bin\utils\rate.js -> /rate
+\bots\gem\bin\utils\search.js -> Buscador
+\bots\gem\bin\utils\set.js -> Configuración de los path y admins
+\bots\gem\bin\utils\status.js -> /status
+\bots\gem\bin\utils\util.js -> Reemplazar texto no ascii
