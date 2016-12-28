@@ -19,7 +19,7 @@ function getStats(id) {
       unit_type = unit[1],
       unit_class = (Array.isArray(unit[2])) ? unit[2].join(', ') : unit[2],
       //unit_stars = (unit[3] === 6) ? '\🌟\🌟\🌟\🌟\🌟\🌟' : '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, unit[3]),
-      unit_stars = (unit[3] === 6) ? '\☃\☃\☃\☃\☃\☃' : '\⛄️\⛄️\⛄️\⛄️\⛄️'.substr(0, unit[3]),
+      unit_stars = (unit[3] === 6) ? '\☃\☃\☃\☃\☃\☃' : '\u2744\u2744\u2744\u2744\u2744'.substr(0, unit[3]), //
       unit_cost = unit[4],
       unit_combo = unit[5],
       unit_slots = unit[6],

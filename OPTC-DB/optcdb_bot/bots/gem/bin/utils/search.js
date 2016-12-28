@@ -54,7 +54,7 @@ function getInlineSearchResults(query, offset) {
 		  if(rating == 6){
 		  desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
 		  } else {
-		  desc =  '\⛄️\⛄️\⛄️\⛄️\⛄️'.substr(0, rating);
+		  desc =  '\u2744\u2744\u2744\u2744\u2744'.substr(0, rating);
 		  }
         response.push({
           type: 'article',
