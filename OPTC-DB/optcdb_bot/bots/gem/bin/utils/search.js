@@ -46,10 +46,15 @@ function getInlineSearchResults(query, offset) {
 		  var desc;
 		  var rating = database.getUnit(results[i])[3];
 		  
+		  //if(rating == 6){
+		  //desc = '\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f'; // Thanks @duhow
+		  //} else {
+		  //desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
+		  //}		  
 		  if(rating == 6){
-		  desc = '\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f'; // Thanks @duhow
+		  desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
 		  } else {
-		  desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
+		  desc =  '\⛄️\⛄️\⛄️\⛄️\⛄️'.substr(0, rating);
 		  }
         response.push({
           type: 'article',
