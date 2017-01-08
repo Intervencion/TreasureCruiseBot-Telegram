@@ -2035,6 +2035,10 @@ module.exports = {
         evolution: 1332,
         evolvers: [ 116, 117, 81, 92, 103 ]
     },
+    1335: {
+        evolution: 1336,
+        evolvers: [ 117, 88, 94, 99, 104 ]
+    },
     1337: {
         evolution: 1338,
         evolvers: [ 118, 98, 98, 303, 267 ]
@@ -2107,6 +2111,10 @@ module.exports = {
         evolution: 1386,
         evolvers: [ 116, 117, 81, 98 ]
     },
+    4: {
+        evolution: 1387,
+        evolvers: [  ]
+    },
     8: {
         evolution: 1388,
         evolvers: [  ]
@@ -2117,6 +2125,46 @@ module.exports = {
     },
     1390: {
         evolution: 1391,
+        evolvers: [ 118, 88, 99, 304, 267 ]
+    },
+    1394: {
+        evolution: 1395,
+        evolvers: [ 117, 118, 84, 85 ]
+    },
+    1396: {
+        evolution: 1397,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    1398: {
+        evolution: 1399,
+        evolvers: [ 117, 79, 90, 96, 101 ]
+    },
+    1400: {
+        evolution: 1401,
+        evolvers: [  ]
+    },
+    1403: {
+        evolution: 1404,
+        evolvers: [ 118, 85, 266, 301, 267 ]
+    },
+    1405: {
+        evolution: 1406,
+        evolvers: [ 1180, 87, 98, 303, 103 ]
+    },
+    1407: {
+        evolution: 1408,
+        evolvers: [ 1180, 117, 94, 302, 303 ]
+    },
+    1409: {
+        evolution: 1410,
+        evolvers: [ 1180, 83, 88, 304, 104 ]
+    },
+    1411: {
+        evolution: 13412,
+        evolvers: [ 1180, 118, 89, 95, 100 ]
+    },
+    261: {
+        evolution: 1413,
         evolvers: [  ]
     },
 };
