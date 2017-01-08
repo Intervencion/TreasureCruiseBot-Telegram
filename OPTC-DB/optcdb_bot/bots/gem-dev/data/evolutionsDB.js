@@ -2160,7 +2160,7 @@ module.exports = {
         evolvers: [ 1180, 83, 88, 304, 104 ]
     },
     1411: {
-        evolution: 13412,
+        evolution: 1412,
         evolvers: [ 1180, 118, 89, 95, 100 ]
     },
     261: {
