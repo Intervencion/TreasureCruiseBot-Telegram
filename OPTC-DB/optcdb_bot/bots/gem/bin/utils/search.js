@@ -29,7 +29,7 @@ function getSearchResults(query) {
 }
 
 function getInlineSearchResults(query, offset) {
-  var results = getSearchResults(query);
+  var results = getSearchResults(query.toLowerCase());
   var response = [{
     type: 'article',
     id: 'notfound',
