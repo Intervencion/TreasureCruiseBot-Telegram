@@ -52,9 +52,11 @@ function getInlineSearchResults(query, offset) {
 		  //desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
 		  //}		  
 		  if(rating == 6){
-		  desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
+		  desc = '\🌟\🌟\🌟\🌟\🌟\🌟'; // Thanks @duhow
+		  //desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
 		  } else {
-		  desc =  '\u2744\u2744\u2744\u2744\u2744'.substr(0, rating);
+		  desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
+		  //desc =  '\u2744\u2744\u2744\u2744\u2744'.substr(0, rating);
 		  }
         response.push({
           type: 'article',
