@@ -15,10 +15,10 @@ function getSearchResults(query) {
     if (unit[0]) {
       var unit_name = (unit[0]).toString();
       if (database.getAliasesDB()[id]) {
-        unit_name += ' ' + database.getAliasesDB()[id].join(' ');
+        unit_name += ' ' + database.getAliasesDB()[id].join(' ').toLowerCase();
       }
       unit_name = ' ' + id + ' ' + unit_name.toLowerCase().replace(/\'/g, '').replace(/[^a-z0-9]/g, ' ').replace(/ +(?= )/g, '');
-      unit_name = ' *' + unit_name;
+      unit_name = ' *' + unit_name.toLowerCase();
       term = term.replace(/_/g, ' ');
       if (unit_name.indexOf(term) > -1) {
         results.push(id);
