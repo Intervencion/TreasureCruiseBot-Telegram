@@ -7,6 +7,7 @@ var base = path.join(__dirname, '../..');
 module.status = require(path.join(base, 'bin/utils/status.js'));
 var database = require(path.join(base, 'bin/data/database.js'));
 
+
 function getSearchResults(query) {
   var term = (!isNaN(parseFloat(query)) && isFinite(query)) ? ' ' + query + ' ' : ' ' + query;
   var results = [];
