@@ -30,14 +30,14 @@ function getSearchResults(query) {
 }
 
 function getInlineSearchResults(query, offset) {
-  var results = getSearchResults(query);
+  var results = getSearchResults(query.toLowerCase());
   var response = [{
     type: 'article',
     id: 'notfound',
     title: 'S E A R C H',
     parse_mode: 'HTML',
-    description: 'No results for ' + query.substr(0, 5) + '... Try something different.',
-    message_text: '<b>S E A R C H</b>\n\nNo results for <b>' + query.substr(0, 5) + '..</b>. Try something different.',
+    description: 'No results for ' + query.toLowerCase().substr(0, 5) + '... Try something different.',
+    message_text: '<b>S E A R C H</b>\n\nNo results for <b>' + query.toLowerCase().substr(0, 5) + '..</b>. Try something different.',
     thumb_url: 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png'
   }];
   if (results[0]) {
