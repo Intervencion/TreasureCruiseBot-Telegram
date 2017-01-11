@@ -26,6 +26,7 @@ function getStatus(cmd, arg, message) {
   response += (requests.notice) ? '\n<code>  notice: </code>' + requests.notice : '';
   response += (requests.filter) ? '\n<code>  filter: </code>' + requests.filter : '';
   response += (requests.sort) ? '\n<code>    sort: </code>' + requests.sort : '';
+  response += (requests.github) ? '\n<code>    github: </code>' + requests.github : '';
   response += (requests.rate) ? '\n<code>    rate: </code>' + requests.rate : '';
   return {
     text: response,

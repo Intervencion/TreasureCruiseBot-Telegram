@@ -160,9 +160,9 @@ function getSupergroup(cmd, arg, message) {
   };
 }
 
-function getSupergroup(cmd, arg, message) {
+function getGithub(cmd, arg, message) {
   module.status.addRequest('github');
-  var response = '<b>S U P E R G R O U P</b>\n\n';
+  var response = '<b>G I T H U B</b>\n\n';
   response += 'Check how I have been made';
   return {
     text: response,
