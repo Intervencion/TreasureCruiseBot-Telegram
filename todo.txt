@@ -1,5 +1,6 @@
--Add ships
+-Add ships (check https://github.com/Intervencion/TreasureCruiseBot-Telegram/blob/master/OPTC-DB/testing/shipsDB.js)
 -Add (basic) guides (hint for the crews?)
+-Add damage calculator (check bottom)
 [
 For example
 Raid Mihawk (30 sta)
@@ -14,5 +15,26 @@ Under 20%: deals **** damage
 atk CD?
 ]
 Maybe @TreasureCruiseBot raid mihawk 20/30/40/60
--Add github link
+//-Add github link
 -Add contact stuff
+
+DAMAGE CALCULATOR
+Text = {
+HP: #### (%)
+RCV: ####
+Cost: ####
+STR: ####
+QCK: ####
+DEX: ####
+PSY: ####
+INT: ####
+}
+Buttons = {
+X - X
+X - X
+X - X
+Map - Ship
+Specials - Defense
+CC - HP%
+Print - Image
+}
