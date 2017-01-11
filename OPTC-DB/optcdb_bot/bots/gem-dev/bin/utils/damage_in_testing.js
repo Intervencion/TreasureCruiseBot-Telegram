@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 var qs = require('querystring');
 
 function getdamage(cmd, arg, message) {

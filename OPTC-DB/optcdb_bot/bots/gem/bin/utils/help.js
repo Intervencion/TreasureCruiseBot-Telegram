@@ -27,6 +27,7 @@ function getHelpText() {
   response += '/random - get a random unit\n';
   response += '/bonus - a link to the bonus table\n';
   response += '/drops - a link to the drops page\n';
+  response += '/github - a link to the Sourcecode\n';
   response += '/help - see this\n\n';
   response += '<b>Have fun!</b>\n';
   response += 'Developed by trashbytes\n';
@@ -115,7 +116,7 @@ function getCommand(cmd, arg, message) {
 }
 
 function getFilter(cmd, arg, message) {
-  module.status.addRequest('help');
+  module.status.addRequest('filter');
   var response = '<b>H O W   T O   U S E</b>\n\n';
   response += '<b>Filtering:</b>\n';
   response += 'I have removed filtering for now. My implementation wasn\'t very good and pretty unstable. I am working on a new version with better filtering.';
@@ -159,6 +160,25 @@ function getSupergroup(cmd, arg, message) {
   };
 }
 
+function getSupergroup(cmd, arg, message) {
+  module.status.addRequest('github');
+  var response = '<b>S U P E R G R O U P</b>\n\n';
+  response += 'Check how I have been made';
+  return {
+    text: response,
+    reply_markup: {
+      inline_keyboard: [
+        [{
+          text: 'Github',
+          url: 'https://github.com/Intervencion/TreasureCruiseBot-Telegram'
+        }]
+      ]
+    },
+    disable_web_page_preview: true,
+    chat_id: message.chat.id
+  };
+}
+
 exports.getReply = function(cmd, arg, message) {
   switch (cmd) {
     case 'start':
@@ -178,4 +198,4 @@ exports.getReply = function(cmd, arg, message) {
   }
 };
 
-exports.commands = ['help', 'start', 'inline', 'command', 'filter', 'notice', 'supergroup'];
+exports.commands = ['help', 'start', 'inline', 'command', 'filter', 'notice', 'supergroup', 'github'];
