@@ -41,19 +41,19 @@ function getInlineSearchResults(query, offset) {
     thumb_url: 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png'
   }];
 
-if (results[0]) {
+  if (results[0]) {
     response = [];
     for (var i = offset; i < offset + 10; i++) {
       if (results[i]) {
 		  var desc;
 		  var rating = database.getUnit(results[i])[3];
-
+		    
 		  if(rating == 6){
-			  desc = '\🌟\🌟\🌟\🌟\🌟\🌟'; // Thanks @duhow
-			  // desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
+		  desc = '\🌟\🌟\🌟\🌟\🌟\🌟'; // Thanks @duhow
+		  //desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
 		  } else {
-			  desc = '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
-			  // desc = '\u2744\u2744\u2744\u2744\u2744'.substr(0, rating);
+		  desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
+		  //desc =  '\u2744\u2744\u2744\u2744\u2744'.substr(0, rating);
 		  }
         response.push({
           type: 'article',
@@ -64,8 +64,8 @@ if (results[0]) {
           message_text: database.getUnitInfo(results[i], 'inline'),
           thumb_url: (database.getUnit(results[i]).indexOf(null) === -1) ? 'http://onepiece-treasurecruise.com/wp-content/uploads/f' + String('0000' + (results[i])).slice(-4).replace(/(057[54])/, '0$1') + '.png' : 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png'
         });
-      }
     }
+      }
     return response;
   }
 
