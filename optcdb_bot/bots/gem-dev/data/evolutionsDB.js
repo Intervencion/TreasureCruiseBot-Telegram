@@ -2167,4 +2167,56 @@ module.exports = {
         evolution: 1413,
         evolvers: [  ]
     },
+    1415: {
+        evolution: 1416,
+        evolvers: [ 116, 117, 92, 98, 103 ]
+    },
+    1419: {
+        evolution: 1420,
+        evolvers: [ 84, 88, 300, 304, 104 ]
+    },
+    1421: {
+        evolution: 1422,
+        evolvers: [ 118, 94, 99, 304, 267 ]
+    },
+    1425: {
+        evolution: 1426,
+        evolvers: [ 117, 79, 85, 96, 101 ]
+    },
+    1429: {
+        evolution: 1430,
+        evolvers: [ 117, 83, 86, 91, 97 ]
+    },
+    416: {
+        evolution: 1445,
+        evolvers: [  ]
+    },
+    1431: {
+        evolution: 1432,
+        evolvers: [ 118, 266, 300, 301, 302 ]
+    },
+    1433: {
+        evolution: 1434,
+        evolvers: [  ]
+    },
+    1435: {
+        evolution: 1436,
+        evolvers: [  ]
+    },
+    1437: {
+        evolution: 1438,
+        evolvers: [  ]
+    },
+    1439: {
+        evolution: 1440,
+        evolvers: [  ]
+    },
+    1441: {
+        evolution: 1442,
+        evolvers: [  ]
+    },
+    1443: {
+        evolution: 1444,
+        evolvers: [  ]
+    },
 };
