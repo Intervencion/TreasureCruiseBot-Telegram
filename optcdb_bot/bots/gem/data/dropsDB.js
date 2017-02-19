@@ -548,6 +548,7 @@ module.exports = {
             name: "Marineford - Oris Plaza",
             shortName: "Oris Plaza",
             thumb: 1283,
+            global: true,
             completion: '10x Rainbow Gems',
             "01": [ 1279 ],
             "02": [  ],
@@ -617,6 +618,7 @@ module.exports = {
         {
             name: 'Princess Turtle\'s Dragon Palace',
             thumb: 595,
+            global: true,
             ' ': [ 110, 111, 112, 113, 114, 189, 190, 191, 192, 193, 591, 592, 593, 594, 595 ]
         },
 
@@ -665,6 +667,7 @@ module.exports = {
             name: 'Scissor Cavern, Inner Cave',
             day: 4,
             thumb: 304,
+            global: true,
             ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ]
         },
         
@@ -672,6 +675,7 @@ module.exports = {
             name: 'Scissor Cavern, Deepest Parts',
             day: 4,
             thumb: 1180,
+            global: true,
             ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
         },
 
@@ -727,7 +731,7 @@ module.exports = {
             global: true,
             condition: "None",
             Expert: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20 ],
-            Elite: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20, -19 ]
+            Elite: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20, -1447, -19 ]
         },
 
         {
@@ -735,7 +739,7 @@ module.exports = {
             thumb: 228,
             global: true,
             condition: "None",
-            "All Difficulties": [ 33, 35, 84, 95, 105, 107, 110, 112, -228, -34, -26, -25, -24, -23, -22 ]
+            "All Difficulties": [ 33, 35, 84, 95, 105, 107, 110, 112, -228, -34, -26, -25, -24, -23, -22, -1448 ]
         },
 
         {
@@ -822,7 +826,7 @@ module.exports = {
             condition: 'You may only bring PSY units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Defence Boost Forbidden Tome']],
-            "All Difficulties": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
+            "All Difficulties": [ 385, 387, -388, -335, -314, -36, -16, -1446, -11 ]
         },
 
         {
@@ -1144,6 +1148,7 @@ module.exports = {
             name: "Let's Find Our Captain! Heart Pirates!",
             condition: "You can only bring QCK units",
             thumb: 1003,
+            global: true,
             "All Difficulties": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564, -1208 ]
         },
         
@@ -1159,6 +1164,7 @@ module.exports = {
         {
             name: "Temptation!? The Queen of Kamabakka Queendom!",
             thumb: 1037,
+            global: true,
             condition: "Only DEX/RCV/TND orbs will appear",
             "All Dificulties": [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566, -1175 ]
         },
@@ -1300,6 +1306,20 @@ module.exports = {
             "All Difficulties": [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812 ]
         },
         
+        {
+            name: "Protect Violet-Chan!!",
+            thumb: 1450,
+            condition: "You can only bring STR units",
+            "All Difficulties": [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814 ]
+        },
+        
+        {
+            name: "Sentomaru's Rampage! Stop the Rookies!",
+            thumb: null,
+            //condition: "You can only bring STR units",
+            "All Difficulties": [ -1268, -1322, -1228, -906, -914, -310, -1061 ]
+        },
+        
     ],
 
             
@@ -1365,7 +1385,7 @@ module.exports = {
             thumb: 518,
             showManual: true,
             global: true,
-            'Ultimate': [ 517, -15, -16, -223 ]
+            'Ultimate': [ 517, -15, -16, -1446, -223 ]
         },
 
         {
@@ -1443,6 +1463,7 @@ module.exports = {
         {
             name: 'Clash!! Kizaru',
             thumb: 978,
+            global: true,
             Ultimate: [ 977 ],
             Master: [ 977 ]
         },
@@ -1451,7 +1472,7 @@ module.exports = {
             name: 'Clash!? Impostor Straw Hat Pirates',
             showManual: true,
             thumb: 989,
-            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709, -1115, -1177, -1175, -1210, -1208 ]
+            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -1446, -556, -528, -520, -554, -558, -20, -1447, -217, -709, -1115, -1177, -1175, -1210, -1208 ]
         },
         
         {
@@ -1513,7 +1534,7 @@ module.exports = {
             thumb: 893,
             challenge:'Total number of hits above 50,000',
             challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Bind Resistance Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
+            "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -1446, -15, -8 ]
         },
 
         {
@@ -1532,6 +1553,13 @@ module.exports = {
         },
         
         {
+            name: 'Valentines Day Characters',
+            thumb: 1463,
+            "Luffy": [ 1462, 29, 563, 1059, 345, 192, 113, 108, 115, 116, 117, 1180, 266, 94, 83 ],
+            "Chopper": [  ],
+        },
+        
+        {
             name: '2nd Anniversary Celebration! Duel! Ace',
             thumb: 1023,
             "All Difficulties": [ 1023 ]
@@ -1540,29 +1568,42 @@ module.exports = {
         {
             name: 'Coliseum',
             thumb: 779,
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423 ]
+            global: true,
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457 ]
         },
         
         {
             name: 'Rescue Ace Event - Akainu',
             thumb: 1283,
+            global: true,
             condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            "Characters": [ 927, 296, 299, 773, 774, 1224 ],
+            "Boosters and Evolvers": [ 351, 193, 114, 266, 83, 118 ],
+            "Global": [ -261, -1413, -562, -720, -8, -1388, -219, -75, -255, -314, -316, -357, -410, -408, -449, -451, -455, -641, -643, -754, -760, -840, -880, -906, -910, -999, -554, -1175, -528, -1177, -560, -1212, -1245, -218, -22, -1448, -24, -204, -384, -504, -508, -785, -789 ],
             "Japan": [ -261, -562, -720, -748, -935, -1413 ]
         },
         
         {
             name: 'Rescue Ace Event - Aokiji',
             thumb: 1280,
+            global: true,
             condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            "Characters": [ 67, 69, 262, 264, 298 ],
+            "Boosters and Evolvers": [ 113, 192, 350, 266, 83, 118 ],
+            "Global": [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739 ],
             "Japan": [ -416, -459, -530, -669, -578, -1121 ]
         },
         
         {
             name: 'Rescue Ace Event - Kizaru',
             thumb: 1228,
+            global: true,
             condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            "Characters": [ 968, 969, 970, 971, 972, 231, 775, 1223, 49, 43 ],
+            "Boosters and Evolvers": [ 112, 191, 349, 266, 83, 118 ],
+            "Global": [ -367, -649, -718, -16, -1446, -20, -1447, -73, -251, -257, -308, -359, -365, -412, -457, -639, -750, -758, -912, -914, -941, -993, -522, -1117, -526, -1173, -556, -1210, -1245, -223, -15, -23, -25, -200, -225, -546, -500, -506, -569, -791, -793 ],
             "Japan": [ -367, -649, -718, -870, -1001 ]
         },
         

@@ -2187,36 +2187,76 @@ module.exports = {
         evolution: 1430,
         evolvers: [ 117, 83, 86, 91, 97 ]
     },
-    416: {
-        evolution: 1445,
-        evolvers: [  ]
-    },
     1431: {
         evolution: 1432,
         evolvers: [ 118, 266, 300, 301, 302 ]
     },
     1433: {
         evolution: 1434,
-        evolvers: [  ]
+        evolvers: [ 118, 266, 267, 99, 304 ]
     },
     1435: {
         evolution: 1436,
-        evolvers: [  ]
+        evolvers: [ 118, 96, 1180, 101, 301 ]
     },
     1437: {
         evolution: 1438,
-        evolvers: [  ]
+        evolvers: [ 87, 1180, 94, 103, 303 ]
     },
     1439: {
         evolution: 1440,
-        evolvers: [  ]
+        evolvers: [ 118, 83, 86, 102, 302 ]
     },
     1441: {
         evolution: 1442,
-        evolvers: [  ]
+        evolvers: [ 266, 93, 104, 104, 304 ]
     },
     1443: {
         evolution: 1444,
+        evolvers: [ 95, 95, 1180, 300, 300 ]
+    },
+    416: {
+        evolution: 1445,
+        evolvers: [  ]
+    },
+    16: {
+        evolution: 1446,
+        evolvers: [  ]
+    },
+    20: {
+        evolution: 1447,
+        evolvers: [  ]
+    },
+    22: {
+        evolution: 1448,
+        evolvers: [  ]
+    },
+    1449: {
+        evolution: 1450,
+        evolvers: [ 116, 80, 86, 91, 102 ]
+    },
+    1451: {
+        evolution: 1452,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    1453: {
+        evolution: 1454,
+        evolvers: [  ]
+    },
+    1455: {
+        evolution: 1456,
+        evolvers: [  ]
+    },
+    1457: {
+        evolution: 1458,
+        evolvers: [  ]
+    },
+    1459: {
+        evolution: 1460,
+        evolvers: [  ]
+    },
+    1462: {
+        evolution: 1463,
         evolvers: [  ]
     },
 };
