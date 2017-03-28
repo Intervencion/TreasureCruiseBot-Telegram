@@ -571,6 +571,7 @@ module.exports = {
             name: "3D2Y - Timeskip Training",
             shortName: "3D2Y",
             thumb: 1353,
+            global: true,
             completion: '5x Rainbow Gems',
             "01": [ 1342 ],
             "02": [ 1343 ],
@@ -602,6 +603,27 @@ module.exports = {
             "07": [  ],
             "08": [  ],
             "09": [ 1392 ],
+        },
+        
+        {
+            name: "Fishman Island",
+            shortName: "Fishman Island",
+            thumb: 1506,
+            completion: '5x Rainbow Gems',
+            "01": [ 1501, 1502 ],
+            "02": [ 1502, 340 ],
+            "03": [  ],
+            "04": [  ],
+            "05": [ 1503 ],
+            "06": [  ],
+            "07": [  ],
+            "08": [  ],
+            "09": [  ],
+            "10": [  ],
+            "11": [  ],
+            "12": [  ],
+            "13": [ 1504 ],
+            "14": [ 1505 ],
         },
         
     ],
@@ -694,7 +716,7 @@ module.exports = {
             thumb: 39,
             global: true,
             condition: "None",
-            Expert: [ 36, 37, 38, 99, 109, 114, -4 ],
+            Expert: [ 36, 37, 38, 99, 109, 114, -4, -1387 ],
             Elite: [ 36, 37, 38, 99, 109, 114, -3 ]
         },
 
@@ -703,7 +725,7 @@ module.exports = {
             thumb: 30,
             global: true,
             condition: "None",
-            Expert: [ 28, 29, 31, 40, 84, 95, 110, 117, -30, -21, -8 ],
+            Expert: [ 28, 29, 31, 40, 84, 95, 110, 117, -30, -21, -8, -1388 ],
             Elite: [ 28, 29, 31, 40, 95, 105, 110, -21, -7 ]
         },
 
@@ -712,7 +734,7 @@ module.exports = {
             thumb: 46,
             global: true,
             condition: "None",
-            Expert: [ 41, 42, 43, 45, -16 ],
+            Expert: [ 41, 42, 43, 45, -16, -1446 ],
             Elite: [ 41, 42, 43, 45, 96, 106, 111, -15 ]
         },
 
@@ -721,7 +743,7 @@ module.exports = {
             thumb: 66,
             global: true,
             condition: "None",
-            Expert: [ 61, 62, 63, 65, 89, 95, 105, 110, -12, -66 ],
+            Expert: [ 61, 62, 63, 65, 89, 95, 105, 110, -12, -66, -1389 ],
             Elite: [ 61, 62, 63, 65, 95, 105, 110, -11 ]
         },
 
@@ -836,7 +858,7 @@ module.exports = {
             condition: 'You can only get STR, QCK, INT and Food Orbs',
             challenge: 'Total number of hits over 50,000',
             challengeData: [['3 Times','1x Green Elder'],['12 Times','1x RCV Cotton Candy'],['25 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 391, 393, 394, -394, -393, -329, -316, -47, -34, -4 ]
+            "All Difficulties": [ 391, 393, 394, -394, -393, -329, -316, -47, -34, -4, -1387 ]
         },
 
         {
@@ -844,7 +866,7 @@ module.exports = {
             thumb: 405,
             global: true,
             condition: 'You can only get QCK, DEX, PSY and Food Orbs',
-            "All Difficulties": [ 404, 406, 407, -407, -406, -333, -312, -208, -26, -20 ]
+            "All Difficulties": [ 404, 406, 407, -407, -406, -333, -312, -208, -26, -20, -1447 ]
         },
 
         {
@@ -852,7 +874,7 @@ module.exports = {
             thumb: 420,
             global: true,
             condition: "None",
-            "All Difficulties": [ 36, 37, 47, 48, 49, 50, 51, 59, 63, 211, 233, 420, 421, 422, -422, -332, -308, -225, -206, -204, -8 ]
+            "All Difficulties": [ 36, 37, 47, 48, 49, 50, 51, 59, 63, 211, 233, 420, 421, 422, -422, -332, -308, -225, -206, -204, -8, -1388 ]
         },
 
         {
@@ -912,7 +934,7 @@ module.exports = {
             condition: '30: Non-Shooter, Evolver, or Booster class characters are weakend; 15: Fighter and Slasher class characters are weakened',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['600,000 Damage','1x Yellow Elder'],['2,000,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['5,000,000 Damage','1x Matching Orb Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 537, 539, 540, -539, -428, -416, -365, -257, -59 ]
+            "All Difficulties": [ 537, 539, 540, -539, -428, -416, -365, -257, -59, -1445 ]
         },
 
         {
@@ -1032,7 +1054,7 @@ module.exports = {
             global: true,
             condition: "None",
             "Japan": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217, -1210, -1413 ],
-            "Global": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8, -1413 ]
+            "Global": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8, -1413, -1388 ]
         },
 
         {
@@ -1060,8 +1082,8 @@ module.exports = {
             thumb: 808,
             global: true,
             condition: 'You can only bring Slasher and Cerebral units. (No Evolution/Booster)',
-            "Japan": [ 807, 809, 811, -811, -645, -641, -631, -502, -11, -12, -9 ],
-            "Global": [ 807, 809, 811, -811, -760, -675, -631, -502, -11, -12, -9 ],
+            "Japan": [ 807, 809, 811, -811, -645, -641, -631, -502, -11, -12, -9, -1389 ],
+            "Global": [ 807, 809, 811, -811, -760, -675, -631, -502, -11, -12, -9, -1389 ],
         },
 
         {
@@ -1082,7 +1104,8 @@ module.exports = {
             condition: 'You can only bring Shooter and Driven units. (No Evo/Boosters)',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['400,000 Damage','1x QCK Elder Turtle'],['1,400,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['4,000,000 Damage','2x Rainbow Gems, 1x Despair Resistance Forbidden Tome']],
-            "All Difficulties": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
+            "Japan": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22, -1448 ],
+            "Global": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -754, -614, -463, -457, -327, -22, -1448 ]
         },
 
         {
@@ -1098,14 +1121,14 @@ module.exports = {
             name: "Riverside Banquet! Enter the Crazy Ones!",
             thumb: 885,
             condition: 'Highly increased chance of TND, Bomb, and G orbs',
-            "All Difficulties": [ 885, 886, 887, -887, -704, -703, -677, -675, -504, -453, -416 ]
+            "All Difficulties": [ 885, 886, 887, -887, -704, -703, -677, -675, -504, -453, -416, -1445 ]
         },
 
         {
             name: "Mountaintop Banquet! Enter the Generals!",
             thumb: 897,
             condition: 'Only STR/DEX/QCK/PSY/INT orbs will appear',
-            "All Difficulties": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464, -1177 ]
+            "All Difficulties": [ 897, 898, 899, -899, -754, -702, -701, -669, -1492, -528, -466, -449, -464, -1177 ]
         },
 
         {
@@ -1172,6 +1195,7 @@ module.exports = {
         {
             name: "The One Who Seeks the Truth of History: Archaeologist Nico Olvia",
             thumb: 1049,
+            global: true,
             condition: "Only TND/RCV/INT orbs will appear",
             "All Difficulties": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908, -1210 ]
         },
@@ -1221,7 +1245,7 @@ module.exports = {
             name: "Rumbar Pirates!",
             thumb: 1203,
             condition: "'Musical' units get their stats boosted by 1.5x (Dancers, Singers, Playing an instrument, etc)",
-            "All Difficulties": [ 1202, 1204, 1206, -1001, -997, -1207, -677, -896, -631, -954, -1206, -617, -1027 ]
+            "All Difficulties": [ 1202, 1204, 1206, -1001, -997, -558, -1208, -677, -896, -631, -954, -1206, -617, -1027 ]
         },
         
         {
@@ -1242,7 +1266,7 @@ module.exports = {
             name: "Gather! Whitebeard Alliance",
             thumb: 1254,
             condition: "Driven Characters have their cooldowns reduced by 10 turns at the start of the fight",
-            "All Difficulties": [ 1254, 1255, 1256, -669, -1077, -1079, -967, -972, -974, -750, -701, -500 ]
+            "All Difficulties": [ 1254, 1255, 1256, -669, -1492, -1077, -1079, -967, -972, -974, -750, -701, -500 ]
         },
         
         {
@@ -1263,7 +1287,7 @@ module.exports = {
             name: "Tontatta Kingdom Island Part 1: Leo",
             thumb: 1328,
             condition: "Slasher characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (75% on 30 stamina)",
-            "All Difficulties": [ 1327, 1329, 1330, -1085, -1127, -1131, -1058, -758, -760, -735, -4, -508 ]
+            "All Difficulties": [ 1327, 1329, 1330, -1085, -1127, -1131, -1058, -758, -760, -735, -4, -508, -1387 ]
         },
         
         {
@@ -1276,7 +1300,7 @@ module.exports = {
         {
             name: "Big Mom Pirates!",
             thumb: 1357,
-            "All Difficulties": [ 1356, 1358, -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610 ]
+            "All Difficulties": [ 1356, 1358, -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610, -1388 ]
         },
         
         {
@@ -1300,24 +1324,38 @@ module.exports = {
         },
         
         {
-            name: "Happo Navy! The 13th Leader Appears!",
+            name: "Chinjao Family! The 13th Leader Appears!",
             thumb: 1426,
             condition: "You can only bring DEX units",
             "All Difficulties": [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812 ]
         },
         
         {
-            name: "Protect Violet-Chan!!",
+            name: "Fugitive of Love and Passion!!",
             thumb: 1450,
             condition: "You can only bring STR units",
             "All Difficulties": [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814 ]
         },
         
         {
-            name: "Sentomaru's Rampage! Stop the Rookies!",
-            thumb: null,
-            //condition: "You can only bring STR units",
-            "All Difficulties": [ -1268, -1322, -1228, -906, -914, -310, -1061 ]
+            name: "Gatekeeper of the New World! Stop the Rookies!",
+            thumb: 1469,
+            condition: "You can only bring QCK units",
+            "All Difficulties": [ 1468, 1470, 1471, -1268, -1322, -1228, -906, -914, -310, -1061, -1470 ]
+        },
+        
+        {
+            name: "Exit! Whitebeard Pirates",
+            thumb: 1509,
+            condition: "You can only bring PSY units",
+            "All Difficulties": [ 1509, 1510, 1511, 1512, -1001, -1316, -1280, -314, -908, -16, -1446, -1370, -1368, -816 ],
+        },
+        
+        {
+            name: "Dadan Family! Encounter with the Mountain Bandits",
+            thumb: 1520,
+            //condition: "You can only bring PSY units",
+            "All Difficulties": [ 1519, 1521, 1522, -1314, -1366, -1364, -912, -937, -316, -1281, -891, -22, -1448 ],
         },
         
     ],
@@ -1472,11 +1510,12 @@ module.exports = {
             name: 'Clash!? Impostor Straw Hat Pirates',
             showManual: true,
             thumb: 989,
-            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -1446, -556, -528, -520, -554, -558, -20, -1447, -217, -709, -1115, -1177, -1175, -1210, -1208 ]
+            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -1446, -556, -528, -520, -554, -558, -20, -1447, -217, -709, -1115, -1177, -1175, -1210, -1208, -1387, -1388, -1389 ]
         },
         
         {
             name: 'Clash!! Sabo',
+            global: true,
             thumb: 1047,
             Ultimate: [ 1046 ],
             Master: [ 1046 ],
@@ -1503,6 +1542,7 @@ module.exports = {
         {
             name: 'Clash!! Akainu',
             thumb: 1298,
+            global: true,
             Ultimate: [ 1297 ]
         },
         {
@@ -1517,6 +1557,12 @@ module.exports = {
             thumb: 1432,
             Master: [ 1431, 215, 799 ],
             Ultimate: [ 1431, 215, 799 ],
+        },
+        {
+            name: 'Clash!! Bellamy',
+            thumb: 1518,
+            Master: [ 1517 ],
+            Expert: [ 1517 ],
         },
 
     ],
@@ -1534,7 +1580,7 @@ module.exports = {
             thumb: 893,
             challenge:'Total number of hits above 50,000',
             challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Bind Resistance Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -1446, -15, -8 ]
+            "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -1446, -15, -8, -1388 ]
         },
 
         {
@@ -1553,10 +1599,12 @@ module.exports = {
         },
         
         {
-            name: 'Valentines Day Characters',
+            name: 'Valentines Day and White Day Characters',
             thumb: 1463,
             "Luffy": [ 1462, 29, 563, 1059, 345, 192, 113, 108, 115, 116, 117, 1180, 266, 94, 83 ],
-            "Chopper": [  ],
+            "Chopper": [ 1464, 1155, 333, 728, 334, 1061, 346, 193, 109, 114, 115, 116, 117, 1180, 266, 94, 83 ],
+            "Sanji": [ 1507, 52, 207, 892, 343, 190, 111, 106, 115, 116, 117, 1180, 266, 94, 83 ],
+            "Brook": [ 1515, 954, 614, 379, 730, 342, 189, 110, 105, 115, 116, 117, 1180, 266, 94, 83 ],
         },
         
         {
@@ -1569,9 +1617,9 @@ module.exports = {
             name: 'Coliseum',
             thumb: 779,
             global: true,
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457 ]
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528 ]
         },
         
         {
@@ -1592,8 +1640,8 @@ module.exports = {
             condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "Characters": [ 67, 69, 262, 264, 298 ],
             "Boosters and Evolvers": [ 113, 192, 350, 266, 83, 118 ],
-            "Global": [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739 ],
-            "Japan": [ -416, -459, -530, -669, -578, -1121 ]
+            "Global": [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739, -1445 ],
+            "Japan": [ -416, -459, -530, -669, -1492, -578, -1121, -1445 ]
         },
         
         {
@@ -1610,20 +1658,27 @@ module.exports = {
         {
             name: 'Invasion! Young Whitebeard',
             thumb: 1258,
-            condition: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
+            condition: "Has a chance of appearing at the end of ANY Friday Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
             "All Difficulties": [ 1257 ]
         },
         
         {
             name: 'Invasion! Red Hair Shanks',
             thumb: 1380,
-            condition: "Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Shanks.",
+            condition: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Shanks.",
             "All Difficulties": [ 1379 ]
         },
         
         {
+            name: 'Invasion! Cavendish',
+            thumb: 1530,
+            condition: "Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.",
+            "All Difficulties": [ 1529 ]
+        },
+        
+        {
             name: 'The Flashback Before the Reunion! Fight all your Enemies!',
-            thumb: null,
+            thumb: 1353,
             condition: "The fight gets more difficult every time you complete it until it gets to 40 stamina.",
             "Final Stage": [ 37, 38, 53, 55, 43, 36, 45, 57, 65, 203, 205, 383, 395, 397, 399, 401, 464, 465, 541, 545, 630, 632, 728, 730, 815, 889, 893, 973, 1055, 1057, 1158, 1156, 1227, 1228, 1280, 1283, 1353],
             "Evolvers and Boosters": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 115, 116, 117, 118, 266, 300, 301, 302, 303, 304, 1180, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
@@ -1638,10 +1693,12 @@ var bonuses = [
     { type: 'stamina' , x: 6 , y: 5  },
     { type: 'stamina' , x: 6 , y: 12 },
     { type: 'stamina' , x: 6 , y: 19 },
+    { type: 'stamina' , x: 6 , y: 26 },
     { type: 'drop'    , x: 6 , y: 1  },
     { type: 'drop'    , x: 6 , y: 8  },
     { type: 'drop'    , x: 6 , y: 15 },
     { type: 'drop'    , x: 6 , y: 22 },
+    { type: 'drop'    , x: 6 , y: 29 },
     { type: 'beli'    , x: 6 , y: 3  },
     { type: 'beli'    , x: 1 , y: 4  },
     { type: 'beli'    , x: 6 , y: 10 },
@@ -1653,5 +1710,6 @@ var bonuses = [
     { type: 'exp'     , x: 6 , y: 6  },
     { type: 'exp'     , x: 6 , y: 9, stop: 2 },
     { type: 'exp'     , x: 6 , y: 13 },
-    { type: 'exp'     , x: 6 , y: 20 }
+    { type: 'exp'     , x: 6 , y: 20 },
+    { type: 'exp'     , x: 6 , y: 27 }
 ];
