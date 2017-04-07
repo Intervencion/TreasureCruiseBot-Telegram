@@ -2400,12 +2400,12 @@ module.exports = {
     561: {
         special: "Reduces crew's current HP by 40%, deals 15x the amount of HP subtracted in typeless damage to all enemies, locks all orbs for 1 turn",
         specialName: "Great Flame Commandment: Flame Emperor",
-        captain: "Boosts HP of Shooter characters by 1.5x and their ATK by 3x if they have a matching orb, by 2x otherwise"
+        captain: "Boosts HP of Shooter characters by 1.5x and boosts ATK by 3x if they have a matching orb, by 2x otherwise"
     },
     562: {
         special: "Reduces crew's current HP by 40%, deals 15x the amount of HP subtracted in typeless damage to all enemies, locks all orbs for 1 turn",
         specialName: "Great Flame Commandment: Flame Emperor",
-        captain: "Boosts HP of Shooter characters by 1.5x and their ATK by 3x if they have a matching orb, by 2x otherwise"
+        captain: "Boosts HP of Shooter characters by 1.5x and boosts ATK by 3x if they have a matching orb, by 2x otherwise"
     },
     563: {
         special: "Deal 3x character's ATK in PSY damage to one enemy, changes [INT] orbs into [RCV] orbs",
@@ -2802,13 +2802,13 @@ module.exports = {
         special: "Deals 20x character's ATK in STR damage to all enemies, boosts chances of getting [STR] orbs for 3 turns",
         specialName: "Vanguard Breaker",
         captain: "Boosts ATK of Shooter characters by 2.5x if HP is below 30% at the start of the turn",
-        sailor: "Boosts ATK of STR characters by 30"
+        sailor: "Boosts HP of STR characters by 30"
     },
     647: {
         special: "Deals 20x character's ATK in STR damage to all enemies, boosts chances of getting [STR] orbs for 3 turns",
         specialName: "Vanguard Breaker",
         captain: "Boosts ATK of Shooter characters by 2.75x if HP is below 30% at the start of the turn",
-        sailor: "Boosts ATK of STR characters by 30"
+        sailor: "Boosts HP of STR characters by 30"
     },
     648: {
         special: "Recovers 100x character's RCV in HP, amplifies the effect of orbs by 1.5x for 2 turns",
@@ -5311,13 +5311,13 @@ module.exports = {
         specialName: "Drill Dragon: Drill Nail"
     },
     1084: {
-        captain: "Boosts HP of Driven characters by 1.5x and their ATK by 3x if they have a matching orb, by 1.5x otherwise. Makes [TND] and [RCV] orbs \"beneficial\" to Driven characters",
+        captain: "Boosts HP of Driven characters by 1.5x and boosts ATK by 3x if they have a matching orb, by 1.5x otherwise. Makes [TND] and [RCV] orbs \"beneficial\" to Driven characters",
         special: "Cuts the current HP of each enemy by 20%. At the end of the turn, cuts the current HP of each enemy by 20% for 3 turns",
         specialNotes: "Does not stack with other 'end of turn damage' abilities",
         specialName: "Gravito: Heavens Fall"
     },
     1085: {
-        captain: "Boosts HP of Driven characters by 1.5x and their ATK by 3x if they have a matching orb, by 1.5x otherwise. Makes [TND] and [RCV] orbs \"beneficial\" to Driven characters",
+        captain: "Boosts HP of Driven characters by 1.5x and boosts ATK by 3x if they have a matching orb, by 1.5x otherwise. Makes [TND] and [RCV] orbs \"beneficial\" to Driven characters",
         special: "Cuts the current HP of each enemy by 20%. At the end of the turn, cuts the current HP of each enemy by 20% for 3 turns",
         specialNotes: "Does not stack with other 'end of turn damage' abilities",
         specialName: "Gravito: Heavens Fall"
@@ -6330,7 +6330,7 @@ module.exports = {
         sailor: "Makes [QCK] orbs \"beneficial\" for this unit"
     },
     1239: {//6* Kizaru
-        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 2x, and RCV of all characters by 1.3x. If you use \"Yasakani no Magatama\" boosts ATK of all characters by 3x instead.",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 2x, and boosts RCV of all characters by 1.3x. If you use \"Yasakani no Magatama\" boosts ATK of all characters by 3x instead.",
         specialName: "Yasakani no Magatama",
         special: [
             {
@@ -6349,7 +6349,7 @@ module.exports = {
         specialNotes: "#{randomHits : 10}",
     },
     1240: {//6* Kizaru
-        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 2x, and RCV of all characters by 1.3x. If you use \"Yasakani no Magatama\" boosts ATK of all characters by 3x instead.",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 2x, and boosts RCV of all characters by 1.3x. If you use \"Yasakani no Magatama\" boosts ATK of all characters by 3x instead.",
         specialName: "Yasakani no Magatama",
         special: [
             {
@@ -7440,13 +7440,13 @@ module.exports = {
         specialNotes: "#{orb : 1.75x}",
     },
     1390: {//Buggy Legend
-        captain: "Boosts ATK of characters with cost 40 or less by 1.5x and boosts the HP and ATK of characters with cost 41 or greater by 0.5x. Gurantees duplicating a drop upon completion of the island.",
+        captain: "Boosts ATK of characters with cost 40 or less by 1.5x and boosts the HP and ATK of characters with cost 41 or greater by 0.5x. Guarantees duplicating a drop upon completion of the island.",
         captainNotes: "Does not work if he was not your captain upon starting the island. Stacks with other addional drop captains, giving you two chances of getting an extra drop.",
         special: "Randomizes all orbs. Boosts ATK of characters with cost 40 or less by 1.75x for 2 turns",
         specialName: "Chop-Chop Clown Car",
     },
     1391: {//Buggy Legend
-        captain: "Boosts ATK of characters with cost 40 or less by 1.5x and reduces the HP and ATK of characters with cost 41 and greater by 0.5x. Gurantees duplicating a drop upon completion of the island.",
+        captain: "Boosts ATK of characters with cost 40 or less by 1.5x and reduces the HP and ATK of characters with cost 41 and greater by 0.5x. Guarantees duplicating a drop upon completion of the island.",
         captainNotes: "Does not work if he was not your captain upon starting the island. Stacks with other addional drop captains, giving you two chances of getting an extra drop.",
         special: "Randomizes all orbs. Boosts ATK of characters with cost 40 or less by 1.75x for 2 turns",
         specialName: "Chop-Chop Clown Car",
@@ -7879,14 +7879,14 @@ module.exports = {
     },
     1453: {//Valentines Margeurite
         captain: "Not Translated",
-        special: "Changes Orbs depending on the current HP",
+        special: "Changes all orbs depending on the current HP",
         specialNotes: "<br> HP>70%: Top row to [QCK], middle row to [STR] <br> HP<30%: Top row to [RCV], middle row to [QCK], bottom row to [STR]",
         specialName: "Doki Doki Heart",
     },
     1454: {//Valentines Margeurite
         captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 1.75x an their RCV by 1.5x",
-        special: "Changes Orbs depending on the current HP",
-        specialNotes: "<br> HP>70%: Top row to [QCK], middle row to [STR] <br> HP<30%: Top row to [RCV], middle row to [QCK], bottom row to [STR]",
+        special: "Changes all orbs depending on the current HP",
+        specialNotes: "<br> HP>70%: Top row to [QCK], middle row to [DEX], bottom row to [STR] <br> HP<30%: Top row to [RCV], middle row to [QCK], bottom row to [STR]",
         specialName: "Doki Doki Heart",
     },
     1455: {//Coliseum Don Chinjao
@@ -7944,13 +7944,13 @@ module.exports = {
     },
     1462: {//White Day Luffy
         captain: "Boosts chain multiplier by 2x",
-        special: "Reduces crew's current HP by 50%, cuts the current HP of each enemy by 20%, and makes [PSY] and [STR] orbs \"beneficial\" to Fighter characters",
+        special: "Reduces crew's current HP by 50%, cuts the current HP of each enemy by 20%, and makes [PSY] and [STR] orbs \"beneficial\" to Fighter characters for 1 turn",
         sailor: "Reduces Paralysis for 2 turns for himself",
         specialName: "Gum-Gum Gigant Axe - Sweets",
     },
     1463: {//White Day Luffy
         captain: "Boosts chain multiplier by 2.5x",
-        special: "Reduces crew's current HP by 50%, cuts the current HP of each enemy by 20%, and makes [PSY] and [STR] orbs \"beneficial\" to Fighter characters",
+        special: "Reduces crew's current HP by 50%, cuts the current HP of each enemy by 20%, and makes [PSY] and [STR] orbs \"beneficial\" to Fighter characters for 1 turn",
         sailor: "Reduces Paralysis for 2 turns for himself",
         specialName: "Gum-Gum Gigant Axe - Sweets",
     },
@@ -8149,7 +8149,7 @@ module.exports = {
         specialName: "Explosion Blocking Escape",
     },
     1492: {//6+ Sabo
-        captain: "Boosts HP and RCV of all characters by ???x, boosts ATK of Free Spirit characters by 2.75x",
+        captain: "Boosts HP and RCV of all characters by 1.2x, boosts ATK of Free Spirit characters by 2.75x",
         captainNotes: "HP and RCV boost are not known yet, but are assumed to be for anyone and is a 1.2x boost for both in the calculator.",
         special: [
             {
@@ -8299,12 +8299,12 @@ module.exports = {
     },
     1517: {//Raid Bellamy
         captain: "Boosts ATK of Driven characters by 2x",
-        special: "Cuts the current HP of each enemy by 10%, makes [PSY] and [INT] orbs \"beneficial\" for all characters for 1 turn and amplifies the effect of orbs by 1.75x for 1 turn",
+        special: "Cuts the current HP of each enemy by 10%, makes [PSY] and [INT] orbs \"beneficial\" for 1 turn and amplifies the effect of orbs by 1.75x for 1 turn",
         specialName: "Spring Hopper - Bullet",
     },
     1518: {//Raid Bellamy
         captain: "Boosts ATK of Driven characters by 2.5x",
-        special: "Cuts the current HP of each enemy by 10%, makes [PSY] and [INT] orbs \"beneficial\" for all characters for 1 turn and amplifies the effect of orbs by 1.75x for 1 turn",
+        special: "Cuts the current HP of each enemy by 10%, makes [PSY] and [INT] orbs \"beneficial\" for 1 turn and amplifies the effect of orbs by 1.75x for 1 turn",
         specialName: "Spring Hopper - Bullet",
     },
     1519: {//Dadan
@@ -8356,7 +8356,7 @@ module.exports = {
                 "cooldown": [ 21, 12 ],
             },
         ],
-        specialName: "Arlong Special",
+        specialName: "Just 'Water Play'",
     },
     1527: {//Arlong
         captain: "Reduces cooldown of all specials by 1 turns at the start of the fight. Boosts ATK of [INT] characters by 2x",
@@ -8370,24 +8370,146 @@ module.exports = {
                 "cooldown": [ 21, 12 ],
             },
         ],
-        specialName: "Arlong Special",
+        specialName: "Just 'Water Play'",
     },
     1528: {//Blenheim
         captain: "Boosts ATK of Powerhouse characters by 2.25x",
         special: "Reduces Despair duration by 2 turns,  makes STR, DEX, and QCK orbs \"beneficial\" to Powerhouse characters for 1 turn if HP is below 30% at the start of the turn",
         sailor: "Makes [TND] orbs \"beneficial\" for this unit",
-        specialName: "Blenheim Special",
+        specialName: "Australian Army Aid Blade",
     },
     1529: {//Cavendish
         captain: "Boosts ATK of all characters by 1.5x, but boosts his OWN attack by 3x",
-        special: "For Slasher characters, if HP is above ???% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
+        special: "For Slasher characters, if HP is above 50% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
         sailor: "Reduces ATK of all characters by .5x if your captain is [STR] or [QCK]",
-        specialName: "Cavendish Special",
+        specialName: "Blue Bird Sword",
     },
     1530: {//Cavendish
         captain: "Boosts ATK of all characters by 1.75x, but boosts his OWN attack by 3.5x",
-        special: "For Slasher characters, if HP is above ???% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
+        special: "For Slasher characters, if HP is above 50% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
         sailor: "Reduces ATK of all characters by .5x if your captain is [STR] or [QCK]",
-        specialName: "Cavendish Special",
+        specialName: "Blue Bird Sword",
+    },
+    1531: {//Legend Usopp
+        captain: "Boosts ATK of all characters by 1.5x if HP is below 50% or by 1.75x if HP is below 30% at the start of the turn. Makes [STR], [DEX], [QCK], [PSY], [INT], [RCV], and [TND] orbs \"beneficial\" to all characters.",
+        special: [
+            {
+                "description": "Delays all enemies for 3 turns",
+                "cooldown": [ 13, 10 ],
+            },
+            {
+                "description": "Delays all enemies for 4 turns, adds 0.2x to Chain multiplier for 4 turns",
+                "cooldown": [ 18, 15 ],
+            },
+            {
+                "description": "Delays all enemies for 5 turns, adds 0.3x to Chain multiplier for 4 turns",
+                "cooldown": [ 24, 21 ],
+            },
+        ],
+        sailor: "Completely resists Blindness",
+        specialName: "Long-Range Attack: Bagworm",
+    },
+    1532: {//Legend Usopp
+        captain: "Boosts ATK of all characters by 1.5x if HP is below 50% or by 1.75x if HP is below 30% at the start of the turn. Makes [STR], [DEX], [QCK], [PSY], [INT], [RCV], and [TND] orbs \"beneficial\" to all characters.",
+        special: [
+            {
+                "description": "Delays all enemies for 3 turns",
+                "cooldown": [ 13, 10 ],
+            },
+            {
+                "description": "Delays all enemies for 4 turns, adds 0.2x to Chain multiplier for 4 turns",
+                "cooldown": [ 18, 15 ],
+            },
+            {
+                "description": "Delays all enemies for 5 turns, adds 0.3x to Chain multiplier for 4 turns",
+                "cooldown": [ 24, 21 ],
+            },
+        ],
+        sailor: "Completely resists Blindness",
+        specialName: "Long-Range Attack: Bagworm",
+    },
+    1533: {//Rayleigh
+        captain: "Boosts ATK of [QCK] characters by 2x and their HP by 1.2x at the start of the chain, by 2.5x after the 4th Perfect.",
+        special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
+        sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
+        specialName: "The Teacher's Final Ordeal",
+    },
+    1534: {//Rayleigh
+        captain: "Boosts ATK of [QCK] characters by 2.5x and their HP by 1.2x at the start of the chain, by 3x after the 4th Perfect.",
+        special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
+        sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
+        specialName: "The Teacher's Final Ordeal",
+    },
+    1535: {//Duval
+        captain: "Not Translated",
+        special: "Reduces damage received by 50% for 1 turn, boosts ATK of PSY characters by 1.75x for 1 turn",
+        sailor: "Makes [INT] orbs \"beneficial\" for [PSY] characters",
+        specialName: "Prideful Memories",
+    },
+    1536: {//Duval
+        captain: "Reduces cooldown of [PSY] specials by 3 turns at the start of the fight, boosts ATK of [PSY] characters by 3x if they have matching orbs",
+        special: "Reduces damage received by 50% for 1 turn, boosts ATK of PSY characters by 1.75x for 1 turn",
+        sailor: "Makes [INT] orbs \"beneficial\" for [PSY] characters",
+        specialName: "Prideful Memories",
+    },
+    1537: {//Heracles'n
+        captain: "Boosts ATK of [STR] characters by 2x and boosts HP of Shooters and Strikers by 1.2x",
+        special: "Cuts the current HP of each enemy by 20%, changes right column orbs into Matching orbs for Shooter and Striker characters",
+        sailor: "Boosts HP of STR characters by 150",
+        specialName: "Greenstone Threat",
+    },
+    1538: {//Heracles'n
+        captain: "Boosts ATK of [STR] characters by 2.5x and boosts HP of Shooters and Strikers by 1.25x",
+        special: "Cuts the current HP of each enemy by 20%, changes right column orbs into Matching orbs for Shooter and Striker characters",
+        sailor: "Boosts HP of STR characters by 150",
+        specialName: "Greenstone Threat",
+    },
+    1539: {//Perona
+        captain: "Boosts ATK and RCV of characters with cost 20 or less by 1.5x",
+        special: "Reduces damage received by 90% for 1 turn, reduces the defense of all enemies by 90% for 1 turn, reduces enemy's Threshold Damage Reduction and Percent Damage Reduction duration by 2 turns",
+        sailor: "Boosts ATK of INT characters by 50",
+        specialName: "Negative Hollow: You're All Rotten Imbeciles",
+    },
+    1540: {//Perona
+        captain: "Boosts ATK of characters with cost 30 or less by 2.25x and their RCV by 1.5x",
+        special: "Reduces damage received by 90% for 1 turn, reduces the defense of all enemies by 90% for 1 turn, reduces enemy's Threshold Damage Reduction and Percent Damage Reduction duration by 2 turns",
+        sailor: "Boosts ATK of INT characters by 50",
+        specialName: "Negative Hollow: You're All Rotten Imbeciles",
+    },
+    1541: {//Elizabeth
+        captain: "Boosts ATK by 2x following a chain of [STR] > [DEX] > [QCK] attacks no lower than Good",
+        special: "Recovers 13x character's RCV in HP, adds .5x to Chain multiplier, and reduces the defense of all enemies by 100% for 1 turn",
+        sailor: "Restores her own special by 2 turns when it is rewinded",
+        sailorNotes: "Some enemies can increase your cooldown by 1/2 Turns, this Sailor Ability decreases that by 1 Turn",
+        specialName: "Soft and Gentle Fluffy Kisses",
+    },
+    1542: {//Elizabeth
+        captain: "Boosts RCV and HP by ???x, boosts ATK by 2.5x following a chain of [STR] > [DEX] > [QCK] attacks no lower than Good",
+        special: "Recovers 13x character's RCV in HP, adds .5x to Chain multiplier, and reduces the defense of all enemies by 100% for 1 turn",
+        sailor: "Restores her own special by 2 turns when it is rewinded",
+        sailorNotes: "Some enemies can increase your cooldown by 1/2 Turns, this Sailor Ability decreases that by 1 Turn",
+        specialName: "Soft and Gentle Fluffy Kisses",
+    },
+    1543: {//6+ Usopp
+        captain: "Boosts ATK of Shooter characters by 1.5x if HP is below 50% or by 1.75x if HP is below 30% at the start of the turn. Makes [STR], [DEX], [QCK], [PSY], [INT], [RCV], and [TND] orbs \"beneficial\" to Shooter characters. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn",
+        captainNotes: "The Attack Timer increase is NOT a delay, so the enemies can still be delayed. Attack Timer increase ignores Debuff Prevention barriers",
+        special: "Cuts the current HP of each enemy by 10%. If enemies have Delay Prevention, ignores it and Delays all enemies for 1 turn. Otherwise, Delays all enemies for 3 turns",
+        sailor: "Completely resists Blindness",
+        specialName: "Green Star, Impact Wolf",
+    },
+    1546: {//Soul King Brook
+        captain: "Boosts ATK of [QCK] characters by 1.5x and boosts HP of Free Spirit characters by 1.2x",
+        special: "Boosts ATK of Free Spirit characters by 1.5x and makes Badly Matching and [BLOCK] orbs not reduce damage for 1 turn",
+        specialName: "Dawn of A Big Star",
+    },
+    1547: {//Soul King Brook
+        captain: "Boosts ATK of [QCK] characters by 2x and boosts HP of Free Spirit characters by 1.3x",
+        special: "Boosts ATK of Free Spirit characters by 1.5x and makes Badly Matching and [BLOCK] orbs not reduce damage for 1 turn",
+        specialName: "Dawn of A Big Star",
+    },
+    1548: {//Soul King Managers
+        captain: "Boosts ATK of Driven characters by 1.5x",
+        special: "Delays all enemies for 1 turn. Adds .2x to Chain multiplier for 1 turn",
+        specialName: "Former Thief's Box Office",
     },
 };

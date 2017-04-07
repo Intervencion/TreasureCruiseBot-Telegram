@@ -965,7 +965,7 @@ module.exports = {
     },
     629: {
         evolution: 739,
-        evolvers: [ 117, 82, 83, 99, 104 ]
+        evolvers: [ 117, 82, 83, 99, 304 ]
     },
     630: {
         evolution: [ 631, 736 ],
@@ -2341,14 +2341,46 @@ module.exports = {
     },
     1523: {
         evolution: 1524,
-        evolvers: [  ]
+        evolvers: [ 115, 115, 116, 117, 118 ]
     },
     1526: {
         evolution: 1527,
-        evolvers: [  ]
+        evolvers: [ 88, 89, 94, 95, 304 ]
     },
     1529: {
         evolution: 1530,
+        evolvers: [ 118, 85, 266, 96, 267 ]
+    },
+    1531: {
+        evolution: 1532,
+        evolvers: [ 118, 86, 266, 302, 267 ]
+    },
+    1533: {
+        evolution: 1534,
+        evolvers: [ 118, 85, 266, 301, 101 ]
+    },
+    1535: {
+        evolution: 1536,
+        evolvers: [ 94, 98, 1180, 303, 103 ]
+    },
+    1537: {
+        evolution: 1538,
+        evolvers: [ 95, 96, 97, 300, 100 ]
+    },
+    1539: {
+        evolution: 1540,
+        evolvers: [ 83, 88, 99, 304, 104 ]
+    },
+    1541: {
+        evolution: 1542,
+        evolvers: [ 115, 116, 117, 118, 94 ]
+    },
+    1532: {
+        evolution: 1543,
         evolvers: [  ]
+    },
+    1546: {
+        evolution: 1547,
+        evolvers: [ 117, 79, 85, 96, 101 ]
     },
 };
