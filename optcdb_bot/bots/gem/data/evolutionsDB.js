@@ -2101,7 +2101,7 @@ module.exports = {
     },
     1381: {
         evolution: 1382,
-        evolvers: [  ]
+        evolvers: [ 95, 96, 97, 303, 304 ]
     },
     1383: {
         evolution: 1384,
@@ -2141,7 +2141,7 @@ module.exports = {
     },
     1400: {
         evolution: 1401,
-        evolvers: [ 118, 84, 300, 267 ]
+        evolvers: [ 118, 78, 83, 95, 300 ]
     },
     1403: {
         evolution: 1404,
@@ -2165,7 +2165,7 @@ module.exports = {
     },
     261: {
         evolution: 1413,
-        evolvers: [  ]
+        evolvers: [ 118, 84, 300, 267 ]
     },
     1415: {
         evolution: 1416,
@@ -2285,7 +2285,7 @@ module.exports = {
     },
     1478: {
         evolution: 1479,
-        evolvers: [ 83, 85, 94, 131, 301 ]
+        evolvers: [ 83, 85, 94, 101, 301 ]
     },
     1480: {
         evolution: 1481,
@@ -2445,18 +2445,86 @@ module.exports = {
     },
     1583: {
         evolution: 1584,
-        evolvers: [  ]
+        evolvers: [ 118, 98, 98, 303, 103 ]
     },
     1585: {
         evolution: 1586,
-        evolvers: [  ]
+        evolvers: [ 117, 79, 85, 96, 301 ]
     },
     1404: {
         evolution: 1593,
-        evolvers: [  ]
+        evolvers: [ 98, 303, 267 ]
     },
     1587: {
         evolution: 1588,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 266, 304, 267 ]
+    },
+    1589: {
+        evolution: 1590,
+        evolvers: [ 83, 85, 1180, 101, 301 ]
+    },
+    1591: {
+        evolution: 1592,
+        evolvers: [ 118, 88, 94, 104, 304 ]
+    },
+    1594: {
+        evolution: 1595,
+        evolvers: [ 118, 83, 87, 303, 103 ]
+    },
+    1596: {
+        evolution: 1597,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    1601: {
+        evolution: 1602,
+        evolvers: [ 118, 99, 99, 304, 104 ]
+    },
+    1604: {
+        evolution: 1605,
+        evolvers: [ 117, 78, 89, 95 ]
+    },
+    1609: {
+        evolution: 1610,
+        evolvers: [ 118, 266, 96, 301, 267 ]
+    },
+    1611: {
+        evolution: 1612,
+        evolvers: [ 87, 98, 1180, 303, 103 ]
+    },
+    1613: {
+        evolution: 1614,
+        evolvers: [ 83, 86, 94, 102, 302 ]
+    },
+    1615: {
+        evolution: 1616,
+        evolvers: [ 118, 82, 88, 266, 304 ]
+    },
+    1617: {
+        evolution: 1618,
+        evolvers: [ 83, 84, 95, 1180, 100 ]
+    },
+    367: {
+        evolution: 1619,
+        evolvers: [ 118, 304, 99, 267 ]
+    },
+    1620: {
+        evolution: 1621,
+        evolvers: [ 118, 84, 266, 95, 300 ]
+    },
+    1622: {
+        evolution: 1623,
+        evolvers: [ 118, 83, 88, 304, 104 ]
+    },
+    1627: {
+        evolution: 1628,
+        evolvers: [ 118, 97, 97, 302, 102 ]
+    },
+    1629: {
+        evolution: 1630,
+        evolvers: [ 117, 82, 88, 99, 304 ]
+    },
+    1631: {
+        evolution: 1632,
+        evolvers: [ 118, 87, 266, 98, 303 ]
     },
 };

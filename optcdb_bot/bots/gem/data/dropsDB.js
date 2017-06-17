@@ -620,8 +620,9 @@ module.exports = {
         },
         
         {
-            name: "Return to Sabaody Archipelago",
+            name: "Sabaody Archipelago - Redux",
             shortName: "Straw Hat Return",
+            global: true,
             thumb: 1393,
             completion: 'Ship: Coated Thousand Sunny - 5x Rainbow Gems',
             gamewith: 46976,
@@ -1211,7 +1212,7 @@ module.exports = {
             condition: "None",
             challenge:'Total number of hits above 50,000',
             challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Despair Resistance Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
+            "All Difficulties": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -1549, -673, -671, -633, -500, -467, -465, -451, -431 ]
         },
 
         {
@@ -1286,8 +1287,8 @@ module.exports = {
             condition: "None",
             global: true,
             gamewith: 27631,
-            "Global": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -671, -880, -739, -812, -565 ],
-            "Japan": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565, -1212 ]
+            "Global": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -671, -880, -739, -1550, -812, -565 ],
+            "Japan": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -1550, -812, -565, -1212 ]
         },
         
         {
@@ -1361,7 +1362,7 @@ module.exports = {
             global: true,
             gamewith: 35905,
             condition: "'Musical' units get their stats boosted by 1.5x (Dancers, Singers, Playing an instrument, etc)",
-            "All Difficulties": [ 1202, 1204, 1206, -1001, -997, -558, -1208, -677, -896, -631, -954, -1206, -617, -1027 ]
+            "All Difficulties": [ 1202, 1204, 1206, -1001, -997, -558, -1208, -677, -896, -1551, -631, -954, -1206, -617, -1027 ]
         },
         
         {
@@ -1376,6 +1377,7 @@ module.exports = {
         {
             name: "Revolutionary Armed Forces!",
             thumb: 1242,
+            global: true,
             gamewith: 37425,
             condition: "Free Spirit Characters have their cooldowns reduced by 10 turns at the start of the fight",
             "All Difficulties": [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955 ]
@@ -1384,6 +1386,7 @@ module.exports = {
         {
             name: "Gather! Whitebeard Alliance",
             thumb: 1254,
+            global: true,
             gamewith: 38336,
             condition: "Driven Characters have their cooldowns reduced by 10 turns at the start of the fight",
             "All Difficulties": [ 1254, 1255, 1256, -669, -1492, -1077, -1079, -967, -972, -974, -750, -701, -500 ]
@@ -1392,6 +1395,7 @@ module.exports = {
         {
             name: "Young Donquixote Pirates - Baby 5 And Buffalo",
             thumb: 1287,
+            global: true,
             gamewith: 39522,
             condition: "Child-like characters get their ATK and HP boosted by 3.5x, RCV by 1.5x, and cooldowns reduced by 7 turns at the start of the fight",
             "All Difficulties": [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702 ]
@@ -1400,6 +1404,7 @@ module.exports = {
         {
             name: "Jailbreak Battle! Mr. 3 and Buggy",
             thumb: 1304,
+            global: true,
             gamewith: 41928,
             condition: "Shooter and Fighter characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (75% on 30 stamina)",
             "All Difficulties": [ 1301, 1303, 1152, 1151, 551, 539, -718, -752, -1125, -1133, -15, -203, -733, -1056, -1060 ]
@@ -1432,7 +1437,7 @@ module.exports = {
             name: "Soldier-san's Training!",
             thumb: 1384,
             gamewith: 46658,
-            "All Difficulties": [ 1383, 1385, -748, -1234, -1075, -1230, -1155, -1154, -846, -842, -739 ]
+            "All Difficulties": [ 1383, 1385, -748, -1234, -1075, -1230, -1155, -1154, -846, -842, -739, -1550 ]
         },
         
         {
@@ -1499,7 +1504,7 @@ module.exports = {
         },
         
         {
-            name: "Prodence Kingdom",
+            name: "Prodence Kingdom!",
             thumb: 1564,
             gamewith: 55145,
             condition: "Elizabello will kill you with one punch",
@@ -1507,11 +1512,31 @@ module.exports = {
         },
         
         {
-            name: "Punk Hazard",
+            name: "Punk Hazard!",
             thumb: 1581,
             gamewith: 56038,
-            //condition: "Elizabello will kill you with one punch",
             "All Difficulties": [ 1580, 1582, -1391, -1444, -1436, -1551, -896, -910, -357, -995, -890, -1342 ],
+        },
+        
+        {
+            name: "Fishman Island! The Royal Family!",
+            thumb: 1597,
+            gamewith: 57039,
+            "All Difficulties": [ 1596, 1598, 1599, -1045, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343 ],
+        },
+        
+        {
+            name: "Blackbeard Pirates!",
+            thumb: 1606,
+            gamewith: 57820,
+            "All Difficulties": [ 1606, 1607, 1608, -1404, -1593, -1481, -1442, -1029, -361, -363, -997, -894, -1344 ],
+        },
+        
+        {
+            name: "New Fishman Pirates!",
+            thumb: 1624,
+            gamewith: null,
+            "All Difficulties": [ 1624, 1625, 1626, -1434, -1477, -1475, -410, -365, -993, -1031, -954, -1347 ],
         },
         
     ],
@@ -1573,6 +1598,15 @@ module.exports = {
         },
 
         {
+            name: 'Clash Reformed!! Doflamingo',
+            thumb: 1623,
+            condition: "1 Master version and 3 different Ultimate versions with different conditions. Master: Striker/Cerebral/Fighter Only. Ultimate: Cerebral Only, Fighter Only, and Striker Only",
+            gamewith: 58437,
+            Ultimate: [ 1622 ],
+            Master: [ 1622 ]
+        },
+
+        {
             name: 'Clash!! Blackbeard',
             thumb: 447,
             global: true,
@@ -1613,6 +1647,7 @@ module.exports = {
             thumb: 603,
             global: true,
             gamewith: 13682,
+            condition: "Take 300 damage per character in Environmental Lightning Damage every 3 turns",
             Ultimate: [ 85, 111, 118, 301, 602 ],
             Master: [ 85, 111, 118, 602 ] ,
             Expert: [ 111, 118, 602 ]
@@ -1639,7 +1674,9 @@ module.exports = {
         {
             name: 'Clash!! Nightmare Luffy',
             thumb: 795,
+            global: true,
             gamewith: 18565,
+            condition: "Take 10% current Health in Environmental Damage every 2 turns",
             Master: [ 794 ],
             Expert: [ 794 ]
         },
@@ -1666,6 +1703,7 @@ module.exports = {
         {
             name: 'Clash!! Pica',
             thumb: 932,
+            global: true,
             gamewith: 23507,
             Master: [ 932 ],
             Expert: [ 932 ]
@@ -1686,7 +1724,7 @@ module.exports = {
             global: true,
             gamewith: 26803,
             thumb: 989,
-            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -1446, -556, -528, -520, -554, -558, -20, -1447, -217, -709, -1115, -1177, -1175, -1210, -1208, -1387, -1388, -1389 ]
+            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -1446, -556, -528, -520, -554, -558, -20, -1447, -217, -709, -1549, -1115, -1177, -1175, -1210, -1208, -1387, -1388, -1389 ]
         },
         
         {
@@ -1725,6 +1763,7 @@ module.exports = {
             gamewith: 41277,
             Ultimate: [ 1297 ]
         },
+        
         {
             name: 'Clash!! Warden Magellan',
             thumb: 1374,
@@ -1733,6 +1772,7 @@ module.exports = {
             Master: [ 1373 ],
             Expert: [ 1373 ],
         },
+        
         {
             name: 'Clash!! Shogun Franky',
             thumb: 1432,
@@ -1740,12 +1780,22 @@ module.exports = {
             Master: [ 1431, 215, 799 ],
             Ultimate: [ 1431, 215, 799 ],
         },
+        
         {
             name: 'Clash!! Bellamy',
             thumb: 1518,
             gamewith: '%20%2053151',
             Master: [ 1517 ],
             Expert: [ 1517 ],
+        },
+        
+        {
+            name: 'Clash!! Fujitora',
+            thumb: 1595,
+            gamewith: 56946,
+            Ultimate: [ 1594 ],
+            Master: [ 1594 ],
+            Expert: [ 1594 ]
         },
 
     ],
@@ -1755,12 +1805,20 @@ module.exports = {
         {
             name: 'Chopper\'s Sweet Special Adventure',
             thumb: 247,
+            global: true,
             '': [ 247 ]
+        },
+
+        {
+            name: 'Ace Training Ground',
+            thumb: 1605,
+            "All Difficulties": [ 1604 ],
         },
 
         {
             name: 'Battle Royal! Oars',
             thumb: 893,
+            global: true,
             challenge:'Total number of hits above 50,000',
             challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Bind Resistance Forbidden Tome, 2x Rainbow Gems']],
             "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -1446, -15, -8, -1388 ]
@@ -1797,15 +1855,21 @@ module.exports = {
             thumb: 1023,
             "All Difficulties": [ 1023 ]
         },
+        
+        {
+            name: '3nd Anniversary Celebration! Duel! Luffy',
+            thumb: 1600,
+            "30 Stamina": [ 1600 ]
+        },
 
         {
             name: 'Coliseum',
             thumb: 779,
             global: true,
             gamewith: 17473,
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554 ]
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629 ]
         },
         
         {
@@ -1826,7 +1890,7 @@ module.exports = {
             condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "Characters": [ 67, 69, 262, 264, 298 ],
             "Boosters and Evolvers": [ 113, 192, 350, 266, 83, 118 ],
-            "Global": [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739, -1445 ],
+            "Global": [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739, -1550, -1445 ],
             "Japan": [ -416, -459, -530, -669, -1492, -578, -1121, -1445 ]
         },
         
@@ -1844,20 +1908,25 @@ module.exports = {
         {
             name: 'Invasion! Young Whitebeard',
             thumb: 1258,
-            condition: "Has a chance of appearing at the end of ANY Friday Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
+            global: true,
+            gamewith: 38237,
+            condition: "Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
             "All Difficulties": [ 1257 ]
         },
         
         {
             name: 'Invasion! Red Hair Shanks',
             thumb: 1380,
-            condition: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Shanks.",
+            global: true,
+            gamewith: 46369,
+            condition: "Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks.",
             "All Difficulties": [ 1379, 952, 776 ]
         },
         
         {
             name: 'Invasion! Cavendish',
             thumb: 1530,
+            gamewith: 53621,
             condition: "Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.",
             "All Difficulties": [ 1529 ]
         },
@@ -1865,9 +1934,50 @@ module.exports = {
         {
             name: 'The Flashback Before the Reunion! Fight all your Enemies!',
             thumb: 1353,
-            condition: "The fight gets more difficult every time you complete it until it gets to 40 stamina.",
-            "Final Stage": [ 37, 38, 53, 55, 43, 36, 45, 57, 65, 203, 205, 383, 395, 397, 399, 401, 464, 465, 541, 545, 630, 632, 728, 730, 815, 889, 893, 973, 1055, 1057, 1158, 1156, 1227, 1228, 1280, 1283, 1353],
+            global: true,
+            condition: "The fight gets more difficult every time you complete it until it gets to 40 stamina. You an only beat the first 7 stages once, but you can challenge the 8th stage multiple times and it has randomly selected stages.",
+            "1st Stage": [ 27, 29, 35, 36, 37, 38, 43, 35, 53, 55, 57, 61, 62, 63, 65 ],
+            "2nd Stage": [ 71, 211, 233, 235, 199, 201, 203, 205, 395, 397, 207, 399, 401, 383 ],
+            "3rd Stage": [ 430, 432, 463, 467, 542, 464, 465, 541, 545 ],
+            "4th Stage": [ 630, 632, 706, 728, 730, 732, 734, 738 ],
+            "5th Stage": [ 813, 891, 892, 889, 893, 815, 425, 387 ],
+            "6th Stage": [ 963, 966, 967, 973, 1059, 1055, 1057, 1156, 1158 ],
+            "7th Stage": [ 1224, 1223, 1225, 1226, 1227, 1282, 1281, 1280, 1228, 1283 ],
+            "8th Stage": [ 37, 38, 53, 55, 43, 36, 45, 57, 65, 203, 205, 383, 395, 397, 399, 401, 464, 465, 541, 545, 630, 632, 728, 730, 815, 889, 893, 973, 1055, 1057, 1158, 1156, 1227, 1228, 1280, 1283, 1353 ],
             "Evolvers and Boosters": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 115, 116, 117, 118, 266, 300, 301, 302, 303, 304, 1180, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
+        },
+        
+        {
+            name: 'Challenge the Enemy! Sugofest Exclusive Character Skillbooks!',
+            thumb: 1588,
+            gamewith: 56742,
+            showManual: true,
+            condition: "High chance of dropping 6* skillbooks. Only Evolvers and Booster characters will drop posters.",
+            "Black Clad Shanks": [ 301, 101, 96, 79, 90, 348, -530, -316, -910, -995, -1236, -1364, -465, -590, -967, -813, -888 ],
+            "Donquixote Doflamingo": [ 304, 104, 88, 99, 82, 93, 351, -870, -312, -645, -838, -876, -880, -1190, -396, -586, -631, -567 ],
+            "Trafalgar Law": [ 300, 100, 84, 95, 78, 89, 347, -964, -1045, -219, -308, -675, -991, -1077, -504, -1159, -212, -892 ],
+            "Black Clad Ace": [ 302, 102, 86, 97, 80, 91, 349, -562, -310, -359, -941, -560, -1212, -1406, -789, -966, -432, -565, -566 ],
+            "Cavendish": [ 303, 103, 87, 98, 81, 92, 350, -963, -1123, -217, -914, -1029, -1127, -1408, -202, -464, -1227, -705 ],
+            "Blackbeard": [ 304, 104, 88, 99, 82, 93, 351, -1268, -75, -733, -1033, -1082, -1230, -1278, -569, -1061, -52, -335 ],
+            "Crocodile": [ 302, 102, 86, 97, 80, 91, 349, -720, -410, -908, -1208, -558, -1234, -1366, -544, -731, -236, -814, -1224 ],
+            "Log Luffy": [ 300, 100, 84, 95, 78, 89, 347, -1121, -578, -1075, -1131, -1133, -1115, -520, -1177, -528, -1387, -4, -816, -426, -542, -563 ],
+            "Corazon": [ 303, 103, 87, 98, 81, 92, 350, -1001, -451, -878, -1079, -1183, -1316, -1446, -16, -223, -327, -628, -614 ],
+            "Kuzan": [ 301, 101, 96, 79, 90, 348, -1192, -255, -365, -449, -1210, -556, -1370, -200, -384, -1060, -428, -703 ],
+            "Issho": [ 301, 101, 96, 79, 90, 348, -1085, -965, -414, -457, -999, -1270, -218, -15, -785, -1228, -467 ],
+            "Dracule Mihawk": [ 303, 103, 87, 98, 81, 92, 350, -718, -639, -846, -906, -1129, -1238, -1322, -463, -729, -791, -215 ],
+            "Sabo": [ 304, 104, 88, 99, 82, 93, 351, -669, -874, -937, -1027, -1119, -524, -1318, -216, -332, -502, -737, -1062 ],
+            "Rayleigh": [ 300, 100, 84, 95, 78, 89, 347, -367, -210, -894, -997, -1389, -12, -1412, -208, -431, -544, -954, -1151 ],
+            "Jinbei": [ 302, 102, 86, 97, 80, 91, 349, -935, -408, -641, -671, -673, -1187, -1274, -1368, -333, -704, -956 ],
+            "Sakazuki": [ 303, 103, 87, 98, 81, 92, 350, -1314, -73, -259, -412, -455, -647, -1324, -292, -329, -1283, -955 ],
+            "Rob Lucci": [ 300, 100, 84, 95, 78, 89, 347, -748, -314, -756, -912, -1238, -1447, -20, -633, -787, -731, -427, -1279 ],
+            "Sengoku": [ 304, 104, 88, 99, 82, 93, 351, -459, -453, -1117, -522, -1186, -1175, -554, -1549, -709, -400, -500, -974, -1152, -1153 ],
+            "Whitebeard": [ 302, 102, 86, 97, 80, 91, 349, -261, -1413, -361, -363, -752, -872, -939, -204, -1280, -564, -701, -1154 ],
+            "Marco": [ 301, 101, 96, 79, 90, 348, -649, -251, -750, -842, -993, -1173, -508, -631, -378, -891, -1226 ],
+            "Zoro": [ 301, 101, 96, 79, 90, 348, -1362, -844, -1081, -1125, -1410, -546, -1282, -234, -812, -47 ],
+            "Boa Hancock": [ 303, 103, 87, 98, 81, 92, 350, -416, -1445, -253, -677, -1320, -1448, -22, -402, -506, -588, -893, -1157, -702 ],
+            "Bartolomeo": [ 304, 104, 88, 99, 82, 93, 351, -1035, -221, -357, -643, -840, -1025, -1029, -225, -541, -733, -1056 ],
+            "Borsalino": [ 302, 102, 86, 97, 80, 91, 349, -1240, -77, -257, -760, -943, -1272, -1551, -896, -398, -793, -1058, -59 ],
+            "Captain Buggy": [ 300, 100, 84, 95, 78, 89, 347, -1391, -1031, -1232, -1276, -1550, -739, -214, -707, -735, -890, -1318, -290 ],
         },
 
    ]
