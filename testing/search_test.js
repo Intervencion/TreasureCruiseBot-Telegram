@@ -30,48 +30,45 @@ function getSearchResults(query) {
 }
 
 function getInlineSearchResults(query, offset) {
-  var results = getSearchResults(query);
+  var results = getSearchResults(query.toLowerCase());
   var response = [{
     type: 'article',
     id: 'notfound',
     title: 'S E A R C H',
     parse_mode: 'HTML',
-    description: 'No results for ' + query.substr(0, 5) + '... Try something different.',
-    message_text: '<b>S E A R C H</b>\n\nNo results for <b>' + query.substr(0, 5) + '..</b>. Try something different.',
+    description: 'No results for ' + query.toLowerCase().substr(0, 5) + '... Try something different.',
+    message_text: '<b>S E A R C H</b>\n\nNo results for <b>' + query.toLowerCase().substr(0, 5) + '..</b>. Try something different.',
     thumb_url: 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png'
   }];
+
   if (results[0]) {
     response = [];
-    for (var i=0; i<offset; i++) {
-      var unit = database.getUnit(results[i]);
-      var normal_stars = '⭐️⭐️⭐️⭐️⭐️⭐️';
-      var super_stars = '🌟🌟🌟🌟🌟🌟';
-      var stars = unit[3];
-      var stars_plus = false;
-      if (typeof stars !== 'number') {
-        stars = parseInt(stars[0]);
-        stars_plus = true;
-      }
-      var unit_stars;
-      if (stars_plus) {
-        unit_stars = (stars === 6) ? super_stars + '\u2795' : normal_stars.substr(0, stars) + '\u2795';
-      } else {
-        unit_stars = (stars === 6) ? super_stars : normal_stars.substr(0, stars);
-      }
+    for (var i = offset; i < offset + 10; i++) {
       if (results[i]) {
+		  var desc;
+		  var rating = database.getUnit(results[i])[3];
+		    
+		  if(rating == 6){
+		  desc = '\🌟\🌟\🌟\🌟\🌟\🌟'; // Thanks @duhow
+		  //desc = '\☃\☃\☃\☃\☃\☃'; // Thanks @duhow
+		  } else {
+		  desc =  '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, rating);
+		  //desc =  '\u2744\u2744\u2744\u2744\u2744'.substr(0, rating);
+		  }
         response.push({
           type: 'article',
           id: String(results[i]),
           title: database.getUnit(results[i])[0],
           parse_mode: 'HTML',
-          description: unit_stars,
+          description: desc,
           message_text: database.getUnitInfo(results[i], 'inline'),
           thumb_url: (database.getUnit(results[i]).indexOf(null) === -1) ? 'http://onepiece-treasurecruise.com/wp-content/uploads/f' + String('0000' + (results[i])).slice(-4).replace(/(057[54])/, '0$1') + '.png' : 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png'
         });
-      }
     }
+      }
     return response;
   }
+
   if (offset === 0) {
     return response;
   }
