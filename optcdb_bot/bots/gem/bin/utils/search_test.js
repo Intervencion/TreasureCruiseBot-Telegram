@@ -42,9 +42,9 @@ function getInlineSearchResults(query, offset) {
   }];
   if (results[0]) {
     response = [];
-    for (var i = offset; i < offset + 10; i++) {
+    for (var i=0; i<offset; i++) {
       var unit = database.getUnit(results[i]);
-      var normal_stars = '⭐⭐⭐⭐⭐⭐';
+      var normal_stars = '⭐️⭐️⭐️⭐️⭐️⭐️';
       var super_stars = '🌟🌟🌟🌟🌟🌟';
       var stars = unit[3];
       var stars_plus = false;

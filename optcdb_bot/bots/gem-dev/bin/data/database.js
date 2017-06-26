@@ -13,13 +13,25 @@ var aliases = require(path.join(base, 'data/aliasesDB.js'));
 
 function getStats(id) {
   if (units[id - 1] && units[id - 1][0]) {
-    var unit = units[id - 1],
-      unit_incomplete = (unit.indexOf(null) > -1),
+    var normal_stars = '⭐⭐⭐⭐⭐⭐️';
+    var super_stars = '🌟🌟🌟🌟🌟🌟';
+    var unit = units[id - 1];
+    var stars = unit[3];
+    var stars_plus = false;
+    if (typeof stars !== 'number') {
+      stars = parseInt(stars[0]);
+      stars_plus = true;
+    }
+    var unit_stars;
+    if (stars_plus) {
+      unit_stars = (stars === 6) ? super_stars + '\u2795' : normal_stars.substr(0, stars) + '\u2795';
+    } else {
+      unit_stars = (stars === 6) ? super_stars : normal_stars.substr(0, stars);
+    }
+    var unit_incomplete = (unit.indexOf(null) > -1),
       unit_name = unit[0],
       unit_type = unit[1],
       unit_class = (Array.isArray(unit[2])) ? unit[2].join(', ') : unit[2],
-      unit_stars = (unit[3] === 6) ? '\🌟\🌟\🌟\🌟\🌟\🌟' : '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, unit[3]),
-      //unit_stars = (unit[3] === 6) ? '\☃\☃\☃\☃\☃\☃' : '\u2744\u2744\u2744\u2744\u2744'.substr(0, unit[3]), //
       unit_cost = unit[4],
       unit_combo = unit[5],
       unit_slots = unit[6],
