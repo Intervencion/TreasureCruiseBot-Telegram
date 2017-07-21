@@ -10,7 +10,7 @@ exports.token = token;
 require(path.join(base, 'bin/utils/utils.js'));
 
 var modules = {};
-var modules_enabled = ['help', 'status', 'search', 'drops', 'rate', 'set', 'damage', 'github'];
+var modules_enabled = ['help', 'status', 'search', 'drops', 'rate', 'set', 'github'];//'damage'
 var module_commands = [];
 
 modules_enabled.forEach(function (module) {

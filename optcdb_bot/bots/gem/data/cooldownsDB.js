@@ -992,10 +992,10 @@ module.exports = [
     [ 15, 9 ],
     [ 20, 15 ],
     [ 20, 15 ],
-    [ 20, 14 ], //Violet
-    [ 20, 14 ], //Violet
-    [ 20, 14 ], //Dellinger 
-    [ 20, 14 ], //Dellinger 
+    null, //Violet
+    null, //Violet
+    null, //Dellinger 
+    null, //Dellinger 
     [ 23, 17 ],
     [ 23, 17 ],
     [ 23, 17 ],
@@ -1042,8 +1042,8 @@ module.exports = [
     [ 29, 18 ],
     [ 18, 8 ],
     [ 18, 8 ],
-    [ 25, 20 ],//Law
-    [ 25, 20 ],//Law
+    null,
+    null,
     [ 30, 14 ],
     [ 30, 14 ],
     [ 22, 15 ],
@@ -1128,10 +1128,10 @@ module.exports = [
     [ 20, 14 ],
     [ 20, 15 ],
     [ 20, 15 ],
-    [ 26, 20 ],//Elizabello
-    [ 26, 20 ],//Elizabello
-    [ 23, 17 ],//Ideo
-    [ 23, 17 ],//Ideo
+    null,//Elizabello
+    null,//Elizabello
+    null,//Ideo
+    null,//Ideo
     [ 6, 6 ],
     [ 6, 6 ],
     [ 16, 12],
@@ -1183,8 +1183,8 @@ module.exports = [
     [ 19, 13 ],
     [ 23, 17 ],
     [ 23, 17 ],
-    [ 17, 12 ],// Haruta
-    [ 17, 12 ],// Haruta
+    null,// Haruta
+    null,// Haruta
     [ 23, 16 ],
     [ 23, 16 ],
     [ 11, 5 ],
@@ -1217,13 +1217,13 @@ module.exports = [
     [ 17, 10 ],
     [ 17, 11 ],
     [ 25, 14 ],
-    [ 34, 18 ],//byrnndi world
-    [ 34, 18 ],//byrnndi world
+    null, //byrnndi world
+    null,//byrnndi world
     [ 29, 16 ],
     [ 29, 16 ],
     [ 20, 10 ],
     [ 15, 9 ],
-    [ 16, 10 ],
+    16,
     [ 17, 10 ],
     [ 23, 16 ],
     [ 22, 15 ],
@@ -1237,8 +1237,8 @@ module.exports = [
     [ 20, 13 ],
     [ 22, 14 ],
     [ 22, 14 ],
-    [ 20, 17 ],//Kizaru
-    [ 20, 17 ],//Kizaru
+    null,//Kizaru
+    null,//Kizaru
     [ 19, 11 ],
     [ 19, 11 ],
     [ 20, 15 ],
@@ -1248,15 +1248,15 @@ module.exports = [
     [ 17, 17 ],
     [ 13, 13 ],
     [ 13, 13 ],
-    [ 24, 9 ],//Colo Marco
-    [ 24, 9 ],//Colo Marco
+    null,//Colo Marco
+    null,//Colo Marco
     [ 24, 14 ],
     [ 14, 6 ],
     [ 21, 14 ],
     [ 19, 12 ],
     [ 18, 12 ],
-    [ 36, 24 ],//Young Whitebeard
-    [ 36, 24 ],//Young Whitebeard
+    null,//Young Whitebeard
+    null,//Young Whitebeard
     [ 17, 15 ],
     [ 17, 15 ],
     [ 12, 10 ],
@@ -1277,7 +1277,7 @@ module.exports = [
     [ 25, 19 ],
     [ 10, 4 ],
     [ 10, 4 ],
-    [ 14, 7 ],
+    14,
     [ 21, 15 ],
     [ 25, 18 ],
     [ 19, 13 ],
@@ -1291,8 +1291,8 @@ module.exports = [
     [ 20, 10 ],
     [ 29, 17 ],
     [ 29, 17 ],
-    [ 26, 16 ],//Coliseumn Sandersonia
-    [ 26, 16 ],//Coliseumn Sandersonia
+    null,//Coliseumn Sandersonia
+    null,//Coliseumn Sandersonia
     [ 16, 16 ],
     [ 16, 16 ],
     [ 32, 17 ],
@@ -1313,8 +1313,8 @@ module.exports = [
     [ 25, 15 ],
     [ 25, 18 ],
     [ 25, 18 ],
-    [ 28, 18 ],//Coby
-    [ 28, 18 ],//Coby
+    null,//Coby
+    null,//Coby
     [ 22, 17 ],
     [ 22, 17 ],
     [ 21, 17 ],
@@ -1325,19 +1325,19 @@ module.exports = [
     [ 15, 9 ],
     [ 13, 6 ],
     [ 13, 6 ],
-    [ 19, 12 ],//Leo
-    [ 19, 12 ],//Leo
-    [ 16, 10 ],//Wicca
+    null,//Leo
+    null,//Leo
+    null,//Wicca
     [ 20, 12 ],
-    [ 24, 17 ],//Mansherry
-    [ 24, 17 ],//Mansherry
+    null,//Mansherry
+    null,//Mansherry
     [ 20, 12 ],
     [ 19, 12 ],
     [ 6, 6 ],
     [ 6, 6 ],
     [ 27, 15 ],
     [ 27, 15 ],
-    [ 25, 15 ],//Jump Point Chopper
+    null,//Jump Point Chopper
     [ 23, 13 ],
     [ 23, 13 ],
     [ 15, 9 ],
@@ -1347,9 +1347,9 @@ module.exports = [
     [ 15, 10 ],
     [ 25, 17 ],
     [ 17, 10 ],
-    [ 13, 6 ],
+    13,
     [ 14, 8 ],
-    [ 20, 13 ],
+    20,
     [ 15, 9 ],
     [ 16, 12 ],
     [ 14, 14 ],
@@ -1363,16 +1363,16 @@ module.exports = [
     [ 20, 16 ],
     [ 21, 15 ],
     [ 21, 15 ],
-    [ 18, 13 ],//New World Nami
-    [ 18, 13 ],//New World Nami
-    [ 20, 15 ],//New World Sanji
-    [ 20, 15 ],//New World Sanji
+    null,//New World Nami
+    null,//New World Nami
+    null,//New World Sanji
+    null,//New World Sanji
     [ 12, 6 ],
     [ 12, 6 ],
     [ 15, 15 ],
     [ 15, 15 ],
-    [ 31, 16 ],//Magellan
-    [ 31, 16 ],//Magellan
+    null,//Magellan
+    null,//Magellan
     [ 26, 12 ],
     [ 26, 12 ],
     [ 26, 14 ],
@@ -1390,19 +1390,19 @@ module.exports = [
     [ 21, 16 ],
     [ 17, 12 ],
     [ 17, 12 ],
-    [ 22, 15 ],
-    [ 19, 12 ],
+    22,
+    19,
     [ 10, 10 ],
     [ 10, 10 ],
     [ 21, 14 ],
     [ 21, 14 ],
     [ 19, 14 ],
     [ 19, 14 ],
-    [ 33, 18 ],//Colo Gladius
-    [ 33, 18 ],//Colo Gladius
-    [ 18, 8 ],//Colo Dalton
-    [ 18, 13 ],//New World Luffy
-    [ 18, 13 ],//New World Luffy
+    null,//Colo Gladius
+    null,//Colo Gladius
+    null,//Colo Dalton
+    null,//New World Luffy
+    null,//New World Luffy
     [ 20, 14 ],
     [ 20, 14 ],
     [ 22, 16 ],
@@ -1431,8 +1431,8 @@ module.exports = [
     [ 14, 14 ],
     [ 33, 17 ],
     [ 33, 17 ],
-    [ 22, 17 ],//Hody Jones
-    [ 22, 17 ],//Hody Jones
+    null,//Hody Jones
+    null,//Hody Jones
     [ 21, 15 ],
     [ 21, 15 ],
     [ 21, 15 ],
@@ -1445,7 +1445,7 @@ module.exports = [
     [ 20, 15 ],
     [ 17, 13 ],
     [ 17, 12 ],
-    [ 20, 15 ],//5+ Sanji
+    null,//5+ Sanji
     [ 20, 12 ],
     [ 22, 14 ],
     [ 22, 14 ],
@@ -1453,8 +1453,8 @@ module.exports = [
     [ 20, 13 ],
     [ 12, 12 ],
     [ 12, 12 ],
-    [ 30, 15 ],//Colo Don Chinjao
-    [ 30, 15 ],//Colo Don Chinjao
+    null,//Colo Don Chinjao
+    null,//Colo Don Chinjao
     [ 18, 7 ],
     [ 18, 7 ],
     [ 22, 11 ],
@@ -1470,8 +1470,8 @@ module.exports = [
     [ 18, 11 ],
     [ 14, 5 ],
     [ 17, 10 ],
-    [ 22, 18 ],//Shirahoshi
-    [ 22, 18 ],//Shirahoshi
+    null,//Shirahoshi
+    null,//Shirahoshi
     [ 21, 15 ],
     [ 21, 15 ],
     [ 16, 10 ],
@@ -1490,11 +1490,11 @@ module.exports = [
     [ 20, 10 ],
     [ 20, 11 ],
     [ 20, 11 ],
-    [ 23, 17 ],//6+ Sabo
+    null,//6+ Sabo
     22,
     19,
     19,
-    [ 18, 10 ],
+    18,
     16,
     17,
     15,
@@ -1503,8 +1503,8 @@ module.exports = [
     16,
     14,
     [ 19, 13 ],
-    [ 22, 15 ],
-    [ 22, 15 ],
+    22,
+    22,
     [ 20, 16 ],
     [ 20, 16 ],
     [ 18, 10 ],
@@ -1524,13 +1524,13 @@ module.exports = [
     [ 11, 11 ],
     [ 11, 11 ],
     [ 30, 16 ],
-    [ 21, 12 ],//Coliseum Arlong
-    [ 21, 12 ],//Coliseum Arlong
+    null,//Coliseum Arlong
+    null,//Coliseum Arlong
     [ 21, 12 ],
     [ 28, 15 ],
     [ 28, 15 ],
-    [ 24, 21 ],//Legend Usopp
-    [ 24, 21 ],//Legend Usopp
+    null,//Legend Usopp
+    null,//Legend Usopp
     [ 17, 11 ],
     [ 17, 11 ],
     [ 19, 14 ],
@@ -1561,8 +1561,8 @@ module.exports = [
     [ 11, 5 ],
     [ 23, 17 ],
     [ 15, 9 ],
-    [ 24, 16 ],//Fortnight Elizabello
-    [ 24, 16 ],//Fortnight Elizabello
+    null,//Fortnight Elizabello
+    null,//Fortnight Elizabello
     [ 15, 9 ],
     [ 15, 9 ],
     [ 13, 13 ],
@@ -1576,8 +1576,8 @@ module.exports = [
     [ 19, 14 ],
     [ 19, 13 ],
     [ 19, 13 ],
-    [ 14, 9 ],//Momonosuke
-    [ 14, 9 ],//Momonosuke
+    null,
+    null,
     [ 20, 13 ],
     [ 20, 13 ],
     [ 22, 15 ],
@@ -1591,7 +1591,7 @@ module.exports = [
     [ 17, 17 ],
     [ 11, 11 ],
     [ 11, 11 ],
-    [ 18, 13 ],//Gear 4 Luffy
+    null,//Gear 4 Luffy
     [ 29, 14 ],
     [ 29, 14 ],
     [ 20, 15 ],
@@ -1625,18 +1625,18 @@ module.exports = [
     [ 15, 9 ],
     [ 20, 14 ],
     [ 15, 9 ],
-    [ 31, 17 ],//Mach Vise
-    [ 31, 17 ],//Mach Vise
+    null,//Mach Vise
+    null,//Mach Vise
     [ 15, 5 ],
     [ 15, 5 ],
     [ 21, 17 ],
     [ 21, 17 ],
-    [ 14, 7 ],
+    14,
     19,
     19,
-    [ 17, 10 ],
-    [ 17, 10 ],
-    [ 15, 9 ],
+    17,
+    17,
+    15,
     15,
     16,
     22,
@@ -1644,110 +1644,19 @@ module.exports = [
     19,
     19,
     22,
-    [ 26, 17 ],//Pica
-    [ 26, 17 ],//Pica
-    [ 20, 14 ],
-    [ 20, 14 ],
-    [ 15, 11 ],
-    [ 16, 11 ],
-    [ 16, 11 ],
-    [ 18, 13 ],
-    [ 18, 13 ],
-    [ 18, 12 ],
-    [ 18, 12 ],
-    [ 17, 12 ],
-    [ 17, 12 ],
-    [ 15, 10 ],
-    [ 15, 10 ],
-    [ 10, 10 ],
-    [ 10, 10 ],
-    [ 22, 12 ],
-    [ 16, 12 ],
-    [ 16, 12 ],
-    [ 21, 6 ],
-    [ 21, 6 ],
-    [ 26, 17 ],
-    [ 26, 17 ],
-    [ 15, 9 ],
+    null,//Pica
+    null,//Pica
+    null,
+    null,
+    null,
     16,
-    [ 20, 14 ],
-    [ 13, 13 ],
-    [ 13, 13 ],
-    [ 9, 9 ],
-    [ 9, 9 ],
-    11,
-    11,
-    25,
-    25,
+    16,
     18,
     18,
-    null,
-    null,
-    11,
-    11,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    [ 20, 15 ],
-    [ 20, 15 ],
+    18,
+    18,
+    17,
+    17,
+    15,
+    15,
 ];
