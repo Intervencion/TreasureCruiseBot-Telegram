@@ -13,25 +13,13 @@ var aliases = require(path.join(base, 'data/aliasesDB.js'));
 
 function getStats(id) {
   if (units[id - 1] && units[id - 1][0]) {
-    var normal_stars = '⭐⭐⭐⭐⭐⭐️';
-    var super_stars = '🌟🌟🌟🌟🌟🌟';
-    var unit = units[id - 1];
-    var stars = unit[3];
-    var stars_plus = false;
-    if (typeof stars !== 'number') {
-      stars = parseInt(stars[0]);
-      stars_plus = true;
-    }
-    var unit_stars;
-    if (stars_plus) {
-      unit_stars = (stars === 6) ? super_stars + '\u2795' : normal_stars.substr(0, stars) + '\u2795';
-    } else {
-      unit_stars = (stars === 6) ? super_stars : normal_stars.substr(0, stars);
-    }
-    var unit_incomplete = (unit.indexOf(null) > -1),
+    var unit = units[id - 1],
+      unit_incomplete = (unit.indexOf(null) > -1),
       unit_name = unit[0],
       unit_type = unit[1],
       unit_class = (Array.isArray(unit[2])) ? unit[2].join(', ') : unit[2],
+      unit_stars = (unit[3] === 6) ? '\🌟\🌟\🌟\🌟\🌟\🌟' : '\u2B50\u2B50\u2B50\u2B50\u2B50'.substr(0, unit[3]),
+      //unit_stars = (unit[3] === 6) ? '\☃\☃\☃\☃\☃\☃' : '\u2744\u2744\u2744\u2744\u2744'.substr(0, unit[3]), //
       unit_cost = unit[4],
       unit_combo = unit[5],
       unit_slots = unit[6],
@@ -48,7 +36,7 @@ function getStats(id) {
     unit_type = (unit_type === 'INT') ? '\uD83D\uDC9C INT' : unit_type;
     response += '<b>U N I T   # ' + id.toString().split('').join(' ') + '</b>\n\n';
     response += '<b>' + unit_name + '</b>\n\n';
-    response += '<b>D E T A I L S</b>\n\n';
+    response += '<b>D E T A I L S</b>\n';
     response += '<code>STARS </code>' + unit_stars + '\n';
     response += '<code>CLASS </code>' + unit_class + '\n';
     response += '<code> TYPE </code>' + unit_type + '\n';
@@ -136,7 +124,7 @@ function getNotes(note) {
       return notes[tokens[0].trim()].replace(/#(\d+)/g, function(a, b) {
         return (tokens[parseInt(b)] || '').trim();
       });
-    }).replaceEntities() + '</i>\n\n';
+    }).replaceEntities() + '</i>\n';
   }
   return false;
 }
@@ -181,7 +169,7 @@ function getEvolutions(id, type) {
     } else {
       unit_evolution_paths.push([unit_evolution, unit_evolvers]);
     }
-    response = '<b>E V O L U T I O N S</b>\n\n';
+    response = '<b>E V O L U T I O N S</b>\n';
     unit_evolution_paths.forEach(function(evolution) {
       response += (type === 'inline') ? '<code>' + space.slice(0, space.length - evolution[0].toString().length) + '</code>' + evolution[0] + '<code>\u2007</code><b>' + units[evolution[0] - 1][0] + '</b>\n' : '<code>' + space.slice(0, space.length - evolution[0].toString().length) + '</code>/' + evolution[0] + '<code>\u2007</code><b>' + units[evolution[0] - 1][0] + '</b>\n';
       evolution[1].forEach(function(ID) {
@@ -197,7 +185,7 @@ function getEvolutions(id, type) {
     }
   });
   if (unit_devolutions[0]) {
-    response = response ? response + '<b>D E V O L U T I O N S</b>\n\n' : '<b>D E V O L U T I O N S</b>\n\n';
+    response = response ? response + '<b>D E V O L U T I O N S</b>\n' : '<b>D E V O L U T I O N S</b>\n';
     unit_devolutions.forEach(function(devolution) {
       response += (type === 'inline') ? '<code>' + space.slice(0, space.length - devolution.toString().length) + '</code>' + devolution + '<code>\u2007</code><b>' + units[devolution - 1][0] + '</b>\n' : '<code>' + space.slice(0, space.length - devolution.toString().length) + '</code>/' + devolution + '<code>\u2007</code><b>' + units[devolution - 1][0] + '</b>\n';
     });
@@ -266,9 +254,9 @@ function getDrops(id) {
               }
             }
           });
-          drop_result[list] += '<b>' + drop[0] + ':</b>\n' + n_drops.join(', ').replace(/, -/g, '-').replace(/-+(?=-)/g, '').replace(/-,/g, ' -') + '\n\n';
+          drop_result[list] += '<b>' + drop[0] + ':</b>\n' + n_drops.join(', ').replace(/, -/g, '-').replace(/-+(?=-)/g, '').replace(/-,/g, ' -') + '\n';
         } else {
-          drop_result[list] += '<b>' + drop[0] + '</b>\n\n';
+          drop_result[list] += '<b>' + drop[0] + '</b>\n';
         }
       }
     });
@@ -276,11 +264,11 @@ function getDrops(id) {
   if (drop_result[0].length > 1 || drop_result[1].length > 1) {
     response = '';
     if (drop_result[0].length > 1) {
-      response += '<b>C H A R A C T E R   D R O P S</b>\n\n';
+      response += '<b>C H A R A C T E R   D R O P S</b>\n';
       response += drop_result[0];
     }
     if (drop_result[1].length > 1) {
-      response += '<b>M A N U A L   D R O P S</b>\n\n';
+      response += '<b>M A N U A L   D R O P S</b>\n';
       response += drop_result[1];
     }
   }
@@ -309,7 +297,7 @@ function getUnitInfo(id, type) {
     response += unit_drops || '';
     response += unit_evolutions || '';
     response += '<a href="http://onepiece-treasurecruise.com/wp-content/uploads/c' + String('0000' + id).slice(-4).replace(/(057[54])/, '0$1') + '.png">\u2007</a>\n';
-    response += '<b>J O I N   U S</b>\n\n<a href="https://telegram.me/joinchat/ABzveEDxZTiNLYTRO5-kQg">Let\'s find the One Piece together! Join our crew!</a>';
+    response += '<b>J O I N   U S</b>\n<a href="https://telegram.me/joinchat/ABzveEDxZTiNLYTRO5-kQg">English group</a> | <a href="https://t.me/joinchat/ABzveENpurD6yuLWuTL18Q">Italian group</a> | <a href="https://t.me/joinchat/ABzveENMOZg4ZCXSqfziGA">Spanish group</a>';
     return response;
   }
 }
