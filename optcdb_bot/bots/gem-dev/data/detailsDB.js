@@ -6,12 +6,12 @@ module.exports = {
     2: {
         special: "Deals 7x character's ATK in STR damage to one enemy",
         specialName: "Gum-Gum Pistol",
-        captain: "Boosts ATK of STR characters by 1.5x"
+        captain: "Boosts ATK of all characters by 1.5x"
     },
     3: {
         special: "Deals 15x character's ATK in STR damage to one enemy",
         specialName: "Gum-Gum Bazooka",
-        captain: "Boosts ATK of STR characters by 1.5x"
+        captain: "Boosts ATK of all characters by 1.5x"
     },
     4: {
         captain: "Boosts ATK of STR characters by 2x, and ATK of all others by 1.5x",
@@ -5255,7 +5255,7 @@ module.exports = {
         captain: "Recovers 3x character's RCV in HP at the end of each turn",
         special: [
             {
-                "description": "Recovers 6x character's RCV in HP. Removes Paralysis",
+                "description": "Recovers 6x character's RCV in HP. Reduces Paralysis duration by 3 turns",
                 "cooldown": [ 14, 8 ]
             },
             {
@@ -5274,7 +5274,7 @@ module.exports = {
         captain: "Recovers 4x character's RCV in HP at the end of each turn",
         special: [
             {
-                "description": "Recovers 6x character's RCV in HP. Removes Paralysis",
+                "description": "Recovers 6x character's RCV in HP. Reduces Paralysis duration by 3 turns",
                 "cooldown": [ 14, 8 ]
             },
             {
@@ -5551,15 +5551,15 @@ module.exports = {
     1122: {
         captain: "Boosts ATK of [STR], [DEX], and [QCK] characters by 2.5x, but boosts his OWN attack by 4x",
         captainNotes: "Cavendish only boosts Friend or Sub Cavendish by 2.5x for a total of 10x boost with two Cavendish captains",
-        special: "Removes all positive buffs on Your team. Deals 15x the character's ATK as Typeless damage to all enemies. Boosts Cavendish's ATK by 2.25x for 2 turns, amplifies the effect of Cavendish's orb by 1.5x for 2 turns, locks his orb for 2 turns, and changes own orb to [QCK].",
-        specialNotes: "Boosted ATK and Orb Effectivess only works for the Cavendish who uses his Special.",
+        special: "Removes all positive buffs on Your team. Deals 15x the character's ATK as Typeless damage to all enemies. Boosts own ATK by 2.25x for 2 turns, amplifies the effect of own orb by 1.5x for 2 turns, locks his orb for 2 turns, and changes own orb to [QCK].",
+        specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
         specialName: "Slicing Winds of Rommel"
     },
     1123: {
         captain: "Boosts ATK of [STR], [DEX], and [QCK] characters by 2.5x, but boosts his OWN attack by 4x",
         captainNotes: "Cavendish only boosts Friend or Sub Cavendish by 2.5x for a total of 10x boost with two Cavendish captains",
-        special: "Removes all positive buffs on Your team. Deals 15x the character's ATK as Typeless damage to all enemies. Boosts Cavendish's ATK by 2.25x for 2 turns, amplifies the effect of Cavendish's orb by 1.5x for 2 turns, locks his orb for 2 turns, and changes own orb to [QCK].",
-        specialNotes: "Boosted ATK and Orb Effectivess only works for the Cavendish who uses his Special.",
+        special: "Removes all positive buffs on Your team. Deals 15x the character's ATK as Typeless damage to all enemies. Boosts own ATK by 2.25x for 2 turns, amplifies the effect of own orb by 1.5x for 2 turns, locks his orb for 2 turns, and changes own orb to [QCK].",
+        specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
         specialName: "Slicing Winds of Rommel"
     },
     1124: {
@@ -6357,7 +6357,7 @@ module.exports = {
                 "cooldown": [ 20, 17 ], 
             },
         ],    
-        specialNotes: "#{randomHits : 10}<br>#{stages}",
+        specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 3,000 : for each hit on Stage 1}<br>#{random : 3,000 : 6,000 : for each hit on Stage 2}<br>#{random : 10,000 : 16,000 : for each hit on Stage 3}<br>#{stages}",
     },
     1240: {//6* Kizaru
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 2x, and boosts RCV of all characters by 1.3x. If you use \"Yasakani no Magatama\" boosts ATK of all characters by 3x instead.",
@@ -6376,7 +6376,7 @@ module.exports = {
                 "cooldown": [ 20, 17 ],
             },
         ],    
-        specialNotes: "#{randomHits : 10}<br>#{stages}",
+        specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 3,000 : for each hit on Stage 1}<br>#{random : 3,000 : 6,000 : for each hit on Stage 2}<br>#{random : 10,000 : 16,000 : for each hit on Stage 3}<br>#{stages}",
     },
     1241: {//Fortnight Koala
         captain: "Boosts chain multiplier by 1.5x. Recovers 1x character's RCV in HP at the end of each turn",
@@ -6711,13 +6711,13 @@ module.exports = {
     1288: {//Kid Law
         captain: "Boosts ATK of Driven characters by 2.5x, reduces crew's current HP by 10% at the end of each turn, reduces his own ATK multiplier by 0.1x at the end of each turn",
         captainNotes: "His ATK multiplier will be 2.5x on the first turn, 2.4x on the second, 2.3x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all Driven characters. You will not die to the HP reduction",
-        special: "Reduces cooldown of Driven specials by 1 turn. If during that turn every unit scores a Perfect hit, reduces cooldown of Driven specials by 1 turn.",
+        special: "Reduces Special Cooldown of Driven specials by 1 turn. If during that turn every unit scores a Perfect hit, reduces Special Cooldown of Driven specials by 1 turn.",
         specialName: "Outcome of Sparta",
     },
     1289: {//Kid Law
         captain: "Boosts ATK of Driven characters by 2.75x, reduces crew's current HP by 10% at the end of each turn, reduces his own ATK multiplier by 0.1x at the end of each turn",
         captainNotes: "His ATK multiplier will be 2.75x on the first turn, 2.65x on the second, 2.55x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all Driven characters. You will not die to the HP reduction",
-        special: "Reduces cooldown of Driven specials by 1 turn. If during that turn every unit scores a Perfect hit, reduces cooldown of Driven specials by 1 turn.",
+        special: "Reduces Special Cooldown of Driven specials by 1 turn. If during that turn every unit scores a Perfect hit, reduces Special Cooldown of Driven specials by 1 turn.",
         specialName: "Outcome of Sparta",
     },
     1290: {//Kid Buffalo
@@ -6929,14 +6929,14 @@ module.exports = {
     1319: {//Lady Tsuru
         captain: "Heals for 1x her RCV at the end of the turn each time you hit a Good. Heals for .1x her RCV at the end of the turn each time you hit a Perfect",
         special: "Deals 10 hits of random [QCK] damage to random enemies. Boosts ATK of all characters by 1.5x for 1 turn",
-        specialNotes: "#{randomHits : 10}<br>#{random : ??? : ??? : for each hit}",
+        specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 32,000 : for each hit}",
         sailor: "Reduces Paralysis duration by 1 turn",
         specialName: "A Decree of the Veteran",
     },
     1320: {//Lady Tsuru
         captain: "Heals for 1.5x her RCV at the end of the turn each time you hit a Good. Heals for .1x her RCV at the end of the turn each time you hit a Perfect",
         special: "Deals 10 hits of random [QCK] damage to random enemies. Boosts ATK of all characters by 1.5x for 1 turn",
-        specialNotes: "#{randomHits : 10}<br>#{random : ??? : ??? : for each hit}",
+        specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 32,000 : for each hit}",
         sailor: "Reduces Paralysis duration by 1 turn",
         specialName: "A Decree of the Veteran",
     },
@@ -7037,7 +7037,7 @@ module.exports = {
         captain: "Recovers 2x character's RCV in HP at the end of each turn",
         special: [
             {
-                "description": "Reduces Bind duration for one character by 3 turns. Recovers 7x character's RCV in HP.",
+                "description": "Reduces Bind duration for one character by 4 turns. Recovers 7x character's RCV in HP.",
                 "cooldown": [ 18, 11 ],
             },
             {
@@ -7052,7 +7052,7 @@ module.exports = {
         captain: "Recovers 3x character's RCV in HP at the end of each turn",
         special: [
             {
-                "description": "Reduces Bind duration for one character by 3 turns. Recovers 7x character's RCV in HP.",
+                "description": "Reduces Bind duration for one character by 4 turns. Recovers 7x character's RCV in HP.",
                 "cooldown": [ 18, 11 ],
             },
             {
@@ -7223,13 +7223,13 @@ module.exports = {
     1361: {//6* Zoro
         captain: "If you have 5 or more Slashers in your crew, boosts ATK of Slasher characters by 2.5x and their HP by 1.5x. If you defeated an enemy last turn, boosts ATK of Slasher characters by 3x instead and boosts ATK of all other characters by 1.2x",
         captainNotes: "You only need to kill at least 1 character in the last turn to gain his 3x ATK boost. If a character dies and revives, you will retain the 3x ATK boost",
-        special: "Deals 60x character's ATK as typeless damage to all enemies. If Zoro is your Captain, boosts ATK of Slasher characters by 2x for 1 turn. If he is a Sailor, boosts ATK of Slasher characters by 1.75x for 1 turn instead",
+        special: "Deals 60x character's ATK as typeless damage to all enemies. If Zoro is your Captain or Friend/Guest Captain, boosts ATK of Slasher characters by 2x for 1 turn. If he is a Sailor, boosts ATK of Slasher characters by 1.75x for 1 turn instead",
         specialName: "Three Blade Style Secret Skill: Crossroad of Six Paths",
     },
     1362: {//6* Zoro
         captain: "If you have 5 or more Slashers in your crew, boosts ATK of Slasher characters by 2.5x and their HP by 1.5x. If you defeated an enemy last turn, boosts ATK of Slasher characters by 3x instead and boosts ATK of all other characters by 1.2x",
         captainNotes: "You only need to kill at least 1 character in the last turn to gain his 3x ATK boost. If a character dies and revives, you will retain the 3x ATK boost",
-        special: "Deals 60x character's ATK as typeless damage to all enemies. If Zoro is your Captain, boosts ATK of Slasher characters by 2x for 1 turn. If he is a Sailor, boosts ATK of Slasher characters by 1.75x for 1 turn instead",
+        special: "Deals 60x character's ATK as typeless damage to all enemies. If Zoro is your Captain or Friend/Guest Captain, boosts ATK of Slasher characters by 2x for 1 turn. If he is a Sailor, boosts ATK of Slasher characters by 1.75x for 1 turn instead",
         specialName: "Three Blade Style Secret Skill: Crossroad of Six Paths",
     },
     1363: {//Timeskip Franky
@@ -7568,7 +7568,7 @@ module.exports = {
         specialName: "Offense Battle Axe",
     },
     1403: {//Timeskip Luffy
-        captain: "Boosts ATK of Free Spirit characters by 2.5x, reduce damage received by 15%. If you use \"Gomu Gomu no Red Hawk\" THIS LUFFY boosts ATK of Free Spirit characters by 4x instead for 3 turns.",
+        captain: "Boosts ATK of Free Spirit characters by 2.5x and reduce damage received by 15%. If you use \"Gomu Gomu no Red Hawk\" THIS LUFFY boosts ATK of Free Spirit characters by 4x instead for 3 turns.",
         captainNotes: "Using Luffy's special will change his own captain boost to 4x. If both Luffy's specials are used, the total ATK boost will be 16x",
         special: [
             {
@@ -7584,7 +7584,7 @@ module.exports = {
         specialName: "Gomu Gomu no Red Hawk",
     },
     1404: {//Timeskip Luffy
-        captain: "Boosts ATK of Free Spirit characters by 2.5x, reduce damage received by 15%. If you use \"Gomu Gomu no Red Hawk\" THIS LUFFY boosts ATK of Free Spirit characters by 4x instead for 3 turns.",
+        captain: "Boosts ATK of Free Spirit characters by 2.5x and reduce damage received by 15%. If you use \"Gomu Gomu no Red Hawk\" THIS LUFFY boosts ATK of Free Spirit characters by 4x instead for 3 turns.",
         captainNotes: "Using Luffy's special will change his own captain boost to 4x. If both Luffy's specials are used, the total ATK boost will be 16x",
         special: [
             {
@@ -7758,7 +7758,7 @@ module.exports = {
         specialName: "General Cannon",
     },
     1433: {//Hody Jones
-        captain: "Reduces cooldown of Powerhouse specials by 1 turn at the start of the fight, reduces crew's current HP by 10% at the end of each turn, and boosts ATK of Powerhouse characters by 3x if there are 6 Powerhouse characters in your crew and HP of Powerhouse characters by up to 2x depending on how many Powerhouse characters are in your crew.",
+        captain: "Reduces cooldown of Powerhouse specials by 1 turn at the start of the fight, reduces crew's current HP by 10% at the end of each turn, and boosts ATK of Powerhouse characters by 3x if there are 6 Powerhouse characters in your crew and boosts HP of Powerhouse characters by up to 2x depending on how many Powerhouse characters are in your crew.",
         captainNotes: "Hody's HP boost is dependent on how many Powerhouse characters are in your crew. With 6 Powerhouse characters, the boost is 2x, with 5 the boost is 1.5x, with 4 the boost is 1.4x, with 3 the boost is 1.3x, with 2 the boost is 1.2x, and with 1 the boost is 1.1x.",
         special: [
             {
@@ -7774,7 +7774,7 @@ module.exports = {
         specialName: "Water Bullets",
     },
     1434: {//Hody Jones
-        captain: "Reduces cooldown of Powerhouse specials by 1 turn at the start of the fight, reduces crew's current HP by 10% at the end of each turn, and boosts ATK of Powerhouse characters by 3x if there are 6 Powerhouse characters in your crew and HP of Powerhouse characters by up to 2x depending on how many Powerhouse characters are in your crew.",
+        captain: "Reduces cooldown of Powerhouse specials by 1 turn at the start of the fight, reduces crew's current HP by 10% at the end of each turn, and boosts ATK of Powerhouse characters by 3x if there are 6 Powerhouse characters in your crew and boosts HP of Powerhouse characters by up to 2x depending on how many Powerhouse characters are in your crew.",
         captainNotes: "Hody's HP boost is dependent on how many Powerhouse characters are in your crew. With 6 Powerhouse characters, the boost is 2x, with 5 the boost is 1.5x, with 4 the boost is 1.4x, with 3 the boost is 1.3x, with 2 the boost is 1.2x, and with 1 the boost is 1.1x.",
         special: [
             {
@@ -7910,7 +7910,7 @@ module.exports = {
         specialName: "Diable Jambe: Love Shot",
     },
     1453: {//Valentines Margeurite
-        captain: "Not Translated",
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 1.5x",
         special: "Changes all orbs depending on the current HP",
         specialNotes: "<br> HP>70%: Top row to [QCK], middle row to [STR] <br> HP<30%: Top row to [RCV], middle row to [QCK], bottom row to [STR]",
         specialName: "Doki Doki Heart",
@@ -8048,7 +8048,7 @@ module.exports = {
                 "cooldown": [ 22, 18 ],
             },
         ],
-        specialNotes: "Rainbow orbs are the benefittial form of [BLOCK] orbs. They can not be shuffled or swapped by you or your opponent. They count as benefittial orbs to any character. They do not count as STR orbs for Sakazuki but do act like Matching orbs for Black Clad Ace or Fujitora captain abilities.<br>#{stages}",
+        specialNotes: "Rainbow orbs are the beneficial form of [BLOCK] orbs. They can not be shuffled by you or your opponent. They count as beneficial orbs to any character. They do not count as STR orbs for Sakazuki but do act like Matching orbs for Black Clad Ace or Fujitora captain abilities.<br>#{stages}",
         sailor: "Changes all orbs into [RAINBOW] orbs at the start of the fight.",
         specialName: "Tears of Courage",
     },
@@ -8420,13 +8420,13 @@ module.exports = {
     1529: {//Cavendish
         captain: "Boosts ATK of all characters by 1.5x, but boosts his OWN attack by 3x",
         special: "For Slasher characters, if HP is above 50% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
-        sailor: "Reduces ATK of all characters by .5x if your captain is [STR] or [QCK]",
+        sailor: "Reduces ATK of all characters by .5x if your captain is a [STR] or [QCK] character",
         specialName: "Blue Bird Sword",
     },
     1530: {//Cavendish
         captain: "Boosts ATK of all characters by 1.75x, but boosts his OWN attack by 3.5x",
         special: "For Slasher characters, if HP is above 50% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
-        sailor: "Reduces ATK of all characters by .5x if your captain is [STR] or [QCK]",
+        sailor: "Reduces ATK of all characters by .5x if your captain is a [STR] or [QCK] character",
         specialName: "Blue Bird Sword",
     },
     1531: {//Legend Usopp
@@ -8864,12 +8864,12 @@ module.exports = {
         sailor: "Completely resists Paralysis on this character",
         specialName: "King Kong Gun",
     },
-    1594: {//Raid Fujitora
+    1594: {//Fujitora
         captain: "Cuts the current HP of each enemy by 10% at the end of each turn",
         special: "Deals 50x character's ATK in [PSY] damage to all enemies that will ignore damage negating abilities and barriers, changes adjacent orbs into Matching Orbs, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn",
         specialName: "Gravity Blade: Fierce Tiger",
     },
-    1595: {//Raid Fujitora
+    1595: {//Fujitora
         captain: "Boosts ATK of Powerhouse characters by 2.25x, and their HP by 1.2x, cuts the current HP of each enemy by 10% at the end of each turn",
         special: "Deals 50x character's ATK in [PSY] damage to all enemies that will ignore damage negating abilities and barriers, changes adjacent orbs into Matching Orbs, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn",
         specialName: "Gravity Blade: Fierce Tiger",
@@ -9257,13 +9257,13 @@ module.exports = {
     },
     1657: {//Kanjuro
         captain: "Boosts ATK of Striker and Free Spirit characters by 2x",
-        special: "Reduces Bind and Despair duration by 5 turns and locks the chain multiplier at 2.75x for 1 turn if your Captain is a Striker character",
+        special: "Reduces Bind and Despair duration by 5 turns. If your Captain is a Striker character, locks the chain multiplier at 2.75x for 1 turn",
         sailor: "Makes [DEX] orbs \"beneficial\" for Striker characters if your Captain is a Striker character",
         specialName: "Summon Dragon",
     },
     1658: {//Kanjuro
         captain: "Boosts ATK of Striker and Free Spirit characters by 2.5x",
-        special: "Reduces Bind and Despair duration by 5 turns and locks the chain multiplier at 2.75x for 1 turn if your Captain is a Striker character",
+        special: "Reduces Bind and Despair duration by 5 turns. If your Captain is a Striker character, locks the chain multiplier at 2.75x for 1 turn",
         sailor: "Makes [DEX] orbs \"beneficial\" for Striker characters if your Captain is a Striker character",
         specialName: "Summon Dragon",
     },
@@ -9329,12 +9329,12 @@ module.exports = {
     1666: {//Kyros
         captain: "Boosts ATK of Striker characters by 2x",
         special: "Changes adjacent orbs into Matching Orbs and if HP is above 70%, amplifies the effect of orbs for Striker and Powerhouse characters by 1.5x for 1 turn",
-        specialName: "Kyros Special",
+        specialName: "Trueno Bastardo",
     },
     1667: {//Kyros
         captain: "Boosts HP of Striker characters by 1.2x and boosts ATK of Striker characters by 2.75x if HP is below 30% at the start of the turn, 2.25x otherwise",
         special: "Changes adjacent orbs into Matching Orbs and if HP is above 70%, amplifies the effect of orbs for Striker and Powerhouse characters by 1.5x for 1 turn",
-        specialName: "Kyros Special",
+        specialName: "Trueno Bastardo",
     },
     1668: {//Reborn Aokiji
         special: "Boosts ATK of Striker characters by 1.75x for 2 turns, locks all orbs for 2 turns",
@@ -9349,17 +9349,163 @@ module.exports = {
     1670: {//Shyarly
         captain: "Boosts ATK of [DEX] characters by 1.75x and their RCV by 1.2x",
         special: "Randomizes all non-matching orbs, switches orbs between slots two times, and delays all enemies for 1 turn",
-        specialName: "Shyarly Special",
+        specialName: "A Warning to the Fool",
     },
     1671: {//Camie
         captain: "Boosts RCV of Free Spirit characters by 1.5x",
         special: "Recovers 15% of crew's MAX HP and amplifies the effect of orbs by 1.5x for 1 turn",
-        specialName: "Camie Special",
+        specialName: "Cheerfulness that Shines in the Deep Sea",
     },
-    1671: {//Pappagu
+    1672: {//Pappagu
         captain: "Boosts ATK and HP of Powerhouse characters by 1.5x",
         special: "Binds himself for 2 turns and reduces Despair and Silence duration by 3 turns",
-        specialName: "Pappagu Special",
+        specialName: "A Starfish Reaching for His Beliefs",
+    },
+    1673: {//Swinsuit Perona
+        captain: "Boosts ATK of all characters by 1.75x and boosts EXP gained by 1.2x",
+        special: "Reduces damage received by 70% for 1 turn, reduces the defense of all enemies by 90% for 1 turn and reduces Silence duration by 2 turns.",
+        specialNotes: "#{silence}",
+        sailor: "Completely resists Silence on this character",
+        sailorNotes: "#{silence}",
+        specialName: "Romantic Princess",
+    },
+    1674: {//Swinsuit Perona
+        captain: "Boosts ATK of all characters by 2.25x and boosts EXP gained by 1.5x",
+        special: "Reduces damage received by 70% for 1 turn, reduces the defense of all enemies by 90% for 1 turn and reduces Silence duration by 2 turns.",
+        specialNotes: "#{silence}",
+        sailor: "Completely resists Silence on this character",
+        sailorNotes: "#{silence}",
+        specialName: "Romantic Princess",
+    },
+    1675: {//Kimono Zoro
+        captain: "Boosts chain multiplier by 2x",
+        special: "Boosts ATK of Slasher and Driven characters by 1.5x for 1 turn. If your Captain is a Slasher or Driven character, changes adjacent orbs into matching orbs and reduces Paralysis and Despair duration by 2 turns",
+        sailor: "Reduces Blindness duration by 1 turn",
+        specialName: "Great Swordsman Under the Umbrella",
+    },
+    1676: {//Kimono Zoro
+        captain: "Boosts chain multiplier by 3.25 and reduce damage received by 10%",
+        special: "Boosts ATK of Slasher and Driven characters by 1.5x for 1 turn. If your Captain is a Slasher or Driven character, changes adjacent orbs into matching orbs and reduces Paralysis and Despair duration by 2 turns",
+        sailor: "Reduces Blindness duration by 1 turn",
+        specialName: "Great Swordsman Under the Umbrella",
+    },
+    1677: {//Log Law
+        captain: "Boosts ATK of Slasher characters by 2.5x",
+        special: "Boosts the Color Affinity of Slasher by 1.5x for 1 turn, changes middle row orbs into matching orbs and switches orbs between slots three times",
+        specialName: "ROOM: Kikoku",
+    },
+    1678: {//Log Law
+        captain: "Boosts ATK of Slasher characters by 2.5x at the start of the chain, by 3.25x after the 3rd Perfect",
+        special: "Boosts the Color Affinity of Slasher by 1.5x for 1 turn, changes middle row orbs into matching orbs and switches orbs between slots three times",
+        specialName: "ROOM: Kikoku",
+    },
+    1679: {//Kai Mihawk
+        special: "Cuts the current HP of each enemy by 30%",
+        specialName: "Black Blade Ship Cutter [Neo]",
+        captain: "Boosts ATK of Slasher characters by 2x"
+    },
+    1680: {//Kai Mihawk
+        special: "Cuts the current HP of each enemy by 30%",
+        specialName: "Black Blade Ship Cutter [Neo]",
+        captain: "Boosts ATK of Slasher characters by 2.5x"
+    },
+    1681: {//20th Anni Luffy
+        captain: "Boosts ATK of characters with cost 30 or less by 2.5x",
+        special: "Cuts the current HP of each enemy by 20%, if Luffy is your Captain or Friend/Guest Captain, changes left column into Matching orbs, otherwise, adds .5x to Chain multiplier for 1 turn.",
+        specialName: "Gomu Gomu no Tako Stamp",
+        sailor: "Boosts HP and ATK of all characters by 56",
+    },
+    1682: {//20th Anni Luffy
+        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect",
+        special: "Cuts the current HP of each enemy by 20%, if Luffy is your Captain or Friend/Guest Captain, changes left column into Matching orbs, otherwise, adds .5x to Chain multiplier for 1 turn.",
+        specialName: "Gomu Gomu no Tako Stamp",
+        sailor: "Boosts HP and ATK of all characters by 56",
+    },
+    1683: {//20th Anni Robin
+        captain: "Boosts ATK of Cerebral characters by 2x, and their RCV by 1.3x",
+        special: "Binds self for 1 turn, empties all slots with [BLOCK] orbs, deals several times the character's ATK in typeless damage to one enemy and boosts ATK against enemies with reduced defense by 1.5x for 2 turns",
+        specialName: "Mil Fleur: Gigantesco Mano",
+        specialNotes: "The exact multiplier used is chosen based on the number of [BLOCK] orbs consumed: 0 orbs - Unknown; 1 orb - ???x ATK; 2 orbs - ???x ATK; 3 orbs - ???x ATK; 4 orbs - ???x ATK; 5 orbs - ???x ATK; 6 orbs - ???x ATK.",
+        sailor: "Makes [TND] orbs \"beneficial\" for all characters if your Captain is a Fighter character",
+    },
+    1684: {//20th Anni Robin
+        captain: "Boosts ATK of Cerebral characters by 2.5x, and their RCV by 1.3x",
+        special: "Binds self for 1 turn, empties all slots with [BLOCK] orbs, deals several times the character's ATK in typeless damage to one enemy and boosts ATK against enemies with reduced defense by 1.5x for 2 turns",
+        specialName: "Mil Fleur: Gigantesco Mano",
+        specialNotes: "The exact multiplier used is chosen based on the number of [BLOCK] orbs consumed: 0 orbs - Unknown; 1 orb - ???x ATK; 2 orbs - ???x ATK; 3 orbs - ???x ATK; 4 orbs - ???x ATK; 5 orbs - ???x ATK; 6 orbs - ???x ATK.",
+        sailor: "Makes [TND] orbs \"beneficial\" for all characters if your Captain is a Fighter character",
+    },
+    1685: {//20th Anni Usopp
+        captain: "Boosts ATK of Shooter characters by 2.75x following a chain of Good > Great > Perfect hits",
+        special: "Changes [EMPTY] orbs into Matching orbs, changes Badly Matching orbs into [RCV] orbs and delays all enemies for 1 turn",
+        specialName: "Green Star: Bamboo Javelin-Grove",
+        sailor: "Reduces Silence duration on this character by 4 turns",
+        sailorNotes: "#{silence}",
+    },
+    1686: {//20th Anni Usopp
+        captain: "Boosts ATK of Shooter characters by 3.25x following a chain of Good > Great > Perfect hits",
+        special: "Changes [EMPTY] orbs into Matching orbs, changes Badly Matching orbs into [RCV] orbs and delays all enemies for 1 turn",
+        specialName: "Green Star: Bamboo Javelin-Grove",
+        sailor: "Reduces Silence duration on this character by 4 turns",
+        sailorNotes: "#{silence}",
+    },
+    1687: {//20th Anni Franky
+        captain: "Boosts ATK of Fighter characters by 2x and reduce damage received by 10%",
+        special: "Changes own orb into [DEX], deals 15 hits of random typeless damage to random enemies, and reduces the defense of all enemies by 100% for 2 turns",
+        specialNotes: "#{randomHits : 15}<br>#{random : ??? : ??? : for each hit}",
+        specialName: "Franky Iron BOXING",
+        sailor: "Restores his own special by 3 turns when it is rewinded",
+        sailorNotes: "#{rewind : 3}",
+    },
+    1688: {//20th Anni Franky
+        captain: "Boosts ATK of Fighter characters by 2.5x and reduce damage received by 15%",
+        special: "Changes own orb into [DEX], deals 15 hits of random typeless damage to random enemies, and reduces the defense of all enemies by 100% for 2 turns",
+        specialNotes: "#{randomHits : 15}<br>#{random : ??? : ??? : for each hit}",
+        specialName: "Franky Iron BOXING",
+        sailor: "Restores his own special by 3 turns when it is rewinded",
+        sailorNotes: "#{rewind : 3}",
+    },
+    1689: {//Fortnight Kid
+        captain: "Boosts ATK of all characters by 1.5x at the start of the chain, by 2.25x following a chain of STR > DEX > INT attacks no lower than Good",
+        special: "Cuts the current HP of one enemy by 20% and and boosts own ATK by 2x for 1 turn",
+        specialName: "Iron Giant Palm Slam",
+    },
+    1690: {//Fortnight Kid
+        captain: "Boosts ATK of all characters by 2x at the start of the chain, by 3x following a chain of STR > DEX > INT attacks no lower than Good",
+        special: "Cuts the current HP of one enemy by 20% and and boosts own ATK by 2x for 1 turn",
+        specialName: "Iron Giant Palm Slam",
+    },
+    1691: {//Heat
+        captain: "Boosts ATK of Shooter characters by 1.75x",
+        special: "Boosts ATK against enemies with reduced defense by 1.3x for 1 turn, changes the captain's [STR], [DEX], [QCK], [INT], or [PSY] orbs into Matching orbs.",
+        specialName: "Aim and Burn",
+    },
+    1692: {//Wire
+        captain: "Boosts HP of Driven characters by 1.5x",
+        special: "Adds .3x to Chain multiplier, and reduces the defense of all enemies by 50% for 1 turn",
+        specialName: "Three Wind Tunnels",
+    },
+    1693: {//Inuarashi
+        captain: "Boosts ATK of [PSY] characters by 2x",
+        special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 turn, amplifies the effect of own orb by 1.75x for 1 turn and changes own orb to [PSY].",
+        specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
+        specialName: "Inuarashi Special",
+    },
+    1694: {//Inuarashi
+        captain: "Boosts ATK of [PSY] characters by 2.75x",
+        special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 turn, amplifies the effect of own orb by 1.75x for 1 turn and changes own orb to [PSY].",
+        specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
+        specialName: "Inuarashi Special",
+    },
+    1695: {//Vergo
+        captain: "Boosts ATK of Striker characters by 2x",
+        special: "Deals 50x character's ATK in [DEX] damage to all enemies, amplifies the effect of orbs for Striker characters by 1.75x for 1 turn and reduces damage received by 50% for 1 turn",
+        specialName: "Vergo Special",
+    },
+    1696: {//Vergo
+        captain: "Boosts ATK of Striker characters by 2.5x and reduces damage received by 10%",
+        special: "Deals 50x character's ATK in [DEX] damage to all enemies, amplifies the effect of orbs for Striker characters by 1.75x for 1 turn and reduces damage received by 50% for 1 turn",
+        specialName: "Vergo Special",
     },
     1750: {//Korea Law
         captain: "Boosts ATK of Striker characters by 3x and heals for .5x his RCV at the end of the turn each time you hit a Perfect",

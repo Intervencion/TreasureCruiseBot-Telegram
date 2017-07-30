@@ -643,6 +643,7 @@ module.exports = {
             name: 'Deep-Sea Aphotic Zone to Ryugu Palace',
             shortName: 'Fishman Island 1',
             thumb: 1506,
+            global: true,
             completion: '5x Rainbow Gems',
             gamewith: 52247,
             '01': [ 1501, 1502 ],
@@ -1456,6 +1457,7 @@ module.exports = {
         {
             name: 'Gather the Candy!',
             thumb: 1357,
+            global: true,
             gamewith: 45801,
             'All Difficulties': [ 1356, 1358, -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610, -1388 ]
         },
@@ -1571,14 +1573,23 @@ module.exports = {
             thumb: 1649,
             gamewith: 60685,
             condition: 'You must have at least one character of each type on your team: STR, DEX, QCK, PSY, and INT.',
-            'All Difficulties': [ 1648, 1650, -1473, -1483, -412, -414, -1075, -1027, -1348, -956 ],
+            'All Difficulties': [ 1648, 1650, -1473, -1483, -412, -414, -1075, -1027, -1479, -1348, -956 ],
         },
         
         {
             name: 'Open the Cafe!',
             thumb: 1670,
-            gamewith: null,
+            gamewith: 61622,
+            condition: 'Total Crew Cost must be lower than 180 (Including friend captain)',
             'All Difficulties': [ 1670, 1671, 1672, -1085, -451, -457, -1081, -1353, -1540, -1345, -955, -1350 ],
+        },
+        
+        {
+            name: 'Kid Pirates!',
+            thumb: 1690,
+            gamewith: null,
+            condition: 'Only [INT] and [PSY] orbs appear',
+            'All Difficulties': [ 1689, 1691, 1692, -1532, -1543, -449, -453, -1079, -1538, -967, -1346, -1349 ],
         },
         
     ],
@@ -1594,6 +1605,15 @@ module.exports = {
             teamDatabase: 'raid_bosses/3',
             Master: [ 86, 112, 118, 226 ],
             Expert: [ 97, 112, 226 ]
+        },
+        
+        {
+            name: 'Clash Neo!! Mihawk',
+            thumb: 1680,
+            global: true,
+            gamewith: null,
+            Master: [ 85, 111, 118, 1679 ],
+            Expert: [ 96, 111, 1679 ]
         },
 
         {
@@ -1878,6 +1898,14 @@ module.exports = {
             Master: [ 1594 ],
             Expert: [ 1594 ]
         },
+        
+        {
+            name: 'Clash!! Vergo',
+            thumb: 1696,
+            gamewith: null,
+            Master: [ 1695 ],
+            Expert: [ 1695 ]
+        },
 
     ],
 
@@ -1957,40 +1985,7 @@ module.exports = {
             teamDatabase: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
             Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666 ]
-        },
-        
-        {
-            name: 'Rescue Ace Event - Akainu',
-            thumb: 1283,
-            global: true,
-            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.',
-            'Characters': [ 927, 296, 299, 773, 774, 1224 ],
-            'Boosters and Evolvers': [ 351, 193, 114, 266, 83, 118 ],
-            'Global': [ -261, -1413, -562, -720, -8, -1388, -219, -75, -255, -314, -316, -357, -410, -408, -449, -451, -455, -641, -643, -754, -760, -840, -880, -906, -910, -999, -554, -1175, -528, -1177, -560, -1212, -1245, -218, -22, -1448, -24, -204, -384, -504, -508, -785, -789 ],
-            'Japan': [ -261, -562, -720, -748, -935, -1413 ]
-        },
-        
-        {
-            name: 'Rescue Ace Event - Aokiji',
-            thumb: 1280,
-            global: true,
-            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.',
-            'Characters': [ 67, 69, 262, 264, 298 ],
-            'Boosters and Evolvers': [ 113, 192, 350, 266, 83, 118 ],
-            'Global': [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739, -1550, -1445 ],
-            'Japan': [ -416, -459, -530, -669, -1492, -578, -1121, -1445 ]
-        },
-        
-        {
-            name: 'Rescue Ace Event - Kizaru',
-            thumb: 1228,
-            global: true,
-            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.',
-            'Characters': [ 968, 969, 970, 971, 972, 231, 775, 1223, 49, 43 ],
-            'Boosters and Evolvers': [ 112, 191, 349, 266, 83, 118 ],
-            'Global': [ -367, -649, -718, -16, -1446, -20, -1447, -73, -251, -257, -308, -359, -365, -412, -457, -639, -750, -758, -912, -914, -941, -993, -522, -1117, -526, -1173, -556, -1210, -1245, -223, -15, -23, -25, -200, -225, -546, -500, -506, -569, -791, -793 ],
-            'Japan': [ -367, -649, -718, -870, -1001 ]
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693 ]
         },
         
         {
@@ -2017,6 +2012,48 @@ module.exports = {
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
             'All Difficulties': [ 1529 ]
+        },
+        
+        {
+            name: 'Rescue Ace Event - Akainu',
+            thumb: 1283,
+            global: true,
+            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Almighty Book.',
+            'Characters': [ 927, 296, 299, 773, 774, 1224 ],
+            'Boosters and Evolvers': [ 351, 193, 114, 266, 83, 118 ],
+            'Global': [ -261, -1413, -562, -720, -8, -1388, -219, -75, -255, -314, -316, -357, -410, -408, -449, -451, -455, -641, -643, -754, -760, -840, -880, -906, -910, -999, -554, -1175, -528, -1177, -560, -1212, -1245, -218, -22, -1448, -24, -204, -384, -504, -508, -785, -789 ],
+            'Japan': [ -261, -562, -720, -748, -935, -1413 ]
+        },
+        
+        {
+            name: 'Rescue Ace Event - Aokiji',
+            thumb: 1280,
+            global: true,
+            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Almighty Book.',
+            'Characters': [ 67, 69, 262, 264, 298 ],
+            'Boosters and Evolvers': [ 113, 192, 350, 266, 83, 118 ],
+            'Global': [ -416, -459, -530, -217, -004, -1387, -12, -221, -1389, -77, -210, -253, -259, -310, -312, -361, -363, -414, -453, -645, -647, -752, -756, -937, -939, -991, -520, -1115, -524, -1119, -558, -1208, -1245, -25, -202, -208, -206, -502, -787, -789, -739, -1550, -1445 ],
+            'Japan': [ -416, -459, -530, -669, -1492, -578, -1121, -1445 ]
+        },
+        
+        {
+            name: 'Rescue Ace Event - Kizaru',
+            thumb: 1228,
+            global: true,
+            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Almighty Book.',
+            'Characters': [ 968, 969, 970, 971, 972, 231, 775, 1223, 49, 43 ],
+            'Boosters and Evolvers': [ 112, 191, 349, 266, 83, 118 ],
+            'Global': [ -367, -649, -718, -16, -1446, -20, -1447, -73, -251, -257, -308, -359, -365, -412, -457, -639, -750, -758, -912, -914, -941, -993, -522, -1117, -526, -1173, -556, -1210, -1245, -223, -15, -23, -25, -200, -225, -546, -500, -506, -569, -791, -793 ],
+            'Japan': [ -367, -649, -718, -870, -1001 ]
+        },
+        
+        {
+            name: 'The Three Admirals',
+            thumb: 1314,
+            gamewith: 61665,
+            condition: 'Chance of dropping the Almighty Book.',
+            'All Bosses': [ -1621, -1632, -1665 ],
+            'Chopperman Mission': [ 1675 ],
         },
         
         {
@@ -2066,6 +2103,23 @@ module.exports = {
             'Bartolomeo': [ 304, 104, 88, 99, 82, 93, 351, -1035, -221, -357, -643, -840, -1025, -1029, -225, -541, -733, -1056 ],
             'Borsalino': [ 302, 102, 86, 97, 80, 91, 349, -1240, -77, -257, -760, -943, -1272, -1551, -896, -398, -793, -1058, -59 ],
             'Captain Buggy': [ 300, 100, 84, 95, 78, 89, 347, -1391, -1031, -1232, -1276, -1550, -739, -214, -707, -735, -890, -1318, -290 ],
+        },
+        
+        {
+            name: '20th Anniversary! Nico Robin!',
+            thumb: 1684,
+            gamewith: 62383,
+            showManual: true,
+            condition: 'No characters will drop posters.',
+            'All Difficulties': [ -1121, -578, -1404, -1593, -217, -210, -908, -937, -941, -943, -1115, -520, -1208, -558, -1210, -556, -1212, -560, -1364, -1408, -1387, -4, -1446, -16, -1549, -709, -1550, -739, -223, -15, -629, -209 ],
+        },
+        
+        {
+            name: '20th Anniversary! Straw Hats!',
+            thumb: 1686,
+            gamewith: 62386,
+            condition: 'Gain gems by completeing the missions. Once you complete a mission, it will no longer be available and the next difficulty will be available. Total of 46 gems possible. Only Booster characters will drop posters.',
+            'All Difficulties': [ 591, 592, 593, 594, 595, 189, 190, 191, 192, 193 ],
         },
 
    ],
