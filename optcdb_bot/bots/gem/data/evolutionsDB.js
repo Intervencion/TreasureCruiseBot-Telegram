@@ -2405,7 +2405,7 @@ module.exports = {
     },
     1554: {
         evolution: 1555,
-        evolvers: [ 177, 80, 86, 97, 302 ]
+        evolvers: [ 117, 80, 86, 97, 302 ]
     },
     1563: {
         evolution: 1564,
@@ -2613,18 +2613,114 @@ module.exports = {
     },
     1689: {
         evolution: 1690,
-        evolvers: [  ]
+        evolvers: [ 117, 82, 88, 99, 304 ]
     },
     1693: {
         evolution: 1694,
-        evolvers: [  ]
+        evolvers: [ 118, 98, 1180, 303, 103 ]
     },
     1695: {
         evolution: 1696,
+        evolvers: [ 118, 86, 266, 302, 102 ]
+    },
+    1697: {
+        evolution: 1698,
+        evolvers: [ 118, 86, 1180, 302, 267 ]
+    },
+    1699: {
+        evolution: 1700,
+        evolvers: [ 87, 94, 98, 303, 103 ]
+    },
+    1701: {
+        evolution: 1702,
+        evolvers: [ 118, 83, 85, 96, 101 ]
+    },
+    1703: {
+        evolution: 1704,
+        evolvers: [ 266, 93, 1180, 304, 104 ]
+    },
+    1705: {
+        evolution: 1706,
+        evolvers: [ 83, 84, 95, 1180, 100 ]
+    },
+    530: {
+        evolution: 1707,
+        evolvers: [ 118, 98, 303, 267 ]
+    },
+    1708: {
+        evolution: 1709,
+        evolvers: [ 116, 117, 79, 85, 96 ]
+    },
+    1710: {
+        evolution: 1711,
+        evolvers: [ 116, 117, 81, 87, 98 ]
+    },
+    1712: {
+        evolution: 1713,
+        evolvers: [  ]
+    },
+    1636: {
+        evolution: 1716,
+        evolvers: [  ]
+    },
+    1720: {
+        evolution: 1721,
+        evolvers: [  ]
+    },
+    1722: {
+        evolution: 1723,
+        evolvers: [  ]
+    },
+    1724: {
+        evolution: 1725,
+        evolvers: [  ]
+    },
+    1726: {
+        evolution: 1727,
+        evolvers: [  ]
+    },
+    1728: {
+        evolution: 1729,
+        evolvers: [  ]
+    },
+    1730: {
+        evolution: 1731,
+        evolvers: [  ]
+    },
+    1734: {
+        evolution: 1735,
+        evolvers: [  ]
+    },
+    1736: {
+        evolution: 1737,
+        evolvers: [  ]
+    },
+    1747: {
+        evolution: 1748,
         evolvers: [  ]
     },
     1750: {
         evolution: 1751,
+        evolvers: [  ]
+    },
+    1752: {
+        evolution: 1753,
+        evolvers: [  ]
+    },
+    1754: {
+        evolution: 1755,
+        evolvers: [  ]
+    },
+    1756: {
+        evolution: 1757,
+        evolvers: [  ]
+    },
+    1758: {
+        evolution: 1759,
+        evolvers: [  ]
+    },
+    1760: {
+        evolution: 1761,
         evolvers: [  ]
     },
 };

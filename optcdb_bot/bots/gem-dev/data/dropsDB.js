@@ -707,6 +707,29 @@ module.exports = {
             '15': [ 1636 ],
         },
         
+        {
+            name: 'Punk Hazard Ice Lands - First Floor Room R',
+            shortName: 'Punk Hazard 2',
+            thumb: 1716,
+            completion: 'Something',
+            gamewith: 65822,
+            '01': [ 1714, 1715, 1716, 1717, 1718, 1719 ],
+            '02': [  ],
+            '03': [  ],
+            '04': [  ],
+            '05': [  ],
+            '06': [  ],
+            '07': [  ],
+            '08': [  ],
+            '09': [  ],
+            '10': [  ],
+            '11': [  ],
+            '12': [  ],
+            '13': [  ],
+            '14': [  ],
+            '15': [  ],
+        },
+        
     ],
 
     'Weekly Island': [
@@ -1463,15 +1486,18 @@ module.exports = {
         },
         
         {
-            name: 'Become Strong to be Happy!',
+            name: 'Fight for your Happiness!',
             thumb: 1384,
+            global: true,
             gamewith: 46658,
+            condition: 'Limited amount of turns to complete the mission.',
             'All Difficulties': [ 1383, 1385, -748, -1234, -1075, -1230, -1155, -1154, -846, -842, -739, -1550 ]
         },
         
         {
             name: 'Shambles! Tashigi and Smoker?!?',
             thumb: 1397,
+            global: true,
             gamewith: 47247,
             condition: 'Your captain will be switched with your middle right character when you encounter Law.',
             'All Difficulties': [ 1396, 1398, -1192, -1232, -1238, -844, -838, -1159, -1389, -12, -737, -257 ]
@@ -1587,9 +1613,25 @@ module.exports = {
         {
             name: 'Kid Pirates!',
             thumb: 1690,
-            gamewith: null,
+            gamewith: 62883,
             condition: 'Only [INT] and [PSY] orbs appear',
             'All Difficulties': [ 1689, 1691, 1692, -1532, -1543, -449, -453, -1079, -1538, -967, -1346, -1349 ],
+        },
+        
+        {
+            name: 'Royal Neptune Family!',
+            thumb: 1723,
+            gamewith: 64138,
+            condition: 'Strikers and Powerhouse characters get a boost (1.5x ATK boost on 30 stamina)',
+            'All Difficulties': [ 1722, 1724, -1123, -455, -1077, -560, -1212, -1536, -1577, -1579, -966, -1352 ],
+        },
+        
+        {
+            name: 'Underground Trade Port! Escape!',
+            thumb: 1735,
+            gamewith: null,
+            condition: 'Limited amount of turns to complete the mission.',
+            'All Difficulties': [ 1734, 1736, -1571, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1354 ]
         },
         
     ],
@@ -1611,7 +1653,7 @@ module.exports = {
             name: 'Clash Neo!! Mihawk',
             thumb: 1680,
             global: true,
-            gamewith: null,
+            gamewith: 62444,
             Master: [ 85, 111, 118, 1679 ],
             Expert: [ 96, 111, 1679 ]
         },
@@ -1800,7 +1842,7 @@ module.exports = {
             name: 'Clash Neo!! Pica',
             thumb: 1647,
             gamewith: 60095,
-            condition: '1 Expert version and 3 different Master versions with different conditions. Master: Powerhouse/Driven/Slasher Only. Ultimate: Powerhouse Only, Driven Only, and Slasher Only',
+            condition: '1 Expert version and 3 different Master versions with different conditions. Expert: Powerhouse/Driven/Slasher Only. Master: Powerhouse Only, Driven Only, and Slasher Only',
             Master: [ 1646 ],
             Expert: [ 1646 ]
         },
@@ -1833,6 +1875,16 @@ module.exports = {
             Ultimate: [ 1046 ],
             Master: [ 1046 ],
             Expert: [ 1046 ]
+        },
+        
+        {
+            name: 'Clash Neo!! Sabo',
+            gamewith: 64230,
+            thumb: 1727,
+            condition: '1 Expert version, 1 Master version, and 3 different Ultimate versions with different conditions. Expert/Master: Shooter/Fighter/Cerebral Only. Can only complete 10 times each. Ultimate: Shooter Only, Fighter Only, and Cerebral Only',
+            Ultimate: [ 1726 ],
+            Master: [ 1726 ],
+            Expert: [ 1726 ]
         },
         
         {
@@ -1902,7 +1954,7 @@ module.exports = {
         {
             name: 'Clash!! Vergo',
             thumb: 1696,
-            gamewith: null,
+            gamewith: 63217,
             Master: [ 1695 ],
             Expert: [ 1695 ]
         },
@@ -1940,7 +1992,8 @@ module.exports = {
             gamewith: 15440,
             challenge: 'Total number of hits over 30,000',
             challengeData: [['Japan Rewards', ''],['10 Times','#686 Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems'], ['Global Rewards', ''],['10 Times','1x Bind Resistance Forbidden Tome, 1x Despair Resistance Forbidden Tome, 1x Auto-Heal Forbidden Tome, 1x Rainbow Gem'],['35 Times','1x Red Elder Turtle, 1x Blue Elder Turtle, 1x Green Elder Turtle, 1x Yellow Elder Turtle, 1x Black Elder Turtle, 2x Rainbow Gems'],['72 Times','5x Rainbow Gems']],
-            'All Difficulties': [ 659, 680, 682, 684, 1200, 1198 ]
+            'All Difficulties': [ 659, 680, 682, 684, 1200, 1198, 1708, 1710 ],
+            'Challenge Unit': [ 686 ],
         },
         
         {
@@ -1972,7 +2025,7 @@ module.exports = {
         },
         
         {
-            name: '3nd Anniversary Celebration! Duel! Luffy',
+            name: '3rd Anniversary Celebration! Duel! Luffy',
             thumb: 1600,
             '30 Stamina': [ 1600 ]
         },
@@ -1993,7 +2046,7 @@ module.exports = {
             thumb: 1258,
             global: true,
             gamewith: 38237,
-            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.',
+            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard. Can drop a Super Evolution Skull.',
             'All Difficulties': [ 1257 ]
         },
         
@@ -2002,7 +2055,7 @@ module.exports = {
             thumb: 1380,
             global: true,
             gamewith: 46369,
-            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks.',
+            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks. Can drop a Super Evolution Skull.',
             'All Difficulties': [ 1379, 952, 776 ]
         },
         
@@ -2010,7 +2063,7 @@ module.exports = {
             name: 'Invasion! Cavendish',
             thumb: 1530,
             gamewith: 53621,
-            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
+            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish. Can drop a Super Evolution Skull.',
             'All Difficulties': [ 1529 ]
         },
         
@@ -2040,7 +2093,7 @@ module.exports = {
             name: 'Rescue Ace Event - Kizaru',
             thumb: 1228,
             global: true,
-            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Almighty Book.',
+            condition: '10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Silver Almighty Book.',
             'Characters': [ 968, 969, 970, 971, 972, 231, 775, 1223, 49, 43 ],
             'Boosters and Evolvers': [ 112, 191, 349, 266, 83, 118 ],
             'Global': [ -367, -649, -718, -16, -1446, -20, -1447, -73, -251, -257, -308, -359, -365, -412, -457, -639, -750, -758, -912, -914, -941, -993, -522, -1117, -526, -1173, -556, -1210, -1245, -223, -15, -23, -25, -200, -225, -546, -500, -506, -569, -791, -793 ],
@@ -2048,12 +2101,21 @@ module.exports = {
         },
         
         {
-            name: 'The Three Admirals',
+            name: 'Big Battle! The Three Admirals',
             thumb: 1314,
             gamewith: 61665,
-            condition: 'Chance of dropping the Almighty Book.',
+            condition: 'Chance of dropping the Silver Almighty Book.',
             'All Bosses': [ -1621, -1632, -1665 ],
             'Chopperman Mission': [ 1675 ],
+        },
+        
+        {
+            name: 'Big Battle! Straw Hat Pirates',
+            thumb: 1404,
+            gamewith: 65078,
+            condition: 'Chance of dropping the Silver Almighty Book.',
+            'All Bosses': [ -1621, -1632, -1665, -1678, -1721 ],
+            'Chopperman Missions': [ 1728 ],
         },
         
         {

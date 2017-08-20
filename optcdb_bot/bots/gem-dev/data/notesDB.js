@@ -23,4 +23,6 @@ module.exports = {
         "the effect will not work when attacked by multiples enemies at once.",
     colorAffinity: "'Color Affinity' boosts color type advantages. For example, a STR unit normally deals 2x to a DEX unit and .5x to QCK. With this Color Affinity boost, it will deal (2*#1)x to DEX and (0.5/#1)x to QCK.",
     instantKill: "The chance for this character to instantly kill any enemy is #1. The kills can not be reset by exiting the game, but can change by passing the turn or killing an enemy.",
+    additionalDamage: "Every attacking character gains additional damage if they land a hit no less than Good.",
+    beneficial: "\"Beneficial\" orbs grant the same ATK boost as matching orbs and activate any Captain Abilities that are enabled by mathcing orbs.",
 };
