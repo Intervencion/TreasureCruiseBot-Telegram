@@ -5059,7 +5059,7 @@ module.exports = {
         specialName: "Hitting Size"
     },
     1044: {
-        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd Perfect and by 4x after the 5th Perfect.",
+        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd Perfect in a row and by 4x after the 5th Perfect in a row.",
         specialName: "Gamma Knife",
         special: [
             {
@@ -5074,7 +5074,7 @@ module.exports = {
         specialNotes: "#{stages}"
     },
     1045: {
-        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd Perfect and by 4x after the 5th Perfect.",
+        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd Perfect in a row and by 4x after the 5th Perfect in a row.",
         specialName: "Gamma Knife",
         special: [
             {
@@ -5332,7 +5332,7 @@ module.exports = {
         specialName: "Drill Dragon: Drill Nail"
     },
     1083: {
-        captain: "Boosts ATK of Striker and Fighter characters by 1.5x at the start of the chain, and by 3x after the 3rd Perfect",
+        captain: "Boosts ATK of Striker and Fighter characters by 1.5x at the start of the chain, and by 3x after the 3rd Perfect in a row",
         special: "Deals 20x ATK in [STR] damage to all enemies. For 2 turns, boosts ATK of Striker and Fighter characters by a variable amount depending on the current HP at the time the special was activated.",
         specialNotes: "Below 30% -> 1.75 boost, between 30% and 70% -> 1.5, above 70% -> 1.2",
         specialName: "Drill Dragon: Drill Nail",
@@ -5409,12 +5409,12 @@ module.exports = {
         specialName: "Mass Juggling"
     },
     1096: {
-        captain: "Boosts ATK of Powerhouse characters by 3x after the 5th Perfect.",
+        captain: "Boosts ATK of Powerhouse characters by 3x after the 5th Perfect in a row.",
         special: "Deals [INT] damage to one enemy. Boosts own ATK by 1.75x for 1 turn.",
         specialName: "Crash Drumming"
     },
     1097: {
-        captain: "Boosts ATK of Powerhouse characters by 3.5x after the 5th Perfect.",
+        captain: "Boosts ATK of Powerhouse characters by 3.5x after the 5th Perfect in a row.",
         special: "Deals [INT] damage to one enemy. Boosts own ATK by 1.75x for 1 turn.",
         specialName: "Crash Drumming"
     },
@@ -6174,24 +6174,24 @@ module.exports = {
         special: "Recovers 10x character's RCV in HP. For 4 turns, makes [BOMB] orbs \"beneficial\"",
         specialNotes: "\"Beneficial\" orbs grant the same ATK boost as matching orbs while retaining their original function."
     },
-    1215: { //Gairam
+    1215: {//Gairam
         captain: "Boosts ATK by 2.5x following a chain of [QCK] > [PSY] > [DEX] attacks no lower than Good",
         special: "Deals 5 hits of 2,000 fixed damage to random enemies and reduces any damage received above 5,000 HP by 80% for 1 turn",
         specialNotes: "#{randomHits : 5}",
         specialName: "Totem Cube"
     },
-    1216: { //sebastian
+    1216: {//Sebastian
         captain: "Boosts ATK of Powerhouse characters by 2x and reduces damage received based on current HP by up to 20%",
         captainNotes: "The lower the HP, the larger the damage reduction. At 50% HP you take 10% reduced damage",
         special: "Reduces damage received by 50% for 1 turn, and changes own orb into [QCK]",
         specialName: "Camouflage Air",
     },
-    1217: { //nightin
+    1217: {//Nightin
         captain: "Boosts ATK and RCV of Cerebral characters by 1.5x",
         special: "Reduces Paralysis and Bind duration by 2 turns. Deal 10x her ATK in [PSY] damage to one enemy",
         specialName: "Catepillar Soul Shot",
     },
-    1218: {//hancock
+    1218: {//Hancock
         captain: "Boosts ATK by 2.5x after scoring 3 Perfects in a row",
         special: "Locks all orbs for 1 turn. If HP is below 30%, changes own orb and the captain's orb into matching. ",
         specialName: "Everybody Confusing Fragrance",
@@ -6733,7 +6733,7 @@ module.exports = {
         specialName: "Wild Hunt",
     },
     1285: {//Wild Luffy Evolved
-        captain: "Boosts ATK of Striker characters by 1.5x and their HP by 1.25x. After scoring 3 Perfects in a row, boosts ATK of Striker characters by 3.375x instead.",
+        captain: "Boosts ATK of Striker characters by 1.5x and their HP by 1.25x. Boosts ATK of Striker characters by 3.375x after scoring 3 Perfects in a row.",
         special: "Reduces Bind and Silence duration by 3 turns. Randomizes non-matching orbs including [BLOCK] orbs",
         specialNotes: "#{silence}",
         sailor: "Reduces Silence duration against this character by 3 turns",
@@ -6917,7 +6917,7 @@ module.exports = {
         limitNotes: "This will be updated soon"
     },
     1315: {//Coby
-        captain: "Boosts ATK by 2x after the 2nd Perfect and by 3x after the 5th Perfect.",
+        captain: "Boosts ATK of all characters by 2x after the 2nd Perfect in a row and by 3x after the 5th Perfect in a row.",
         special: [
             {
                 "description": "If HP is below 3,000 when the special is activated, reduces No Healing debuff by 1 turn. Recovers 3x character's RCV in HP",
@@ -6937,7 +6937,7 @@ module.exports = {
         specialName: "Echoing Cry of the Soul",
     },
     1316: {//Coby
-        captain: "Boosts ATK by 2.5x after the 2nd Perfect and by 3.5x after the 5th Perfect.",
+        captain: "Boosts ATK of all characters by 2.5x after the 2nd Perfect in a row and by 3.5x after the 5th Perfect in a row.",
         special: [
             {
                 "description": "If HP is below 3,000 when the special is activated, reduces No Healing debuff by 1 turn. Recovers 3x character's RCV in HP",
@@ -7218,7 +7218,7 @@ module.exports = {
         specialName: "Covering Fire",
     },
     1352: {//Ivankov
-        captain: "Boosts ATK of Fighter characters by 2x, boosts Atk of Fighter characters by 3.5x after the 5th Perfect",
+        captain: "Boosts ATK of Fighter characters by 2x at the start of the chain, boosts Atk of Fighter characters by 3.5x after the 5th Perfect in a row",
         special: "Following the activation of the special, if every unit scores a Perfect hit, reduces damage received by 90% in the following turn",
         specialName: "Rolling Beauty",
     },
@@ -7379,14 +7379,14 @@ module.exports = {
         specialName: "Kakuho: Elf",
     },
     1371: {//Wild Zoro
-        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.25x after the 2nd Perfect and by 2.5x after the 4th Perfect.",
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.25x after the 2nd Perfect in a row and by 2.5x after the 4th Perfect in a row.",
         special: "Reduces Despair duration by 3 turns. Reduces Special Cooldown of Slasher and Powerhouse characters by 2 turns",
         sailor: "Restores his own special by 2 turns when it is rewinded",
         sailorNotes: "#{rewind : 2}",
         specialName: "Wild Plan",
     },
     1372: {//Wild Zoro
-        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.5x after the 2nd Perfect and by 3x after the 4th Perfect.",
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.5x after the 2nd Perfect in a row and by 3x after the 4th Perfect in a row.",
         special: "Reduces Despair duration by 3 turns. Reduces Special Cooldown of Slasher and Powerhouse characters by 2 turns",
         sailor: "Restores his own special by 2 turns when it is rewinded",
         sailorNotes: "#{rewind : 2}",
@@ -7495,7 +7495,7 @@ module.exports = {
         specialName: "Mother's Promise",
     },
     1387: {//Luffy 5+
-        captain: "Boosts ATK of all characters by 2.25x and their HP by 1.25x. Boosts ATK by 2.8125x after scoring 4 Perfects in a row",
+        captain: "Boosts ATK of all characters by 2.25x and their HP by 1.25x, boosts ATK by 2.8125x after scoring 4 Perfects in a row",
         special: "Deals 40x character's ATK in [STR] damage to all enemies, and delays all enemies for 1 turn",
         specialName: "Gum Gum: Elephant Gun",
         limit: "This unit has a Limit Break skill tree",
@@ -7884,12 +7884,14 @@ module.exports = {
     1441: {//Zeo
         captain: "Boosts ATK of [INT] characters by 1.5x, and reduces damage received by 10%",
         special: "Makes Perfects easier to hit, locks all orbs, and locks the chain multiplier at 2.5x for 1 turn",
+        specialNotes: "Increases timing window to hit a Perfect. (Animation remains the same)",
         specialName: "Flail Hidden From God",
         sailor: "Completely resists Blindness if your Captain is a Powerhouse character",
     },
     1442: {//Zeo
         captain: "Boosts ATK of [INT] characters by 2.25x and reduces damage received by 20%",
         special: "Makes Perfects easier to hit, locks all orbs, and locks the chain multiplier at 2.5x for 1 turn",
+        specialNotes: "Increases timing window to hit a Perfect. (Animation remains the same)",
         specialName: "Flail Hidden From God",
         sailor: "Completely resists Blindness if your Captain is a Powerhouse character",
     },
@@ -8020,7 +8022,7 @@ module.exports = {
         specialName: "Crescendo Stone",
     },
     1461: {//Snow Zoro
-        captain: "Boosts ATK of [QCK] characters by 2x at the start of the chain, by 2.6x after the 3rd Perfect.",
+        captain: "Boosts ATK of [QCK] characters by 2x at the start of the chain, by 2.6x after the 3rd Perfect in a row.",
         special: "Deals 11x character's ATK in [QCK] damage to one enemy, boosts ATK of [QCK] characters by 1.5x for 1 turn",
         specialName: "Demoltion: Ice Crush",
     },
@@ -8167,7 +8169,7 @@ module.exports = {
         specialName: "Stalking Rose Axe",
     },
     1481: {//Vander Decken IX
-        captain: "Boosts ATK by 2.5x after the 2nd Perfect and by 3.5x after the 5th Perfect.",
+        captain: "Boosts ATK by 2.5x after the 2nd Perfect in a row and by 3.5x after the 5th Perfect in a row.",
         special: "Deals 200,000 fixed damage to one enemy that will ignore damage negating abilities and barriers, reduces Bind and Silence duration by 2 turns",
         specialNotes: "#{ignoreBarrier}<br>#{silence}",
         sailor: "Restores his own special by 1 turn when it is rewinded and reduces Silence for 3 turns for himself",
@@ -8520,13 +8522,13 @@ module.exports = {
         limitNotes: "This will be updated soon"
     },
     1533: {//Rayleigh
-        captain: "Boosts ATK of [QCK] characters by 2x and their HP by 1.2x at the start of the chain, by 2.5x after the 4th Perfect.",
+        captain: "Boosts ATK of [QCK] characters by 2x and their HP by 1.2x at the start of the chain, by 2.5x after the 4th Perfect in a row.",
         special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
         sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
         specialName: "The Teacher's Final Ordeal",
     },
     1534: {//Rayleigh
-        captain: "Boosts ATK of [QCK] characters by 2.5x and their HP by 1.2x at the start of the chain, by 3x after the 4th Perfect.",
+        captain: "Boosts ATK of [QCK] characters by 2.5x and their HP by 1.2x at the start of the chain, by 3x after the 4th Perfect in a row.",
         special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
         sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
         specialName: "The Teacher's Final Ordeal",
@@ -8687,7 +8689,7 @@ module.exports = {
         specialName: "Drugs From Heaven",
     },
     1563: {//Elizabello
-        captain: "Boosts ATK of Fighter and Powerhouse characters by 1.75x at the start of the chain and by 2.1875x after the 5th Perfect",
+        captain: "Boosts ATK of Fighter and Powerhouse characters by 1.75x at the start of the chain and by 2.1875x after the 5th Perfect in a row",
         special: [
             {
                 "description": "Changes own orb into [STR], deals 10 hits of 3x character's ATK in typeless damage to random enemies",
@@ -8703,7 +8705,7 @@ module.exports = {
         sailor: "Boosts own ATK by 350 if this character is the last in the chain to attack",
     },
     1564: {//Elizabello
-        captain: "Boosts ATK of Fighter and Powerhouse characters by 2x at the start of the chain and by 3x after the 5th Perfect",
+        captain: "Boosts ATK of Fighter and Powerhouse characters by 2x at the start of the chain and by 3x after the 5th Perfect in a row",
         special: [
             {
                 "description": "Changes own orb into [STR], deals 10 hits of 3x character's ATK in typeless damage to random enemies",
@@ -8794,7 +8796,7 @@ module.exports = {
         specialName: "Flaming Flash",
     },
     1578: {//Momonosuke
-        captain: "Protects from defeat as long as HP is above ???%",
+        captain: "Protects from defeat as long as HP is above 50%",
         special: [
             {
                 "description": "Adds .2x to Chain multiplier for 1 turn",
@@ -8814,7 +8816,7 @@ module.exports = {
         specialName: "Miraculous Flying Dragon",
     },
     1579: {//Momonosuke
-        captain: "Boosts ATK, HP and RCV of all characters by 1.25x, protects from defeat as long as HP is above 30%",
+        captain: "Boosts ATK, HP and RCV of all characters by 1.25x, protects from defeat as long as HP is above 50%",
         special: [
             {
                 "description": "Adds .2x to Chain multiplier for 1 turn",
@@ -8962,7 +8964,7 @@ module.exports = {
         sailor: "Boosts own ATK by 100 if this character is the last in the chain to attack",
     },
     1602: {//Power Creep Shiryu
-        captain: "Boosts ATK of Slasher characters by 2x at the start of the chain, by 3x after the 3rd Perfect",
+        captain: "Boosts ATK of Slasher characters by 2x at the start of the chain, by 3x after the 3rd Perfect in a row",
         special: "Instantly defeats all enemies with HP equal to or below 75x character's ATK, removes Poison and reduces damage received by 50% for 3 turns,",
         specialName: "Blood Stained 'Iron Wall'",
         sailor: "Boosts own ATK by 100 if this character is the last in the chain to attack",
@@ -9278,7 +9280,7 @@ module.exports = {
     },
     1650: {//Brook x5
         captain: "Boosts RCV of [DEX] characters by 1.5x and boosts ATK by 3x if they have a matching orb, by 1.5x otherwise.",
-        special: "Changes [BLOCK], [TND], [EMPTY], and [BOMB] orbs into [DEX] orbs and amplifies the effect of orbs by 1.5x for 1 turns",
+        special: "Changes [BLOCK], [TND], [EMPTY], and [BOMB] orbs into [DEX] orbs and amplifies the effect of orbs by 1.5x for 1 turn",
         specialName: "Eyes Blinded by True Beauty",
     },
     1651: {//Nekomamushi
@@ -9378,12 +9380,12 @@ module.exports = {
     },
     1664: {//STR Aokiji
         captain: "Boosts ATK of Shooter characters by 2.5x",
-        special: "Locks all orbs for 1 turn. If during that turn, you hit 2 PERFECTS and your Captain is a Shooter, boosts ATK of Shooter characters by 2x for 1 turn in the following turn.",
+        special: "Locks all orbs for 1 turn. If during that turn, you hit 2 PERFECTS and your Captain is a Shooter character, boosts ATK of Shooter characters by 2x for 1 turn in the following turn.",
         specialName: "Ice Saber",
     },
     1665: {//STR Aokiji
         captain: "Boosts ATK of Shooter characters by 2.5x and boosts ATK of Shooters by 3.25x after scoring 3 PERFECTS in a row",
-        special: "Locks all orbs for 1 turn. If during that turn, you hit 2 PERFECTS and your Captain is a Shooter, boosts ATK of Shooter characters by 2x for 1 turn in the following turn.",
+        special: "Locks all orbs for 1 turn. If during that turn, you hit 2 PERFECTS and your Captain is a Shooter character, boosts ATK of Shooter characters by 2x for 1 turn in the following turn.",
         specialName: "Ice Saber",
         limit: "This unit has a Limit Break skill tree",
         limitNotes: "This will be updated soon"
@@ -9457,7 +9459,7 @@ module.exports = {
         specialName: "ROOM: Kikoku",
     },
     1678: {//Log Law
-        captain: "Boosts ATK of Slasher characters by 2.5x at the start of the chain, by 3.25x after the 3rd Perfect",
+        captain: "Boosts ATK of Slasher characters by 2.5x at the start of the chain, by 3.25x after the 3rd Perfect in a row",
         special: "Boosts the Color Affinity of Slasher by 1.5x for 1 turn, changes middle row orbs into matching orbs and switches orbs between slots three times",
         specialName: "ROOM: Kikoku",
         limit: "This unit has a Limit Break skill tree",
@@ -9480,7 +9482,7 @@ module.exports = {
         sailor: "Boosts HP and ATK of all characters by 56",
     },
     1682: {//20th Anni Luffy
-        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect",
+        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect in a row",
         special: "Cuts the current HP of each enemy by 20%, if Luffy is your Captain or Friend/Guest Captain, changes left column into Matching orbs, otherwise, adds .5x to Chain multiplier for 1 turn.",
         specialName: "Gomu Gomu no Tako Stamp",
         sailor: "Boosts HP and ATK of all characters by 56",
@@ -9659,13 +9661,13 @@ module.exports = {
     },
     1705: {//Bon Clay
         captain: "Boosts ATK of [STR] characters by 2x",
-        special: "Removes all positive buffs on your team. If the special is activated with more than ??% health remaining, protects from defeat for 1 turn",
+        special: "Removes all positive buffs on your team. If the special is activated with more than 50% health remaining, protects from defeat for 1 turn",
         specialName: "A Speech Left in Hell",
         sailor: "Boosts HP, RCV, and ATK of all characters by 50",
     },
     1706: {//Bon Clay
         captain: "Boosts ATK of [STR] characters by 2.5x at the start of the chain, and boosts ATK of [STR] characters by 3.125x after scoring 3 Perfects in a row",
-        special: "Removes all positive buffs on your team. If the special is activated with more than ??% health remaining, protects from defeat for 1 turn",
+        special: "Removes all positive buffs on your team. If the special is activated with more than 50% health remaining, protects from defeat for 1 turn",
         specialName: "A Speech Left in Hell",
         sailor: "Boosts HP, RCV, and ATK of all characters by 50",
         limit: "This unit has a Limit Break skill tree",
@@ -9674,7 +9676,7 @@ module.exports = {
     1707: {//Shanks 6+
         captain: "Boosts ATK of [PSY] characters by 2.75x and their HP by 1.3x. Boosts chances of getting [PSY] orbs proportionally to the crew's current HP.",
         captainNotes: "At 1 HP, the rate of [PSY] orbs is ???% and at full HP, the rate of [PSY] orbs is ???%",
-        special: "Deals 75x character's ATK in typeless damage to one enemy, reduces the defense of all enemies by 100% for 1 turns and changes all orbs to [PSY] orbs",
+        special: "Reduces the defense of all enemies by 100% for 1 turn, deals 75x character's ATK in typeless damage to one enemy and changes all orbs to [PSY] orbs",
         specialName: "One-Armed Man that Splits the Heavens",
     },
     1708: {//Summer Nami
@@ -9819,13 +9821,13 @@ module.exports = {
     },
     1732: {//Nekomamushi
         captain: "Boosts ATK of [STR] characters by 2x, boosts HP of Striker and Powerhouse characters by 1.1x",
-        special: "Deals 50x character's ATK in typeless damage to all enemies that will ignore damage negating abilities and barriers. If enemies have debuff protection at the time the special was activated, boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn and changes all orbs, including [BLOCK] orbs, into Matching orbs",
+        special: "Deals 50x character's ATK in typeless damage to one enemy that will ignore damage negating abilities and barriers. If enemies have debuff protection at the time the special was activated, boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn and changes all orbs, including [BLOCK] orbs, into Matching orbs",
         specialNotes: "#{ignoreBarrier}",
         specialName: "Nekomamushi Special",
     },
     1733: {//Nekomamushi
         captain: "Boosts ATK of [STR] characters by 2.5x, boosts HP of Striker and Powerhouse characters by 1.25x",
-        special: "Deals 50x character's ATK in typeless damage to all enemies that will ignore damage negating abilities and barriers. If enemies have debuff protection at the time the special was activated, boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn and changes all orbs, including [BLOCK] orbs, into Matching orbs",
+        special: "Deals 50x character's ATK in typeless damage to one enemy that will ignore damage negating abilities and barriers. If enemies have debuff protection at the time the special was activated, boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn and changes all orbs, including [BLOCK] orbs, into Matching orbs",
         specialNotes: "#{ignoreBarrier}",
         specialName: "Nekomamushi Special",
     },
@@ -9901,29 +9903,29 @@ module.exports = {
         limit: "This unit has a Limit Break skill tree",
         limitNotes: "This will be updated soon"
     },
-    1746: {//Bepo
+    1746: {//Boa Hancock
+        captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn. Greatly reduces chances of getting [TND] / [RCV] orbs",
+        special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
+        specialName: "Pistol Kisses",
+    },
+    1747: {//Boa Hancock
+        captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn. Greatly reduces chances of getting [TND] / [RCV] orbs",
+        special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
+        specialName: "Pistol Kisses",
+        limit: "This unit has a Limit Break skill tree",
+        limitNotes: "This will be updated soon"
+    },
+    1748: {//Bepo
         captain: "Boosts ATK and HP of QCK characters by 1.5x",
         special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
         sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
         specialName: "Bear Rush Out",
     },
-    1747: {//Bepo
+    1749: {//Bepo
         captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK and HP of QCK characters by 2x",
         special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
         sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
         specialName: "Bear Rush Out",
-        limit: "This unit has a Limit Break skill tree",
-        limitNotes: "This will be updated soon"
-    },
-    1748: {//Boa Hancock
-        captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn. Grealy reduces chances of getting [TND] / [RCV] orbs",
-        special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
-        specialName: "Pistol Kisses",
-    },
-    1749: {//Boa Hancock
-        captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn. Grealy reduces chances of getting [TND] / [RCV] orbs",
-        special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
-        specialName: "Pistol Kisses",
         limit: "This unit has a Limit Break skill tree",
         limitNotes: "This will be updated soon"
     },
@@ -9959,13 +9961,13 @@ module.exports = {
     },
     1752: {//20th Anni Zoro
         captain: "Boosts ATK of characters with cost 30 or less by 2.5x",
-        special: "Deals 60x character's ATK in [INT] damage to one enemy. Boosts ATK of characters with 30 cost or less by 1.75x for 1 turn. If Zoro is a Capain or Friend/Guest Captain, then if during that turn you score 4 Perfect hits, boosts ATK of characters by 2x in the following turn.",
+        special: "Deals 60x character's ATK in [INT] damage to one enemy. Boosts ATK of characters with 30 cost or less by 1.75x for 1 turn. If Zoro is a Capain or Friend/Guest Captain, then if during that turn you score 4 Perfect hits, boosts ATK of characters with 30 cost or less by 2x in the following turn.",
         sailor: "Boosts ATK of Slasher characters by 50",
         specialName: "Three Sword Style: Ultra Tiger Hunting",
     },
     1753: {//20th Anni Zoro
-        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect",
-        special: "Deals 60x character's ATK in [INT] damage to one enemy. Boosts ATK of characters with 30 cost or less by 1.75x for 1 turn. If Zoro is a Capain or Friend/Guest Captain, then if during that turn you score 4 Perfect hits, boosts ATK of characters by 2x in the following turn.",
+        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect in a row",
+        special: "Deals 60x character's ATK in [INT] damage to one enemy. Boosts ATK of characters with 30 cost or less by 1.75x for 1 turn. If Zoro is a Capain or Friend/Guest Captain, then if during that turn you score 4 Perfect hits, boosts ATK of characters with 30 cost or less by 2x in the following turn.",
         sailor: "Boosts ATK of Slasher characters by 50",
         specialName: "Three Sword Style: Ultra Tiger Hunting",
     },
@@ -10019,6 +10021,16 @@ module.exports = {
         sailorNotes: "#{silence}<br>#{rewind : 2}",
         specialName: "Intelligent Monster",
     },
+    1762: {//Rob Lucci
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row, and by 4.026275x after the 5th Perfect in a row.",
+        special: "Reduces the defense of all enemies by ???% for 2 turns, deals ???x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        specialName: "Flying Finger Gun: Fire Sting",
+    },
+    1763: {//Rob Lucci
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row, and by 4.026275x after the 5th Perfect in a row.",
+        special: "Reduces the defense of all enemies by ???% for 2 turns, deals ???x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        specialName: "Flying Finger Gun: Fire Sting",
+    },
     1764: {//6+ Aokiji
         captain: "Boosts ATK of all characters by 2.25x and their HP by 1.25x. If you defeat an enemy, increases ATK boost slighty. Stacks up to 5 times to a maximum of 3.5x.",
         captainNotes: "If a character dies and revives, it counts as killing a character. If you did not defeat an enemy, lose all ATK boost stacks.",
@@ -10026,8 +10038,28 @@ module.exports = {
         specialNotes: "#{ignoreBarrier}",
         specialName: "Determined Man's Ice Attack",
     },
+    1765: {//Blue Gilly
+        captain: "Boosts ATK of Fighter characters by 1.5x",
+        special: "Deals 10 hits of 5x character's ATK in typeless damage to random enemies, reduces the defense of all enemies by 50% for 1 turn, randomizes non-matching orbs, including [BLOCK] orbs",
+        specialName: "Jao Kun Do Consecutive Thrusting Kick",
+    },
+    1766: {//Blue Gilly
+        captain: "Boosts chain multiplier by 1.5x and boosts ATK of Fighter characters by 1.5x",
+        special: "Deals 10 hits of 5x character's ATK in typeless damage to random enemies, reduces the defense of all enemies by 50% for 1 turn, randomizes non-matching orbs, including [BLOCK] orbs",
+        specialName: "Jao Kun Do Consecutive Thrusting Kick",
+    },
+    1767: {//Funk Bros
+        captain: "Boosts ATK of Fighter characters by 1.75x",
+        special: "Delays all enemies for 1 turn, following the activation of the special, if every unit scores a Great hit, boosts ATK of Fighter characters by 1.5x in the following turn",
+        specialName: "Prideless Surprise Attack",
+    },
+    1768: {//Abdullah and Jeet
+        captain: "Boosts ATK of Striker and Slasher characters by 1.5x",
+        special: "At the end of the turn, cuts the current HP of each enemy by 10% for 2 turns",
+        specialName: "Nasty Final Blow",
+    },
     1769: {//Ben Beckman
-        captain: "Boosts ATK of Cerebral characters by ???x",
+        captain: "Boosts ATK of Cerebral characters by 2.5x",
         special: "Delays all enemies for 1 turn. If your captain is a Cerebral Character, boosts ATK against delayed enemies by 1.5x for 1 turn and changes adjacent orbs into Matching Orbs",
         specialName: "Restraining Gunpoint",
     },
@@ -10038,14 +10070,14 @@ module.exports = {
         limit: "This unit has a Limit Break skill tree",
         limitNotes: "This will be updated soon"
     },
-    1771: {
+    1771: {//Kuma
         captain: "Boosts ATK and HP of Cerebral characters by 2x",
         specialName: "Thrust Pad Cannon [Neo]",
         special: "Changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs, amplifies the effect of orbs by 1.75x for 1 turn",
         specialNotes: "#{orb : 1.75x}"
     },
-    1772: {
-        captain: "Boosts ATK and HP of Cerebral characters by 2x, deals 5 times the damage received in the previous turn in STR damage to all enemies at the end of each turn",
+    1772: {//Kuma
+        captain: "Boosts ATK and HP of Cerebral characters by 2x, deals 5 times the damage received in the previous turn in [INT] damage to all enemies at the end of each turn",
         specialName: "Thrust Pad Cannon [Neo]",
         special: "Changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs, amplifies the effect of orbs by 1.75x for 1 turn",
         specialNotes: "#{orb : 1.75x}"
