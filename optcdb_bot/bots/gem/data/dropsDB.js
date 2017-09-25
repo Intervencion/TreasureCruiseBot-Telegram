@@ -610,15 +610,15 @@ module.exports = {
             '03': [  ],
             '04': [ 1344 ],
             '05': [ 1345 ],
-            '06': [ 1346 ],
-            '07': [ 1347 ],
-            '08': [ 1348 ],
-            '09': [ 1349 ],
-            '10': [  ],
-            '11': [ 1350 ],
-            '12': [ 1351 ],
-            '13': [ 1352 ],
-            '14': [ 1353 ],
+            '06': [ 1346, 'skullUsopp' ],
+            '07': [ 1347, 'skullChopper' ],
+            '08': [ 1348, 'skullZoro' ],
+            '09': [ 1349, 'skullNami' ],
+            '10': [ 'skullFranky' ],
+            '11': [ 1350, 'skullBrook' ],
+            '12': [ 1351, 'skullRobin' ],
+            '13': [ 1352, 'skullSanji' ],
+            '14': [ 1353, 'skullLuffy' ],
         },
         
         {
@@ -1630,16 +1630,24 @@ module.exports = {
         {
             name: 'Underground Trade Port! Escape!',
             thumb: 1735,
-            gamewith: null,
+            gamewith: 66021,
             condition: 'Limited amount of turns to complete the mission.',
             'All Difficulties': [ 1734, 1736, -1571, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1354 ]
         },
         
         {
             name: 'Battle Royale!',
-            thumb: 1776,
+            thumb: 1766,
             gamewith: 67118,
             'All Difficulties': [ 1765, 1767, 1768, -1192, -1764, -520, -1115, -1184, -1190, -554, -1175, -1612, -1614, -1353, -1393 ]
+        },
+        
+        {
+            name: 'Wano Samurai!',
+            thumb: 1774,
+            condition: 'Shooter and Free Spirit characters get a boost (1.2x ATK, HP and RCV boost on 30 stamina)',
+            gamewith: 68608,
+            'All Difficulties': [ 1773, 1775, -963, -1588, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
         },
         
     ],
@@ -1829,7 +1837,7 @@ module.exports = {
         {
             name: 'Clash Neo!! Tyrant Kuma',
             thumb: 1772,
-            gamewith: null,
+            gamewith: 67120,
             condition: '1 Master version and 3 Ultimate versions with different conditions. Master: Shooter/Slasher/Cerebral Only. Can only complete 10 times each. Ultimate: Shooter Only, Slasher Only, and Cerebral Only',
             Ultimate: [ 1771 ],
             Master: [ 1771 ]
@@ -1873,6 +1881,15 @@ module.exports = {
             teamDatabase: 'raid_bosses/16',
             Ultimate: [ 977 ],
             Master: [ 977 ]
+        },
+        
+        {
+            name: 'Clash Neo!! Kizaru',
+            thumb: 1780,
+            gamewith: 68681,
+            condition: '1 Master version and 3 Ultimate versions with different conditions. Master: Free Spirit/Striker/Powerhouse Only. Can only complete 10 times each. Ultimate: Free Spirit Only, Striker Only, and Powerhouse Only',
+            Ultimate: [ 1779 ],
+            Master: [ 1779 ]
         },
         
         {
@@ -1938,6 +1955,7 @@ module.exports = {
         {
             name: 'Clash!! Warden Magellan',
             thumb: 1374,
+            global: true,
             condition: 'Take 7% MAX Health in Environmental Damage',
             gamewith: 45906,
             Master: [ 1373 ],
@@ -1955,6 +1973,7 @@ module.exports = {
         {
             name: 'Clash!! Bellamy',
             thumb: 1518,
+            global: true,
             gamewith: '%20%2053151',
             Master: [ 1517 ],
             Expert: [ 1517 ],
@@ -2000,11 +2019,12 @@ module.exports = {
         {
             name: 'Ace Training Ground',
             thumb: 1605,
+            global: true,
             'All Difficulties': [ 1604 ],
         },
 
         {
-            name: 'Battle Royal! Oars',
+            name: 'Battle Royale! Oars',
             thumb: 893,
             global: true,
             challenge:'Total number of hits above 50,000',
@@ -2063,9 +2083,9 @@ module.exports = {
             global: true,
             gamewith: 17473,
             teamDatabase: 'coliseums',
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732 ]
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791 ]
         },
         
         {
@@ -2074,7 +2094,7 @@ module.exports = {
             global: true,
             gamewith: 38237,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard. Can drop a Super Evolution Skull.',
-            'All Difficulties': [ 1257 ]
+            'All Difficulties': [ 1257, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
@@ -2083,7 +2103,7 @@ module.exports = {
             global: true,
             gamewith: 46369,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks. Can drop a Super Evolution Skull.',
-            'All Difficulties': [ 1379, 952, 776 ]
+            'All Difficulties': [ 1379, 952, 776, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
@@ -2091,7 +2111,7 @@ module.exports = {
             thumb: 1530,
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish. Can drop a Super Evolution Skull.',
-            'All Difficulties': [ 1529 ]
+            'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
@@ -2128,7 +2148,7 @@ module.exports = {
         },
         
         {
-            name: 'Big Battle! The Three Admirals',
+            name: 'Battle Royale! The Three Admirals',
             thumb: 1314,
             gamewith: 61665,
             condition: 'Chance of dropping the Silver Almighty Book.',
@@ -2137,12 +2157,20 @@ module.exports = {
         },
         
         {
-            name: 'Big Battle! Straw Hat Pirates',
+            name: 'Battle Royale! Straw Hat Pirates',
             thumb: 1404,
             gamewith: 65078,
             condition: 'Chance of dropping the Silver Almighty Book.',
             'All Bosses': [ -1621, -1632, -1665, -1678, -1721 ],
             'Chopperman Missions': [ 1728 ],
+        },
+        
+        {
+            name: 'Battle Royale! Doflamingo Family',
+            thumb: 870,
+            gamewith: 68282,
+            condition: 'Chance of dropping the Silver Almighty Book, Guidence Fragments and Guidence Crystals.',
+            'All Bosses': [ -1621, -1632, -1665, -1678, -1713, -1721, -1770 ],
         },
         
         {
@@ -2201,6 +2229,15 @@ module.exports = {
             showManual: true,
             condition: 'No characters will drop posters.',
             'All Difficulties': [ -1121, -578, -1404, -1593, -217, -210, -908, -937, -941, -943, -1115, -520, -1208, -558, -1210, -556, -1212, -560, -1364, -1408, -1387, -4, -1446, -16, -1549, -709, -1550, -739, -223, -15, -629, -209 ],
+        },
+        
+        {
+            name: '20th Anniversary! Sanji!',
+            thumb: 1755,
+            gamewith: 66019,
+            showManual: true,
+            condition: 'No characters will drop posters.',
+            'All Difficulties': [ -1388, -1362, -1175, -906, -554, -219, -218, -8, -1447, -1368, -1117, -912, -522, -20, -19, -1389, -1366, -1119, -221, -12, -11, -1410, -1551, -1173, -914, -896, -526, -1412, -1370, -1448, -1177, -910, -528, -23, -22 ],
         },
         
         {
