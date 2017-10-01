@@ -711,7 +711,7 @@ module.exports = {
             name: 'Punk Hazard Ice Lands - First Floor Room R',
             shortName: 'Punk Hazard 2',
             thumb: 1716,
-            completion: '10x Rainbow Gems',
+            completion: '5x Rainbow Gems',
             gamewith: 65822,
             '01': [ 1636 ],
             '02': [  ],
@@ -727,6 +727,26 @@ module.exports = {
             '12': [ 1718, 1719 ],
             '13': [ 1715 ],
             '14': [ 1636 ],
+        },
+        
+        {
+            name: 'Dressrosa - Harbor Town Acacia Colosseum',
+            shortName: 'Dressrosa 1',
+            thumb: 1782,
+            completion: '5x Rainbow Gems',
+            gamewith: 70405,
+            '01': [  ],
+            '02': [ 1785 ],
+            '03': [  ],
+            '04': [ 1781 ],
+            '05': [ 1782 ],
+            '06': [ 1648 ],
+            '07': [  ],
+            '08': [ 1784 ],
+            '09': [ 1783 ],
+            '10': [  ],
+            '11': [ 1648 ],
+            '12': [ 1782 ],
         },
         
     ],
@@ -1650,6 +1670,14 @@ module.exports = {
             'All Difficulties': [ 1773, 1775, -963, -1588, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
         },
         
+        {
+            name: 'Zou Royal Guard!',
+            thumb: 1812,
+            condition: 'Powerhouse Characters will be weakened',
+            gamewith: null,
+            'All Difficulties': [ 1811, 1809, -1240, -1575, -1658, -1232, -1238, -1117, -522, -1119, -524, -1504, -1503 ]
+        },
+        
     ],
 
             
@@ -2003,6 +2031,15 @@ module.exports = {
             gamewith: 63217,
             Master: [ 1695 ],
             Expert: [ 1695 ]
+        },
+        
+        {
+            name: 'Clash!! Vinsmoke Sanji',
+            thumb: 1815,
+            gamewith: null,
+            Ultimate: [ 1814 ],
+            Master: [ 1814 ],
+            Expert: [ 1814 ]
         },
 
     ],
