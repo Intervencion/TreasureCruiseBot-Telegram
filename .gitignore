@@ -1,1 +1,5 @@
 optcdb_bot/server.js
+optcdb_bot/public.pem
+optcdb_bot/cert/private.key
+optcdb_bot/cert/private.key
+optcdb_bot/private.key
