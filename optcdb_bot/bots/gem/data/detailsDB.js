@@ -76,7 +76,8 @@ module.exports = {
     8: {
         special: "Deals 15x character's ATK in DEX damage to all enemies",
         specialName: "Ashura Ichibugin",
-        captain: "Boosts ATK and HP of DEX characters by 2x"
+        captain: "Boosts ATK and HP of DEX characters by 2x",
+        limit: "This character has a limit break path",
     },
     9: {
         special: "Recovers 1,000 HP",
@@ -822,7 +823,8 @@ module.exports = {
     221: {
         special: "Changes [PSY] orbs into [INT] orbs",
         specialName: "Happiness Punch",
-        captain: "Boosts ATK of INT characters by 2.5x"
+        captain: "Boosts ATK of INT characters by 2.5x",
+        limit: "This character has a limit break path",
     },
     222: {
         special: "Boosts ATK of PSY characters by 1.5x for 1 turn",
@@ -1082,7 +1084,8 @@ module.exports = {
     259: {
         special: "Changes [DEX] and [QCK] orbs into [STR] orbs",
         specialName: "Pocket Mallet",
-        captain: "Boosts ATK and RCV of STR characters by 2x"
+        captain: "Boosts ATK and RCV of STR characters by 2x",
+        limit: "This character has a limit break path",
     },
     260: {
         special: "Cuts the current HP of each enemy by 30%",
@@ -1092,7 +1095,8 @@ module.exports = {
     261: {
         special: "Cuts the current HP of each enemy by 30%",
         specialName: "Seaquake",
-        captain: "Boosts ATK of all characters by 3x if HP is below 30% at the start of the turn"
+        captain: "Boosts ATK of all characters by 3x if HP is below 30% at the start of the turn",
+        limit: "This character has a limit break path",
     },
     262: {
         captain: "Recovers 2x character's RCV in HP at the end of each turn"
@@ -1283,7 +1287,8 @@ module.exports = {
     310: {
         special: "Cuts the current HP of each enemy by 10%, reduces the defense of all enemies by 50% for 3 turns",
         specialName: "Demon Face",
-        captain: "Reduces RCV of all characters by 90%, reduces damage received by 40%"
+        captain: "Reduces RCV of all characters by 90%, reduces damage received by 40%",
+        limit: "This character has a limit break path",
     },
     311: {
         special: "Deals 100x character's ATK in fixed damage to one enemy, reduces crew's HP to 1",
@@ -1307,7 +1312,8 @@ module.exports = {
     314: {
         special: "Boosts ATK of Striker characters by 1.5x for 1 turn, deals 25x character's ATK in PSY damage to one enemy",
         specialName: "Karmic Punishment",
-        captain: "Boosts ATK of Striker characters by 2x and their HP by 1.5x"
+        captain: "Boosts ATK of Striker characters by 2x and their HP by 1.5x",
+        limit: "This character has a limit break path",
     },
     315: {
         special: "Changes [PSY] and [INT] orbs into [STR] orbs, empties slots with [DEX] and [QCK] orbs",
@@ -1506,7 +1512,8 @@ module.exports = {
         special: "Changes own orb into [STR], deals 9x character's ATK in STR damage to all enemies",
         specialNotes: "The in-game description is wrong, the special does not deal 7x damage",
         specialName: "Steel Magnetic Arm",
-        captain: "Boosts ATK of Striker characters by 2.5x"
+        captain: "Boosts ATK of Striker characters by 2.5x",
+        limit: "This character has a limit break path",
     },
     358: {
         special: "Changes [TND] and [RCV] orbs into [DEX] orbs, deals random DEX damage to all enemies",
@@ -2745,7 +2752,8 @@ module.exports = {
     575: {
         special: "Boosts ATK of Striker characters by 1.75x for 2 turns, locks all orbs for 2 turns",
         specialName: "Ice Block - Pheasant Beak",
-        captain: "Boosts ATK and HP of Striker characters by 2x"
+        captain: "Boosts ATK and HP of Striker characters by 2x",
+        limit: "This character has a limit break path",
     },
     576: {
         special: "Changes [PSY] orbs into [INT] orbs, boosts RCV of all characters by 1.5x for 1 turn",
@@ -3063,7 +3071,8 @@ module.exports = {
         specialNotes: "#{fixed} #{orb : 1.75x}",
         specialName: "Raging Greatsword",
         captain: "Boosts ATK of PSY characters by 3x if HP is below 30% at the start of the turn",
-        sailor: "Recovers 2 turns of Paralysis on self"
+        sailor: "Recovers 2 turns of Paralysis on self",
+        limit: "This character has a limit break path",
     },
     644: {
         special: "Reduces Bind and Despair duration by 2 turns, boosts ATK against delayed enemies by 1.2x for 3 turns",
@@ -4089,7 +4098,8 @@ module.exports = {
     840: {
         captain: "Boosts ATK of Striker characters by 2.5x",
         specialName: "Demon Bamboo",
-        special: "Changes own orb into [INT], boosts own ATK by 2x for 1 turn, deals 15x character's ATK in INT damage to one enemy"
+        special: "Changes own orb into [INT], boosts own ATK by 2x for 1 turn, deals 15x character's ATK in INT damage to one enemy",
+        limit: "This character has a limit break path",
     },
     841: {
         captain: "Recovers 3x character's RCV in HP at the end of each turn, deals 3x character's ATK in PSY damage to all enemies at the end of each turn",
@@ -5185,7 +5195,8 @@ module.exports = {
     999: {
         captain: "Boosts ATK of Driven characters by 2.25x and reduces cooldown of all specials by 2 turns at the start of the fight",
         specialName: "Hira Release: Death Enjambre",
-        special: "Delays all enemies for 2 turns, deals 50x character's ATK as typeless damage to all enemies at the end of the turn for 5 turns"
+        special: "Delays all enemies for 2 turns, deals 50x character's ATK as typeless damage to all enemies at the end of the turn for 5 turns",
+        limit: "This character has a limit break path",
     },
     1000: {
         captain: "Boosts ATK of all characters proportionally to the crew's current HP. Heals for 1.5x his RCV at the end of the turn each time you hit a Good. Heals for .5x his RCV at the end of the turn each time you hit a Great",
@@ -5463,7 +5474,8 @@ module.exports = {
         captainNotes: "ATK boost with 1 Striker is 1.25x. With 2 Strikers: 1.5x. With 3 Strikers: 1.75x. With 4 Strikers: 2x. With 5 Stikers: 2.5x. With 6 Strikers: 2.75x",
         special: "Protects from defeat for 1 turn, and deals several times character's ATK in Typeless damage to one enemy",
         specialNotes: "#{specialProportional : lower : 150 * ( 1 - (remaining HP) / (total HP) )} <br> #{zombie}",
-        specialName: "Bari Bari No Pistol"
+        specialName: "Bari Bari No Pistol",
+        limit: "This character has a limit break path",
     },
     1036: {
         captain: "Boosts ATK of Free Spirit characters by 2x after scoring 3 Perfects in a row",
@@ -5692,7 +5704,8 @@ module.exports = {
     1075: {
         captain: "Boosts ATK and HP of [INT] characters by 2x",
         special: "Changes [QCK] and [PSY] orbs into [INT] orbs.",
-        specialName: "Tenacious Sword of Destruction"
+        specialName: "Tenacious Sword of Destruction",
+        limit: "This character has a limit break path",
     },
     1076:{
         captain: "Boosts ATK of Striker and Free Spirit characters by 1.75x",
@@ -5799,7 +5812,8 @@ module.exports = {
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Chiyupopo"
+        specialName: "Chiyupopo",
+        limit: "This character has a limit break path",
     },
     1080: {
         captain: "Boosts ATK of characters with cost 20 or less by 2.5x",
@@ -6618,7 +6632,8 @@ module.exports = {
         special: "Reduces enemy Barrier duration by 1 turn",
         specialNotes: "Does not affect DEF Boost or % Damage reduction buffs. Reduces timers for Barriers such as Perfect/Great/Good Barriers, Combo Hit Barriers and Orb Hit Barriers",
         specialName: "Break Bullet",
-        sailor: "Boosts base ATK of [QCK] characters by 40"
+        sailor: "Boosts base ATK of [QCK] characters by 40",
+        limit: "This character has a limit break path",
     },
     1191: {
         captain: "Boosts ATK of all characters by 2x and their HP by 1.2x. If you defeat an enemy, increases ATK boost slighty. Stacks up to 8 times to a maximum of 3.5x.",
@@ -6651,6 +6666,7 @@ module.exports = {
         captain: "Boosts ATK of Striker characters by 2x. Recovers 5x character's RCV in HP at the end of each turn",
         special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies. Boosts ATK of Striker characters by 1.75x for 1 turn",
         specialName: "Split Air Hole",
+        limit: "This character has a limit break path",
     },
     1197: {
         captain: "Boosts ATK of Cerebral and Powerhouse characters by 2.5x if they have a matching orb, by 1x otherwise, reduces crew's RCV to 0",
@@ -6997,6 +7013,7 @@ module.exports = {
         specialNotes: "This is the same type of ability as raid boss Shiki's swap. You cannot use it if another effect swaps your captain. (Such as if Shiki swaps first)",
         specialName: "Armed - White Launcher",
         sailor: "Boosts base ATK of Striker characters by 50",
+        limit: "This character has a limit break path",
     },
     1233: {//Tashigi
         captain: "Boosts ATK of Slasher and Cerebral characters by 1.5x, and their RCV by 1.2x",
@@ -7396,6 +7413,7 @@ module.exports = {
         special: "Reduces crew's current HP by 10%. Changes [BLOCK], [TND], and [RCV] orbs on Slasher and Striker characters into Matching Orbs.",
         sailor: "Boosts amount healed from [RCV] orbs by 150 each",
         specialName: "Reaping of Desperate Lives",
+        limit: "This character has a limit break path",
     },
     1279: {//John Giant
         captain: "Boosts ATK and HP of Slasher characters by 1.5x",
@@ -7940,6 +7958,7 @@ module.exports = {
         captain: "Boosts ATK of Striker and Free Spirit characters by 2.25x, reduces damage received by 10%",
         special: "Changes [RCV], [TND], [EMPTY], [G] and [BOMB] orbs into Badly Matching orbs and [STR], [QCK], [DEX], [PSY] and [INT] orbs into Matching orbs for Free Spirit and Striker characters.",
         specialName: "Brushman's Brush",
+        limit: "This character has a limit break path",
     },
     1339: {//Chopper Jump Point
         captain: "Boosts ATK of [DEX] characters by 2.25x",
@@ -8133,6 +8152,7 @@ module.exports = {
         sailor: "Completely resists Silence on this character",
         specialNotes: "#{silence}",
         specialName: "Black Ball - Thundercloud Rod",
+        limit: "This character has a limit break path",
     },
     1367: {//Timeskip Sanji
         captain: "Boosts ATK of [STR] characters by 2x",
@@ -8343,6 +8363,7 @@ module.exports = {
         captain: "Boosts ATK of [DEX] characters by 2.5x",
         special: "Cuts the current HP of each enemy by 10%. Reduces special cooldown of [DEX] specials by 1 turn.",
         specialName: "Ittoriyu: Unfortunate Port Bird",
+        limit: "This character has a limit break path",
     },
     1389: {//Nami 5+
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, Boosts ATK of [INT] characters by 2x and their RCV by 1.5x.",
@@ -8582,6 +8603,7 @@ module.exports = {
         captain: "Boosts ATK of all characters by 3x if HP is below 30% at the start of the turn, 1.75x otherwise and boosts the HP of all characters by 1.2x",
         special: "Cuts the current HP of each enemy by 30%, reduces special cooldown of all non-Captain specials by 1 turn, and randomizes non-matching orbs including [BLOCK] orbs.",
         specialName: "Emperor's Pride",
+        limit: "This character has a limit break path",
     },
     1414: {//Shop Sanji
         captain: "Boosts ATK of Powerhouse characters by 2.5x",
@@ -8993,6 +9015,7 @@ module.exports = {
         specialNotes: "Rainbow orbs are the benefittial form of [BLOCK] orbs. They can not be shuffled or swapped by you or your opponent. They count as benefittial orbs to any character. They do not count as STR orbs for Sakazuki but do act like Matching orbs for Black Clad Ace or Fujitora captain abilities.<br>#{stages}",
         sailor: "Changes all orbs into [RAINBOW] orbs at the start of the fight.",
         specialName: "Tears of Courage",
+        limit: "This character has a limit break path",
     },
     1474: {//King Neptune
         captain: "Boosts ATK of all characters by 1.5x and EXP gained by 1.5x",
@@ -9019,6 +9042,7 @@ module.exports = {
         special: "Delays all enemies by 1 turn, and boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn",
         sailor: "Boosts base HP, RCV and ATK of all characters by 50",
         specialName: "Merman Gujutsu - Spear of the Ages",
+        limit: "This character has a limit break path",
     },
     1478: {//Caribou
         captain: "Boosts ATK of all characters by 1.5x after the 11th hit in the chain, by 1.75x after the 22nd hit, by 2x after the 33th hit, by 3x after the 44th hit",
@@ -9897,6 +9921,7 @@ module.exports = {
         captain: "Boosts ATK of Striker characters by 3x if HP is below 30% at the start of the turn, by 2.5x otherwise",
         special: "Locks all orbs for 1 turn. If there are 4 enemies or more on the stage, amplifies the effect of orbs for Striker characters by 2x for 1 turn, otherwise amplifies the effect of orbs for Striker characters by 1.5x for 1 turn",
         specialName: "Admiral Hug",
+        limit: "This character has a limit break path",
     },
     1585: {//Coliseum Helmeppo
         captain: "Boosts ATK and RCV of Slasher and Driven characters by 1.5x",
@@ -10093,6 +10118,7 @@ module.exports = {
         specialName: "Desert Spada",
         sailor: "Restores his own special by 2 turns when it is rewinded",
         sailorNotes: "#{rewind : 2}",
+        limit: "This character has a limit break path",
     },
     1617: {//Moria
         captain: "Boosts ATK of [STR], [INT], and [DEX] characters by 2x",
@@ -10404,6 +10430,7 @@ module.exports = {
         captain: "Boosts HP of Striker characters by 1.25x and boosts ATK by 3.75x if they have a [STR], [QCK], [DEX], [INT], [PSY] or [RAINBOW] orb",
         special: "Deals 60x character's ATK in [PSY] damage to one enemy and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Striker characters for 1 turn",
         specialName: "Daybreak Ruler's Spear",
+        limit: "This character has a limit break path",
     },
     1653: {//Pedro
         captain: "Boosts ATK of [INT] characters by 2x",
@@ -10758,6 +10785,7 @@ module.exports = {
         captain: "Boosts ATK of Striker characters by 2.5x and reduces damage received by 10%",
         special: "Deals 50x character's ATK in [DEX] damage to one enemy, amplifies the effect of orbs for Striker characters by 1.75x for 1 turn and reduces damage received by 50% for 1 turn",
         specialName: "The Darkest Demon",
+        limit: "This character has a limit break path",
     },
     1697: {//Magellan
         captain: "Boosts ATK of all characters by 2.25x and their HP by 1.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew. Cuts the current HP of each enemy by 15% at the end of each turn",
@@ -11338,13 +11366,13 @@ module.exports = {
     },
     1740: {//Sandersonia
         captain: "Boosts ATK of Striker and Powerhouse characters by 2x and boosts HP of [DEX] characters by 1.1x",
-        special: "Changes all orbs to [DEX] orbs, reduces the defense of all enemies by ???% for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x for 2 turns",
+        special: "Changes all orbs to [DEX] orbs, reduces the defense of all enemies by 80% for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x for 2 turns",
         sailor: "Makes [STR] orbs \"beneficial\" for this unit",
         specialName: "Snake Hair Possession: Eight-Headed Serpent",
     },
     1741: {//Sandersonia
         captain: "Boosts ATK of Striker and Powerhouse characters by 2.5x and boosts HP of [DEX] characters by 1.3x",
-        special: "Changes all orbs to [DEX] orbs, reduces the defense of all enemies by ???% for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x for 2 turns",
+        special: "Changes all orbs to [DEX] orbs, reduces the defense of all enemies by 80% for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x for 2 turns",
         sailor: "Makes [STR] orbs \"beneficial\" for this unit",
         specialName: "Snake Hair Possession: Eight-Headed Serpent",
         limit: [
@@ -11773,12 +11801,12 @@ module.exports = {
     },
     1762: {//Rob Lucci
         captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row, and by 4.026275x after the 5th Perfect in a row.",
-        special: "Reduces the defense of all enemies by ???% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        special: "Reduces the defense of all enemies by 80% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
         specialName: "Flying Finger Gun: Fire Sting",
     },
     1763: {//Rob Lucci
         captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row, and by 4.026275x after the 5th Perfect in a row.",
-        special: "Reduces the defense of all enemies by ???% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        special: "Reduces the defense of all enemies by 80% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
         specialName: "Flying Finger Gun: Fire Sting",
         limit: [
             { "description": "Boosts base ATK by 10" },
@@ -11791,7 +11819,7 @@ module.exports = {
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
-            { "description": "Aquire Sailor Ability 1: Boosts base ATK of Striker characters by 50" },
+            { "description": "Aquire Sailor Ability 1: Boosts base ATK of Powerhouse characters by 50" },
             { "description": "Boosts base ATK by 30" },
             { "description": "Boosts base ATK by 30" },
             { "description": "Boosts base HP by 40" },
@@ -12395,14 +12423,14 @@ module.exports = {
     },
     1801:{//Bartolomeo
         captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2x and if you don't attack with Bartolomeo, reduces damage received by 10% for that turn.",
-        special: "Deal 30x character's ATK in [QCK] damage to all enemies, reduces damage received by 90% for 1 turn and reduces the defense of all enemies by ???% for 2 turns",
-        sailor: "Reduces Paralysis for 3 turns for himself?",
+        special: "Deal 30x character's ATK in [QCK] damage to all enemies, reduces damage received by 90% for 1 turn and reduces the defense of all enemies by 80% for 2 turns",
+        sailor: "Reduces Paralysis for 3 turns for himself",
         specialName: "Barrier Bulls",
     },
     1802:{//Bartolomeo
         captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x and if you don't attack with Bartolomeo, reduces damage received by 15% for that turn.",
-        special: "Deal 30x character's ATK in [QCK] damage to all enemies, reduces damage received by 90% for 1 turn and reduces the defense of all enemies by ???% for 2 turns",
-        sailor: "Reduces Paralysis for 3 turns for himself?",
+        special: "Deal 30x character's ATK in [QCK] damage to all enemies, reduces damage received by 90% for 1 turn and reduces the defense of all enemies by 80% for 2 turns",
+        sailor: "Reduces Paralysis for 3 turns for himself",
         specialName: "Barrier Bulls",
         limit: [
             { "description": "Boosts base HP by 10" },
@@ -12444,27 +12472,80 @@ module.exports = {
             },
         ]
     },
+    1803: {//Zoro
+        captain: "Boosts ATK of Slasher characters by 2x",
+        special: "Deals 13x character's ATK in [DEX] to one enemy, remove enemies' End of Turn Damage/Percent Cut, and randomizes all orbs, including [BLOCK] orbs",
+        specialName: "To Become Stronger. Santoryu Ogi: Sanzen Sekai",
+    },
+    1804: {//Zoro
+        captain: "Boosts ATK of Slasher characters by 2.25x and their HP by 1.3x",
+        special: "Deals 13x character's ATK in [DEX] to one enemy, remove enemies' End of Turn Damage/Percent Cut, and randomizes all orbs, including [BLOCK] orbs",
+        specialName: "To Become Stronger. Santoryu Ogi: Sanzen Sekai",
+    },
+    1805: {//Buggy
+        captain: "Boosts ATK of characters with cost 30 or less by 1.5x and their HP by 1.2x",
+        special: "Reduces the defense of all enemies by 100% for 1 turn, reduces damage received from STR enemies by 80% for 1 turn, Amplifies the effect of orbs by 1.5x for 1 turn",
+        specialName: "Deceiving the World with the Most Evil Show",
+    },
+    1806: {//Buggy
+        captain: "Boosts ATK of characters with cost 30 or less by 2.25x and their HP by 1.2x",
+        special: "Reduces the defense of all enemies by 100% for 1 turn, reduces damage received from STR enemies by 80% for 1 turn, Amplifies the effect of orbs by 1.5x for 1 turn",
+        specialName: "Deceiving the World with the Most Evil Show",
+    },
+    1807: {//Mihawk
+        captain: "Not Translated",
+        special: "Deals 100x character's ATK in typeless damage to all enemies, if your Captain is a Slasher character, locks the chain multiplier at 2.75x for 1 turn and  amplifies the effects of orbs for Slasher characters by 2x for 1 turn",
+        specialName: "Black Blade • The Ultimate Sword",
+    },
+    1808: {//Mihawk
+        captain: "Boosts ATK of Slasher characters by 1.2x and their HP by 1.1x. If you use \"Black Blade • The Ultimate Sword\" THIS MIHAWK (maybe?) boosts ATK of Slasher characters by 1.62x instead for 1 turn.",
+        special: "Deals 100x character's ATK in typeless damage to all enemies, if your Captain is a Slasher character, locks the chain multiplier at 2.75x for 1 turn and  amplifies the effects of orbs for Slasher characters by 2x for 1 turn",
+        specialName: "Black Blade • The Ultimate Sword",
+        limit: "This character has a limit break path",
+        potential: [
+            {
+                "Name": "Critical Hit",
+                "description": [ 
+                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a perfect with this character, there is a 25% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [ 
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+        ],
+    },
     1809: {//Wanda
         captain: "Boosts ATK by 2.25x after scoring 2 Perfects in a row",
         special: "Reduces Bind and Paralysis duration by 2 turns. If your Captain is a Slasher character, makes Perfects easier to hit for 1 turn",
         sailor: "Reduces Paralysis for 1 turn for herself",
-        specialName: "Wanda Special",
+        specialName: "Super Express Beast Path",
     },
     1810: {//Wanda
         captain: "Boosts chances of getting Matching orbs, boosts ATK by 2.25x after scoring 2 Perfects in a row",
         special: "Reduces Bind and Paralysis duration by 2 turns. If your Captain is a Slasher character, makes Perfects easier to hit for 1 turn",
         sailor: "Reduces Paralysis for 1 turn for herself",
-        specialName: "Wanda Special",
+        specialName: "Super Express Beast Path",
     },
     1811: {//Carrot
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Fighter characters by 2x",
         special: "Reduces Special Cooldown of your top row by 2 turns, boosts ATK of Fighter characters by 1.5x for 1 turn",
-        specialName: "Carrot Special",
+        specialName: "Rabbit Mink's Air Step",
     },
     1812: {//Carrot
-        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Fighter characters by 2x",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Fighter characters by 2.25x",
         special: "Reduces Special Cooldown of your top row by 2 turns, boosts ATK of Fighter characters by 1.5x for 1 turn",
-        specialName: "Carrot Special",
+        specialName: "Rabbit Mink's Air Step",
     },
     1813: {//Koala
         captain: "Boosts ATK of all characters by 2.25x and boosts EXP and amount of Beli recieved by 1.2x",
@@ -12480,12 +12561,94 @@ module.exports = {
         captain: "Boosts ATK of Powerhouse characters by 2.75x until the first hit other than Perfect and recovers 300 HP at end of each turn",
         specialName: "Joue Shoot",
         special: "Deal 150x character's ATK in typeless damage to one enemy, boosts ATK of Powerhouse characters by 2x for 1 turn",
-        limit: "This unit has a Limit Break skill tree",
-        limitNotes: "This will be updated soon"
+        limit: [
+            { "description": "Boosts base HP by 20" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Aquire Potential 1: Enrage" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 45" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base RCV by 50" },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Aquire Sailor Ability 1: Makes [RCV] orbs \"beneficial\" for all characters" },
+            { "description": "Aquire Potential 2: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [ 
+                    "Level 1: Boosts base ATK by 20",
+                    "Level 2: Boosts base ATK by 30",
+                    "Level 3: Boosts base ATK by 40",
+                    "Level 4: Boosts base ATK by 50",
+                    "Level 5: Boosts base ATK by 100"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [ 
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+        ],
+        potentialNotes: "Enrage is activated when your crew took damage from your enemies in the previous turn"
     },
     1816: {// Ace 6+
         special: "Reduces crew's current HP by 40%, deals 15x the amount of HP subtracted in typeless damage to all enemies, boosts ATK of Shooter characters by 2x for 1 turn",
         specialName: "Great Flame Commandment: Flame Emperor • Flame Wheel",
         captain: "Boosts HP of Shooter characters by 1.5x and boosts ATK by 3.25x if they have a matching orb, by 2.25x otherwise"
+    },
+    1817: {// Riku
+        captain: "Boosts ATK of all characters by ???x and their HP by ???x, boosts ATK by ???x after scoring 3 Greats in a row",
+        special: "Cuts the current HP of one enemy by 7%, boosts ATK of the characters in the bottom and middle row by 1.2x for 1 turn",
+        specialName: "Riku Special",
+        sailor: "Restores his own special by 1 turn when it is rewinded",
+        sailorNotes: "#{rewind : 1}",
+    },
+    1818: {// Riku
+        captain: "Boosts ATK of all characters by 1.5x and their HP by 1.2x, boosts ATK by 2.5x after scoring 3 Greats in a row",
+        special: "Cuts the current HP of one enemy by 7%, boosts ATK of the characters in the bottom and middle row by 1.2x for 1 turn",
+        specialName: "Riku Special",
+        sailor: "Restores his own special by 1 turn when it is rewinded",
+        sailorNotes: "#{rewind : 1}",
+    },
+    1821: {//Sanji
+        captain: "Boosts ATK of all characters by 1.5x. Recovers 1x character's RCV in HP at the end of each turn",
+        special: [
+            {
+                "description": "Recovers 4x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                "cooldown": [ 8, 8 ]
+            },
+            {
+                "description": "Recovers 10x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                "cooldown": [ 14, 14 ]
+            },
+        ],
+        specialName: "Sanji Special",
+        sailor: "Makes [RCV] orbs \"beneficial\" for this unit",
+    },
+    1822: {//Sanji
+        captain: "Boosts ATK of all characters by 2x. Recovers 2x character's RCV in HP at the end of each turn",
+        special: [
+            {
+                "description": "Recovers 4x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                "cooldown": [ 8, 8 ]
+            },
+            {
+                "description": "Recovers 10x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                "cooldown": [ 14, 14 ]
+            },
+        ],
+        specialName: "Sanji Special",
+        sailor: "Makes [RCV] orbs \"beneficial\" for this unit",
     },
 };

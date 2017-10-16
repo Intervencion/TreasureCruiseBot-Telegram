@@ -2803,20 +2803,40 @@ module.exports = {
         evolution: 1802,
         evolvers: [ 85, 266, 96, 301, 101 ]
     },
+    1803: {
+        evolution: 1804,
+        evolvers: [  ]
+    },
+    1805: {
+        evolution: 1806,
+        evolvers: [  ]
+    },
+    1807: {
+        evolution: 1808,
+        evolvers: [  ]
+    },
     1809: {
         evolution: 1810,
-        evolvers: [  ]
+        evolvers: [ 117, 81, 87, 98, 103 ]
     },
     1811: {
         evolution: 1812,
-        evolvers: [  ]
+        evolvers: [ 117, 80, 86, 97, 102 ]
     },
     1814: {
         evolution: 1815,
-        evolvers: [  ]
+        evolvers: [ 118, 95, 1180, 300, 100 ]
     },
     562: {
         evolution: 1816,
         evolvers: [ 118, 86, 302, 267 ]
+    },
+    1817: {
+        evolution: 1818,
+        evolvers: [  ]
+    },
+    1821: {
+        evolution: 1822,
+        evolvers: [  ]
     },
 };
