@@ -4758,7 +4758,8 @@ module.exports = {
     939: {
         captain: "Reduces cooldown of all specials by 3 turns at the start of the fight, boosts ATK of Cerebral characters by 2x",
         specialName: "Cyclone Burst",
-        special: "Reduces Bind duration for one character completely. For Striker and Cerebral characters, changes Badly Matching orbs into Matching orbs"
+        special: "Reduces Bind duration for one character completely. For Striker and Cerebral characters, changes Badly Matching orbs into Matching orbs",
+        limit: "This character has a limit break path",
     },
     940: {
         captain: "Boosts ATK and HP of [DEX] characters by 1.5x",
@@ -8152,7 +8153,6 @@ module.exports = {
         sailor: "Completely resists Silence on this character",
         specialNotes: "#{silence}",
         specialName: "Black Ball - Thundercloud Rod",
-        limit: "This character has a limit break path",
     },
     1367: {//Timeskip Sanji
         captain: "Boosts ATK of [STR] characters by 2x",
@@ -11438,7 +11438,7 @@ module.exports = {
             { "description": "Boosts base RCV by 30" },
             { "description": "Boosts base HP by 70" },
             { "description": "Boosts base ATK by 30" },
-            { "description": "Aquire Sailor Ability 1: Boosts this character's attack against [DEX] characters by 2x" },
+            { "description": "Aquire Sailor Ability 1: Boosts this character's attack against [QCK] characters by 2x" },
             { "description": "Boosts base ATK by 40" },
             { "description": "Boosts base HP by 90" },
             { "description": "Aquire 1 additional Socket slot" },
@@ -12498,10 +12498,51 @@ module.exports = {
         specialName: "Black Blade • The Ultimate Sword",
     },
     1808: {//Mihawk
-        captain: "Boosts ATK of Slasher characters by 1.2x and their HP by 1.1x. If you use \"Black Blade • The Ultimate Sword\" THIS MIHAWK (maybe?) boosts ATK of Slasher characters by 1.62x instead for 1 turn.",
+        captain: "Boost atk of slashers by 2.5x and HP 1.3x  If you use Mihawk's special, atk boost is increased by 1.4x (Limit Broken)",
         special: "Deals 100x character's ATK in typeless damage to all enemies, if your Captain is a Slasher character, locks the chain multiplier at 2.75x for 1 turn and  amplifies the effects of orbs for Slasher characters by 2x for 1 turn",
         specialName: "Black Blade • The Ultimate Sword",
-        limit: "This character has a limit break path",
+        limit: [
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Aquire Potential 1: Critical Hit" },
+            { "description": "Aquire new Captain Ability: " },
+            { "description": "Aquire Sailor Ability 1: Boosts base ATK of Slasher characters by 50" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Aquire new Captain Ability: Boosts ATK of Slasher characters by 1.4x and their HP by 1.1x. If you use \"Black Blade • The Ultimate Sword\" boosts ATK of Slasher characters by 1.89x instead for 1 turn." },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 15" },
+            { "description": "Aquire new Captain Ability: " },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 65" },
+            { "description": "Reduce base Special Cooldown by 4 turns" },
+            { "description": "Aquire new Captain Ability: " },
+            { "description": "Boosts base ATK by 35" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Aquire Sailor Ability 2: Makes [QCK] orbs \"beneficial\" for this unit" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base HP by 75" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 5 turns" },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Aquire new Captain Ability: " },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Aquire new Captain Ability: Boosts ATK of Slasher characters by 2.5x and their HP by 1.3x. If you use \"Black Blade • The Ultimate Sword\" boosts ATK of Slasher characters by 3.5x instead for 1 turn." },
+            { "description": "Aquire Potential 2: Slot Bind Self-reduction" },
+        ],
         potential: [
             {
                 "Name": "Critical Hit",
@@ -12608,18 +12649,28 @@ module.exports = {
         captain: "Boosts HP of Shooter characters by 1.5x and boosts ATK by 3.25x if they have a matching orb, by 2.25x otherwise"
     },
     1817: {// Riku
-        captain: "Boosts ATK of all characters by ???x and their HP by ???x, boosts ATK by ???x after scoring 3 Greats in a row",
+        captain: "Boosts ATK by 2x after scoring 3 Greats in a row",
         special: "Cuts the current HP of one enemy by 7%, boosts ATK of the characters in the bottom and middle row by 1.2x for 1 turn",
-        specialName: "Riku Special",
+        specialName: "Divine Sword",
         sailor: "Restores his own special by 1 turn when it is rewinded",
         sailorNotes: "#{rewind : 1}",
     },
     1818: {// Riku
         captain: "Boosts ATK of all characters by 1.5x and their HP by 1.2x, boosts ATK by 2.5x after scoring 3 Greats in a row",
         special: "Cuts the current HP of one enemy by 7%, boosts ATK of the characters in the bottom and middle row by 1.2x for 1 turn",
-        specialName: "Riku Special",
+        specialName: "Divine Sword",
         sailor: "Restores his own special by 1 turn when it is rewinded",
         sailorNotes: "#{rewind : 1}",
+    },
+    1819: {//Tank
+        captain: "Boosts ATK of Powerhouse and Stiker characters by 1.75x",
+        special: "Boosts own ATK by 1.75x for 1 turn",
+        specialName: "Shameful Hidden Activity",
+    },
+    1820: {//Scarlet
+        captain: "Boosts HP and RCV of [PSY] characters by 1.5x",
+        special: "Locks all orbs for 1 turn and recovers 5x character's RCV in HP.",
+        specialName: "Frontier Love",
     },
     1821: {//Sanji
         captain: "Boosts ATK of all characters by 1.5x. Recovers 1x character's RCV in HP at the end of each turn",
@@ -12650,5 +12701,56 @@ module.exports = {
         ],
         specialName: "Sanji Special",
         sailor: "Makes [RCV] orbs \"beneficial\" for this unit",
+    },
+    1823: {//World
+        captain: "Not Translated",
+        special: [
+            {
+                "description": "Deals 100,000 fixed damage to one enemy and removes ATK down debuff from your team",
+                "cooldown": [ 14, 10 ]
+            },
+            {
+                "description": "Deals 300,000 fixed damage to one enemy and removes ATK down debuff from your team",
+                "cooldown": [ 18, 14 ]
+            },
+            {
+                "description": "Deals 500,000 fixed damage to one enemy, removes ATK down debuff from your team and reduces enemy Barrier duration by 1 turn",
+                "cooldown": [ 22, 18 ]
+            }
+        ],
+        specialNotes:"#{stages}",
+        specialName: "More More: Hundredfold Artillery Cannon",
+    },
+    1824: {//World
+        captain: "Boosts ATK of Shooter characters by 2.2x at the start of the chain.<br>Boosts ATK of Shooter characters by 2.42x after the 1st Perfect in a row, by 2.662x after the 2nd Perfect in a row, by 2.9282x after the 3rd Perfect in a row, by 3.22102x after the 4th Perfect in a row, and by 3.543122x after the 5th Perfect in a row.",
+        special: [
+            {
+                "description": "Deals 100,000 fixed damage to one enemy and removes ATK down debuff from your team",
+                "cooldown": [ 14, 10 ]
+            },
+            {
+                "description": "Deals 300,000 fixed damage to one enemy and removes ATK down debuff from your team",
+                "cooldown": [ 18, 14 ]
+            },
+            {
+                "description": "Deals 500,000 fixed damage to one enemy, removes ATK down debuff from your team and reduces enemy Barrier duration by 1 turn",
+                "cooldown": [ 22, 18 ]
+            }
+        ],
+        specialNotes:"#{stages}",
+        specialName: "More More: Hundredfold Artillery Cannon",
+        limit: "This character has a limit break path",
+    },
+    1825: {//Akainu
+        captain: "Boosts ATK by 2.5x following a chain of [INT] > [INT] > [INT] attacks no lower than Good",
+        special: "Deals 50x character's ATK in [INT] damage to all enemies. Changes orbs for [INT] characters into [INT] orbs. Boosts the Color Affinity of [INT] characters by 1.75x for 1 turn",
+        specialNotes: "#{colorAffinity : 1.75}",
+        specialName: "Great Eruption [Neo]",
+    },
+    1826: {//Akainu
+        captain: "Boosts ATK by 3x following a chain of [INT] > [INT] > [INT] attacks no lower than Good",
+        special: "Deals 50x character's ATK in [INT] damage to all enemies. Changes orbs for [INT] characters into [INT] orbs. Boosts the Color Affinity of [INT] characters by 1.75x for 1 turn",
+        specialNotes: "#{colorAffinity : 1.75}",
+        specialName: "Great Eruption [Neo]",
     },
 };
