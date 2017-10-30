@@ -1280,7 +1280,8 @@ module.exports = {
             condition: 'None',
             challenge:'Total number of hits above 50,000',
             challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Despair Resistance Forbidden Tome, 2x Rainbow Gems']],
-            'All Difficulties': [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -1549, -673, -671, -633, -500, -467, -465, -451, -431 ]
+            'Japan': [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -1549, -673, -671, -633, -500, -467, -465, -451, -431 ],
+            'Global': [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -451, -558, -1208, -560, -1212, -465, -500, -633, -709, -1549, -467 ]
         },
 
         {
@@ -1679,11 +1680,10 @@ module.exports = {
         },
         
         {
-            name: 'Dressrosa Royal Family!',
+            name: 'Crisis of the 800 Year Old Kingdom!',
             thumb: 1818,
-            condition: '',
-            gamewith: null,
-            'All Difficulties': [ 1817, 1819, 1820 ]
+            gamewith: 72655,
+            'All Difficulties': [ 1817, 1819, 1820, -1610, -1656, -1660, -1230, -1236, -1173, -526, -643, -1506, -964 ]
         },
         
     ],
@@ -1989,6 +1989,15 @@ module.exports = {
         },
         
         {
+            name: 'Clash Neo!! Akainu',
+            thumb: 1826,
+            gamewith: 73951,
+            condition: '1 Master version and 3 different Ultimate versions with different conditions. Master: Shooter/Striker/Slaher Only. Ultimate: Shooter Only, Striker Only, and Slasher Only',
+            Ultimate: [ 1825 ],
+            Master: [ 1825 ],
+        },
+        
+        {
             name: 'Clash!! Warden Magellan',
             thumb: 1374,
             global: true,
@@ -2044,10 +2053,18 @@ module.exports = {
         {
             name: 'Clash!! Vinsmoke Sanji',
             thumb: 1815,
-            gamewith: null,
+            gamewith: 70374,
             Ultimate: [ 1814 ],
             Master: [ 1814 ],
             Expert: [ 1814 ]
+        },
+        
+        {
+            name: 'Clash!! Rayleigh',
+            thumb: 2001,
+            gamewith: null,
+            Ultimate: [ 2000 ],
+            Master: [ 2000 ]
         },
 
     ],
