@@ -1686,6 +1686,14 @@ module.exports = {
             'All Difficulties': [ 1817, 1819, 1820, -1610, -1656, -1660, -1230, -1236, -1173, -526, -643, -1506, -964 ]
         },
         
+        {
+            name: 'Caribou Pirates!',
+            thumb: 1842,
+            gamewith: null,
+            condition: '[STR] orbs will not appear naturally',
+            'All Difficulties': [ 1841, 1843, -1268, -639, -645, -1234, -1270, -1700, -1704, -1501, -1502 ]
+        },
+        
     ],
 
             
@@ -2025,7 +2033,7 @@ module.exports = {
         },
         
         {
-            name: 'Clash!! Bellamy',
+            name: 'Clash Neo!! Bellamy',
             thumb: 1738,
             gamewith: 66087,
             condition: '1 Expert version and 3 Master versions with different conditions. Expert: Driven/Free Spirit/Striker Only. Can only complete 10 times each. Master: Driven Only, Free Spirit Only, and Striker Only',
@@ -2057,6 +2065,15 @@ module.exports = {
             Ultimate: [ 1814 ],
             Master: [ 1814 ],
             Expert: [ 1814 ]
+        },
+        
+        {
+            name: 'Clash!! Caesar',
+            thumb: 1830,
+            gamewith: null,
+            condition: 'Take 10% MAX Health in Environmental Damage every 2 turns',
+            Master: [ 1829 ],
+            Expert: [ 1829 ]
         },
         
         {
@@ -2147,7 +2164,7 @@ module.exports = {
             teamDatabase: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
             Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791 ]
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827 ]
         },
 
         {
@@ -2161,7 +2178,7 @@ module.exports = {
             thumb: 1258,
             global: true,
             gamewith: 38237,
-            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard. Can drop a Super Evolution Skull.',
+            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.',
             'All Difficulties': [ 1257, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
@@ -2170,7 +2187,7 @@ module.exports = {
             thumb: 1380,
             global: true,
             gamewith: 46369,
-            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks. Can drop a Super Evolution Skull.',
+            condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks.',
             'All Difficulties': [ 1379, 952, 776, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
@@ -2178,8 +2195,16 @@ module.exports = {
             name: 'Invasion! Cavendish',
             thumb: 1530,
             gamewith: 53621,
-            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish. Can drop a Super Evolution Skull.',
+            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
             'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+        },
+        
+        {
+            name: 'Invasion! Garp',
+            thumb: 1846,
+            gamewith: null,
+            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
+            'All Difficulties': [ 1845, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
