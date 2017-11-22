@@ -666,6 +666,7 @@ module.exports = {
             name: 'King Neptune\'s Execution Site - Noah\'s Ark',
             shortName: 'Fishman Island 2',
             thumb: 1562,
+            global: true,
             completion: '5x Rainbow Gems',
             gamewith: 54695,
             '01': [  ],
@@ -688,6 +689,7 @@ module.exports = {
             name: 'Punk Hazard Burning Lands - Laboratory',
             shortName: 'Punk Hazard 1',
             thumb: 1637,
+            global: true,
             completion: '5x Rainbow Gems',
             gamewith: 60126,
             '01': [ 1633 ],
@@ -1536,6 +1538,7 @@ module.exports = {
         {
             name: 'Chinjao Family!',
             thumb: 1426,
+            global: true,
             gamewith: 49862,
             condition: 'You can only bring DEX units',
             'All Difficulties': [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812 ]
@@ -1544,6 +1547,7 @@ module.exports = {
         {
             name: 'Fugitive of Love and Passion!!',
             thumb: 1450,
+            global: true,
             gamewith: 50895,
             condition: 'You can only bring STR units',
             'All Difficulties': [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814 ]
@@ -1552,6 +1556,7 @@ module.exports = {
         {
             name: 'Gatekeeper of the New World!',
             thumb: 1469,
+            global: true,
             gamewith: 51926,
             condition: 'You can only bring QCK units',
             'All Difficulties': [ 1468, 1470, 1471, -1268, -1322, -1228, -906, -914, -310, -1061, -1470, -1320 ]
@@ -1560,6 +1565,7 @@ module.exports = {
         {
             name: 'Departure! Whitebeard Pirates',
             thumb: 1509,
+            global: true,
             gamewith: 52629,
             condition: 'You can only bring PSY units',
             'All Difficulties': [ 1509, 1510, 1511, 1512, -1001, -1316, -1280, -314, -908, -16, -1446, -1370, -1368, -816 ],
@@ -1568,6 +1574,7 @@ module.exports = {
         {
             name: 'Bandits! Dadan Family!',
             thumb: 1520,
+            global: true,
             gamewith: 53569,
             'All Difficulties': [ 1519, 1521, 1522, -1314, -1366, -1364, -912, -937, -316, -1281, -891, -22, -1448 ],
         },
@@ -1575,6 +1582,7 @@ module.exports = {
         {
             name: 'Encourage the Soul!',
             thumb: 1547,
+            global: true,
             gamewith: 54302,
             condition: 'Strawhat Pirates get ATK, HP, and RCV boosted by 1.5x and reduces cooldown of specials by 9 turns at the start of the fight',
             'All Difficulties': [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20 ],
@@ -1583,6 +1591,7 @@ module.exports = {
         {
             name: 'Fight for your Friends!',
             thumb: 1564,
+            global: true,
             gamewith: 55145,
             condition: 'Elizabello will kill you with one punch',
             'All Difficulties': [ 1563, 1565, -1362, -1408, -1412, -941, -991, -308, -1283, -892, -1549, -709 ],
@@ -1689,9 +1698,16 @@ module.exports = {
         {
             name: 'Caribou Pirates!',
             thumb: 1842,
-            gamewith: null,
+            gamewith: 75879,
             condition: '[STR] orbs will not appear naturally',
             'All Difficulties': [ 1841, 1843, -1268, -639, -645, -1234, -1270, -1700, -1704, -1501, -1502 ]
+        },
+        
+        {
+            name: 'Supernova! Worst Generation!',
+            thumb: 1855,
+            gamewith: null,
+            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1620, -1702, -1558 ]
         },
         
     ],
@@ -1958,6 +1974,7 @@ module.exports = {
         
         {
             name: 'Clash Neo!! Sabo',
+            global: true,
             gamewith: 64230,
             thumb: 1727,
             condition: '1 Expert version, 1 Master version, and 3 different Ultimate versions with different conditions. Expert/Master: Shooter/Fighter/Cerebral Only. Can only complete 10 times each. Ultimate: Shooter Only, Fighter Only, and Cerebral Only',
@@ -2078,6 +2095,7 @@ module.exports = {
         
         {
             name: 'Clash!! Rayleigh',
+            global: true,
             thumb: 2001,
             gamewith: null,
             Ultimate: [ 2000 ],
@@ -2124,6 +2142,7 @@ module.exports = {
         
         {
             name: 'Halloween Event Characters',
+            global: true,
             thumb: 1300,
             'All Difficulties': [ 1299, 1305, 1325 ],
         },
@@ -2141,12 +2160,14 @@ module.exports = {
         {
             name: 'Straw Hat Pirates!',
             thumb: 1387,
+            global: true,
             'All Difficulties': [ 2, 5, 9, 13, 17, 21, 708, 629, 895 ],
         },
         
         {
             name: '2nd Anniversary Celebration! Duel! Ace',
             thumb: 1023,
+            global: true,
             'All Difficulties': [ 1023 ]
         },
         
@@ -2170,7 +2191,7 @@ module.exports = {
         {
             name: 'Adventure Mode',
             thumb: 1808,
-            Adventure: [ 1807 ]
+            Adventure: [ 1807, 1852 ]
         },
         
         {
@@ -2194,6 +2215,7 @@ module.exports = {
         {
             name: 'Invasion! Cavendish',
             thumb: 1530,
+            global: true,
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
             'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
@@ -2202,7 +2224,7 @@ module.exports = {
         {
             name: 'Invasion! Garp',
             thumb: 1846,
-            gamewith: null,
+            gamewith: 75260,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
             'All Difficulties': [ 1845, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
@@ -2241,8 +2263,9 @@ module.exports = {
         },
         
         {
-            name: 'Battle Royale! The Three Admirals',
+            name: 'Battle Blitz! The Three Admirals',
             thumb: 1314,
+            global: true,
             gamewith: 61665,
             condition: 'Chance of dropping the Silver Almighty Book.',
             'All Bosses': [ -1621, -1632, -1665 ],
@@ -2250,7 +2273,7 @@ module.exports = {
         },
         
         {
-            name: 'Battle Royale! Straw Hat Pirates',
+            name: 'Battle Blitz! Straw Hat Pirates',
             thumb: 1404,
             gamewith: 65078,
             condition: 'Chance of dropping the Silver Almighty Book.',
@@ -2259,7 +2282,7 @@ module.exports = {
         },
         
         {
-            name: 'Battle Royale! Doflamingo Family',
+            name: 'Battle Blitz! Doflamingo Family',
             thumb: 870,
             gamewith: 68282,
             condition: 'Chance of dropping the Silver Almighty Book, Guidence Fragments and Guidence Crystals.',
@@ -2318,6 +2341,7 @@ module.exports = {
         {
             name: '20th Anniversary! Nico Robin!',
             thumb: 1684,
+            global: true,
             gamewith: 62383,
             showManual: true,
             condition: 'No characters will drop posters.',
@@ -2336,6 +2360,7 @@ module.exports = {
         {
             name: '20th Anniversary! Straw Hats!',
             thumb: 1686,
+            global: true,
             gamewith: 62386,
             condition: 'Gain gems by completeing the missions. Once you complete a mission, it will no longer be available and the next difficulty will be available. Total of 46 gems possible. Only Booster characters will drop posters.',
             'All Difficulties': [ 591, 592, 593, 594, 595, 189, 190, 191, 192, 193 ],
@@ -2429,6 +2454,7 @@ module.exports = {
             name: 'Forest of Training: ROOM',
             thumb: 1045,
             gamewith: 44527,
+            global: true,
             completion: 'Ship: Polar Tang',
         },
         
@@ -2474,5 +2500,5 @@ var bonuses = [
     { type: 'exp'     , x: 6 , y: 9, stop: 2 },
     { type: 'exp'     , x: 6 , y: 13 },
     { type: 'exp'     , x: 6 , y: 20 },
-    { type: 'exp'     , x: 6 , y: 27 }
+    { type: 'exp'     , x: 6 , y: 27 },
 ];

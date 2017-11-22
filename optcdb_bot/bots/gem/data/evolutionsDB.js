@@ -2529,7 +2529,7 @@ module.exports = {
     },
     1636: {
         evolution: [ 1637, 1716 ],
-        evolvers: [ [ 118, 96, 97, 301, 302 ], [ ] ]
+        evolvers: [ [ 118, 96, 97, 301, 302 ], [ 118, 83, 84, 95, 100 ] ]
     },
     1646: {
         evolution: 1647,
@@ -2853,43 +2853,55 @@ module.exports = {
     },
     1829: {
         evolution: 1830,
-        evolvers: [ 118, 88, 266, 304, 104 ],
+        evolvers: [ 118, 88, 266, 304, 104 ]
     },
     1831: {
         evolution: 1832,
-        evolvers: [  ],
+        evolvers: [  ]
     },
     1833: {
         evolution: 1834,
-        evolvers: [  ],
+        evolvers: [  ]
     },
     1835: {
         evolution: 1836,
-        evolvers: [ 83, 94, 95, 300, 100 ],
+        evolvers: [ 83, 94, 95, 300, 100 ]
     },
     1837: {
         evolution: 1838,
-        evolvers: [ 118, 85, 96, 301, 101 ],
+        evolvers: [ 118, 85, 96, 301, 101 ]
     },
     1839: {
         evolution: 1840,
-        evolvers: [ 86, 266, 97, 302, 102 ],
+        evolvers: [ 86, 266, 97, 302, 102 ]
     },
     1841: {
         evolution: 1842,
-        evolvers: [ 117, 80, 86, 97, 102 ],
+        evolvers: [ 117, 80, 86, 97, 102 ]
     },
     1843: {
         evolution: 1844,
-        evolvers: [ 117, 78, 84, 95, 100 ],
+        evolvers: [ 117, 78, 84, 95, 100 ]
     },
     1845: {
         evolution: 1846,
-        evolvers: [ 118, 84, 266, 95, 267 ],
+        evolvers: [ 118, 84, 266, 95, 267 ]
     },
     459: {
         evolution: 1847,
-        evolvers: [ 118, 88, 304, 267 ],
+        evolvers: [ 118, 88, 304, 267 ]
+    },
+    1852: {
+        evolution: 1853,
+        evolvers: [ 115, 116, 117, 118, 104 ]
+    },
+    1854: {
+        evolution: 1855,
+        evolvers: [ 78, 84, 89, 95, 100 ]
+    },
+    1856: {
+        evolution: 1857,
+        evolvers: [ 81, 87, 92, 98, 103 ]
     },
     2000: {
         evolution: 2001,

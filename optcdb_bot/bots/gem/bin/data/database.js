@@ -309,7 +309,7 @@ function getUnitInfo(id, type) {
     response += unit_drops || '';
     response += unit_evolutions || '';
     response += '<a href="http://onepiece-treasurecruise.com/wp-content/uploads/c' + String('0000' + id).slice(-4).replace(/(057[54])/, '0$1') + '.png">\u2007</a>\n';
-	response += '<a href="https://t.me/OPTCNews">JPN NEWS</a>\n';
+	response += '<a href="https://t.me/OPTCNews">JPN NEWS</a> | <a href="https://discord.gg/pa5pBJd">Discord Group</a>\n';
 	response += '<b>J O I N   U S</b>\n<a href="https://telegram.me/joinchat/ABzveEDxZTiNLYTRO5-kQg">English group</a> | <a href="https://t.me/joinchat/ABzveENpurD6yuLWuTL18Q">Italian group</a> | <a href="https://t.me/joinchat/ABzveENMOZg4ZCXSqfziGA">Spanish group</a>\n';
     return response;
   }
