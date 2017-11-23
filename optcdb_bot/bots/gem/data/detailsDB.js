@@ -13814,15 +13814,7 @@ module.exports = {
         specialName: "The Epicenter of the Halberd"
         },
     1853: {//Whitebeard
-        captain: {
-            "base": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.2x",
-            "level1": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.2x",
-            "level2": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.2x",
-            "level3": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.2x",
-            "level4": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.2x",
-            "level5": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.35x",
-            "level6": "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.35x"
-        },
+        captain: "Boosts ATK of all characters proportionally to the crew's current HP and their HP by 1.2x",
         captainNotes: "#{captainProportional : lower : 1 + 1.25 (1.35, 1.45, 1.55, 1.65, 1.75, & 2.25 respectively) * (1 - (remaining HP) / (total HP)) : 1 : 2.25(2.35, 2.45, 2.55, 2.65, 2.75, & 3.25 respectively)}",
         special: "Changes own orb into [INT], deals 100x character's ATK in typeless damage to all enemies that will ignore damage negating abilities and barriers. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs by 2x for 1 turn. If enemies have a barrier at the time the special was activated, boosts own ATK by 2.25x",
         specialName: "The Epicenter of the Halberd",
