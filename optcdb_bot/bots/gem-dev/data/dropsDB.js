@@ -1638,7 +1638,7 @@ module.exports = {
             thumb: 1670,
             gamewith: 61622,
             condition: 'Total Crew Cost must be lower than 180 (Including friend captain)',
-            'All Difficulties': [ 1670, 1671, 1672, -1085, -451, -457, -1081, -1353, -1540, -1345, -955, -1350 ],
+            'All Difficulties': [ 1670, 1671, 1672, -1085, -451, -457, -1081, -1534, -1540, -1345, -955, -1350 ],
         },
         
         {
@@ -1704,10 +1704,17 @@ module.exports = {
         },
         
         {
-            name: 'Supernova! Worst Generation!',
+            name: 'Supernova! Apoo and Drake!',
             thumb: 1855,
-            gamewith: null,
+            gamewith: 79678,
             'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1620, -1702, -1558 ]
+        },
+        
+        {
+            name: 'Supernova! Hawkins and Urouge!',
+            thumb: 1867,
+            gamewith: 80643,
+            'All Difficulties': [ 1864, 1866, -1698, -1632, -1706, -1556, -1274, -1276 ]
         },
         
     ],
@@ -2087,10 +2094,19 @@ module.exports = {
         {
             name: 'Clash!! Caesar',
             thumb: 1830,
-            gamewith: null,
+            gamewith: 75007,
             condition: 'Take 10% MAX Health in Environmental Damage every 2 turns',
             Master: [ 1829 ],
             Expert: [ 1829 ]
+        },
+        
+        {
+            name: 'Clash!! Bartolomeo',
+            thumb: 1879,
+            gamewith: 81714,
+            condition: 'You can only bring Fighter, Slasher or Striker units',
+            Ultimate: [ 1878 ],
+            Master: [ 1878 ]
         },
         
         {
@@ -2102,6 +2118,49 @@ module.exports = {
             Master: [ 2000 ]
         },
 
+    ],
+
+            
+    'Coliseum': [
+
+        {
+            name: 'Yes',
+            thumb: 779,
+            global: true,
+            gamewith: 17473,
+            teamDatabase: 'coliseums',
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860 ],
+            Neo: [ 1862 ]
+        },
+        
+    ],
+
+            
+    'Treasure Map': [
+
+        {
+            name: 'Mihawk',
+            thumb: 1808,
+            gamewith: 72766,
+            'Raging Sea': [ 1807 ]
+        },
+
+        {
+            name: 'Whitebeard',
+            thumb: 1853,
+            gamewith: 79614,
+            'Raging Sea': [ 1852 ]
+        },
+
+        {
+            name: 'Cavendish',
+            thumb: 1889,
+            gamewith: 83086,
+            'Raging Sea': [ 1888 ]
+        },
+        
     ],
 
     'Special': [
@@ -2175,23 +2234,6 @@ module.exports = {
             name: '3rd Anniversary Celebration! Duel! Luffy',
             thumb: 1600,
             '30 Stamina': [ 1600 ]
-        },
-
-        {
-            name: 'Coliseum',
-            thumb: 779,
-            global: true,
-            gamewith: 17473,
-            teamDatabase: 'coliseums',
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827 ]
-        },
-
-        {
-            name: 'Adventure Mode',
-            thumb: 1808,
-            Adventure: [ 1807, 1852 ]
         },
         
         {
@@ -2351,6 +2393,7 @@ module.exports = {
         {
             name: '20th Anniversary! Sanji!',
             thumb: 1755,
+            global: true,
             gamewith: 66019,
             showManual: true,
             condition: 'No characters will drop posters.',
@@ -2362,6 +2405,15 @@ module.exports = {
             thumb: 1686,
             global: true,
             gamewith: 62386,
+            condition: 'Gain gems by completeing the missions. Once you complete a mission, it will no longer be available and the next difficulty will be available. Total of 46 gems possible. Only Booster characters will drop posters.',
+            'All Difficulties': [ 591, 592, 593, 594, 595, 189, 190, 191, 192, 193 ],
+        },
+        
+        {
+            name: '20th Anniversary! Straw Hats!',
+            thumb: 1757,
+            global: true,
+            gamewith: 66091,
             condition: 'Gain gems by completeing the missions. Once you complete a mission, it will no longer be available and the next difficulty will be available. Total of 46 gems possible. Only Booster characters will drop posters.',
             'All Difficulties': [ 591, 592, 593, 594, 595, 189, 190, 191, 192, 193 ],
         },
@@ -2500,5 +2552,5 @@ var bonuses = [
     { type: 'exp'     , x: 6 , y: 9, stop: 2 },
     { type: 'exp'     , x: 6 , y: 13 },
     { type: 'exp'     , x: 6 , y: 20 },
-    { type: 'exp'     , x: 6 , y: 27 },
+    { type: 'exp'     , x: 6 , y: 27 }
 ];
