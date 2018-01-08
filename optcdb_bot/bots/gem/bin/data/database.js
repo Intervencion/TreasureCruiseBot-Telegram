@@ -66,26 +66,28 @@ function getStats(id) {
 
 function getDetail(id, detail) {
   var unit_details = details[id];
-  if (detail === 'captain') {
-    var unit_captain = unit_details && unit_details.captain || '';
-    if (unit_captain && unit_captain.hasOwnProperty('japan')) {
-      unit_captain = unit_captain.japan + ' ' + unit_captain.global;
-    }
-    return unit_captain.replaceEntities() || false;
-  }
-  if (detail === 'special') {
-    var unit_special = unit_details && unit_details.special || '';
-    if (unit_special && unit_special.hasOwnProperty('japan')) {
-      unit_special = unit_special.japan + ' ' + unit_special.global;
-    }
-    return unit_special.replaceEntities() || false;
-  }
-  if (detail === 'sailor') {
-    var unit_sailor = unit_details && unit_details.sailor || '';
-    if (unit_sailor&& unit_sailor.hasOwnProperty('japan')) {
-      unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global;
-    }
-    return unit_sailor.replaceEntities() || false;
+  if (id == 2002) var unit_details = details[1000]{
+	  if (detail === 'captain') {
+		var unit_captain = unit_details && unit_details.captain || '';
+		if (unit_captain && unit_captain.hasOwnProperty('japan')) {
+		  unit_captain = unit_captain.japan + ' ' + unit_captain.global;
+		}
+		return unit_captain.replaceEntities() || false;
+	  }
+	  if (detail === 'special') {
+		var unit_special = unit_details && unit_details.special || '';
+		if (unit_special && unit_special.hasOwnProperty('japan')) {
+		  unit_special = unit_special.japan + ' ' + unit_special.global;
+		}
+		return unit_special.replaceEntities() || false;
+	  }
+	  if (detail === 'sailor') {
+		var unit_sailor = unit_details && unit_details.sailor || '';
+		if (unit_sailor&& unit_sailor.hasOwnProperty('japan')) {
+		  unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global;
+		}
+		return unit_sailor.replaceEntities() || false;
+	  }
   }
 }
 
