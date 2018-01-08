@@ -2000,6 +2000,7 @@
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "Silvers Rayleigh, First Mate of the Roger Pirates", "STR", [ "Slasher", "Cerebral" ], 4, 30, 6, 1, 70, 1066998, 224, 151, 40, 1258, 714, 194, 1 ],
     [ "Dark King Rayleigh, First Mate of the Roger Pirates", "STR", [ "Slasher", "Cerebral" ], 5, 50, 5, 3, 99, 5000000, 1190, 650, 143, 2510, 1315, 353, 1 ],
+    [ "Dummy", "STR", [ "Slasher", "Cerebral" ], 5, 50, 5, 3, 99, 5000000, 1190, 650, 143, 2510, 1315, 353, 1 ],
     ];
     
 // [ "Name", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
