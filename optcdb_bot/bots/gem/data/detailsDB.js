@@ -17076,10 +17076,5 @@ module.exports = {
         },
         special: "Randomizes all non-matching orbs, boosts ATK of all characters by 1.75x for 1 turn",
         specialName: "Maelstrom at Sea",
-        sailor: {
-            "base": "None",
-            "level1": "Boosts own base ATK by 100 if this character is the last in the chain to attack",
-            "level2": "Makes [QCK] orbs \"beneficial\" for this unit"
-        },
     },
 };
