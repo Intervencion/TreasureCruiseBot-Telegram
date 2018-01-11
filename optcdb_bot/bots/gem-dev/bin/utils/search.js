@@ -196,6 +196,7 @@ function getRandom(cmd, arg, message) {
 }
 
 exports.getUnitInfo = function(id, arg, message) {
+  if (id === 2002){ id = 1000}
   if (database.getUnit(id) && database.getUnit(id)[0]) {
     return {
       text: database.getUnitInfo(parseInt(id), message.chat.type),

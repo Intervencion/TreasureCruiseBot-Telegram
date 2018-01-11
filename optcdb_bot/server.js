@@ -206,4 +206,4 @@ telegram.send('sendMessage', {
     text: '<b>P I N G</b>',
     chat_id: global.admin
   }
-}, '297167321:AAGE9ILG5dnCv05xzouFac4dA4DiRDPIO7c');
+}, (require(path.join(global.base, 'bots', "gem", 'bin/app/app.js')).token));

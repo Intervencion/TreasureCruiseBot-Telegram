@@ -2977,10 +2977,86 @@ module.exports = {
     },
     1888: {
         evolution: 1889,
-        evolvers: [  ]
+        evolvers: [ 115, 116, 117, 118, 103 ]
     },
-    2000: {
-        evolution: 2001,
+    1890: {
+        evolution: 1891,
+        evolvers: [ 78, 84, 89, 95, 100 ]
+    },
+    1892: {
+        evolution: 1893,
+        evolvers: [ 81, 87, 82, 98, 103 ]
+    },
+    1894: {
+        evolution: 1895,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    1896: {
+        evolution: 1897,
+        evolvers: [ 118, 95, 1180, 300, 100 ]
+    },
+    1898: {
+        evolution: 1899,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    1901: {
+        evolution: 1902,
+        evolvers: [ 99, 99, 1180, 304, 304 ]
+    },
+    1903: {
+        evolution: 1904,
+        evolvers: [ 85, 85, 266, 301, 301 ]
+    },
+    1905: {
+        evolution: 1906,
+        evolvers: [ 103, 103, 267, 303, 303 ]
+    },
+    1907: {
+        evolution: 1908,
+        evolvers: [ 78, 78, 83, 300, 300 ]
+    },
+    1909: {
+        evolution: 1910,
+        evolvers: [ 118, 102, 97, 102, 267 ]
+    },
+    1911: {
+        evolution: 1912,
+        evolvers: [ 88, 99, 104, 304, 1180 ]
+    },
+    1913: {
+        evolution: 1914,
+        evolvers: [ 118, 86, 97, 302, 102 ]
+    },
+    1915: {
+        evolution: 1916,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    1917: {
+        evolution: 1918,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    1919: {
+        evolution: 1920,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    1362: {
+        evolution: 1921,
+        evolvers: [ 118, 86, 302, 267 ]
+    },
+    1751: {
+        evolution: 1922,
+        evolvers: [ 96, 301, 267 ]
+    },
+    1923: {
+        evolution: 1924,
         evolvers: [ 118, 84, 266, 300, 100 ]
+    },
+    1925: {
+        evolution: 1926,
+        evolvers: [ 118, 88, 99, 304, 304 ]
+    },
+    1929: {
+        evolution: 1930,
+        evolvers: [ 118, 266, 97, 102, 302 ]
     },
 };
