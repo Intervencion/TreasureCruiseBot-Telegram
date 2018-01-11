@@ -140,51 +140,6 @@ function getCaptainAbility(id) {
   return false;
 }
 
-function getSailorAbility(id) {
-    var unit_details = details[id],
-    unit_sailor = unit_details && unit_details.sailor;
-
-    if(unit_sailor && unit_sailor.hasOwnProperty('base')){
-      var unit_details = details[id],
-      unit_sailor = unit_details && unit_details.sailor,
-      unit_sailor_base = unit_sailor && unit_sailor.hasOwnProperty('base') && unit_sailor.base,
-      unit_sailor_level6 = unit_sailor && unit_sailor.hasOwnProperty('level6') && unit_sailor.level6,
-      unit_sailor_level5 = unit_sailor && unit_sailor.hasOwnProperty('level5') && unit_sailor.level5,
-      unit_sailor_level4 = unit_sailor && unit_sailor.hasOwnProperty('level4') && unit_sailor.level4,
-      unit_sailor_level3 = unit_sailor && unit_sailor.hasOwnProperty('level3') && unit_sailor.level3,
-      unit_sailor_level2 = unit_sailor && unit_sailor.hasOwnProperty('level2') && unit_sailor.level2,
-      unit_sailor_level1 = unit_sailor && unit_sailor.hasOwnProperty('level1') && unit_sailor.level1,
-      unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
-      unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
-      response;
-
-      response = '<b>Sailor Ability[LB]:</b>\n';
-      response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
-      response += (unit_sailor_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_sailor_level1.replaceEntities() + '\n' : '';
-      response += (unit_sailor_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_sailor_level2.replaceEntities() + '\n' : '' ;
-      response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ; 
-      response += (unit_sailor_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_sailor_level4.replaceEntities() + '\n' : '' ; 
-      response += (unit_sailor_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_sailor_level5.replaceEntities() + '\n' : '' ;
-      response += (unit_sailor_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_sailor_level6.replaceEntities() + '\n' : '' ;
-      response += '\n';
-      response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : '';
-      return response;
-      }
-  else{
-    var unit_details = details[id],
-    unit_sailor = unit_details && unit_details.sailor,
-    unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
-    unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
-    response;
-    if (unit_sailor) {
-      response = '<b>Sailor Ability:</b>\n';
-      response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : unit_sailor.replaceEntities() + '\n\n';
-      return response;
-    }
-  }
-  return false;
-}
-
 function getSpecialAbility(id) {
   var unit_details = details[id],
   unit_special_name = unit_details && unit_details.specialName,
@@ -233,6 +188,50 @@ function getCooldowns(id) {
   return false;
 }
 
+function getSailorAbility(id) {
+    var unit_details = details[id],
+    unit_sailor = unit_details && unit_details.sailor;
+
+    if(unit_sailor && unit_sailor.hasOwnProperty('base')){
+      var unit_details = details[id],
+      unit_sailor = unit_details && unit_details.sailor,
+      unit_sailor_base = unit_sailor && unit_sailor.hasOwnProperty('base') && unit_sailor.base,
+      unit_sailor_level6 = unit_sailor && unit_sailor.hasOwnProperty('level6') && unit_sailor.level6,
+      unit_sailor_level5 = unit_sailor && unit_sailor.hasOwnProperty('level5') && unit_sailor.level5,
+      unit_sailor_level4 = unit_sailor && unit_sailor.hasOwnProperty('level4') && unit_sailor.level4,
+      unit_sailor_level3 = unit_sailor && unit_sailor.hasOwnProperty('level3') && unit_sailor.level3,
+      unit_sailor_level2 = unit_sailor && unit_sailor.hasOwnProperty('level2') && unit_sailor.level2,
+      unit_sailor_level1 = unit_sailor && unit_sailor.hasOwnProperty('level1') && unit_sailor.level1,
+      unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
+      unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
+      response;
+
+      response = '<b>Sailor Ability[LB]:</b>\n';
+      response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+      response += (unit_sailor_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_sailor_level1.replaceEntities() + '\n' : '';
+      response += (unit_sailor_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_sailor_level2.replaceEntities() + '\n' : '' ;
+      response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ; 
+      response += (unit_sailor_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_sailor_level4.replaceEntities() + '\n' : '' ; 
+      response += (unit_sailor_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_sailor_level5.replaceEntities() + '\n' : '' ;
+      response += (unit_sailor_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_sailor_level6.replaceEntities() + '\n' : '' ;
+      response += '\n';
+      response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : '';
+      return response;
+      }
+  else{
+    var unit_details = details[id],
+    unit_sailor = unit_details && unit_details.sailor,
+    unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
+    unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
+    response;
+    if (unit_sailor) {
+      response = '<b>Sailor Ability:</b>\n';
+      response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : unit_sailor.replaceEntities() + '\n\n';
+      return response;
+    }
+  }
+  return false;
+}
 
 function getEvolutions(id, type) {
   var unit_evolutions = evolutions[id],
