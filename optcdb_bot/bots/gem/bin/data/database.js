@@ -370,10 +370,10 @@ function getUnitInfo(id, type) {
     response = unit_stats;
     response += unit_captain || '';
     response += unit_captain_notes || '';
+    response += unit_sailor || '';
     response += unit_special || '';
     response += unit_special_notes || '';
     response += unit_cooldown || '';
-    response += unit_sailor || '';
     response += unit_drops || '';
     response += unit_evolutions || '';
     response += '<a href="http://onepiece-treasurecruise.com/wp-content/uploads/c' + String('0000' + id).slice(-4).replace(/(057[54])/, '0$1') + '.png">\u2007</a>\n';
