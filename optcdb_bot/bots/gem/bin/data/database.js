@@ -29,18 +29,18 @@ function getStats(id) {
       unit_stars = (stars === 6) ? super_stars : normal_stars.substr(0, stars);
     }
     var unit_incomplete = (unit.indexOf(null) > -1),
-      unit_name = unit[0],
-      unit_type = unit[1],
-      unit_class = (Array.isArray(unit[2])) ? unit[2].join(', ') : unit[2],
-      unit_cost = unit[4],
-      unit_combo = unit[5],
-      unit_slots = unit[6],
-      unit_max = unit[7],
-      unit_exp = unit[8] && unit[8].toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'),
-      unit_max_hp = unit[12],
-      unit_max_atk = unit[13],
-      unit_max_rcv = unit[14],
-      response = (unit_incomplete === true) ? '<b>Note:</b> This unit is not yet released or incomplete! The information provided may not be accurate and is subject to change.\n\n' : '';
+    unit_name = unit[0],
+    unit_type = unit[1],
+    unit_class = (Array.isArray(unit[2])) ? unit[2].join(', ') : unit[2],
+    unit_cost = unit[4],
+    unit_combo = unit[5],
+    unit_slots = unit[6],
+    unit_max = unit[7],
+    unit_exp = unit[8] && unit[8].toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'),
+    unit_max_hp = unit[12],
+    unit_max_atk = unit[13],
+    unit_max_rcv = unit[14],
+    response = (unit_incomplete === true) ? '<b>Note:</b> This unit is not yet released or incomplete! The information provided may not be accurate and is subject to change.\n\n' : '';
     unit_type = (unit_type === 'STR') ? '\u2764\uFE0F STR' : unit_type;
     unit_type = (unit_type === 'QCK') ? '\uD83D\uDC99 QCK' : unit_type;
     unit_type = (unit_type === 'DEX') ? '\uD83D\uDC9A DEX' : unit_type;
@@ -65,52 +65,88 @@ function getStats(id) {
 }
 
 function getDetail(id, detail) {
-  if (id == 2002) var unit_details = details[1000]
   var unit_details = details[id];
   if (detail === 'captain') {
-	var unit_captain = unit_details && unit_details.captain || '';
-	if (unit_captain && unit_captain.hasOwnProperty('japan')) {
-	  unit_captain = unit_captain.japan + ' ' + unit_captain.global;
-	}
-	return unit_captain.replaceEntities() || false;
-  }
-  if (detail === 'special') {
-	var unit_special = unit_details && unit_details.special || '';
-	if (unit_special && unit_special.hasOwnProperty('japan')) {
-	  unit_special = unit_special.japan + ' ' + unit_special.global;
-	}
-	return unit_special.replaceEntities() || false;
-  }
-  if (detail === 'sailor') {
-	var unit_sailor = unit_details && unit_details.sailor || '';
-	if (unit_sailor&& unit_sailor.hasOwnProperty('japan')) {
-	  unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global;
-	}
-	return unit_sailor.replaceEntities() || false;
-  }  
+   var unit_captain = unit_details && unit_details.captain || '';
+   if (unit_captain != '' && unit_captain.hasOwnProperty('japan')) {
+     unit_captain = unit_captain.japan + ' ' + unit_captain.global;
+   }
+   else if(unit_captain != '' && unit_captain.hasOwnProperty('base')) {
+     unit_captain = unit_captain.base;
+   }
+   return unit_captain.replaceEntities() || false;
+ }
+ if (detail === 'sailor') {
+   var unit_sailor = unit_details && unit_details.sailor || '';
+   if (unit_sailor != '' && unit_sailor.hasOwnProperty('japan')) {
+     unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global;
+   }
+   else if (unit_sailor != '' && unit_sailor.hasOwnProperty('base')) {
+     unit_sailor = unit_sailor.base;
+   }
+   return unit_sailor.replaceEntities() || false;
+ }
+ if (detail === 'special') {
+   var unit_special = unit_details && unit_details.special || '';
+   if (unit_special && unit_special.hasOwnProperty('japan')) {
+     unit_special = unit_special.japan + ' ' + unit_special.global;
+   }
+   return unit_special.replaceEntities() || false;
+ }
 }
 
 function getCaptainAbility(id) {
   var unit_details = details[id],
+  unit_captain = unit_details && unit_details.captain;
+
+  if(unit_captain && unit_captain.hasOwnProperty('base')){
+    var unit_details = details[id],
+    unit_captain = unit_details && unit_details.captain,
+    unit_captain_base = unit_captain && unit_captain.hasOwnProperty('base') && unit_captain.base,
+    unit_captain_level6 = unit_captain && unit_captain.hasOwnProperty('level6') && unit_captain.level6,
+    unit_captain_level5 = unit_captain && unit_captain.hasOwnProperty('level5') && unit_captain.level5,
+    unit_captain_level4 = unit_captain && unit_captain.hasOwnProperty('level4') && unit_captain.level4,
+    unit_captain_level3 = unit_captain && unit_captain.hasOwnProperty('level3') && unit_captain.level3,
+    unit_captain_level2 = unit_captain && unit_captain.hasOwnProperty('level2') && unit_captain.level2,
+    unit_captain_level1 = unit_captain && unit_captain.hasOwnProperty('level1') && unit_captain.level1,
+    unit_captain_japan = unit_captain && unit_captain.hasOwnProperty('japan') && unit_captain.japan,
+    unit_captain_global = unit_captain && unit_captain.hasOwnProperty('global') && unit_captain.global,
+    response;
+
+    response = '<b>Captain Ability[LB]:</b>\n';
+    response += (unit_captain_base !== false) ? '<code>Base:</code> ' + unit_captain_base.replaceEntities() + '\n' : unit_captain.replaceEntities() + '\n\n';
+    response += (unit_captain_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_captain_level6.replaceEntities() + '\n\n' : 
+    (unit_captain_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_captain_level5.replaceEntities() + '\n\n' : 
+    (unit_captain_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_captain_level4.replaceEntities() + '\n\n' : 
+    (unit_captain_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_captain_level3.replaceEntities() + '\n\n' : 
+    (unit_captain_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_captain_level2.replaceEntities() + '\n\n' :
+    (unit_captain_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_captain_level1.replaceEntities() + '\n\n' : 
+    (unit_captain_japan !== false) ? '<code>Japan:</code> ' + unit_captain_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_captain_global.replaceEntities() + '\n\n' :
+    unit_captain.replaceEntities() + '\n\n';
+    return response;
+  }
+  else{
+    var unit_details = details[id],
     unit_captain = unit_details && unit_details.captain,
     unit_captain_japan = unit_captain && unit_captain.hasOwnProperty('japan') && unit_captain.japan,
     unit_captain_global = unit_captain && unit_captain.hasOwnProperty('global') && unit_captain.global,
     response;
-  if (unit_captain) {
-    response = '<b>Captain Ability:</b>\n';
-    response += (unit_captain_japan !== false) ? '<code>Japan:</code> ' + unit_captain_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_captain_global.replaceEntities() + '\n\n' : unit_captain.replaceEntities() + '\n\n';
-    return response;
+    if (unit_captain) {
+      response = '<b>Captain Ability:</b>\n';
+      response += (unit_captain_japan !== false) ? '<code>Japan:</code> ' + unit_captain_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_captain_global.replaceEntities() + '\n\n' : unit_captain.replaceEntities() + '\n\n';
+      return response;
+    }
   }
   return false;
 }
 
 function getSpecialAbility(id) {
   var unit_details = details[id],
-    unit_special_name = unit_details && unit_details.specialName,
-    unit_special = unit_details && unit_details.special,
-    unit_special_japan = unit_special && unit_special.hasOwnProperty('japan') && unit_special.japan,
-    unit_special_global = unit_special && unit_special.hasOwnProperty('global') && unit_special.global,
-    response;
+  unit_special_name = unit_details && unit_details.specialName,
+  unit_special = unit_details && unit_details.special,
+  unit_special_japan = unit_special && unit_special.hasOwnProperty('japan') && unit_special.japan,
+  unit_special_global = unit_special && unit_special.hasOwnProperty('global') && unit_special.global,
+  response;
   if (unit_special) {
     response = '<b>Special:</b>\n';
     response += '<i>' + unit_special_name + '</i>\n';
@@ -144,8 +180,8 @@ function getNotes(note) {
 
 function getCooldowns(id) {
   var unit_cooldown = cooldowns[id - 1],
-    unit_cooldown_min = Array.isArray(unit_cooldown) && unit_cooldown[0],
-    unit_cooldown_max = Array.isArray(unit_cooldown) && unit_cooldown[1];
+  unit_cooldown_min = Array.isArray(unit_cooldown) && unit_cooldown[0],
+  unit_cooldown_max = Array.isArray(unit_cooldown) && unit_cooldown[1];
   if (unit_cooldown) {
     return (unit_cooldown_min && (unit_cooldown_min !== unit_cooldown_max)) ? 'Cooldown: ' + unit_cooldown_min + ' (' + unit_cooldown_max + ')' + '\n\n' : 'Cooldown: ' + (unit_cooldown_min || unit_cooldown) + '\n\n';
   }
@@ -153,27 +189,58 @@ function getCooldowns(id) {
 }
 
 function getSailorAbility(id) {
-  var unit_details = details[id],
+    var unit_details = details[id],
+    unit_sailor = unit_details && unit_details.sailor;
+
+    if(unit_sailor && unit_sailor.hasOwnProperty('base')){
+      var unit_details = details[id],
+      unit_sailor = unit_details && unit_details.sailor,
+      unit_sailor_base = unit_sailor && unit_sailor.hasOwnProperty('base') && unit_sailor.base,
+      unit_sailor_level6 = unit_sailor && unit_sailor.hasOwnProperty('level6') && unit_sailor.level6,
+      unit_sailor_level5 = unit_sailor && unit_sailor.hasOwnProperty('level5') && unit_sailor.level5,
+      unit_sailor_level4 = unit_sailor && unit_sailor.hasOwnProperty('level4') && unit_sailor.level4,
+      unit_sailor_level3 = unit_sailor && unit_sailor.hasOwnProperty('level3') && unit_sailor.level3,
+      unit_sailor_level2 = unit_sailor && unit_sailor.hasOwnProperty('level2') && unit_sailor.level2,
+      unit_sailor_level1 = unit_sailor && unit_sailor.hasOwnProperty('level1') && unit_sailor.level1,
+      unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
+      unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
+      response;
+
+      response = '<b>Sailor Ability[LB]:</b>\n';
+      response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+      response += (unit_sailor_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_sailor_level1.replaceEntities() + '\n' : '';
+      response += (unit_sailor_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_sailor_level2.replaceEntities() + '\n' : '' ;
+      response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ; 
+      response += (unit_sailor_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_sailor_level4.replaceEntities() + '\n' : '' ; 
+      response += (unit_sailor_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_sailor_level5.replaceEntities() + '\n' : '' ;
+      response += (unit_sailor_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_sailor_level6.replaceEntities() + '\n' : '' ;
+      response += '\n';
+      response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : '';
+      return response;
+      }
+  else{
+    var unit_details = details[id],
     unit_sailor = unit_details && unit_details.sailor,
     unit_sailor_japan = unit_sailor && unit_sailor.hasOwnProperty('japan') && unit_sailor.japan,
     unit_sailor_global = unit_sailor && unit_sailor.hasOwnProperty('global') && unit_sailor.global,
     response;
-  if (unit_sailor) {
-    response = '<b>Sailor Ability:</b>\n';
-    response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : unit_sailor.replaceEntities() + '\n\n';
-    return response;
+    if (unit_sailor) {
+      response = '<b>Sailor Ability:</b>\n';
+      response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : unit_sailor.replaceEntities() + '\n\n';
+      return response;
+    }
   }
   return false;
 }
 
 function getEvolutions(id, type) {
   var unit_evolutions = evolutions[id],
-    unit_evolution = unit_evolutions && unit_evolutions.evolution,
-    unit_evolvers = unit_evolutions && unit_evolutions.evolvers,
-    unit_evolution_paths = [],
-    unit_devolutions = [],
-    space = '\u2007\u2007\u2007\u2007',
-    response;
+  unit_evolution = unit_evolutions && unit_evolutions.evolution,
+  unit_evolvers = unit_evolutions && unit_evolutions.evolvers,
+  unit_evolution_paths = [],
+  unit_devolutions = [],
+  space = '\u2007\u2007\u2007\u2007',
+  response;
   if (unit_evolutions) {
     if (Array.isArray(unit_evolution)) {
       unit_evolution.forEach(function(evolution, evolver) {
@@ -212,15 +279,15 @@ function getEvolutions(id, type) {
 
 function getDrops(id) {
   var island_types = Object.getOwnPropertyNames(drops),
-    drop_lists = [
-      [],
-      []
-    ],
-    drop_result = [
-      [],
-      []
-    ],
-    response;
+  drop_lists = [
+  [],
+  []
+  ],
+  drop_result = [
+  [],
+  []
+  ],
+  response;
   island_types.forEach(function(islands) {
     if (drops[islands]) {
       drops[islands].forEach(function(island, index) {
@@ -252,7 +319,7 @@ function getDrops(id) {
       if (drop) {
         if (drop[1] && drop[1] !== ' ') {
           var o_drops = drop.slice(1),
-            n_drops = [];
+          n_drops = [];
           o_drops.forEach(function(n_drop, index) {
             n_drop = n_drop.replace('Completion Units', 'After completion');
             if (index < o_drops.length) {
@@ -290,28 +357,28 @@ function getDrops(id) {
 
 function getUnitInfo(id, type) {
   var unit_stats = getStats(id, type),
-    unit_captain = getCaptainAbility(id, type),
-    unit_special = getSpecialAbility(id, type),
-    unit_captain_notes = getNotes(details[id] && details[id].captainNotes, type),
-    unit_special_notes = getNotes(details[id] && details[id].specialNotes, type),
-    unit_cooldown = getCooldowns(id, type),
-    unit_sailor = getSailorAbility(id),
-    unit_drops = getDrops(id, type),
-    unit_evolutions = getEvolutions(id, type),
-    response;
+  unit_captain = getCaptainAbility(id, type),
+  unit_special = getSpecialAbility(id, type),
+  unit_captain_notes = getNotes(details[id] && details[id].captainNotes, type),
+  unit_special_notes = getNotes(details[id] && details[id].specialNotes, type),
+  unit_cooldown = getCooldowns(id, type),
+  unit_sailor = getSailorAbility(id),
+  unit_drops = getDrops(id, type),
+  unit_evolutions = getEvolutions(id, type),
+  response;
   if (unit_stats) {
     response = unit_stats;
     response += unit_captain || '';
     response += unit_captain_notes || '';
     response += unit_special || '';
     response += unit_special_notes || '';
-    response += unit_sailor || '';
     response += unit_cooldown || '';
+    response += unit_sailor || '';
     response += unit_drops || '';
     response += unit_evolutions || '';
     response += '<a href="http://onepiece-treasurecruise.com/wp-content/uploads/c' + String('0000' + id).slice(-4).replace(/(057[54])/, '0$1') + '.png">\u2007</a>\n';
-	response += '<a href="https://t.me/OPTCNews">JPN NEWS</a> | <a href="https://discord.gg/pa5pBJd">Discord Group</a> | <a href="http://optc-news.com">News Archive</a>\n';
-	response += '<b>J O I N   U S</b>\n<a href="https://telegram.me/joinchat/ABzveEDxZTiNLYTRO5-kQg">English group</a> | <a href="https://t.me/joinchat/ABzveENpurD6yuLWuTL18Q">Italian group</a> | <a href="https://t.me/joinchat/ABzveENMOZg4ZCXSqfziGA">Spanish group</a>\n';
+    response += '<a href="https://t.me/OPTCNews">JPN NEWS</a> | <a href="https://discord.gg/pa5pBJd">Discord Group</a> | <a href="http://optc-news.com">News Archive</a>\n';
+    response += '<b>J O I N   U S</b>\n<a href="https://telegram.me/joinchat/ABzveEDxZTiNLYTRO5-kQg">English group</a> | <a href="https://t.me/joinchat/ABzveENpurD6yuLWuTL18Q">Italian group</a> | <a href="https://t.me/joinchat/ABzveENMOZg4ZCXSqfziGA">Spanish group</a>\n';
     return response;
   }
 }

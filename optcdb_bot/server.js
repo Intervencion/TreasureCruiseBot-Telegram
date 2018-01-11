@@ -14,7 +14,7 @@ global.userprefs = {};
 var telegram = require(path.join(global.base, 'telegram.js'));
 
 var bots = {};
-var bots_enabled = ['gem-dev', 'gem'];
+var bots_enabled = ['gem'];
 
 var data = {
   reload: path.join(global.base, 'data', 'reload.json'),
