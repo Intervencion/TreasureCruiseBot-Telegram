@@ -46,6 +46,28 @@ function getStats(id) {
 		unit_type = (unit_type === 'DEX') ? '\uD83D\uDC9A DEX' : unit_type;
 		unit_type = (unit_type === 'PSY') ? '\uD83D\uDC9B PSY' : unit_type;
 		unit_type = (unit_type === 'INT') ? '\uD83D\uDC9C INT' : unit_type;
+		var unit_details = details[id];
+		var addSocket = 0;
+		var addHP = 0;
+		var addATK = 0;
+		var addRCV = 0;
+		if(unit_details && unit_details.hasOwnProperty('limit') ){
+			
+			unit_details.limit.forEach(function(desc,index){
+				if(desc.description.includes("Aquire 1 additional Socket slot")){
+					addSocket += 1;
+				}
+				else if (desc.description.includes("Boosts base HP by ")){
+					addHP = desc.description.substr(desc.description.lastIndexOf(" ")+1);
+				}
+				else if (desc.description.includes("Boosts base ATK by ")){
+					addATK = desc.description.substr(desc.description.lastIndexOf(" ")+1);
+				}
+				else if (desc.description.includes("Boosts base RCV by ")){
+					addRCV = desc.description.substr(desc.description.lastIndexOf(" ")+1);
+				}
+			});
+		}
 		response += '<b>U N I T   # ' + id.toString().split('').join(' ') + '</b>\n\n';
 		response += '<b>' + unit_name + '</b>\n\n';
 		response += '<b>D E T A I L S</b>\n\n';
@@ -53,12 +75,16 @@ function getStats(id) {
 		response += '<code>CLASS </code>' + unit_class + '\n';
 		response += '<code> TYPE </code>' + unit_type + '\n';
 		response += '<code>  MAX </code>' + unit_max + ' (' + unit_exp + ' EXP)\n';
-		response += '<code>   HP </code>' + unit_max_hp + '\n';
-		response += '<code>  ATK </code>' + unit_max_atk + '\n';
-		response += '<code>  RCV </code>' + unit_max_rcv + '\n';
+		response += '<code>   HP </code>' + unit_max_hp;
+		response += addHP !== 0 ? " (+"+addHP+")" +'\n' :'\n';
+		response += '<code>  ATK </code>' + unit_max_atk;
+		response += addATK !== 0 ? " (+"+addATK+")" +'\n' :'\n';
+		response += '<code>  RCV </code>' + unit_max_rcv;
+		response += addRCV !== 0 ? " (+"+addRCV+")" +'\n' :'\n';
 		response += '<code> COST </code>' + unit_cost + '\n';
 		response += '<code>COMBO </code>' + unit_combo + '\n';
-		response += '<code>SLOTS </code>' + unit_slots + '\n\n';
+		response += '<code>SLOTS </code>' + unit_slots;
+		response += addSocket !== 0 ? " (+"+addSocket+")" +'\n\n' :'\n\n';
 		return response;
 	}
 	return false;
@@ -112,7 +138,6 @@ function getCaptainAbility(id) {
 		unit_captain_japan = unit_captain && unit_captain.hasOwnProperty('japan') && unit_captain.japan,
 		unit_captain_global = unit_captain && unit_captain.hasOwnProperty('global') && unit_captain.global,
 		response;
-
 		response = '<b>Captain Ability[LB]:</b>\n';
 		response += (unit_captain_base !== false) ? '<code>Base:</code> ' + unit_captain_base.replaceEntities() + '\n' : unit_captain.replaceEntities() + '\n\n';
 		response += (unit_captain_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_captain_level6.replaceEntities() + '\n\n' : 
@@ -182,8 +207,20 @@ function getCooldowns(id) {
 	var unit_cooldown = cooldowns[id - 1],
 	unit_cooldown_min = Array.isArray(unit_cooldown) && unit_cooldown[0],
 	unit_cooldown_max = Array.isArray(unit_cooldown) && unit_cooldown[1];
+	var minusCD = 0;
+	var unit_details = details[id];
+	if(unit_details && unit_details.hasOwnProperty('limit')){
+		unit_details.limit.forEach(function(desc,index){
+			if (desc.description.includes("Reduce base Special Cooldown by ")){
+				minusCD += parseInt(desc.description.replace(/\D/g,'').replace(/\s/,''));
+			}
+		});
+	}
+
 	if (unit_cooldown) {
-		return (unit_cooldown_min && (unit_cooldown_min !== unit_cooldown_max)) ? 'Cooldown: ' + unit_cooldown_min + ' (' + unit_cooldown_max + ')' + '\n\n' : 'Cooldown: ' + (unit_cooldown_min || unit_cooldown) + '\n\n';
+		var response =  (unit_cooldown_min && (unit_cooldown_min !== unit_cooldown_max)) ? 'Cooldown: ' + unit_cooldown_min + ' (' + unit_cooldown_max + ')' : 'Cooldown: ' + (unit_cooldown_min || unit_cooldown);
+		response += (unit_cooldown_min && (unit_cooldown_min !== unit_cooldown_max) && minusCD !== 0) ? " (LB: "+ (unit_cooldown_max - minusCD) +")\n\n" : "\n\n";
+		return response;
 	}
 	return false;
 }
@@ -236,8 +273,8 @@ function getSailorAbility(id) {
 
 function getPotential(id) {
 	var unit_details = details[id],
-		unit_potential = unit_details && unit_details.potential,
-		response;
+	unit_potential = unit_details && unit_details.potential,
+	response;
 
 	if(unit_potential){
 		
@@ -248,11 +285,11 @@ function getPotential(id) {
 			var desc = potential.description;
 			desc.forEach(function(liv,index,array){
 				if(index === array.length - 1)
-				response += liv ? '\t\t<i>'+liv.replaceEntities() +'</i>\n':''; 
+					response += liv ? '\t\t<i>'+liv.replaceEntities() +'</i>\n':''; 
 			});
 			response+='\n'
 		});
-			
+
 		return response;
 	}
 	return false;

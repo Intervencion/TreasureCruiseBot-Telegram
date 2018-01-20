@@ -10,7 +10,7 @@ exports.token = token;
 require(path.join(base, 'bin/utils/utils.js'));
 
 var modules = {};
-var modules_enabled = ['help', 'status', 'search', 'drops', 'rate', 'set', 'damage', 'github'];
+var modules_enabled = ['help', 'status', 'search', 'drops', 'rate', 'set', /*'damage'*/, 'github', 'ship'];
 var module_commands = [];
 
 modules_enabled.forEach(function (module) {
@@ -28,61 +28,110 @@ exports.text = function (message) {
     modules.status.module.addUser(message.from.id);
     modules.status.module.addRequest(message.chat.type);
     var msg = message.text.toLowerCase();
-    if (msg.indexOf('/') === 0) {
-      msg = msg.substr(1);
-      var cmd = msg.split(' ').shift().split('@')[0];
-      var arg = msg.split(' ').slice(1).join(' ');
-      if (!isNaN(parseFloat(cmd)) && isFinite(cmd)) {
-        telegram.send('sendMessage', {
-          form: modules.search.module.getUnitInfo(cmd, arg, message)
-        }, token);
-      } else {
-        var answered = module_commands.some(function (commands) {
-          return commands.some(function (command) {
-            if (command.indexOf(cmd) > -1) {
-              var response = modules[commands[0]].module.getReply(cmd, arg, message, userprefs);
-              if (response) {
-                telegram.send('sendMessage', {
-                  form: response
-                }, token);
-                return true;
-              }
-            }
-          });
-        });
-        if (!answered && cmd !== 'set') {
-          telegram.send('sendMessage', {
-            form: modules.search.module.getReply('search', msg, message, userprefs)
-          }, token);
-        }
-      }
+    if(msg.indexOf('/ship') ===0 ){
+     msg = msg.substr(1);
+     var cmd = msg.split(' ').shift().split('@')[0];
+     var arg = msg.split(' ').slice(1).join(' ');
+     if (!isNaN(parseFloat(cmd)) && isFinite(cmd)) {
+      telegram.send('sendMessage', {
+        form: modules.ship.module.getShipInfo(cmd, arg, message)
+      }, token);
     } else {
-      if (msg.indexOf('u n i t') !== 0 && msg.indexOf('s e a r c h') !== 0 && msg.indexOf('note:') !== 0) {
+      var answered = module_commands.some(function (commands) {
+        return commands.some(function (command) {
+          if (command.indexOf(cmd) > -1) {
+            var response = modules[commands[0]].module.getReply(cmd, arg, message, userprefs);
+            if (response) {
+              telegram.send('sendMessage', {
+                form: response
+              }, token);
+              return true;
+            }
+          }
+        });
+      });
+      if (!answered) {
+        telegram.send('sendMessage', {
+          form: modules.ship.module.getReply('ship', msg, message, userprefs)
+        }, token);
+      }
+    }
+  }
+  else if (msg.indexOf('/') === 0) {
+    msg = msg.substr(1);
+    var cmd = msg.split(' ').shift().split('@')[0];
+    var arg = msg.split(' ').slice(1).join(' ');
+    if (!isNaN(parseFloat(cmd)) && isFinite(cmd)) {
+      telegram.send('sendMessage', {
+        form: modules.search.module.getUnitInfo(cmd, arg, message)
+      }, token);
+    } else {
+      var answered = module_commands.some(function (commands) {
+        return commands.some(function (command) {
+          if (command.indexOf(cmd) > -1) {
+            var response = modules[commands[0]].module.getReply(cmd, arg, message, userprefs);
+            if (response) {
+              telegram.send('sendMessage', {
+                form: response
+              }, token);
+              return true;
+            }
+          }
+        });
+      });
+      if (!answered && cmd !== 'set') {
         telegram.send('sendMessage', {
           form: modules.search.module.getReply('search', msg, message, userprefs)
         }, token);
       }
     }
-  } catch (err) {
-    telegram.error(err, message, token);
+  } else {
+    if (msg.indexOf('u n i t') !== 0 && msg.indexOf('s e a r c h') !== 0 && msg.indexOf('note:') !== 0 && msg.indexOf('\ud83d\udea2') !== 0) {
+      telegram.send('sendMessage', {
+        form: modules.search.module.getReply('search', msg, message, userprefs)
+      }, token);
+    }
   }
+} catch (err) {
+  telegram.error(err, message, token);
+}
 };
 
 exports.inline_query = function (query) {
-  try {
-    modules.status.module.addUser(query.from.id);
-    modules.status.module.addRequest('inline');
-    var results = modules.search.module.i(query.query, parseInt(query.offset) || 0);
-    telegram.send('answerInlineQuery', {
-      form: {
-        results: results,
-        cache_time: 0,
-        next_offset: (parseInt(query.offset) || 0) + 10,
-        inline_query_id: query.id
-      }
-    }, token);
-  } catch (err) {
-    telegram.error(err, query, token);
+  if(query.query.toLowerCase().startsWith("/ship")){
+    try {
+      modules.status.module.addUser(query.from.id);
+      modules.status.module.addRequest('inline');
+      var clean_query = query.query.toLowerCase().replace("/ship", "");
+      var results = modules.ship.module.sh(clean_query, parseInt(query.offset) || 0);
+      telegram.send('answerInlineQuery', {
+        form: {
+          results: results,
+          cache_time: 0,
+          next_offset: (parseInt(query.offset) || 0) + 10,
+          inline_query_id: query.id
+        }
+      }, token);
+    } catch (err) {
+      telegram.error(err, query, token);
+    }
+  }
+  else{
+    try {
+      modules.status.module.addUser(query.from.id);
+      modules.status.module.addRequest('inline');
+      var results = modules.search.module.i(query.query, parseInt(query.offset) || 0);
+      telegram.send('answerInlineQuery', {
+        form: {
+          results: results,
+          cache_time: 0,
+          next_offset: (parseInt(query.offset) || 0) + 10,
+          inline_query_id: query.id
+        }
+      }, token);
+    } catch (err) {
+      telegram.error(err, query, token);
+    }
   }
 };
 
