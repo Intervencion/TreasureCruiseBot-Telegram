@@ -51,7 +51,7 @@ function getStats(id) {
 		var addHP = 0;
 		var addATK = 0;
 		var addRCV = 0;
-		if(unit_details && unit_details.hasOwnProperty('limit') ){
+		if(unit_details && unit_details.hasOwnProperty('limit') && Array.isArray(unit_details.limit)){
 			
 			unit_details.limit.forEach(function(desc,index){
 				if(desc.description.includes("Aquire 1 additional Socket slot")){
@@ -209,7 +209,7 @@ function getCooldowns(id) {
 	unit_cooldown_max = Array.isArray(unit_cooldown) && unit_cooldown[1];
 	var minusCD = 0;
 	var unit_details = details[id];
-	if(unit_details && unit_details.hasOwnProperty('limit')){
+	if(unit_details && unit_details.hasOwnProperty('limit') && Array.isArray(unit_details.limit)){
 		unit_details.limit.forEach(function(desc,index){
 			if (desc.description.includes("Reduce base Special Cooldown by ")){
 				minusCD += parseInt(desc.description.replace(/\D/g,'').replace(/\s/,''));
