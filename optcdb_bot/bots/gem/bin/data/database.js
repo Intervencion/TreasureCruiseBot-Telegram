@@ -357,10 +357,21 @@ function getDrops(id) {
 				stages.forEach(function(stage) {
 					if (island[stage] && Array.isArray(island[stage])) {
 						if (island[stage].indexOf(id) > -1) {
-							drop_lists[0].push([island.shortName || island.name, stage]);
+							if(islands.toString() === "Coliseum"){
+								drop_lists[0].push([island.shortName || "Coliseum", stage]);
+							}
+							else{
+								drop_lists[0].push([island.shortName || island.name, stage]);
+							}
+							
 						}
 						if (island[stage].indexOf(-Math.abs(id)) > -1) {
-							drop_lists[1].push([island.shortName || island.name, stage]);
+							if(islands.toString() === "Coliseum"){
+								drop_lists[1].push([island.shortName || "Coliseum", stage]);
+							}
+							else{
+								drop_lists[1].push([island.shortName || island.name, stage])
+							}
 						}
 					}
 				});
