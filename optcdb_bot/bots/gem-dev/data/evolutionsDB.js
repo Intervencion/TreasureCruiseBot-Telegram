@@ -3059,6 +3059,14 @@ module.exports = {
         evolution: 1930,
         evolvers: [ 118, 266, 97, 102, 302 ]
     },
+    720: {
+        evolution: 1927,
+        evolvers: [ 118, 84, 300, 267 ]
+    },
+    1035: {
+        evolution: 1928,
+        evolvers: [ 118, 85, 301, 267 ]
+    },
     1934: {
         evolution: 1935,
         evolvers: [  ]
@@ -3075,8 +3083,44 @@ module.exports = {
         evolution: 1941,
         evolvers: [  ]
     },
+    1942: {
+        evolution: 1943,
+        evolvers: [  ]
+    },
     1944: {
         evolution: 1945,
+        evolvers: [  ]
+    },
+    1946: {
+        evolution: 1947,
+        evolvers: [  ]
+    },
+    1948: {
+        evolution: 1949,
+        evolvers: [  ]
+    },
+    1950: {
+        evolution: 1951,
+        evolvers: [  ]
+    },
+    1952: {
+        evolution: 1953,
+        evolvers: [  ]
+    },
+    1954: {
+        evolution: 1955,
+        evolvers: [  ]
+    },
+    1956: {
+        evolution: 1957,
+        evolvers: [  ]
+    },
+    1958: {
+        evolution: 1959,
+        evolvers: [  ]
+    },
+    1960: {
+        evolution: 1961,
         evolvers: [  ]
     },
 };
