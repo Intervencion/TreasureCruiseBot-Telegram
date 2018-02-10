@@ -1750,7 +1750,7 @@ module.exports = {
             nakama: 2035243,
             gamewith: 62883,
             condition: 'Only [INT] and [PSY] orbs appear',
-            'All Difficulties': [ 1689, 1691, 1692, -1532, -1543, -449, -453, -1079, -1538, -967, -1346, -1349 ],
+            'All Difficulties': [ 1689, 1691, 1692, -1532, -1543, -1542, -449, -453, -1079, -1538, -967, -1346, -1349 ],
         },
         
         {
@@ -1854,6 +1854,14 @@ module.exports = {
             gamewith: 86343,
             condition: 'Take 7% current Health in Environmental Damage every 2 turns',
             'All Difficulties': [ 1931, 1932, 1933, -1747, -1318, -1324, -1798, -1749, -1561 ]
+        },
+        
+        {
+            name: 'My Ideal Type!',
+            thumb: 1947,
+            nakama: null,
+            gamewith: 88584,
+            'All Difficulties': [ 1946, 1948, -1763, -1796, -1800, -1364, -1678, -1562 ]
         },
         
     ],
@@ -2317,6 +2325,7 @@ module.exports = {
         {
             name: 'Clash!! Señor Pink',
             thumb: 1943,
+            gamewith: 88927,
             Master: [ 1942 ],
             Expert: [ 1942 ]
         },
@@ -2344,21 +2353,21 @@ module.exports = {
     'Treasure Map': [
 
         {
-            name: 'Mihawk',
+            name: 'Dracule Mihawk',
             thumb: 1808,
             gamewith: 72766,
             'Raging Sea': [ 1807 ]
         },
 
         {
-            name: 'Whitebeard',
+            name: 'Edward Newgate',
             thumb: 1853,
             gamewith: 79614,
             'Raging Sea': [ 1852 ]
         },
 
         {
-            name: 'Cavendish',
+            name: 'White Knight Cavendish',
             thumb: 1889,
             gamewith: 83086,
             'Raging Sea': [ 1888 ]
@@ -2374,8 +2383,15 @@ module.exports = {
         {
             name: 'Fire Fist Ace',
             thumb: 1941,
-            gamewith: null,
+            gamewith: 87389,
             'Raging Sea': [ 1940 ]
+        },
+
+        {
+            name: 'Fire Fist Sabo',
+            thumb: 1972,
+            gamewith: null,
+            'Raging Sea': [ 1971 ]
         },
         
     ],
@@ -2427,7 +2443,7 @@ module.exports = {
         },
         
         {
-            name: 'Valentines Day and White Day Characters',
+            name: 'White Day Characters',
             thumb: 1463,
             gamewith: 51651,
             'Luffy': [ 1462, 29, 563, 1059, 345, 192, 113, 108, 115, 116, 117, 1180, 266, 94, 83 ],
@@ -2437,9 +2453,11 @@ module.exports = {
         },
         
         {
-            name: 'Wedding Sanji',
+            name: 'Sweet Heart Memory',
             thumb: 1961,
-            'Sanji': [ 1960 ],
+            gamewith: 88896,
+            'Sanji': [ 1960, 83, 94, 226, 1180, 81, 87, 92, 98, 113 ],
+            'Pudding': [ 1962, 83, 94, 226, 1180, 82, 88, 93, 99, 114 ],
         },
 
         {
@@ -2589,7 +2607,7 @@ module.exports = {
         },
         
         {
-            name: 'Challenge the Enemy! Sugofest Exclusive Character Skillbooks!',
+            name: 'Champion Challenge!',
             thumb: 1588,
             gamewith: 56742,
             showManual: true,
@@ -2618,7 +2636,7 @@ module.exports = {
             'Boa Hancock': [ 303, 103, 87, 98, 81, 92, 350, -416, -1445, -253, -677, -1320, -1448, -22, -402, -506, -588, -893, -1157, -702 ],
             'Bartolomeo': [ 304, 104, 88, 99, 82, 93, 351, -1035, -221, -357, -643, -840, -1025, -1029, -225, -541, -733, -1056 ],
             'Borsalino': [ 302, 102, 86, 97, 80, 91, 349, -1240, -77, -257, -760, -943, -1272, -1551, -896, -398, -793, -1058, -59 ],
-            'Captain Buggy': [ 300, 100, 84, 95, 78, 89, 347, -1391, -1031, -1232, -1276, -1550, -739, -214, -707, -735, -890, -1318, -290 ],
+            'Captain Buggy': [ 300, 100, 84, 95, 78, 89, 347, -1391, -1031, -1232, -1276, -1550, -739, -214, -707, -735, -890, -1281, -290 ],
         },
         
         {

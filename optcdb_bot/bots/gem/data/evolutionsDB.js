@@ -3055,10 +3055,6 @@ module.exports = {
         evolution: 1926,
         evolvers: [ 118, 88, 99, 304, 304 ]
     },
-    1929: {
-        evolution: 1930,
-        evolvers: [ 118, 266, 97, 102, 302 ]
-    },
     720: {
         evolution: 1927,
         evolvers: [ 118, 84, 300, 267 ]
@@ -3067,60 +3063,84 @@ module.exports = {
         evolution: 1928,
         evolvers: [ 118, 85, 301, 267 ]
     },
+    1929: {
+        evolution: 1930,
+        evolvers: [ 118, 266, 97, 302, 102 ]
+    },
     1934: {
         evolution: 1935,
-        evolvers: [  ]
+        evolvers: [ 118, 79, 94, 301, 267 ]
     },
     1936: {
         evolution: 1937,
-        evolvers: [  ]
+        evolvers: [ 117, 82, 93, 99, 104 ]
     },
     1938: {
         evolution: 1939,
-        evolvers: [  ]
+        evolvers: [ 117, 80, 91, 97, 102 ]
     },
     1940: {
         evolution: 1941,
-        evolvers: [  ]
+        evolvers: [ 115, 116, 117, 118, 100 ]
     },
     1942: {
         evolution: 1943,
-        evolvers: [  ]
+        evolvers: [ 118, 89, 94, 300, 100 ]
     },
     1944: {
         evolution: 1945,
-        evolvers: [  ]
+        evolvers: [ 118, 98, 1180, 303, 103 ]
     },
     1946: {
         evolution: 1947,
-        evolvers: [  ]
+        evolvers: [ 82, 88, 93, 99, 104 ]
     },
     1948: {
         evolution: 1949,
-        evolvers: [  ]
+        evolvers: [ 81, 87, 92, 98, 103 ]
     },
     1950: {
         evolution: 1951,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 266, 303, 267 ]
     },
     1952: {
         evolution: 1953,
-        evolvers: [  ]
+        evolvers: [ 83, 94, 99, 304, 104 ]
     },
     1954: {
         evolution: 1955,
-        evolvers: [  ]
+        evolvers: [ 118, 79, 1180, 301, 101 ]
     },
     1956: {
         evolution: 1957,
-        evolvers: [  ]
+        evolvers: [ 266, 78, 94, 300, 100 ]
     },
     1958: {
         evolution: 1959,
-        evolvers: [  ]
+        evolvers: [ 1180, 91, 97, 302, 102 ]
     },
     1960: {
         evolution: 1961,
+        evolvers: [ 116, 117, 81, 87, 98 ]
+    },
+    1962: {
+        evolution: 1963,
+        evolvers: [  ]
+    },
+    1964: {
+        evolution: 1965,
+        evolvers: [  ]
+    },
+    1967: {
+        evolution: 1968,
+        evolvers: [  ]
+    },
+    1969: {
+        evolution: 1970,
+        evolvers: [  ]
+    },
+    1971: {
+        evolution: 1972,
         evolvers: [  ]
     },
 };
