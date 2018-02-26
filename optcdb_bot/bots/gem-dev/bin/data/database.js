@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 var path = require('path');
 var base = path.join(__dirname, '../..');
@@ -52,19 +52,19 @@ function getStats(id) {
 		var addATK = 0;
 		var addRCV = 0;
 		if(unit_details && unit_details.hasOwnProperty('limit') && Array.isArray(unit_details.limit)){
-			
+
 			unit_details.limit.forEach(function(desc,index){
 				if(desc.description.includes("Aquire 1 additional Socket slot")){
 					addSocket += 1;
 				}
 				else if (desc.description.includes("Boosts base HP by ")){
-					addHP = desc.description.substr(desc.description.lastIndexOf(" ")+1);
+					addHP += parseInt(desc.description.substr(desc.description.lastIndexOf(" ")+1));
 				}
 				else if (desc.description.includes("Boosts base ATK by ")){
-					addATK = desc.description.substr(desc.description.lastIndexOf(" ")+1);
+					addATK += parseInt(desc.description.substr(desc.description.lastIndexOf(" ")+1));
 				}
 				else if (desc.description.includes("Boosts base RCV by ")){
-					addRCV = desc.description.substr(desc.description.lastIndexOf(" ")+1);
+					addRCV += parseInt(desc.description.substr(desc.description.lastIndexOf(" ")+1));
 				}
 			});
 		}
@@ -140,12 +140,12 @@ function getCaptainAbility(id) {
 		response;
 		response = '<b>Captain Ability[LB]:</b>\n';
 		response += (unit_captain_base !== false) ? '<code>Base:</code> ' + unit_captain_base.replaceEntities() + '\n' : unit_captain.replaceEntities() + '\n\n';
-		response += (unit_captain_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_captain_level6.replaceEntities() + '\n\n' : 
-		(unit_captain_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_captain_level5.replaceEntities() + '\n\n' : 
-		(unit_captain_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_captain_level4.replaceEntities() + '\n\n' : 
-		(unit_captain_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_captain_level3.replaceEntities() + '\n\n' : 
+		response += (unit_captain_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_captain_level6.replaceEntities() + '\n\n' :
+		(unit_captain_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_captain_level5.replaceEntities() + '\n\n' :
+		(unit_captain_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_captain_level4.replaceEntities() + '\n\n' :
+		(unit_captain_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_captain_level3.replaceEntities() + '\n\n' :
 		(unit_captain_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_captain_level2.replaceEntities() + '\n\n' :
-		(unit_captain_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_captain_level1.replaceEntities() + '\n\n' : 
+		(unit_captain_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_captain_level1.replaceEntities() + '\n\n' :
 		(unit_captain_japan !== false) ? '<code>Japan:</code> ' + unit_captain_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_captain_global.replaceEntities() + '\n\n' :
 		unit_captain.replaceEntities() + '\n\n';
 		return response;
@@ -247,8 +247,8 @@ function getSailorAbility(id) {
 		response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
 		response += (unit_sailor_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_sailor_level1.replaceEntities() + '\n' : '';
 		response += (unit_sailor_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_sailor_level2.replaceEntities() + '\n' : '' ;
-		response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ; 
-		response += (unit_sailor_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_sailor_level4.replaceEntities() + '\n' : '' ; 
+		response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ;
+		response += (unit_sailor_level4 !== false) ? '<code>Limit Break 4:</code> ' + unit_sailor_level4.replaceEntities() + '\n' : '' ;
 		response += (unit_sailor_level5 !== false) ? '<code>Limit Break 5:</code> ' + unit_sailor_level5.replaceEntities() + '\n' : '' ;
 		response += (unit_sailor_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_sailor_level6.replaceEntities() + '\n' : '' ;
 		response += '\n';
@@ -277,7 +277,7 @@ function getPotential(id) {
 	response;
 
 	if(unit_potential){
-		
+
 		response = '<b>Potential:</b>\n';
 
 		unit_potential.forEach(function(potential){
@@ -285,7 +285,7 @@ function getPotential(id) {
 			var desc = potential.description;
 			desc.forEach(function(liv,index,array){
 				if(index === array.length - 1)
-					response += liv ? '\t\t<i>'+liv.replaceEntities() +'</i>\n':''; 
+					response += liv ? '\t\t<i>'+liv.replaceEntities() +'</i>\n':'';
 			});
 			response+='\n'
 		});
@@ -363,7 +363,7 @@ function getDrops(id) {
 							else{
 								drop_lists[0].push([island.shortName || island.name, stage]);
 							}
-							
+
 						}
 						if (island[stage].indexOf(-Math.abs(id)) > -1) {
 							if(islands.toString() === "Coliseum"){
