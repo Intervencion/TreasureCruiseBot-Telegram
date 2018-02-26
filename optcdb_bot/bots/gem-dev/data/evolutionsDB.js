@@ -2113,15 +2113,15 @@ module.exports = {
     },
     4: {
         evolution: 1387,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullLuffy', 267 ]
     },
     8: {
         evolution: 1388,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullZoro', 267 ]
     },
     12: {
         evolution: 1389,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullNami', 267 ]
     },
     1390: {
         evolution: 1391,
@@ -2165,7 +2165,7 @@ module.exports = {
     },
     261: {
         evolution: 1413,
-        evolvers: [ 118, 84, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     1415: {
         evolution: 1416,
@@ -2217,19 +2217,19 @@ module.exports = {
     },
     416: {
         evolution: 1445,
-        evolvers: [ 118, 85, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
     },
     16: {
         evolution: 1446,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullUsopp', 267 ]
     },
     20: {
         evolution: 1447,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullSanji', 267 ]
     },
     22: {
         evolution: 1448,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullChopper', 267 ]
     },
     1449: {
         evolution: 1450,
@@ -2313,7 +2313,7 @@ module.exports = {
     },
     669: {
         evolution: 1492,
-        evolvers: [ 118, 87, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
     },
     1505: {
         evolution: [ 1506, 1562 ],
@@ -2377,7 +2377,7 @@ module.exports = {
     },
     1532: {
         evolution: 1543,
-        evolvers: [ 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     1544: {
         evolution: 1545,
@@ -2389,15 +2389,15 @@ module.exports = {
     },
     709: {
         evolution: 1549,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullRobin', 267 ]
     },
     739: {
         evolution: 1550,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullFranky', 267 ]
     },
     896: {
         evolution: 1551,
-        evolvers: [ 267 ]
+        evolvers: [ 'skullBrook', 267 ]
     },
     1552: {
         evolution: 1553,
@@ -2453,7 +2453,7 @@ module.exports = {
     },
     1404: {
         evolution: 1593,
-        evolvers: [ 98, 303, 267 ]
+        evolvers: [ 'skullQCK', 'skullPSY', 98, 303, 267 ]
     },
     1587: {
         evolution: 1588,
@@ -2505,7 +2505,7 @@ module.exports = {
     },
     367: {
         evolution: 1619,
-        evolvers: [ 118, 304, 99, 267 ]
+        evolvers: [ 'skullINT', 118, 304, 99, 267 ]
     },
     1620: {
         evolution: 1621,
@@ -2565,7 +2565,7 @@ module.exports = {
     },
     748: {
         evolution: 1663,
-        evolvers: [ 118, 95, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 95, 300, 267 ]
     },
     1664: {
         evolution: 1665,
@@ -2645,7 +2645,7 @@ module.exports = {
     },
     530: {
         evolution: 1707,
-        evolvers: [ 118, 98, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 98, 303, 267 ]
     },
     1708: {
         evolution: 1709,
@@ -2749,7 +2749,7 @@ module.exports = {
     },
     1192: {
         evolution: 1764,
-        evolvers: [ 118, 85, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
     },
     1765: {
         evolution: 1766,
@@ -2829,7 +2829,7 @@ module.exports = {
     },
     562: {
         evolution: 1816,
-        evolvers: [ 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     1817: {
         evolution: 1818,
@@ -2889,7 +2889,7 @@ module.exports = {
     },
     459: {
         evolution: 1847,
-        evolvers: [ 118, 88, 304, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ],
     },
     1848: {
         evolution: 1849,
@@ -2957,11 +2957,11 @@ module.exports = {
     },
     1434: {
         evolution: 1880,
-        evolvers: [ 118, 88, 303, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
     },
     718: {
         evolution: 1881,
-        evolvers: [ 118, 88, 303, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
     },
     1882: {
         evolution: 1883,
@@ -3041,11 +3041,11 @@ module.exports = {
     },
     1362: {
         evolution: 1921,
-        evolvers: [ 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     1751: {
         evolution: 1922,
-        evolvers: [ 96, 301, 267 ]
+        evolvers: [ 'skullQCK', 'skullQCK', 96, 301, 267 ]
     },
     1923: {
         evolution: 1924,
@@ -3057,11 +3057,11 @@ module.exports = {
     },
     720: {
         evolution: 1927,
-        evolvers: [ 118, 84, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     1035: {
         evolution: 1928,
-        evolvers: [ 118, 85, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
     },
     1929: {
         evolution: 1930,
@@ -3125,22 +3125,66 @@ module.exports = {
     },
     1962: {
         evolution: 1963,
-        evolvers: [  ]
+        evolvers: [ 116, 117, 82, 88, 99 ]
     },
     1964: {
         evolution: 1965,
-        evolvers: [  ]
+        evolvers: [ 79, 85, 90, 96, 101 ]
     },
     1967: {
         evolution: 1968,
-        evolvers: [  ]
+        evolvers: [ 117, 78, 89, 95, 100 ]
     },
     1969: {
         evolution: 1970,
-        evolvers: [  ]
+        evolvers: [ 117, 80, 91, 97, 102 ]
     },
     1971: {
         evolution: 1972,
+        evolvers: [ 115, 116, 117, 118, 102 ]
+    },
+    1973: {
+        evolution: 1974,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    1975: {
+        evolution: 1976,
+        evolvers: [ 118, 83, 85, 301, 101 ]
+    },
+    1977: {
+        evolution: 1978,
+        evolvers: [  ]
+    },
+    1979: {
+        evolution: 1980,
+        evolvers: [  ]
+    },
+    1981: {
+        evolution: 1982,
+        evolvers: [  ]
+    },
+    1984: {
+        evolution: 1985,
+        evolvers: [  ]
+    },
+    1986: {
+        evolution: 1987,
+        evolvers: [  ]
+    },
+    1988: {
+        evolution: 1989,
+        evolvers: [  ]
+    },
+    1990: {
+        evolution: 1991,
+        evolvers: [  ]
+    },
+    1992: {
+        evolution: 1993,
+        evolvers: [  ]
+    },
+    2024: {
+        evolution: 2025,
         evolvers: [  ]
     },
 };

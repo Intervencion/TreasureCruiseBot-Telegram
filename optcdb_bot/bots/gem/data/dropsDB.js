@@ -686,7 +686,7 @@ module.exports = {
         },
         
         {
-            name: 'Punk Hazard Burning Lands - Laboratory',
+            name: 'Punk Hazard - Burning Lands to Laboratory',
             shortName: 'Punk Hazard 1',
             thumb: 1637,
             global: true,
@@ -710,7 +710,7 @@ module.exports = {
         },
         
         {
-            name: 'Punk Hazard Ice Lands - First Floor Room R',
+            name: 'Punk Hazard - Ice Lands to First Floor Room R',
             shortName: 'Punk Hazard 2',
             thumb: 1716,
             global: true,
@@ -733,7 +733,7 @@ module.exports = {
         },
         
         {
-            name: 'Dressrosa - Harbor Town Acacia Colosseum',
+            name: 'Dressrosa - Port Town Acacia to Colosseum',
             shortName: 'Dressrosa 1',
             thumb: 1782,
             completion: '5x Rainbow Gems',
@@ -1735,7 +1735,7 @@ module.exports = {
         },
         
         {
-            name: 'Open the Cafe!',
+            name: 'Dead-On Prophecy?! Madam Sharley',
             thumb: 1670,
             global: true,
             nakama: 2038800,
@@ -1745,8 +1745,9 @@ module.exports = {
         },
         
         {
-            name: 'Kid Pirates!',
+            name: 'Brutal Fiend! Eustass Kid',
             thumb: 1690,
+            global: true,
             nakama: 2035243,
             gamewith: 62883,
             condition: 'Only [INT] and [PSY] orbs appear',
@@ -1756,6 +1757,7 @@ module.exports = {
         {
             name: 'Royal Neptune Family!',
             thumb: 1723,
+            global: true,
             nakama: 2063760,
             gamewith: 64138,
             condition: 'Strikers and Powerhouse characters get a boost (1.5x ATK boost on 30 stamina)',
@@ -1862,6 +1864,22 @@ module.exports = {
             nakama: null,
             gamewith: 88584,
             'All Difficulties': [ 1946, 1948, -1763, -1796, -1800, -1364, -1678, -1562 ]
+        },
+        
+        {
+            name: 'Devil Oars, Day of the Second Coming',
+            thumb: 1965,
+            nakama: null,
+            gamewith: 91449,
+            'All Difficulties': [ 1964, 1966, -1764, -1368, -1802, -1713, -1840, -1557 ]
+        },
+        
+        {
+            name: 'Supernova! Capone and Bonney!',
+            thumb: 1982,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 1979, 1981, -1921, -1362, -1366, -1770, -1834, -1836, -1633 ]
         },
         
     ],
@@ -2285,6 +2303,7 @@ module.exports = {
         {
             name: 'Clash!! Vinsmoke Sanji',
             thumb: 1815,
+            global: true,
             nakama: 4063867,
             gamewith: 70374,
             Ultimate: [ 1814 ],
@@ -2342,9 +2361,9 @@ module.exports = {
             gamewith: 17473,
             slefty: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896 ],
             Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944 ],
-            Neo: [ 1862, 1898 ]
+            Neo: [ 1862, 1898, 1975 ]
         },
         
     ],
@@ -2479,8 +2498,11 @@ module.exports = {
         {
             name: '3rd Anniversary Celebration! Duel! Luffy',
             thumb: 1600,
+            global: true,
             nakama: 6117639,
-            '30 Stamina': [ 1600 ]
+            condition: '40 Stamina drops all Final Forbidden Tomes',
+            '30 Stamina': [ 1600, 189, 190, 191, 192, 193, 118, 110, 111, 112, 113, 114, 117, 116, 115 ],
+            '40 Stamina': [ 189, 190, 191, 192, 193, 118, 110, 111, 112, 113, 114, 117, 116, 115 ],
         },
         
         {
@@ -2490,7 +2512,7 @@ module.exports = {
             nakama: 6080102,
             gamewith: 38237,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.',
-            'All Difficulties': [ 1257, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1257, 'skullINT' ]
         },
         
         {
@@ -2500,7 +2522,7 @@ module.exports = {
             nakama: 6073782,
             gamewith: 46369,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks.',
-            'All Difficulties': [ 1379, 952, 776, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1379, 952, 776, 'skullINT' ]
         },
         
         {
@@ -2510,7 +2532,7 @@ module.exports = {
             nakama: 6058401,
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
-            'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1529, 'skullINT' ]
         },
         
         {
@@ -2519,7 +2541,7 @@ module.exports = {
             nakama: 6042233,
             gamewith: 75260,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
-            'All Difficulties': [ 1845, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1845, 'skullINT' ]
         },
         
         {
@@ -2583,6 +2605,7 @@ module.exports = {
         {
             name: 'Battle Blitz! Doflamingo Family',
             thumb: 870,
+            global: true,
             nakama: 6093262,
             gamewith: 68282,
             condition: 'Chance of dropping the Silver Almighty Book, Guidence Fragments and Guidence Crystals.',
