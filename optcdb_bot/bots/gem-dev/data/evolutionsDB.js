@@ -3125,22 +3125,62 @@ module.exports = {
     },
     1962: {
         evolution: 1963,
-        evolvers: [  ]
+        evolvers: [ 116, 117, 82, 88, 99 ]
     },
     1964: {
         evolution: 1965,
-        evolvers: [  ]
+        evolvers: [ 79, 85, 90, 96, 101 ]
     },
     1967: {
         evolution: 1968,
-        evolvers: [  ]
+        evolvers: [ 117, 78, 89, 95, 100 ]
     },
     1969: {
         evolution: 1970,
-        evolvers: [  ]
+        evolvers: [ 117, 80, 91, 97, 102 ]
     },
     1971: {
         evolution: 1972,
+        evolvers: [ 115, 116, 117, 118, 102 ]
+    },
+    1973: {
+        evolution: 1974,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    1975: {
+        evolution: 1976,
+        evolvers: [ 118, 83, 85, 301, 101 ]
+    },
+    1977: {
+        evolution: 1978,
+        evolvers: [  ]
+    },
+    1979: {
+        evolution: 1980,
+        evolvers: [  ]
+    },
+    1981: {
+        evolution: 1982,
+        evolvers: [  ]
+    },
+    1984: {
+        evolution: 1985,
+        evolvers: [  ]
+    },
+    1986: {
+        evolution: 1987,
+        evolvers: [  ]
+    },
+    1988: {
+        evolution: 1989,
+        evolvers: [  ]
+    },
+    1990: {
+        evolution: 1991,
+        evolvers: [  ]
+    },
+    1992: {
+        evolution: 1993,
         evolvers: [  ]
     },
 };
