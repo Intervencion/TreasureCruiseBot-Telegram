@@ -42,7 +42,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -52,7 +52,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 2 turns",
@@ -107,7 +107,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -117,7 +117,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -171,7 +171,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -181,7 +181,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -234,7 +234,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
@@ -244,7 +244,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -299,7 +299,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -309,7 +309,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -353,7 +353,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -363,7 +363,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -639,7 +639,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -649,7 +649,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -696,7 +696,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -706,7 +706,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -753,7 +753,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -763,7 +763,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
@@ -1154,7 +1154,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -1164,7 +1164,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -1235,7 +1235,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -1245,7 +1245,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -1293,7 +1293,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -1303,7 +1303,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -1351,7 +1351,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -1361,7 +1361,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -1427,7 +1427,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -1437,7 +1437,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -1569,7 +1569,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -1579,7 +1579,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -1623,7 +1623,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -1633,7 +1633,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -1677,7 +1677,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -1687,7 +1687,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -1734,7 +1734,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -1744,7 +1744,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -1792,7 +1792,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -1802,7 +1802,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -1846,7 +1846,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -1856,7 +1856,7 @@ module.exports = {
             },
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -1915,7 +1915,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 2%",
                     "Level 2: Reduce damage taken from [DEX] characters by 3%",
                     "Level 3: Reduce damage taken from [DEX] characters by 4%",
@@ -1925,7 +1925,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -1935,7 +1935,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 25",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -2141,7 +2141,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -2151,7 +2151,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -2196,7 +2196,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -2206,7 +2206,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -2252,7 +2252,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -2262,7 +2262,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -2308,7 +2308,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -2318,7 +2318,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -2365,7 +2365,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -2375,7 +2375,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -2420,7 +2420,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -2430,7 +2430,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -2593,7 +2593,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -2603,7 +2603,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -2658,7 +2658,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -2668,7 +2668,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -2718,7 +2718,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -2728,7 +2728,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -2919,7 +2919,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -2929,7 +2929,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -3113,7 +3113,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -3123,7 +3123,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -3133,7 +3133,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -3179,7 +3179,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -3189,7 +3189,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 60% chance to deal 5% of this character's attack in extra damage",
@@ -3357,7 +3357,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -3367,7 +3367,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -3411,7 +3411,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -3421,7 +3421,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -3815,7 +3815,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -3825,7 +3825,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -3898,7 +3898,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -3908,7 +3908,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -4093,7 +4093,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -4103,7 +4103,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -4148,7 +4148,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -4158,7 +4158,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
@@ -4202,7 +4202,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -4212,7 +4212,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -4332,7 +4332,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -4342,7 +4342,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -4495,7 +4495,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -4505,7 +4505,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -4736,7 +4736,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by ?%",
                     "Level 3: Reduce damage taken from [STR] characters by ?%",
@@ -4746,7 +4746,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by ?%",
                     "Level 3: Reduce damage taken from [INT] characters by ?%",
@@ -4940,7 +4940,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -4950,7 +4950,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 2%",
                     "Level 2: Reduce damage taken from [INT] characters by ?%",
                     "Level 3: Reduce damage taken from [INT] characters by ?%",
@@ -4960,7 +4960,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 40% at the start of the turn, heals for .75x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -5188,7 +5188,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -5198,7 +5198,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -5298,7 +5298,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -5308,7 +5308,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -5318,7 +5318,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
@@ -5379,7 +5379,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -5389,7 +5389,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -5399,7 +5399,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -5595,7 +5595,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by ?%",
                     "Level 3: Reduce damage taken from [DEX] characters by ?%",
@@ -5605,7 +5605,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -5615,7 +5615,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -5667,7 +5667,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by ?%",
                     "Level 3: Reduce damage taken from [QCK] characters by ?%",
@@ -5677,7 +5677,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -5721,7 +5721,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -5731,7 +5731,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -5778,7 +5778,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by ?%",
                     "Level 3: Reduce damage taken from [STR] characters by ?%",
@@ -5788,7 +5788,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -5832,7 +5832,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by ?%",
                     "Level 3: Reduce damage taken from [PSY] characters by ?%",
@@ -5842,7 +5842,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -5896,7 +5896,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by ?%",
                     "Level 3: Reduce damage taken from [DEX] characters by ?%",
@@ -5906,7 +5906,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -6054,7 +6054,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by ?%",
                     "Level 3: Reduce damage taken from [DEX] characters by ?%",
@@ -6064,7 +6064,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -6305,13 +6305,13 @@ module.exports = {
         specialName: "Surprise Stab",
         special: "Deals 3x character's ATK in [PSY] damage to one enemy, Boosts ATK of Slasher and Driven characters by 1.75x for 1 turn if used below 20% HP",
         captain: "Protects from defeat as long as HP is above 50%",
-        captainNotes: "#{zombie}"
+        captainNotes: "#{zombie}" 
     },
     829: {
         specialName: "Surprise Stab",
         special: "Deals 3x character's ATK in [PSY] damage to one enemy, Boosts ATK of Slasher and Driven characters by 1.75x for 1 turn if used below 20% HP",
         captain: "Protects from defeat as long as HP is above 30%",
-        captainNotes: "#{zombie}"
+        captainNotes: "#{zombie}" 
     },
     830: {
         captain: "Boosts ATK of Cerebral and Striker characters by 1.75x, deals 2 times the damage received in the previous turn in DEX damage to all enemies at the end of each turn",
@@ -6347,7 +6347,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -6357,7 +6357,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -6421,7 +6421,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -6431,7 +6431,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -6477,7 +6477,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -6487,7 +6487,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -6533,7 +6533,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by ?%",
                     "Level 3: Reduce damage taken from [PSY] characters by ?%",
@@ -6543,7 +6543,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -6588,7 +6588,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -6598,7 +6598,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -6652,7 +6652,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -6662,7 +6662,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -6817,17 +6817,11 @@ module.exports = {
         special: [
             {
                 "description": "Changes own orb into [PSY], amplifies the effect of orbs by 1.5x for 1 turn",
-                "cooldown": [
-                    13,
-                    8
-                ]
+                "cooldown": [ 13, 8 ]
             },
             {
                 "description": "Changes own orb into [PSY], amplifies the effect of orbs by 1.75x for 1 turn",
-                "cooldown": [
-                    19,
-                    14
-                ]
+                "cooldown": [ 19, 14 ]
             }
         ],
         specialNotes: "#{orb: 1.5x or 1.75x} #{stages}"
@@ -6838,17 +6832,11 @@ module.exports = {
         special: [
             {
                 "description": "Changes own orb into [PSY], amplifies the effect of orbs by 1.5x for 1 turn",
-                "cooldown": [
-                    13,
-                    8
-                ]
+                "cooldown": [ 13, 8 ]
             },
             {
                 "description": "Changes own orb into [PSY], amplifies the effect of orbs by 1.75x for 1 turn",
-                "cooldown": [
-                    19,
-                    14
-                ]
+                "cooldown": [ 19, 14 ]
             }
         ],
         specialNotes: "#{orb: 1.5x or 1.75x} #{stages}"
@@ -6888,7 +6876,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -6898,7 +6886,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -6957,7 +6945,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -6967,7 +6955,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -7168,7 +7156,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 60",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -7178,7 +7166,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -7223,7 +7211,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -7233,7 +7221,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -7393,7 +7381,7 @@ module.exports = {
                 "cooldown": [ 31, 17 ]
             }
         ],
-        specialNotes: "#{stages}"
+        specialNotes: "#{stages}"	
         },
     933: {
         captain: "Boosts ATK of Powerhouse characters by 2.25x and their HP by 1.5x",
@@ -7433,7 +7421,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -7443,7 +7431,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -7502,7 +7490,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -7512,7 +7500,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -7559,7 +7547,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -7569,7 +7557,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -7623,7 +7611,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -7633,7 +7621,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -7712,7 +7700,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -7722,7 +7710,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -7905,7 +7893,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -7915,7 +7903,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -7977,7 +7965,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -7987,7 +7975,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -8003,16 +7991,16 @@ module.exports = {
         special: "Delays all enemies for 1 turn and locks all orbs for 1 turn"
     },
     985:{
-      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"
+      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"  
     },
     986:{
-      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"
+      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"  
     },
     987:{
-      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"
+      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"  
     },
     988:{
-      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"
+      captainNotes: "Acts as a Daimyo Turtle and thus gives 15k EXP"  
     },
     989:{
         captain: "Boosts ATK of characters with cost above 20 and below 30 by 2.5x, but reduces the HP of every character by 90%",
@@ -8053,7 +8041,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -8063,7 +8051,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -8109,7 +8097,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -8119,7 +8107,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -8187,7 +8175,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -8197,7 +8185,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 3 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -8262,7 +8250,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ??% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ??% of this character's attack in extra damage",
@@ -8272,7 +8260,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -8315,7 +8303,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -8325,7 +8313,7 @@ module.exports = {
             },
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -8460,7 +8448,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -8470,7 +8458,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -8525,7 +8513,7 @@ module.exports = {
         specialName: "Eight-Impact Fist! Blow of Resentment",
         sailor: {
             "base": "None",
-            "level1": "Boosts ATK and HP of Powerhouse and Striker characters by 50",
+            "level1": "Boosts base ATK and HP of Powerhouse and Striker characters by 50",
         },
         limit: [
             { "description": "Boosts base HP by 50" },
@@ -8535,7 +8523,7 @@ module.exports = {
             { "description": "Boosts base RCV by 40" },
             { "description": "Boosts base RCV by 40" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Aquire Sailor Ability 1: Boosts ATK and HP of Powerhouse and Striker characters by 50" },
+            { "description": "Aquire Sailor Ability 1: Boosts base ATK and HP of Powerhouse and Striker characters by 50" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Aquire new Captain Ability: Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of Powerhouse characters by 2.25x and boosts the HP of Striker characters by 2x" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
@@ -8547,7 +8535,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -8557,7 +8545,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -8634,7 +8622,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -8644,7 +8632,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 25% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -8708,7 +8696,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 2%",
                     "Level 2: Reduce damage taken from [DEX] characters by ?%",
                     "Level 3: Reduce damage taken from [DEX] characters by ?%",
@@ -8718,7 +8706,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -8728,7 +8716,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by ? turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -8805,7 +8793,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -8815,7 +8803,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -8830,11 +8818,11 @@ module.exports = {
         specialName: "Gamma Knife",
         special: [
             {
-                "description": "Makes Damage and Health Cutting Specials of Slasher and Free Spirit characters bypass all defensive Buffs, deals 20x character's ATK in fixed PSY damage to one enemy.",
+                "description": "Makes Damage and Health Cutting Specials of Slasher and Free Spirit characters bypass all defensive Buffs, deals 20x character's ATK in [PSY] fixed damage to one enemy.",
                 "cooldown": [ 18, 13 ]
             },
             {
-                "description": "Makes Damage and Health Cutting Specials of all characters bypass all defensive Buffs, deals 50x character's ATK in fixed PSY damage to one enemy.",
+                "description": "Makes Damage and Health Cutting Specials of all characters bypass all defensive Buffs, deals 50x character's ATK in [PSY] fixed damage to one enemy.",
                 "cooldown": [ 25, 20 ]
             }
         ],
@@ -8850,11 +8838,11 @@ module.exports = {
         },
         special: [
             {
-                "description": "Makes Damage and Health Cutting Specials of Slasher and Free Spirit characters bypass all defensive Buffs, deals 20x character's ATK in fixed PSY damage to one enemy.",
+                "description": "Makes Damage and Health Cutting Specials of Slasher and Free Spirit characters bypass all defensive Buffs, deals 20x character's ATK in [PSY] fixed damage to one enemy.",
                 "cooldown": [ 18, 13 ]
             },
             {
-                "description": "Makes Damage and Health Cutting Specials of all characters bypass all defensive Buffs, deals 50x character's ATK in fixed PSY damage to one enemy.",
+                "description": "Makes Damage and Health Cutting Specials of all characters bypass all defensive Buffs, deals 50x character's ATK in [PSY] fixed damage to one enemy.",
                 "cooldown": [ 25, 20 ]
             }
         ],
@@ -8880,7 +8868,7 @@ module.exports = {
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base RCV by 30" },
             { "description": "Boosts base RCV by 35" },
-            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 25" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base ATK by 30" },
             { "description": "Boosts base ATK by 50" },
@@ -8894,7 +8882,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -8904,7 +8892,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -8914,7 +8902,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
@@ -8939,13 +8927,13 @@ module.exports = {
     1048: {
         captain: "Boosts ATK and RCV of [PSY] characters by 1.2x",
         special: "Reduces Paralysis duration by 3 turns and Recovers 4x character's RCV in HP at the end of each turn for 3 turns",
-        specialName: "Mother's Wish to Fight The World"
+        specialName: "Mother's Wish to Fight The World"		
     },
     1049: {
         captain: "Boosts ATK and RCV of [PSY] characters by 1.5x, when HP is low the ATK multiplier becomes 2.25x",
         captainNotes: "The low HP threshold is estimated to be 30%",
         special: "Reduces Paralysis duration by 3 turns and Recovers 4x character's RCV in HP at the end of each turn for 3 turns",
-        specialName: "Mother's Wish to Fight The World"
+        specialName: "Mother's Wish to Fight The World"		
     },
     1050: {
         captain: "Boosts ATK of [PSY] characters by 1.5x",
@@ -9104,7 +9092,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -9114,7 +9102,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -9181,7 +9169,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -9191,7 +9179,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -9263,7 +9251,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -9273,7 +9261,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -9317,7 +9305,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -9327,7 +9315,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -9374,7 +9362,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 5% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 5% chance to deal 7% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 5% chance to deal 10% of this character's attack in extra damage",
@@ -9384,7 +9372,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -9446,7 +9434,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -9456,7 +9444,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -9466,7 +9454,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 7 turns on this character",
@@ -9534,7 +9522,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -9544,7 +9532,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -9693,7 +9681,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -9703,7 +9691,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -9737,7 +9725,7 @@ module.exports = {
     1113: {
         captain: "Boosts ATK of [INT] characters by 2x",
         special: "Boosts ATK of all characters by 1.2x for 1 turn",
-        specialName: "Fury of the Little Monster: \"This is War!!!\""
+        specialName: "Fury of the Little Monster: \"This is War!!!\""  
     },
     1114: {
         special: "Reduces crew's current HP by 99%, deals 25x character's ATK in fixed damage to all enemies, boosts ATK of STR characters by 2x for 1 turn",
@@ -9775,7 +9763,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -9785,7 +9773,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -9886,7 +9874,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -9896,7 +9884,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -9953,7 +9941,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -9963,7 +9951,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -10272,7 +10260,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by ?%",
                     "Level 3: Reduce damage taken from [INT] characters by ?%",
@@ -10282,7 +10270,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -10331,7 +10319,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -10341,7 +10329,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -10460,7 +10448,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -10470,7 +10458,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -10533,7 +10521,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -10543,7 +10531,7 @@ module.exports = {
             },
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -10608,7 +10596,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -10618,7 +10606,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -10719,7 +10707,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -10729,7 +10717,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -10773,7 +10761,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -10783,7 +10771,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
@@ -10904,7 +10892,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -10914,7 +10902,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -10980,7 +10968,7 @@ module.exports = {
             },
             {
                 "description": "Deals 100,000 fixed damage to one enemy. Reduces Special Cooldown of your top row by 2 turns",
-                "cooldown": [ 22, 15 ],
+                "cooldown": [ 22, 15 ], 
             },
         ],
         specialNotes: "#{stages}",
@@ -11000,7 +10988,7 @@ module.exports = {
             },
             {
                 "description": "Deals 100,000 fixed damage to one enemy. Reduces Special Cooldown of your top row by 2 turns",
-                "cooldown": [ 22, 15 ],
+                "cooldown": [ 22, 15 ], 
             },
         ],
         specialNotes: "#{stages}",
@@ -11045,7 +11033,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -11055,7 +11043,7 @@ module.exports = {
             },
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -11129,7 +11117,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -11139,7 +11127,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -11163,9 +11151,9 @@ module.exports = {
             },
             {
                 "description": "Changes all orbs on Shooter and Slasher characters into Matching orbs. Recovers 10x character's RCV in HP. Deals 10 hits of large random typeless damage to random enemies.",
-                "cooldown": [ 20, 17 ],
+                "cooldown": [ 20, 17 ], 
             },
-        ],
+        ],    
         specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 3,000 : for each hit on Stage 1}<br>#{random : 3,000 : 6,000 : for each hit on Stage 2}<br>#{random : 10,000 : 16,000 : for each hit on Stage 3}<br>#{stages}",
     },
     1240: {//6* Kizaru
@@ -11184,7 +11172,7 @@ module.exports = {
                 "description": "Changes all orbs on Shooter and Slasher characters into Matching orbs. Recovers 10x character's RCV in HP. Deals 10 hits of large random typeless damage to random enemies.",
                 "cooldown": [ 20, 17 ],
             },
-        ],
+        ],    
         specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 3,000 : for each hit on Stage 1}<br>#{random : 3,000 : 6,000 : for each hit on Stage 2}<br>#{random : 10,000 : 16,000 : for each hit on Stage 3}<br>#{stages}",
     },
     1241: {//Fortnight Koala
@@ -11296,7 +11284,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -11306,7 +11294,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
                     "Level 3: Reduces No Healing duration by ? turn",
@@ -11481,7 +11469,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -11491,7 +11479,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -11501,7 +11489,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -11548,7 +11536,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -11558,7 +11546,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -11602,7 +11590,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -11612,7 +11600,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -11686,7 +11674,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -11696,7 +11684,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -11961,7 +11949,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -11971,7 +11959,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -11981,7 +11969,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 7 turns on this character",
@@ -12034,14 +12022,14 @@ module.exports = {
     },
     1317: {//Garp
         captain: "Boosts ATK of [STR] and [PSY] characters by 2x",
-        special: "Deals 30x character's ATK in fixed [STR] damage to all enemies that will ignore damage negating abilities and barriers. Delays all enemies for 1 turn. Reduces the defense of all enemies by 80% for 1 turn.",
+        special: "Deals 30x character's ATK in [STR] fixed damage to all enemies that will ignore damage negating abilities and barriers. Delays all enemies for 1 turn. Reduces the defense of all enemies by 80% for 1 turn.",
         specialNotes: "#{ignoreBarrier}",
         sailor: "Boosts base HP of all characters by 75",
         specialName: "Super Large Iron Ball",
     },
     1318: {//Garp
         captain: "Boosts ATK of [STR] and [PSY] characters by 2.5x",
-        special: "Deals 30x character's ATK in fixed [STR] damage to all enemies that will ignore damage negating abilities and barriers. Delays all enemies for 1 turn. Reduces the defense of all enemies by 80% for 1 turn.",
+        special: "Deals 30x character's ATK in [STR] fixed damage to all enemies that will ignore damage negating abilities and barriers. Delays all enemies for 1 turn. Reduces the defense of all enemies by 80% for 1 turn.",
         specialNotes: "#{ignoreBarrier}",
         sailor: "Boosts base HP of all characters by 75",
         specialName: "Super Large Iron Ball",
@@ -12085,7 +12073,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -12095,7 +12083,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -12284,7 +12272,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -12294,7 +12282,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -12686,7 +12674,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -12696,7 +12684,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 2 turns",
@@ -12736,7 +12724,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -12746,7 +12734,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -12786,7 +12774,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -12796,7 +12784,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -12916,7 +12904,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -12926,7 +12914,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -13046,7 +13034,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -13056,7 +13044,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -13124,7 +13112,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 2%",
                     "Level 2: Reduce damage taken from [DEX] characters by 3%",
                     "Level 3: Reduce damage taken from [DEX] characters by 4%",
@@ -13134,7 +13122,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -13144,7 +13132,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 25",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -13224,7 +13212,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -13234,7 +13222,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -13322,7 +13310,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -13332,7 +13320,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -13413,7 +13401,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -13423,7 +13411,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -13433,7 +13421,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -13479,7 +13467,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -13489,7 +13477,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -13551,7 +13539,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -13561,7 +13549,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -13607,7 +13595,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -13617,7 +13605,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -13662,7 +13650,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -13672,7 +13660,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -13728,7 +13716,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -13738,7 +13726,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -13748,7 +13736,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by ? turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by ? turn at the start of the fight",
@@ -13786,7 +13774,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
@@ -13796,7 +13784,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -13845,7 +13833,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -13855,7 +13843,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -13870,7 +13858,50 @@ module.exports = {
         special: "Deals PSY damage according to HP. For Fighter characters, Changes [BLOCK] orbs into matching orbs.",
         specialNotes: "The exact damage is proportional to the crew's remaining HP and is higher the higher the HP is. The formula used is ???? * (current HP) / (total HP)",
         specialName: "Weight Gain: Heavy Gong",
-        limit: "This character has a Limit Break Tree"
+        sailor: {
+            "base": "None",
+            "level1": "Makes [TND] orbs \"beneficial\" for this unit",
+            "level2": "Boosts base ATK, HP and RCV of all characters by 30",
+        },
+        limit: [
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Aquire Potential 1: [INT] Damage Reduction" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Aquire Sailor Ability 1: Makes [TND] orbs \"beneficial\" for this unit" },
+            { "description": "Boosts base HP by 100" },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Aquire Sailor Ability 1: Boosts base ATK, HP and RCV of all characters by 30" },
+            { "description": "Aquire Potential 2: Pinch Healing" },
+        ],
+        potential: [
+            {
+                "Name": "[INT] Damage Reduction",
+                "description": [ 
+                    "Level 1: Reduce damage taken from [INT] characters by 1%",
+                    "Level 2: Reduce damage taken from [INT] characters by 2%",
+                    "Level 3: Reduce damage taken from [INT] characters by 3%",
+                    "Level 4: Reduce damage taken from [INT] characters by 4%",
+                    "Level 5: Reduce damage taken from [INT] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Pinch Healing",
+                "description": [ 
+                    "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 4: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 5: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character"
+                ]
+            },
+        ]
     },
     1449: {//Violet
         captain: "Boosts ATK of Cerebral characters by 1.5x. Heals for .3x character's RCV at the end of the turn each time you hit a Great.",
@@ -13995,7 +14026,7 @@ module.exports = {
         special: "Reduces the defense of all enemies by 100% for 1 turn and changes own orb into [PSY] and friend captain's orb into [STR]",
         specialName: "Rosy Pleasure",
     },
-    1468: {//Fortnight Sentomaru
+    1468: {//Fortnight Sentomaru 
         captain: "Boosts ATK of [STR] characters by 1.75x and the HP of Powerhouse characters by 1.2x",
         special: "Delays all enemies for 1 turn. Changes own orb into Matching orb",
         specialName: "Warning of the New World",
@@ -14086,7 +14117,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 2%",
                     "Level 2: Reduce damage taken from [INT] characters by 3%",
                     "Level 3: Reduce damage taken from [INT] characters by 4%",
@@ -14096,7 +14127,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 5 turns on this character",
@@ -14106,7 +14137,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
                     "Level 3: Reduces No Healing duration by 3 turn",
@@ -14164,7 +14195,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -14174,7 +14205,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -14220,7 +14251,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -14230,7 +14261,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -14368,7 +14399,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -14378,7 +14409,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 2%",
                     "Level 2: Reduce damage taken from [INT] characters by ?%",
                     "Level 3: Reduce damage taken from [INT] characters by ?%",
@@ -14388,7 +14419,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 40% at the start of the turn, heals for .75x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -14706,7 +14737,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -14716,7 +14747,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -14726,7 +14757,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
                     "Level 3: This character's attack will ignore barriers if HP is above 70%",
@@ -14770,7 +14801,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -14780,7 +14811,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -14825,7 +14856,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -14835,7 +14866,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -14891,7 +14922,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -14901,7 +14932,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -14947,7 +14978,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -14957,7 +14988,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -15011,7 +15042,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -15021,7 +15052,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -15031,7 +15062,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
                     "Level 3: This character's attack will ignore barriers if HP is above 70%",
@@ -15096,7 +15127,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -15106,7 +15137,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -15160,7 +15191,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -15170,7 +15201,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -15334,7 +15365,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -15344,7 +15375,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -15354,7 +15385,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 75",
                     "Level 2: Boosts base ATK by 100",
                     "Level 3: Boosts base ATK by 200",
@@ -15399,7 +15430,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -15409,7 +15440,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -15454,7 +15485,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -15464,7 +15495,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -15511,7 +15542,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -15521,7 +15552,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ??x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -15593,7 +15624,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -15603,7 +15634,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -15661,7 +15692,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -15671,7 +15702,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -15714,7 +15745,7 @@ module.exports = {
         captain: "Boosts Chain Multiplier by 3.5x, Boosts HP and RCV of all characters by 1.2x",
         special: "Recovers 50% of crew's MAX HP, changes bottom row orbs into matching orbs",
         specialName: "Sharing a Cup Filled with Emotions",
-    },
+    },	
     1591: {//Anniversary Boa
         captain: "Boosts ATK and RCV of Fighter and Free Spirit characters by 1.5x",
         special: "Recovers 3,000 HP and boosts ATK of Free Spirit and Fighter characters by 1.75x for 1 turn",
@@ -15899,7 +15930,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -15909,7 +15940,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -15970,7 +16001,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -15980,7 +16011,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -16080,7 +16111,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -16090,7 +16121,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -16144,7 +16175,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -16154,7 +16185,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -16242,7 +16273,7 @@ module.exports = {
                 "cooldown": [ 26, 17 ]
             }
         ],
-        specialNotes: "#{stages}"
+        specialNotes: "#{stages}"	
         },
     1647: {//Reborn Pica
         captain: "Boosts ATK of Powerhouse characters by 2.25x and their HP by 1.5x",
@@ -16323,7 +16354,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 2%",
                     "Level 2: Reduce damage taken from [STR] characters by 3%",
                     "Level 3: Reduce damage taken from [STR] characters by 4%",
@@ -16333,7 +16364,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 2%",
                     "Level 2: Reduce damage taken from [PSY] characters by 3%",
                     "Level 3: Reduce damage taken from [PSY] characters by 4%",
@@ -16343,7 +16374,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 7 turns on this character",
@@ -16387,7 +16418,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by ? turns on this character",
                     "Level 3: Reduces Slot Bind duration by ? turns on this character",
@@ -16397,7 +16428,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -16519,7 +16550,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by ?%",
                     "Level 3: Reduce damage taken from [DEX] characters by ?%",
@@ -16529,7 +16560,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -16539,7 +16570,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
                     "Level 3: Reduces No Healing duration by ? turns",
@@ -16584,7 +16615,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 2: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 3: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
@@ -16594,7 +16625,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -16701,7 +16732,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -16711,7 +16742,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -16852,7 +16883,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -16862,7 +16893,7 @@ module.exports = {
             },
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -16922,7 +16953,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -16932,7 +16963,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
                     "Level 3: This character's attack will ignore barriers if HP is above 70%",
@@ -16942,7 +16973,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -16986,7 +17017,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -16996,7 +17027,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -17069,7 +17100,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -17079,7 +17110,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -17123,7 +17154,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -17133,7 +17164,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -17178,7 +17209,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -17188,7 +17219,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -17264,7 +17295,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -17274,7 +17305,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -17349,7 +17380,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -17359,7 +17390,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -17506,7 +17537,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -17516,7 +17547,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -17561,7 +17592,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -17571,7 +17602,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -17616,7 +17647,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
                     "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
@@ -17626,7 +17657,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -17686,7 +17717,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -17696,7 +17727,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -17706,7 +17737,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -17750,7 +17781,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -17760,7 +17791,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -17839,7 +17870,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -17849,7 +17880,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 2 turns",
@@ -17859,7 +17890,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 80%",
                     "Level 3: This character's attack will ignore barriers if HP is above 70%",
@@ -17933,17 +17964,17 @@ module.exports = {
     },
     1762: {//Rob Lucci
         captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row and by 4.026275x after the 5th Perfect in a row.",
-        special: "Reduces the defense of all enemies by 80% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        special: "Reduces the defense of all enemies by 80% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recovers 20% of crew's MAX HP.",
         specialName: "Flying Finger Gun: Fire Sting",
     },
     1763: {//Rob Lucci
         captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row and by 4.026275x after the 5th Perfect in a row.",
-        special: "Reduces the defense of all enemies by 80% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        special: "Reduces the defense of all enemies by 80% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recovers 20% of crew's MAX HP.",
         specialName: "Flying Finger Gun: Fire Sting",
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of Powerhouse characters by 50",
-            "level2": "Makes [RCV] and [TND] orbs \"beneficial\" for Powerhouse characters",
+            "level2": "Completely resists Paralysis on this character",
         },
         limit: [
             { "description": "Boosts base ATK by 10" },
@@ -17973,14 +18004,14 @@ module.exports = {
             { "description": "Boosts base HP by 70" },
             { "description": "Boosts base RCV by 20" },
             { "description": "Boosts base RCV by 30" },
-            { "description": "Aquire Sailor Ability 2: Makes [RCV] and [TND] orbs \"beneficial\" for Powerhouse characters" },
+            { "description": "Aquire Sailor Ability 2: Completely resists Paralysis on this character" },
             { "description": "Boosts base HP by 90" },
             { "description": "Aquire Potential 3: Slot Bind Self-reduction" },
         ],
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -17990,7 +18021,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -18000,7 +18031,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 7 turns on this character",
@@ -18072,7 +18103,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -18082,7 +18113,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 50",
                     "Level 3: Boosts base ATK by 80",
@@ -18159,7 +18190,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -18169,7 +18200,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -18291,7 +18322,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
@@ -18301,7 +18332,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -18358,7 +18389,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -18368,7 +18399,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 60",
                     "Level 2: Boosts base ATK by 90",
                     "Level 3: Boosts base ATK by 120",
@@ -18378,7 +18409,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 7 turns on this character",
@@ -18423,7 +18454,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -18433,7 +18464,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -18505,7 +18536,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -18515,7 +18546,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 50",
                     "Level 3: Boosts base ATK by 70",
@@ -18560,7 +18591,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -18570,7 +18601,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -18614,7 +18645,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -18624,7 +18655,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -18721,7 +18752,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
@@ -18731,7 +18762,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -18801,7 +18832,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 30",
                     "Level 3: Boosts base ATK by 40",
@@ -18811,7 +18842,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -18943,7 +18974,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -18953,7 +18984,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above ??%",
                     "Level 2: This character's attack will ignore barriers if HP is above ??%",
                     "Level 3: This character's attack will ignore barriers if HP is above ??%",
@@ -19009,7 +19040,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Damage recieved from [PSY] enemies by 1%",
                     "Level 2: Reduces Damage recieved from [PSY] enemies by 2%",
                     "Level 3: Reduces Damage recieved from [PSY] enemies by 3%",
@@ -19019,7 +19050,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -19062,7 +19093,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -19072,7 +19103,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -19131,7 +19162,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -19141,7 +19172,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
@@ -19151,7 +19182,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 7 turns on this character",
@@ -19199,7 +19230,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 1 turn",
@@ -19209,7 +19240,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -19257,7 +19288,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -19267,7 +19298,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -19316,7 +19347,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -19326,7 +19357,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -19376,7 +19407,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -19386,7 +19417,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -19406,7 +19437,7 @@ module.exports = {
         captain: "Boosts ATK of Driven characters by 1.5x, deals 4x character's ATK in [DEX] damage to all enemies at the end of each turn",
         special: "Boosts ATK of Driven characters by 1.5x for 1 turn, reduces enemy's Threshold Damage Reduction by 2 turns and ATK Up duration by 3 turns",
         specialName: "Fathomless Infinite Hell",
-        sailor: "When any other character uses a special, reduces own cooldown by 5 turns",
+        sailor: "When any other character uses a special, reduces own cooldown by 5 turns",        
     },
     1843: {//Coribou
         captain: "Boosts ATK of Driven and Striker characters by 1.5x",
@@ -19531,7 +19562,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -19541,7 +19572,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -19604,7 +19635,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -19614,7 +19645,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -19687,7 +19718,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -19697,7 +19728,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -19788,7 +19819,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -19798,7 +19829,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -19808,7 +19839,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
@@ -19853,7 +19884,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -19863,7 +19894,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -19910,7 +19941,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -19920,7 +19951,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
@@ -19967,7 +19998,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -19977,7 +20008,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
@@ -20021,7 +20052,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -20031,7 +20062,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
@@ -20092,7 +20123,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -20102,7 +20133,7 @@ module.exports = {
             },
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -20167,7 +20198,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -20177,7 +20208,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -20187,7 +20218,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -20252,7 +20283,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
                     "Level 3: Boosts base ATK by 60",
@@ -20262,7 +20293,7 @@ module.exports = {
             },
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -20272,7 +20303,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
@@ -20331,7 +20362,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -20341,7 +20372,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
@@ -20351,7 +20382,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -20450,7 +20481,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -20460,7 +20491,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 10% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -20556,7 +20587,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -20566,7 +20597,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -20632,7 +20663,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -20642,7 +20673,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -20703,7 +20734,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -20713,7 +20744,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -20757,7 +20788,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -20767,7 +20798,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -20811,7 +20842,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -20821,7 +20852,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -20867,7 +20898,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
@@ -20877,7 +20908,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -20938,7 +20969,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -20948,7 +20979,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -20958,7 +20989,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 4 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 5 turns on this character",
@@ -21055,7 +21086,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -21065,7 +21096,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -21148,7 +21179,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -21158,7 +21189,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
                     "Level 3: Reduces No Healing duration by 2 turns",
@@ -21168,7 +21199,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 80%",
                     "Level 3: This character's attack will ignore barriers if HP is above 70%",
@@ -21222,7 +21253,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -21232,7 +21263,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -21287,7 +21318,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -21297,7 +21328,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
@@ -21307,7 +21338,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by ??",
                     "Level 3: Boosts base ATK by ??",
@@ -21363,7 +21394,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 2%",
                     "Level 2: Reduce damage taken from [DEX] characters by 3%",
                     "Level 3: Reduce damage taken from [DEX] characters by 4%",
@@ -21373,7 +21404,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
@@ -21383,7 +21414,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
                     "Level 3: Reduces No Healing duration by 3 turn",
@@ -21479,7 +21510,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -21489,7 +21520,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
                     "Level 3: Reduces No Healing duration by 3 turn",
@@ -21499,7 +21530,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
                     "Level 3: This character's attack will ignore barriers if HP is above 70%",
@@ -21598,7 +21629,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -21608,7 +21639,7 @@ module.exports = {
             },
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 5 turns on this character",
@@ -21652,7 +21683,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -21662,7 +21693,7 @@ module.exports = {
             },
             {
                 "Name": "Pinch Healing",
-                "description": [
+                "description": [ 
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a Perfect with this character",
                     "Level 3: If HP is below 5% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
@@ -21709,7 +21740,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Slot Bind Self-reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
@@ -21719,7 +21750,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
                     "Level 3: Boosts base ATK by 100",
@@ -21801,7 +21832,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -21811,7 +21842,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
@@ -21821,7 +21852,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 150",
                     "Level 2: Boosts base ATK by 200",
                     "Level 3: Boosts base ATK by 250",
@@ -21866,7 +21897,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[PSY] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
                     "Level 3: Reduce damage taken from [PSY] characters by 3%",
@@ -21876,7 +21907,7 @@ module.exports = {
             },
             {
                 "Name": "Cooldown Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce Special Cooldown by 1 turn at the start of the fight",
                     "Level 2: Reduce Special Cooldown by 3 turn at the start of the fight",
                     "Level 3: Reduce Special Cooldown by 6 turn at the start of the fight",
@@ -21920,7 +21951,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
                     "Level 3: Reduce damage taken from [STR] characters by 3%",
@@ -21930,7 +21961,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
                     "Level 3: Boosts base ATK by 100",
@@ -21975,7 +22006,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
@@ -21985,7 +22016,7 @@ module.exports = {
             },
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -22031,7 +22062,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[QCK] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
                     "Level 3: Reduce damage taken from [QCK] characters by 3%",
@@ -22041,7 +22072,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
                     "Level 3: Boosts base ATK by 100",
@@ -22163,16 +22194,16 @@ module.exports = {
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base HP by 50" },
-            { "description": "Boosts base RCV by 15" },
+            { "description": "Boosts base RCV by 20" },
             { "description": "Aquire new Captain Ability: " },
             { "description": "Reduce base Special Cooldown by 2 turns" },
             { "description": "Boosts base ATK by 25" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
             { "description": "Reduce base Special Cooldown by 3 turns" },
             { "description": "Aquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 55" },
+            { "description": "Boosts base HP by 50" },
             { "description": "Reduce base Special Cooldown by 4 turns" },
             { "description": "Aquire new Captain Ability: " },
             { "description": "Boosts base ATK by 30" },
@@ -22184,7 +22215,7 @@ module.exports = {
             { "description": "Reduce base Special Cooldown by 5 turns" },
             { "description": "Aquire 1 additional Socket slot" },
             { "description": "Aquire new Captain Ability: " },
-            { "description": "Boosts base ATK by 60" },
+            { "description": "Boosts base ATK by 50" },
             { "description": "Boosts base HP by 60" },
             { "description": "Aquire new Captain Ability: " },
             { "description": "Aquire Potential 2: Enrage" },
@@ -22192,7 +22223,7 @@ module.exports = {
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
                     "Level 3: Reduces No Healing duration by 3 turns",
@@ -22202,7 +22233,7 @@ module.exports = {
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 100",
                     "Level 2: Boosts base ATK by 150",
                     "Level 3: Boosts base ATK by 200",
@@ -22257,26 +22288,42 @@ module.exports = {
             "base": "Boosts base ATK of Cerebral characters by 75",
             "level1": "Adds 2x character's ATK as Additional Typeless Damage",
         },
-        limit: "This character has a Limit Break Tree",
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base HP by 10" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Aquire Potential 1: Reduce No Healing duration" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Aquire Sailor Ability 1: Adds 2x character's ATK as Additional Typeless Damage" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Aquire 1 additional Socket slot" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Aquire Potential 2: Enrage" },
+        ],
         potential: [
             {
                 "Name": "Reduce No Healing duration",
-                "description": [
+                "description": [ 
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by ? turn",
-                    "Level 3: Reduces No Healing duration by ? turns",
-                    "Level 4: Reduces No Healing duration by ? turns",
-                    "Level 5: Reduces No Healing duration by ? turns"
+                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 3: Reduces No Healing duration by 3 turns",
+                    "Level 4: Reduces No Healing duration by 4 turns",
+                    "Level 5: Reduces No Healing duration by 5 turns"
                 ]
             },
             {
                 "Name": "Enrage",
-                "description": [
+                "description": [ 
                     "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by ??",
-                    "Level 3: Boosts base ATK by ??",
-                    "Level 4: Boosts base ATK by ??",
-                    "Level 5: Boosts base ATK by ??"
+                    "Level 2: Boosts base ATK by 40",
+                    "Level 3: Boosts base ATK by 60",
+                    "Level 4: Boosts base ATK by 80",
+                    "Level 5: Boosts base ATK by 120"
                 ]
             },
         ],
@@ -22284,13 +22331,13 @@ module.exports = {
     },
     1975: {//X Drake
         captain: "Boosts ATK of all characters by 2x if HP is below 30% at the start of the turn",
-        special: "Deals 25x? ATK in [QCK] damage to one enemy. If HP above ??% then changes [RCV], [TND], [EMPTY], [BOMB] and [BLOCK] orbs into matching orbs and if HP below ?% then changes adjacent orbs into matching orbs",
+        special: "Deals 50x ATK in [QCK] damage to one enemy, changes own orb into [QCK] and locks all orbs for 1 turn. If HP above 70% then changes [RCV], [TND], [EMPTY], [BOMB] and [BLOCK] orbs into matching orbs and if HP below 30% then changes adjacent orbs into matching orbs",
         specialName: "Double Edge of Revolt [Neo]",
         sailor: "When HP is below 30% at the start of the turn, boosts base ATK of all characters by 40",
     },
     1976: {//X Drake
         captain: "Boosts ATK of all characters by 2.5x if HP is below 30% at the start of the turn",
-        special: "Deals 25x? ATK in [QCK] damage to one enemy. If HP above ??% then changes [RCV], [TND], [EMPTY], [BOMB] and [BLOCK] orbs into matching orbs and if HP below ?% then changes adjacent orbs into matching orbs",
+        special: "Deals 50x ATK in [QCK] damage to one enemy, changes own orb into [QCK] and locks all orbs for 1 turn. If HP above 70% then changes [RCV], [TND], [EMPTY], [BOMB] and [BLOCK] orbs into matching orbs and if HP below 30% then changes adjacent orbs into matching orbs",
         specialName: "Double Edge of Revolt [Neo]",
         sailor: "When HP is below 30% at the start of the turn, boosts base ATK of all characters by 40",
     },
@@ -22298,14 +22345,18 @@ module.exports = {
         captain: "Not Translated",
         special: "Cuts the current HP of one enemy by 20%, reduces Bind and Silence duration by 3 turns, boosts chances of getting [DEX], [PSY] and [INT] orbs for 3 turns and makes [DEX], [PSY] and [INT] orbs \"beneficial\" to Free Spirit characters for 3 turns",
         specialName: "Unabated Surge",
+        sailor: "Reduces Silence duration on this character by 3 turns",
+        sailorNotes: "#{silence}",
     },
     1978: {//Rayleigh
         captain: "Boosts chances of getting Matching orbs, boosts ATK of Free Spirit and Slasher characters by 2.5x",
         special: "Cuts the current HP of one enemy by 20%, reduces Bind and Silence duration by 3 turns, boosts chances of getting [DEX], [PSY] and [INT] orbs for 3 turns and makes [DEX], [PSY] and [INT] orbs \"beneficial\" to Free Spirit characters for 3 turns",
         specialName: "Unabated Surge",
+        sailor: "Reduces Silence duration on this character by 3 turns",
+        sailorNotes: "#{silence}",
     },
     1979: {//Capone
-        captain: "Not Translated",
+        captain: "Boosts ATK of Shooter characters by 1.75x",
         special: "Reduces Special Cooldown of Shooter specials by 1 turn and changes orbs in the top row into Matching orbs",
         specialName: "Angry Threatening Command",
     },
@@ -22315,58 +22366,58 @@ module.exports = {
         specialName: "Angry Threatening Command",
     },
     1981: {//Bonney
-        captain: "Not Translated",
-        special: "Changes [RCV] orbs into matching orbs and recovers ??? HP at the end of the turn for 2 turns",
+        captain: "Boosts ATK of Fighter characters by 1.75x",
+        special: "Changes [RCV] orbs into matching orbs and recovers 15x character's RCV in HP at the end of the turn for 2 turns",
         specialName: "Glutonous Meal",
     },
     1982: {//Bonney
         captain: "Boosts RCV of Fighter characters by 1.2x and boosts ATK of Fighter characters by 2.25x if HP is above ??% at the start of the turn, by 2x otherwise",
-        special: "Changes [RCV] orbs into matching orbs and recovers ??? HP at the end of the turn for 2 turns",
+        special: "Changes [RCV] orbs into matching orbs and recovers 15x character's RCV in HP at the end of the turn for 2 turns",
         specialName: "Glutonous Meal",
     },
     1983: {//Smoker&Tashigi
         captain: {
-            "base": "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs \"beneficial\" to [INT] and [PSY] characters",
-            "level1": "Boosts ATK of [INT] and [PSY] characters by 2.5x and recovers 300 HP at end of each turn",
-            "level2": "Boosts ATK of [INT] and [PSY] characters by 2.75x, reduce damage received by 7%, recovers 1,000 HP at end of each turn and makes [TND], [INT] and [PSY] orbs \"beneficial\" to [INT] and [PSY] characters"
+            "character1": "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs \"beneficial\" to [INT] and [PSY] characters",
+            "character2": "Boosts ATK of [INT] and [PSY] characters by 2.5x and recovers 300 HP at end of each turn",
+            "combined": "Boosts ATK of [INT] and [PSY] characters by 2.75x, reduce damage received by 7%, recovers 1,000 HP at end of each turn and makes [TND], [INT] and [PSY] orbs \"beneficial\" to [INT] and [PSY] characters"
         },
         special: "Deals 5,000 fixed damage to one enemy, changes own orb into a Matching orb, reduces damage received by 50% for 1 turn, boosts ATK of [PSY] and [INT] characters by 1.5x for 1 turn and becomes Smoker & Tashigi for 2 turns",
         specialNotes: "Change Action: When Change is activated, Recovers 2x character's RCV",
         specialName: "White Slash",
         sailor: {
-            "base": "Boosts base ATK of [INT] and [PSY] characters by 50",
-            "level1": "Boosts base RCV of [INT] and [PSY] characters by 30",
-            "level2": "Boosts base ATK, HP and RCV of [INT] and [PSY] characters by 75"
+            "character1": "Boosts base ATK of [INT] and [PSY] characters by 50",
+            "character2": "Boosts base RCV of [INT] and [PSY] characters by 30",
+            "combined": "Boosts base ATK, HP and RCV of [INT] and [PSY] characters by 75"
         },
     },
     1984: {//Luffy&Ace
         captain: {
-            "base": "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
-            "level1": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 3.5x if they have a matching orb, by 2.25x otherwise",
-            "level2": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%"
+            "character1": "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
+            "character2": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 3.5x if they have a matching orb, by 2.25x otherwise",
+            "combined": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%"
         },
         special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT], and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
         specialNotes: "Change Action: When Change is activated, this character removes all Despair, Paralysis, and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
-            "base": "Makes [QCK] orbs \"beneficial\" for Free Spirit characters",
-            "level1": "Makes [STR] orbs \"beneficial\" for Free Spirit characters",
-            "level2": "None"
+            "character1": "Makes [QCK] orbs \"beneficial\" for Free Spirit characters",
+            "character2": "Makes [STR] orbs \"beneficial\" for Free Spirit characters",
+            "combined": "None"
         },
     },
     1985: {//Luffy&Ace
         captain: {
-            "base": "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
-            "level1": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 3.5x if they have a matching orb, by 2.25x otherwise",
-            "level2": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%"
+            "character1": "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
+            "character2": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 3.5x if they have a matching orb, by 2.25x otherwise",
+            "combined": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%"
         },
         special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT], and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
         specialNotes: "Change Action: When Change is activated, this character removes all Despair, Paralysis, and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
-            "base": "Makes [QCK] orbs \"beneficial\" for Free Spirit characters",
-            "level1": "Makes [STR] orbs \"beneficial\" for Free Spirit characters",
-            "level2": "None"
+            "character1": "Makes [QCK] orbs \"beneficial\" for Free Spirit characters",
+            "character2": "Makes [STR] orbs \"beneficial\" for Free Spirit characters",
+            "combined": "None"
         },
         limit: "This character has a Limit Break Tree"
     },
@@ -22375,30 +22426,31 @@ module.exports = {
         special: [
             {
                 "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 3 turns, reduces damage received by 50% for 1 turn. If your crew has 3 or more [STR] characters, adds .5x to Chain multiplier for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 16, 10 ],
             },
             {
                 "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 5 turns, reduces damage received by 90% for 1 turn. If your crew has 3 or more [STR] characters, adds .75x to Chain multiplier for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 20, 14 ],
             },
         ],
         specialName: "Establishing an Oath of Immortality",
-        sailor: "Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters",
+        sailor: "Boosts amount healed from [RCV] orbs by 150 each",
     },
     1987: {//Marco
         captain: "Boosts ATK of Fighter characters by 2.5x and their RCV by 1.3x. Recovers 3x character's RCV in HP at the end of each turn.",
         special: [
             {
                 "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 3 turns, reduces damage received by 50% for 1 turn. If your crew has 3 or more [STR] characters, adds .5x to Chain multiplier for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 16, 10 ],
             },
             {
                 "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 5 turns, reduces damage received by 90% for 1 turn. If your crew has 3 or more [STR] characters, adds .75x to Chain multiplier for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 20, 14 ],
             },
         ],
         specialName: "Establishing an Oath of Immortality",
-        sailor: "Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters",
+        sailor: "Boosts amount healed from [RCV] orbs by 150 each",
+        //sailor: "Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters",
         limit: "This character has a Limit Break Tree"
     },
     1988: {//Oars
@@ -22432,11 +22484,11 @@ module.exports = {
         special: [
             {
                 "description": "Deals 30x character's ATK in QCK damage to one enemy and randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more QCK characters, boosts ATK of Free Spirit characters by 1.75x for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 16, 10 ],
             },
             {
                 "description": "Deals 50x character's ATK in QCK damage to one enemy and randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more QCK characters, boosts ATK of Free Spirit characters by 2x for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 19, 13 ],
             },
         ],
         specialName: "Determined Counterattack",
@@ -22447,18 +22499,18 @@ module.exports = {
         special: [
             {
                 "description": "Deals 30x character's ATK in QCK damage to one enemy and randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more QCK characters, boosts ATK of Free Spirit characters by 1.75x for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 16, 10 ],
             },
             {
                 "description": "Deals 50x character's ATK in QCK damage to one enemy and randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more QCK characters, boosts ATK of Free Spirit characters by 2x for 1 turn",
-                "cooldown": [ null, null ],
+                "cooldown": [ 19, 13 ],
             },
         ],
         specialName: "Determined Counterattack",
         sailor: "Boosts base ATK of Free Spirit characters by 50",
         limit: "This character has a Limit Break Tree"
     },
-    2001: {
+    2001: {//6+ PSY Law
         captain: "Boosts Slasher and Free Spirit character's ATK by 2.5x, by 3.5x after 3 consecutive PERFECTs, by 4x after 5 consecutive PERFECTs. Recover 1,000 HP at the end of each turn",
         specialName: "Sterben",
         sailor: {
@@ -22488,7 +22540,7 @@ module.exports = {
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base RCV by 30" },
             { "description": "Boosts base RCV by 35" },
-            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 25" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base ATK by 30" },
             { "description": "Boosts base ATK by 50" },
@@ -22502,7 +22554,7 @@ module.exports = {
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
-                "description": [
+                "description": [ 
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
                     "Level 3: Reduce damage taken from [INT] characters by 3%",
@@ -22512,7 +22564,7 @@ module.exports = {
             },
             {
                 "Name": "Barrier Penetration",
-                "description": [
+                "description": [ 
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
                     "Level 3: This character's attack will ignore barriers if HP is above 99%",
@@ -22522,7 +22574,7 @@ module.exports = {
             },
             {
                 "Name": "Critical Hit",
-                "description": [
+                "description": [ 
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
@@ -22532,14 +22584,36 @@ module.exports = {
             },
         ]
     },
-    2024: {//Dofla Raid v2
+    2002: {//Senor Pink
+        captain: "Increases damage received by 1.2x. Reduces cooldown of all specials by 2 turns at the start of the fight and boosts ATK of all characters by 2.5x.",
+        special: "Reduces Bind, Despair and Paralysis duration by 3 turns and deals several times character's ATK in Typeless damage to all enemies",
+        specialNotes: "#{specialProportional : lower : ??? * ( 1 - (remaining HP) / (total HP) )}",
+        specialName: "The Man Standing Tall",
+    },
+    2003: {//Doflamingo
+        captain: "Not Translated",
+        special: "Changes own orb into [STR], boosts own ATK by 2x for 1 turn and deals 30x character's ATK in Typeless damage to all enemies",
+        specialName: "Bullet Thread",
+    },
+    2004: {//Doflamingo
+        captain: "Boosts ATK of Slasher characters by 2.25x and their HP by 1.5x. If you use \"Bullet Thread\" THIS DOFLAMINGO boosts ATK of Slasher characters by 2.75x instead for 3 turns",
+        captainNotes: "Using Doflamingo's special will change his own captain boost to 2.75x. If both Doflamingo's specials are used, the total ATK boost will be 7.5625x",
+        special: "Changes own orb into [STR], boosts own ATK by 2x for 1 turn and deals 30x character's ATK in Typeless damage to all enemies",
+        specialName: "Bullet Thread",
+    },
+    2005: {//Sugar
+        captain: "Boosts ATK of [PSY] characters by 2.25x, boosts HP of Slasher characters by 1.2x and boosts RCV of Free Spirit characters by 1.2x",
+        special: "Deals 40x character's ATK in [PSY] damage to all enemies, boosts chances of getting [PSY] orbs for 3 turns",
+        specialName: "Little Black Bears",
+    },
+    2024: {//Doflamingo Raid v2
         captain: "Boosts ATK of Driven and Cerebral characters by 2.5x when HP is 50% or below, 1.5x otherwise",
-        special: "Changes crew's slots randomly (including [BLOCK] slots) unless slots are matching, locks crew's slots for 1 turn, and if Captain is a Cerebral or Driven class, extends duration of crew's ATK and slot effect boost by 2 turns",
+        special: "Randomizes all non-matching orbs, including [BLOCK] slots and locks all orbs for 1 turn. If Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
         specialName: "Athlete",
     },
-    2025: {//Dofla Raid v2
+    2025: {//Doflamingo Raid v2
         captain: "Boosts ATK of Driven and Cerebral characters by 3x when HP is 50% or below, 1.5x otherwise",
-        special: "Changes crew's slots randomly (including [BLOCK] slots) unless slots are matching, locks crew's slots for 1 turn, and if Captain is a Cerebral or Driven class, extends duration of crew's ATK and slot effect boost by 2 turns",
+        special: "Randomizes all non-matching orbs, including [BLOCK] slots and locks all orbs for 1 turn. If Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
         specialName: "Athlete",
     },
 };
