@@ -1981,9 +1981,9 @@
     [ "Capone \"Gang\" Bege, Supernova", "STR", [ "Shooter", "Free Spirit" ], 4, 20, 7, 4, 99, 1000000, 898, 501, 130, 2055, 1192, 246, 1 ],
     [ "Jewelry Bonney, Supernova", "QCK", [ "Fighter", "Free Spirit" ], 3, 13, 5, 3, 50, 130703, 211, 66, 56, 902, 438, 204, 1 ],
     [ "\"Big Eater\" Jewelry Bonney, Supernova", "QCK", [ "Fighter", "Free Spirit" ], 4, 20, 6, 4, 99, 1000000, 818, 415, 156, 2295, 734, 329, 1 ],
-    [ "Smoker & Tashigi, The Marines Chasing the Strawhats", ["INT", "PSY"], [ "Striker", "Slasher" ], 4, 15, 4, 4, 99, null, 264, 138, 30, 1858, 1421, 325, null ],
-    [ "Luffy & Ace, Reunion at War", ["QCK", "STR"], [ "Free Spirit", "Fighter" ], 5, 30, null, 3, 70, 1066998, 312, 326, 73, 1546, 906, 257, null ],
-    [ "Luffy & Ace, Pirates Rising", ["QCK", "STR"], [ "Free Spirit", "Fighter" ], 6, 55, 4, 5, 99, 5000000, 1456, 839, 210, 3400, 1630, 400, null ],
+    [ "Smoker & Tashigi, The Marines Chasing the Strawhats", "INTPSY", [ "Striker", "Slasher" ], 4, 15, 4, 4, 99, null, 264, 138, 30, 1858, 1421, 325, null ],
+    [ "Luffy & Ace, Reunion at War", "QCKSTR", [ "Free Spirit", "Fighter" ], 5, 30, null, 3, 70, 1066998, 312, 326, 73, 1546, 906, 257, null ],
+    [ "Luffy & Ace, Pirates Rising", "QCKSTR", [ "Free Spirit", "Fighter" ], 6, 55, 4, 5, 99, 5000000, 1456, 839, 210, 3400, 1630, 400, null ],
     [ "Marco, Guardian of the \"Will\"", "STR", [ "Free Spirit", "Fighter" ], 4, 15, null, 3, 50, 392109, null, null, null, null, null, null, null ],
     [ "Marco the Phoenix, Guardian of the \"Will\"", "STR", [ "Free Spirit", "Fighter" ], 5, 30, 4, 4, 99, 4000000, 940, 540, 173, 2145, 1357, 402, null ],
     [ "Little Oars Jr, The Pathfinder Breakthrough", "PSY", [ "Slasher", "Powerhouse" ], 4, 15, null, 3, 50, 392109, null, null, null, null, null, null, null ],
@@ -5003,7 +5003,7 @@
     [ "[Dual Unit] Portgas D. Ace, Reunion at War", "STR", [ "Free Spirit", "Shooter" ], 5, 30, 5, 3, 70, 1066998, 254, 303, 64, null, null, null, null ],
     [ "[Dual Unit] Portgas D. Ace, Pirates Rising", "STR", [ "Free Spirit", "Shooter" ], 6, 55, 4, 5, 99, 5000000, 1327, 824, 194, 2920, 1587, 372, null ],
     ];
-    
+
 // [ "Name", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
 // or [ "Name", "Type", "Class1", null, null, null, null, null, null, null, null, null, null, null, null, null ],
 // [ "Name", "Type", [ "Class1", "Class2" ], Stars, Cost, Combo, Sockets, maxLVL, EXPToMax, lvl1HP, lvl1ATK, lvl1RCV, MAXHP, MAXATK, MAXRCV, Growth Rate ],

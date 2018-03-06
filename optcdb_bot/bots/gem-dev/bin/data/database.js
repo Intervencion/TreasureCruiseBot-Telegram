@@ -41,7 +41,7 @@ function getStats(id) {
 		unit_max_atk = unit[13],
 		unit_max_rcv = unit[14],
 		response = (unit_incomplete === true) ? '<b>Note:</b> This unit is not yet released or incomplete! The information provided may not be accurate and is subject to change.\n\n' : '';
-		
+
 		if(!(Array.isArray(unit_type))){
 			unit_type = (unit_type === 'STR') ? '\u2764\uFE0F STR' : unit_type;
 			unit_type = (unit_type === 'QCK') ? '\uD83D\uDC99 QCK' : unit_type;
