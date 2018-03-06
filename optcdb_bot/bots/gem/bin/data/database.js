@@ -41,16 +41,35 @@ function getStats(id) {
 		unit_max_atk = unit[13],
 		unit_max_rcv = unit[14],
 		response = (unit_incomplete === true) ? '<b>Note:</b> This unit is not yet released or incomplete! The information provided may not be accurate and is subject to change.\n\n' : '';
-		unit_type = (unit_type === 'STR') ? '\u2764\uFE0F STR' : unit_type;
-		unit_type = (unit_type === 'QCK') ? '\uD83D\uDC99 QCK' : unit_type;
-		unit_type = (unit_type === 'DEX') ? '\uD83D\uDC9A DEX' : unit_type;
-		unit_type = (unit_type === 'PSY') ? '\uD83D\uDC9B PSY' : unit_type;
-		unit_type = (unit_type === 'INT') ? '\uD83D\uDC9C INT' : unit_type;
+		
+		if(!(Array.isArray(unit_type))){
+			unit_type = (unit_type === 'STR') ? '\u2764\uFE0F STR' : unit_type;
+			unit_type = (unit_type === 'QCK') ? '\uD83D\uDC99 QCK' : unit_type;
+			unit_type = (unit_type === 'DEX') ? '\uD83D\uDC9A DEX' : unit_type;
+			unit_type = (unit_type === 'PSY') ? '\uD83D\uDC9B PSY' : unit_type;
+			unit_type = (unit_type === 'INT') ? '\uD83D\uDC9C INT' : unit_type;
+		}
+		else if(Array.isArray(unit_type)){
+			var unit_type2 = "";
+			unit_type2 += (unit_type[0] === 'STR') ? '\u2764\uFE0F STR ' : "";
+			unit_type2 += (unit_type[0] === 'QCK') ? '\uD83D\uDC99 QCK ' : "";
+			unit_type2 += (unit_type[0] === 'DEX') ? '\uD83D\uDC9A DEX ' : "";
+			unit_type2 += (unit_type[0] === 'PSY') ? '\uD83D\uDC9B PSY ' : "";
+			unit_type2 += (unit_type[0] === 'INT') ? '\uD83D\uDC9C INT ' : "";
+			unit_type2 += (unit_type[1] === 'STR') ? '\u2764\uFE0F STR' : "";
+			unit_type2 += (unit_type[1] === 'QCK') ? '\uD83D\uDC99 QCK' : "";
+			unit_type2 += (unit_type[1] === 'DEX') ? '\uD83D\uDC9A DEX' : "";
+			unit_type2 += (unit_type[1] === 'PSY') ? '\uD83D\uDC9B PSY' : "";
+			unit_type2 += (unit_type[1] === 'INT') ? '\uD83D\uDC9C INT' : "";
+			unit_type = unit_type2;
+		}
+
 		var unit_details = details[id];
 		var addSocket = 0;
 		var addHP = 0;
 		var addATK = 0;
 		var addRCV = 0;
+
 		if(unit_details && unit_details.hasOwnProperty('limit') && Array.isArray(unit_details.limit)){
 
 			unit_details.limit.forEach(function(desc,index){
@@ -100,6 +119,10 @@ function getDetail(id, detail) {
 		else if(unit_captain != '' && unit_captain.hasOwnProperty('base')) {
 			unit_captain = unit_captain.base;
 		}
+		else if(unit_captain != '' && unit_captain.hasOwnProperty('character1')) {
+			console.log(unit_captain);
+			unit_captain = unit_captain.character1 +'\n'+unit_captain.character2+'\n'+unit_captain.combined;
+		}
 		return unit_captain.replaceEntities() || false;
 	}
 	if (detail === 'sailor') {
@@ -148,6 +171,20 @@ function getCaptainAbility(id) {
 		(unit_captain_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_captain_level1.replaceEntities() + '\n\n' :
 		(unit_captain_japan !== false) ? '<code>Japan:</code> ' + unit_captain_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_captain_global.replaceEntities() + '\n\n' :
 		unit_captain.replaceEntities() + '\n\n';
+		return response;
+	}
+	else if(unit_captain && unit_captain.hasOwnProperty('character1')){
+		var unit_details = details[id],
+		unit_captain = unit_details && unit_details.captain,
+		unit_captain_char1 = unit_captain && unit_captain.hasOwnProperty('character1') && unit_captain.character1,
+		unit_captain_char2 = unit_captain && unit_captain.hasOwnProperty('character2') && unit_captain.character2,
+		unit_captain_comb = unit_captain && unit_captain.hasOwnProperty('combined') && unit_captain.combined,
+		response;
+		response = '<b>Captains Ability[Double Char]:</b>\n';
+		response += (unit_captain_char1 !== false) ? '<code>1st Char:</code> ' + unit_captain_char1.replaceEntities() + '\n' : unit_captain.replaceEntities() + '\n\n';
+		response += (unit_captain_char2 !== false) ? '<code>2nd Char:</code> ' + unit_captain_char2.replaceEntities() + '\n' : unit_captain.replaceEntities() + '\n\n';
+		response += (unit_captain_comb !== false) ? '<code>Combined:</code> ' + unit_captain_comb.replaceEntities() + '\n' : unit_captain.replaceEntities() + '\n\n';
+		response += '\n';
 		return response;
 	}
 	else{
@@ -253,6 +290,20 @@ function getSailorAbility(id) {
 		response += (unit_sailor_level6 !== false) ? '<code>Limit Break 6:</code> ' + unit_sailor_level6.replaceEntities() + '\n' : '' ;
 		response += '\n';
 		response += (unit_sailor_japan !== false) ? '<code>Japan:</code> ' + unit_sailor_japan.replaceEntities() + '\n' + '<code>Global:</code> ' + unit_sailor_global.replaceEntities() + '\n\n' : '';
+		return response;
+	}
+	else if(unit_sailor && unit_sailor.hasOwnProperty('character1')){
+		var unit_details = details[id],
+		unit_sailor = unit_details && unit_details.sailor,
+		unit_sailor_char1 = unit_sailor && unit_sailor.hasOwnProperty('character1') && unit_sailor.character1,
+		unit_sailor_char2 = unit_sailor && unit_sailor.hasOwnProperty('character2') && unit_sailor.character2,
+		unit_sailor_comb = unit_sailor && unit_sailor.hasOwnProperty('combined') && unit_sailor.combined,
+		response;
+		response = '<b>Sailors [Double Char]:</b>\n';
+		response += (unit_sailor_char1 !== false) ? '<code>1st Char:</code> ' + unit_sailor_char1.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+		response += (unit_sailor_char2 !== false) ? '<code>2nd Char:</code> ' + unit_sailor_char2.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+		response += (unit_sailor_comb !== false) ? '<code>Combined:</code> ' + unit_sailor_comb.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+		response += '\n';
 		return response;
 	}
 	else{
