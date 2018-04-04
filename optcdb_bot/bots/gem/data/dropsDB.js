@@ -791,7 +791,7 @@ module.exports = {
             name: 'Dressrosa - Coliseum Lodging to Executive Tower',
             shortName: 'Dressrosa 2',
             thumb: 2004,
-            nakama: null,
+            nakama: 1200400,
             completion: '5x Rainbow Gems',
             gamewith: 93492,
             '01': [ 1648 ],
@@ -1828,14 +1828,17 @@ module.exports = {
         {
             name: 'Battle Royale!',
             thumb: 1766,
+            global: true,
             nakama: 2176600,
             gamewith: 67118,
-            'All Difficulties': [ 1765, 1767, 1768, -1192, -1764, -520, -1115, -1184, -1190, -554, -1175, -1612, -1614, -1353, -1393 ]
+            'Japan': [ 1765, 1767, 1768, -1192, -1764, -520, -1115, -1184, -1190, -554, -1175, -1612, -1614, -1353, -1393 ],
+            'Global': [ 1765, 1767, 1768, -520, -554, -1192, -1763, -1764, -1614, -1612, -1115, -1190, -1184, -1175, -1393, -1353 ]
         },
         
         {
             name: 'Wano Samurai!',
             thumb: 1774,
+            global: true,
             nakama: 2177400,
             condition: 'Shooter and Free Spirit characters get a boost (1.2x ATK, HP and RCV boost on 30 stamina)',
             gamewith: 68608,
@@ -1937,14 +1940,16 @@ module.exports = {
         {
             name: 'Whitebeard Pirates Commanders! Marco and Vista!',
             thumb: 1997,
-            nakama: null,
+            nakama: 2199700,
             gamewith: 94921,
             'All Difficulties': [ 1994, 1996, -1832, -1408, -1721, -1871, -1838, -1634 ]
         },
         
         {
-            name: 'Partys Bar! Shanks and Makino!',
+            name: 'Makino\'s Bar! Shanks and Makino!',
             thumb: 2021,
+            nakama: 2202100,
+            gamewith: 96636,
             'All Difficulties': [ 2018, 2020, -1404, -1593, -1410, -1778, -1873, -1877, -1635 ]
         },
         
@@ -2297,6 +2302,7 @@ module.exports = {
         {
             name: 'Clash Neo!! Akainu',
             thumb: 1826,
+            global: true,
             nakama: 4182600,
             gamewith: 73951,
             condition: '1 Master version and 3 different Ultimate versions with different conditions. Master: Shooter/Striker/Slaher Only. Ultimate: Shooter Only, Striker Only, and Slasher Only',
@@ -2420,18 +2426,31 @@ module.exports = {
         {
             name: 'Clash!! Rob Lucci',
             thumb: 2015,
-            gamewith: null,
+            nakama: 4201500,
+            gamewith: 95424,
+            Ultimate: [ 2014 ],
             Master: [ 2014 ],
             Expert: [ 2014 ]
+        },
+
+        {
+            name: 'Clash!? Luffy',
+            thumb: 2033,
+            showManual: true,
+            nakama: null,
+            gamewith: 97354,
+            Ultimate: [ 2032, -2032 ],
+            Master: [ 2032, -2032 ]
         },
         
         {
             name: 'Clash!! Heavenly Demon Doflamingo',
-            thumb: 2025,
+            thumb: 2201,
             global: true,
+            nakama: 4220100,
             gamewith: null,
-            Master: [ 2024 ],
-            Expert: [ 2024 ]
+            Ultimate: [ 2200 ],
+            Master: [ 2200 ]
         },
 
     ],
@@ -2447,7 +2466,7 @@ module.exports = {
             slefty: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
             Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
@@ -2642,6 +2661,7 @@ module.exports = {
         {
             name: 'Invasion! Garp',
             thumb: 1846,
+            global: true,
             nakama: 6184600,
             gamewith: 75260,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
