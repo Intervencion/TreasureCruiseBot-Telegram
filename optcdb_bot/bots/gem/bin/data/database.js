@@ -41,7 +41,7 @@ function getStats(id) {
 		unit_max_atk = unit[13],
 		unit_max_rcv = unit[14],
 		response = (unit_incomplete === true) ? '<b>Note:</b> This unit is not yet released or incomplete! The information provided may not be accurate and is subject to change.\n\n' : '';
-
+		
 		if(!(Array.isArray(unit_type))){
 			unit_type = (unit_type === 'STR') ? '\u2764\uFE0F STR' : unit_type;
 			unit_type = (unit_type === 'QCK') ? '\uD83D\uDC99 QCK' : unit_type;
@@ -281,7 +281,7 @@ function getSailorAbility(id) {
 		response;
 
 		response = '<b>Sailor[LB]:</b>\n';
-		response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+		//response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
 		response += (unit_sailor_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_sailor_level1.replaceEntities() + '\n' : '';
 		response += (unit_sailor_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_sailor_level2.replaceEntities() + '\n' : '' ;
 		response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ;
