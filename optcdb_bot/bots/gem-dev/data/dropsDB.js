@@ -1953,6 +1953,14 @@ module.exports = {
             'All Difficulties': [ 2018, 2020, -1404, -1593, -1410, -1778, -1873, -1877, -1635 ]
         },
         
+        {
+            name: 'Red Hair Pirates!',
+            thumb: 2038,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2044, 2045, 2046, -1869, -1406, -1824, -1875, -1904, -2044, -1225 ]
+        },
+        
     ],
 
             
@@ -2576,8 +2584,8 @@ module.exports = {
         
         {
             name: 'Halloween Event Characters',
-            global: true,
             thumb: 1300,
+            global: true,
             nakama: 6130000,
             'All Difficulties': [ 1299, 1305, 1325 ],
         },
@@ -2585,8 +2593,10 @@ module.exports = {
         {
             name: 'White Day Characters',
             thumb: 1463,
+            global: true,
             nakama: 6146300,
             gamewith: 51651,
+            condition: 'Only Luffy and Chopper Islands are Global',
             'Luffy': [ 1462, 29, 563, 1059, 345, 192, 113, 108, 115, 116, 117, 1180, 266, 94, 83 ],
             'Chopper': [ 1464, 1155, 333, 728, 334, 1061, 346, 193, 109, 114, 115, 116, 117, 1180, 266, 94, 83 ],
             'Sanji': [ 1507, 52, 207, 892, 343, 190, 111, 106, 115, 116, 117, 1180, 266, 94, 83 ],
@@ -2710,7 +2720,7 @@ module.exports = {
             global: true,
             nakama: 6131400,
             gamewith: 61665,
-            condition: 'Chance of dropping the Silver Almighty Book.',
+            condition: 'Chance of dropping the Silver Almighty Manual.',
             'All Bosses': [ -1621, -1632, -1665 ],
             'Chopperman Mission': [ 1675 ],
         },
@@ -2721,7 +2731,7 @@ module.exports = {
             global: true,
             nakama: 6140400,
             gamewith: 65078,
-            condition: 'Chance of dropping the Silver Almighty Book.',
+            condition: 'Chance of dropping the Silver Almighty Manual.',
             'All Bosses': [ -1621, -1632, -1665, -1678, -1721 ],
             'Chopperman Missions': [ 1728 ],
         },
@@ -2732,10 +2742,21 @@ module.exports = {
             global: true,
             nakama: 6087000,
             gamewith: 68282,
-            condition: 'Chance of dropping the Silver Almighty Book, Guidence Fragments and Guidence Crystals.',
+            condition: 'Chance of dropping the Silver Almighty Manual, Traning Potions, Guilding Fragments, Guilding Crystals and Guilding Jewels.',
             'Japan': [ -1621, -1632, -1665, -1678, -1713, -1721, -1770 ],
             'Global': [ -1621, -1632, -1665, -1713, -1721 ],
             'Chopperman Missions': [ 1023, 1600 ],
+        },
+        
+        {
+            name: 'Battle Blitz! Akainu vs Aokiji',
+            thumb: 2023,
+            nakama: null,
+            gamewith: null,
+            condition: 'Chance of dropping the Silver Almighty Manual, Traning Potions, Guilding Fragments, Guilding Crystals and Guilding Jewels.',
+            'Aokiji': [ -2023 ],
+            'Akainu' : [ -2025 ],
+            'Chopperman Missions': [ 2042 ],
         },
         
         {
@@ -2841,7 +2862,16 @@ module.exports = {
             condition: 'Zoro Drop is guranteed',
             'All Difficulties': [ 1900, -1921, -1362, -1388, -8, -906, -1175, -554, -218, -219 ],
         },
-
+        
+        {
+            name: 'Prepare for Battle! Aokiji and Akainu!',
+            thumb: 1280,
+            nakama: null,
+            gamewith: 98232,
+            showManual: true,
+            'Aokiji': [ 298, 1225, 1226, 1280, 1281 ],
+            'Akainu': [ 1223, 1270, 1283, 1417, 1418 ],
+        },
    ],
 
     'Training Forest': [
