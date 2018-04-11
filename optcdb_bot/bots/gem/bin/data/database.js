@@ -73,7 +73,7 @@ function getStats(id) {
 		if(unit_details && unit_details.hasOwnProperty('limit') && Array.isArray(unit_details.limit)){
 
 			unit_details.limit.forEach(function(desc,index){
-				if(desc.description.includes("Aquire 1 additional Socket slot")){
+				if(desc.description.includes("Acquire 1 additional Socket slot")){
 					addSocket += 1;
 				}
 				else if (desc.description.includes("Boosts base HP by ")){
