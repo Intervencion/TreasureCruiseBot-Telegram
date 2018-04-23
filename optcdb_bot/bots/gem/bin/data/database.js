@@ -120,7 +120,7 @@ function getDetail(id, detail) {
 			unit_captain = unit_captain.base;
 		}
 		else if(unit_captain != '' && unit_captain.hasOwnProperty('character1')) {
-			console.log(unit_captain);
+			//console.log(unit_captain);
 			unit_captain = unit_captain.character1 +'\n'+unit_captain.character2+'\n'+unit_captain.combined;
 		}
 		return unit_captain.replaceEntities() || false;
@@ -281,7 +281,13 @@ function getSailorAbility(id) {
 		response;
 
 		response = '<b>Sailor[LB]:</b>\n';
-		//response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';
+		if(unit_sailor_base.toUpperCase() == 'NONE'){
+			//console.log(unit_sailor_base);
+		}
+		else {
+			response += (unit_sailor_base !== false) ? '<code>Base:</code> ' + unit_sailor_base.replaceEntities() + '\n' : unit_sailor.replaceEntities() + '\n\n';			
+		}
+		
 		response += (unit_sailor_level1 !== false) ? '<code>Limit Break 1:</code> ' + unit_sailor_level1.replaceEntities() + '\n' : '';
 		response += (unit_sailor_level2 !== false) ? '<code>Limit Break 2:</code> ' + unit_sailor_level2.replaceEntities() + '\n' : '' ;
 		response += (unit_sailor_level3 !== false) ? '<code>Limit Break 3:</code> ' + unit_sailor_level3.replaceEntities() + '\n' : '' ;

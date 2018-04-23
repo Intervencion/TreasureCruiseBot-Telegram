@@ -3277,15 +3277,31 @@ module.exports = {
     },
     2038: {
         evolution: 2039,
-        evolvers: [ ]
+        evolvers: [ 115, 115, 90, 96, 301 ]
     },
     2040: {
         evolution: 2041,
-        evolvers: [ ]
+        evolvers: [ 115, 115, 89, 95, 300 ]
     },
     2042: {
         evolution: 2043,
-        evolvers: [ ]
+        evolvers: [ 116, 117, 82, 88, 99 ]
+    },
+    2047: {
+        evolution: 2048,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2059: {
+        evolution: 2060,
+        evolvers: [  ]
+    },
+    2061: {
+        evolution: 2062,
+        evolvers: [  ]
+    },
+    2071: {
+        evolution: 2072,
+        evolvers: [  ]
     },
     2200: {
         evolution: 2201,
