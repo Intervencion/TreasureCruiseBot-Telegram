@@ -4,7 +4,17 @@ var path = require('path');
 var base = path.join(__dirname, '../..');
 
 module.status = require(path.join(base, 'bin/utils/status.js'));
+var fs = require('fs-extra');
 
+var telegram = require(path.join(global.base, 'telegram.js'));
+var token = require(path.join(global.base, 'token', 'gem-dev.json'/*BOTNAME.json*/)).token;
+var arrayFiles = ["units.js","details.js","ships.js","evolutions.js","drops.js","cooldowns.js", "aliases.js"];
+
+var data = {
+  reload: path.join(global.base, 'data', 'reload.json'),
+  requests: path.join(global.base, 'data', 'requests.json'),
+  userprefs: path.join(global.base, 'data', 'userprefs.json')
+};
 function getHelpText() {
   var response = '<b>Inline Mode:</b>\n\n';
   response += 'Use it in any chat.\n';
@@ -32,7 +42,7 @@ function getHelpText() {
   response += '<b>Have fun!</b>\n';
   response += 'Developed by trashbytes\n';
   response += 'Maintained by @Intervencion\n\n';
-/*  response += '<b>Note:</b> This bot is under heavy development so bugs may appear every now and then.\n\n';*/
+  /*  response += '<b>Note:</b> This bot is under heavy development so bugs may appear every now and then.\n\n';*/
   response += 'Database: 2017-07-02\n';
   return response;
 }
@@ -178,6 +188,210 @@ function getGithub(cmd, arg, message) {
     chat_id: message.chat.id
   };
 }
+//NEW CODE
+
+function getDownloadUpdates(cmd, arg, message) {
+  console.log('downloadUpdates');
+  if(message.from.id === global.admin && message.text){ 
+    module.status.addRequest('download');
+
+    // var username =  require('child_process').execSync( "whoami", { encoding: 'utf8', timeout: 1000 } );
+    // console.log(String(username).trim());
+    // var pathPWD =  require('child_process').execSync( "pwd", { encoding: 'utf8', timeout: 1000 } );
+    // console.log(String(pathPWD).trim());
+
+    // notes file???        
+    //DOWNLOAD
+    arrayFiles.forEach(function(item){
+      var fileToDownload = item;
+      downloadFile(fileToDownload, message);
+    });   
+
+    var response = '<b>D O W N L O A D</b>\n\n';
+    response += 'Downloading files';
+    return {
+      text: response,
+      disable_web_page_preview: true,
+      chat_id: message.chat.id
+    };
+  }
+}
+
+function downloadFile(fileName, message){
+  var https = require('https');
+  var destName = fileName.slice(0, fileName.lastIndexOf(".js")) + "DB" + fileName.slice(fileName.lastIndexOf(".js"));
+  var destPath = base + "/updates/"+destName
+  var file = fs.createWriteStream(destPath);
+  var request = https.get("https://raw.githubusercontent.com/optc-db/optc-db.github.io/master/common/data/"+fileName, function(responseHTTPS) {
+
+    responseHTTPS.pipe(file);
+    
+    responseHTTPS.on("end", function() {
+      //console.log("Downloaded "+fileName);
+      var response = '<b>D O W N L O A D</b>\n\n';
+      response += 'Downloaded file '+fileName;
+      telegram.send('sendMessage', {
+        form: {
+          text: response,
+          chat_id: message.chat.id
+        }
+      }, token);
+    });
+
+  });
+  return true;
+}
+
+function getFixDBFiles(cmd, arg, message) {
+  if(message.from.id === global.admin && message.text){ 
+    module.status.addRequest('fixfiles');
+
+    //REPLACING window.units with module.exports
+    var numFiles = 0;
+    arrayFiles.forEach(function(item){
+      if(replaceString(item)){
+        numFiles++;
+      }
+      else{
+        console.err("Error: "+item +" not fixed.")
+      }
+    }); 
+
+    var response = '<b>F I X  F I L E S</b>\n\n';
+    response += '#'+numFiles+' files fixed';
+    return {
+      text: response,
+      disable_web_page_preview: true,
+      chat_id: message.chat.id
+    };
+  }
+}
+
+function replaceString(fileName){
+  var fs = require('fs');
+  var destName = fileName.slice(0, fileName.lastIndexOf(".js")) + "DB" + fileName.slice(fileName.lastIndexOf(".js"));
+  var filePath = base + "/updates/"+destName
+  fs.readFile(filePath, 'utf8', function (err,data) {
+    if (err) {
+      return console.error(err);
+    }
+    var result = data.replace("window."+(fileName.slice(0, fileName.lastIndexOf(".js"))) , "module.exports");
+    fs.writeFile(filePath, result, 'utf8', function (err) {
+     if (err) return console.error(err);
+   });
+  });
+
+  return true;
+}
+
+function getBackupCurrentDB(cmd, arg, message){
+  if(message.from.id === global.admin && message.text){ 
+    module.status.addRequest('backup');
+    //BACKUP OLD VERSION
+
+    arrayFiles.forEach(function(item){
+      var fileToCopy = item.slice(0, item.lastIndexOf(".js")) + "DB" + item.slice(item.lastIndexOf(".js"));
+      fs.createReadStream(base + "/data/"+  fileToCopy).pipe(fs.createWriteStream(base + "/backup/"+  fileToCopy));
+    }); 
+
+    var response = '<b>B A C K U P</b>\n\n';
+    response += 'Current version of DB backuped.';
+    return {
+      text: response,
+      disable_web_page_preview: true,
+      chat_id: message.chat.id
+    };
+  }
+}
+
+function getRestoreOldDB(cmd, arg, message){
+  if(message.from.id === global.admin && message.text){ 
+    module.status.addRequest('restore');
+    //RESTORE OLD VERSION
+
+    arrayFiles.forEach(function(item){
+      var fileToCopy = item.slice(0, item.lastIndexOf(".js")) + "DB" + item.slice(item.lastIndexOf(".js"));
+      fs.createReadStream(base + "/backup/"+  fileToCopy).pipe(fs.createWriteStream(base + "/data/"+  fileToCopy));
+    });
+
+    var response = '<b>R E S T O R E</b>\n\n';
+    response += 'Previous version of DB restored. Reloading...';
+      telegram.send('sendMessage', {
+        form: {
+          text: response,
+          chat_id: message.chat.id
+        }
+      }, token);
+
+    telegram.send('sendMessage', {
+        form: {
+          text: '<b>S T A T U S</b>\n\nReloading ...',
+          chat_id: message.chat.id
+        }
+      }, token).then(function(message) {
+        var reload = {
+          message_id: message.message_id,
+          chat_id: message.chat.id,
+          token: token
+        };
+        
+        fs.outputJson(data.reload, reload, function() {
+          saveAndQuit();
+        });
+      });
+
+    var response = '<b>D O N E</b>\n\n';
+    return {
+      text: response,
+      disable_web_page_preview: true,
+      chat_id: message.chat.id
+    };
+  }
+}
+
+function getUpdateDB(cmd, arg, message){
+  if(message.from.id === global.admin && message.text){ 
+    module.status.addRequest('updatedb');
+    //RESTORE OLD VERSION
+
+    arrayFiles.forEach(function(item){
+      var fileToCopy = item.slice(0, item.lastIndexOf(".js")) + "DB" + item.slice(item.lastIndexOf(".js"));
+      fs.createReadStream(base + "/updates/"+  fileToCopy).pipe(fs.createWriteStream(base + "/data/"+  fileToCopy));
+    });
+
+    var response = '<b>U P D A T E</b>\n\n';
+    response += 'Version of DB Updated. Reloading...';
+      telegram.send('sendMessage', {
+        form: {
+          text: response,
+          chat_id: message.chat.id
+        }
+      }, token);
+
+    telegram.send('sendMessage', {
+        form: {
+          text: '<b>S T A T U S</b>\n\nReloading ...',
+          chat_id: message.chat.id
+        }
+      }, token).then(function(message) {
+        var reload = {
+          message_id: message.message_id,
+          chat_id: message.chat.id,
+          token: token
+        };
+        fs.outputJson(data.reload, reload, function() {
+          saveAndQuit();
+        });
+      });
+
+    var response = '<b>D O N E</b>\n\n';
+    return {
+      text: response,
+      disable_web_page_preview: true,
+      chat_id: message.chat.id
+    };
+  }
+}
 
 exports.getReply = function(cmd, arg, message) {
   switch (cmd) {
@@ -195,7 +409,17 @@ exports.getReply = function(cmd, arg, message) {
       return getNotice(cmd, arg, message);
     case 'supergroup':
       return getSupergroup(cmd, arg, message);
+    case 'download':
+      return getDownloadUpdates(cmd, arg, message);
+    case 'fixfiles':
+      return getFixDBFiles(cmd, arg, message);
+    case 'backup':
+      return getBackupCurrentDB(cmd, arg, message);
+    case 'restore':
+      return getRestoreOldDB(cmd, arg, message);
+    case 'updatedb':
+      return getUpdateDB(cmd, arg, message);
   }
 };
 
-exports.commands = ['help', 'start', 'inline', 'command', 'filter', 'notice', 'supergroup', 'github'];
+exports.commands = ['help', 'start', 'inline', 'command', 'filter', 'notice', 'supergroup', 'github','download','fixfiles','backup','restore','updatedb'];

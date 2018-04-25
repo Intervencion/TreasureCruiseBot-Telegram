@@ -120,7 +120,6 @@ function getDetail(id, detail) {
 			unit_captain = unit_captain.base;
 		}
 		else if(unit_captain != '' && unit_captain.hasOwnProperty('character1')) {
-			//console.log(unit_captain);
 			unit_captain = unit_captain.character1 +'\n'+unit_captain.character2+'\n'+unit_captain.combined;
 		}
 		return unit_captain.replaceEntities() || false;
@@ -366,7 +365,17 @@ function getEvolutions(id, type) {
 				unit_evolution_paths.push([evolution, unit_evolvers[evolver]]);
 			});
 		} else {
-			unit_evolution_paths.push([unit_evolution, unit_evolvers]);
+			//Remove skull evolver
+			unit_evolvers.forEach(function(evolver,index){
+				if (typeof evolver === 'string' || evolver instanceof String){
+					if (index > -1) {
+					  unit_evolvers.splice(index, 1);
+					}
+				}
+			});	
+			//Remove skull evolver
+
+			unit_evolution_paths.push([unit_evolution, unit_evolvers]);	
 		}
 		response = '<b>E V O L U T I O N S</b>\n\n';
 		unit_evolution_paths.forEach(function(evolution) {
