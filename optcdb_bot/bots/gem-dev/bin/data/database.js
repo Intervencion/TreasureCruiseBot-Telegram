@@ -332,7 +332,7 @@ function getPotential(id) {
 	unit_potential = unit_details && unit_details.potential,
 	response;
 
-	if(unit_potential && Array.isArray(unit_potential)){
+	if(unit_potential && Array.isArray(unit_details.potential)){
 
 		response = '<b>Potential:</b>\n';
 
@@ -345,6 +345,8 @@ function getPotential(id) {
 			});
 			response+='\n';
 		});
+
+		return response;
 	}
 
 	else if(unit_potential){
