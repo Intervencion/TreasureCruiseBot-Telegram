@@ -7,7 +7,9 @@ module.status = require(path.join(base, 'bin/utils/status.js'));
 var fs = require('fs-extra');
 
 var telegram = require(path.join(global.base, 'telegram.js'));
-var token = require(path.join(global.base, 'token', 'gem-dev.json'/*BOTNAME.json*/)).token;
+var serverjs = require(path.join(global.base, 'server.js'));
+var token = require(path.join(global.base, 'token', 'gem.json'/*BOTNAME.json*/)).token;
+
 var arrayFiles = ["units.js","details.js","ships.js","evolutions.js","drops.js","cooldowns.js", "aliases.js"];
 
 var data = {
@@ -41,9 +43,9 @@ function getHelpText() {
   response += '/help - see this\n\n';
   response += '<b>Have fun!</b>\n';
   response += 'Developed by trashbytes\n';
-  response += 'Maintained by @Intervencion\n\n';
+  response += 'Maintained by @Intervencion and @stereo89\n\n';
   /*  response += '<b>Note:</b> This bot is under heavy development so bugs may appear every now and then.\n\n';*/
-  response += 'Database: 2017-07-02\n';
+  response += 'Database: 2018-5-15\n';
   return response;
 }
 
@@ -191,7 +193,7 @@ function getGithub(cmd, arg, message) {
 //NEW CODE
 
 function getDownloadUpdates(cmd, arg, message) {
-  console.log('downloadUpdates');
+  //console.log('downloadUpdates');
   if(message.from.id === global.admin && message.text){ 
     module.status.addRequest('download');
 
@@ -334,7 +336,7 @@ function getRestoreOldDB(cmd, arg, message){
           chat_id: message.chat.id,
           token: token
         };
-        
+
         fs.outputJson(data.reload, reload, function() {
           saveAndQuit();
         });
@@ -368,6 +370,8 @@ function getUpdateDB(cmd, arg, message){
         }
       }, token);
 
+    updateVersion();
+
     telegram.send('sendMessage', {
         form: {
           text: '<b>S T A T U S</b>\n\nReloading ...',
@@ -391,6 +395,23 @@ function getUpdateDB(cmd, arg, message){
       chat_id: message.chat.id
     };
   }
+}
+
+function updateVersion(){
+  var filePath = base+"/bin/utils/help.js";
+  //console.log(filePath);
+  fs.readFile(filePath, 'utf8', function (err,data) {
+    if (err) {
+      return console.error(err);
+    }
+    var updateDate = new Date();
+    var formattedDate = updateDate.getFullYear() + "-" + ( updateDate.getMonth() + 1) + "-" +updateDate.getDate()
+    //console.log(formattedDate);
+    var result = data.replace(/Database:\s\d+-\d+\-\d+/g, "Database: "+formattedDate);
+    fs.writeFile(filePath, result, 'utf8', function (err) {
+     if (err) return console.error(err);
+   });    
+  });
 }
 
 exports.getReply = function(cmd, arg, message) {
