@@ -73,8 +73,9 @@ function getStats(id) {
 		if(unit_details && unit_details.hasOwnProperty('limit') && Array.isArray(unit_details.limit)){
 
 			unit_details.limit.forEach(function(desc,index){
-				if(desc.description.includes("Acquire 1 additional Socket slot")){
-					addSocket += 1;
+				var numberPattern = /\d+/g;
+				if(desc.description.includes("additional Socket")){
+					addSocket += parseInt(desc.description.match(numberPattern)[0]);
 				}
 				else if (desc.description.includes("Boosts base HP by ")){
 					addHP += parseInt(desc.description.substr(desc.description.lastIndexOf(" ")+1));
@@ -226,7 +227,7 @@ function getSpecialAbility(id) {
 
 function getNotes(note) {
 	if (note) {
-		return '<i>Notes:\n' + note.trim().replace(/#\{(.+?)\}/g, function(x, y) {
+		var response = '' + note.trim().replace(/#\{(.+?)\}/g, function(x, y) {
 			var tokens = y.trim().split(/:/);
 			if (!tokens.length || !notes.hasOwnProperty(tokens[0].trim())) {
 				return x;
@@ -234,7 +235,9 @@ function getNotes(note) {
 			return notes[tokens[0].trim()].replace(/#(\d+)/g, function(a, b) {
 				return (tokens[parseInt(b)] || '').trim();
 			});
-		}).replaceEntities() + '</i>\n\n';
+		}).replaceEntities();
+		return '<i>Notes:\n' +response.replace(/<b>/g,'').replace(/<\/b>/g,'').replace(/&lt;b&gt;/g,'').replace(/&lt;\/b&gt;/g,'') + '</i>\n\n';
+		
 	}
 	return false;
 }
@@ -331,7 +334,6 @@ function getPotential(id) {
 	var unit_details = details[id],
 	unit_potential = unit_details && unit_details.potential,
 	response;
-
 	if(unit_potential && Array.isArray(unit_details.potential)){
 
 		response = '<b>Potential:</b>\n';
