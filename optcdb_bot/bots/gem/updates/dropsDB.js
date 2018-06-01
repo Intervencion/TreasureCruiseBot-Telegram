@@ -806,8 +806,8 @@ module.exports = {
             '08': [ 2002, 1627 ],
             '09': [  ],
             '10': [ 2005 ],
-            '11': [ 1401 ],
-            '12': [ 2005, 1737 ],
+            '11': [ 1400 ],
+            '12': [ 2005, 1736 ],
         },
         
         {
@@ -1433,7 +1433,8 @@ module.exports = {
             nakama: 2089700,
             gamewith: 23047,
             condition: 'Only [STR], [DEX], [QCK], [PSY] and [INT] orbs appear',
-            'All Difficulties': [ 897, 898, 899, -899, -754, -702, -701, -669, -1492, -528, -466, -449, -464, -1177 ]
+            'Japan': [ 897, 898, 899, -899, -754, -702, -701, -669, -1492, -528, -466, -449, -464, -1177 ],
+            'Global': [ 897, 898, 899, -899, -520, -1115, -702, -701, -669, -1492, -528, -466, -449, -464, -1177 ]
         },
 
         {
@@ -1903,7 +1904,7 @@ module.exports = {
             global: true,
             nakama: 2185500,
             gamewith: 79678,
-            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1620, -1702, -1558 ]
+            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1621, -1702, -1558 ]
         },
         
         {
@@ -1997,7 +1998,7 @@ module.exports = {
         },
         
         {
-            name: 'Strawhat Pirates Pizza Party!! Part 1',
+            name: 'Strawhat Pirates Pizza Party!! Lunch',
             thumb: 2087,
             nakama: null,
             gamewith: 102409,
@@ -2005,11 +2006,11 @@ module.exports = {
         },
         
         {
-            name: 'Strawhat Pirates Pizza Party!! Part 2',
+            name: 'Strawhat Pirates Pizza Party!! Dinner',
             thumb: 2092,
             nakama: null,
-            gamewith: null,
-            'All Difficulties': [ 2092, 2093, 2094, 2095 ]
+            gamewith: 106868,
+            'All Difficulties': [ 2092, 2093, 2094, 2095, -1935, -1436, -1438, -1926, -1955, -1715 ]
         },
         
     ],
@@ -3099,6 +3100,14 @@ module.exports = {
             nakama: 7126800,
             gamewith: 59779,
             completion: 'Ship: Blackbeard Pirates Ship',
+        },
+        
+        {
+            name: 'Forest of Training: Gang',
+            thumb: 1016,
+            nakama: null,
+            gamewith: 107299,
+            completion: 'Ship: Nostra Castello',
         },
 
    ]
