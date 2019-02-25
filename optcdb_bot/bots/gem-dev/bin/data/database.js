@@ -361,6 +361,37 @@ function getPotential(id) {
 	return false;
 }
 
+function getSupport(id) {
+	var unit_details = details[id],
+	unit_support = unit_details && unit_details.support,
+	response;
+	if(unit_support && Array.isArray(unit_details.support)){
+
+		response = '<b>Support:</b>\n';
+
+		unit_support.forEach(function(support){
+			response += (unit_support) ? '\t<code>'+support.Characters.replaceEntities() +'</code>\n' :'';
+			var desc = support.description;
+			desc.forEach(function(liv,index,array){
+				if(index === array.length - 1)
+					response += liv ? '\t\t<i>'+liv.replaceEntities() +'</i>\n':'';
+			});
+			response+='\n';
+		});
+
+		return response;
+	}
+
+	else if(unit_support){
+		response = '<b>support:</b>\n';
+		response+= unit_potential.replaceEntities();
+		response+='\n';
+
+		return response;
+	}
+	return false;
+}
+
 function getEvolutions(id, type) {
 	var unit_evolutions = evolutions[id],
 	unit_evolution = unit_evolutions && unit_evolutions.evolution,
@@ -513,6 +544,7 @@ function getUnitInfo(id, type) {
 	unit_cooldown = getCooldowns(id, type),
 	unit_sailor = getSailorAbility(id),
 	unit_potential = getPotential(id),
+	unit_support = getSupport(id),
 	unit_drops = getDrops(id, type),
 	unit_evolutions = getEvolutions(id, type),
 	response;
@@ -525,6 +557,7 @@ function getUnitInfo(id, type) {
 		response += unit_special_notes || '';
 		response += unit_cooldown || '';
 		response += unit_potential || '';
+		response += unit_support || '';
 		response += unit_drops || '';
 		response += unit_evolutions || '';
 		response += '<a href="http://onepiece-treasurecruise.com/wp-content/uploads/c' + String('0000' + id).slice(-4).replace(/(057[54])/, '0$1') + '.png">\u2007</a>\n';
@@ -552,6 +585,9 @@ module.exports = {
 	},
 	getPotential:function(){
 		return potential;
+	},
+	getSupport:function(){
+		return support;
 	},
 	getDetail: function(id, detail) {
 		return getDetail(id, detail);

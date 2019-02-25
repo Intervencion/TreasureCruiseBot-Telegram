@@ -45,7 +45,7 @@ function getHelpText() {
   response += 'Developed by trashbytes\n';
   response += 'Maintained by @Intervencion and @stereo89\n\n';
   /*  response += '<b>Note:</b> This bot is under heavy development so bugs may appear every now and then.\n\n';*/
-  response += 'Database: 2018-5-15\n';
+  response += 'Database: 2019-2-13\n';
   return response;
 }
 

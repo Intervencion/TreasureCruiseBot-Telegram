@@ -639,15 +639,15 @@ module.exports = {
             '03': [  ],
             '04': [ 1344 ],
             '05': [ 1345 ],
-            '06': [ 1346, 'skullUsopp' ],
-            '07': [ 1347, 'skullChopper' ],
-            '08': [ 1348, 'skullZoro' ],
-            '09': [ 1349, 'skullNami' ],
-            '10': [ 'skullFranky' ],
-            '11': [ 1350, 'skullBrook' ],
-            '12': [ 1351, 'skullRobin' ],
-            '13': [ 1352, 'skullSanji' ],
-            '14': [ 1353, 'skullLuffy' ],
+            '06': [ 1346, 9004 ],
+            '07': [ 1347, 9006 ],
+            '08': [ 1348, 9002 ],
+            '09': [ 1349, 9003 ],
+            '10': [ 9008 ],
+            '11': [ 1350, 9009 ],
+            '12': [ 1351, 9007 ],
+            '13': [ 1352, 9005 ],
+            '14': [ 1353, 9001 ],
         },
         
         {
@@ -767,7 +767,7 @@ module.exports = {
         },
         
         {
-            name: 'Dressrosa - Port Town Acacia to Colosseum',
+            name: 'Dressrosa - Port Town Acacia to Coliseum',
             shortName: 'Dressrosa 1',
             thumb: 1782,
             global: true,
@@ -814,7 +814,8 @@ module.exports = {
             name: 'Dressrosa - Former King\'s Land to Royal Palace Top Floor',
             shortName: 'Dressrosa 3',
             thumb: 1784,
-            nakama: null,
+            global: true,
+            nakama: 1178400,
             completion: '5x Rainbow Gems',
             gamewith: 99550,
             '01': [ 1375, 1627, 2002 ],
@@ -831,17 +832,91 @@ module.exports = {
             '12': [ 1784 ],
         },
         
-    ],
+        {
+            name: 'Dressrosa - The Royal Palace\'s Top Floor to Central Town',
+            shortName: 'Dressrosa 4',
+            thumb: 2126,
+            global: true,
+            nakama: 1212600,
+            completion: '10x Rainbow Gems',
+            gamewith: 111173,
+            '01': [ 2003 ],
+            '02': [  ],
+            '03': [ 991 ],
+            '04': [ 1292 ],
+            '05': [ 1400 ],
+            '06': [  ],
+            '07': [ 1648 ],
+            '08': [ 2002 ],
+            '09': [ 1421 ],
+            '10': [ 2051 ],
+            '11': [ 2124 ],
+            '12': [ 2003 ],
+            '13': [ 2125 ],
+            '14': [  ],
+            '15': [ 2003, 9020 ],
+        },
+        
+        {
+            name: 'Mokomo Dukedom',
+            shortName: 'Zou',
+            thumb: 2231,
+            nakama: 1223100,
+            completion: '5x Rainbow Gems',
+            gamewith: 117222,
+            '01': [ 1811 ],
+            '02': [  ],
+            '03': [  ],
+            '04': [ 2230 ],
+            '05': [ 2230 ],
+            '06': [ 2229 ],
+            '07': [  ],
+            '08': [ 2176, 2218 ],
+            '09': [  ],
+            '10': [  ],
+            '11': [ 2231 ],
+        },
+        
+        {
+            name: 'Chocolat Town to The Seducing Woods',
+            shortName: 'Whole Cake 1',
+            thumb: 2321,
+            nakama: null,
+            completion: '5x Rainbow Gems',
+            gamewith: 131692,
+            '01': [ 2317 ],
+            '02': [  ],
+            '03': [  ],
+            '04': [ 2314 ],
+            '05': [ 2128 ],
+            '06': [ 2318 ],
+            '07': [ 2127 ],
+            '08': [ 2320 ],
+            '09': [ 2319 ],
+            '10': [ 2319 ],
+            '11': [ 2320 ],
+        },
+        
+        /*{
+            name: 'Outside of Town to Bege\'s Hideout',
+            shortName: 'Whole Cake 2',
+            thumb: null,
+            nakama: null,
+            completion: '5x Rainbow Gems',
+            gamewith: null,
+        },*/
+    ], 
 
-    'Weekly Island': [
+    'Booster and Evolver Island': [
 
         {
-            name: 'Rush of Turtles',
+            name: 'Turtle Haven',
             day: 0,
             thumb: 193,
             global: true,
             nakama: 3019300,
-            ' ': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ]
+            'Japan': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ],
+            'Global': [ 105, 106, 107, 108, 109, 189, 190, 191, 192, 193 ]
         },
         {
             name: 'Princess Turtle\'s Dragon Palace',
@@ -875,7 +950,7 @@ module.exports = {
             thumb: 266,
             global: true,
             nakama: 3026600,
-            ' ': [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 266 ]
+            ' ': [ 84, 85, 86, 87, 88, 266 ]
         },
 
 
@@ -892,27 +967,28 @@ module.exports = {
             name: 'Scissor Cavern',
             day: 4,
             thumb: 95,
-            global: true,
             nakama: 3009500,
             ' ': [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99 ]
         },
 
         {
-            name: 'Scissor Cavern, Inner Cave',
+            name: 'Scissor Cavern, Entrance',
             day: 4,
             thumb: 304,
             global: true,
             nakama: 3030400,
-            ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ]
+            'Japan': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ],
+            'Global': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99 ]
         },
         
         {
-            name: 'Scissor Cavern, Deepest Parts',
+            name: 'Scissor Cavern, Innermost Grotto',
             day: 4,
             thumb: 1180,
             global: true,
             nakama: 3118000,
-            ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
+            'Japan': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ],
+            'Global': [ 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
         },
 
         {
@@ -920,7 +996,7 @@ module.exports = {
             thumb: 347,
             global: true,
             nakama: 3034700,
-            ' ': [ 342, 343, 344, 345, 346 ]
+            ' ': [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
         },
     ],
 
@@ -954,7 +1030,7 @@ module.exports = {
             nakama: 2004600,
             condition: 'None',
             gamewith: 7784,
-            condition: 'Siam and Butchie does not drop in Rookie difficulty',			
+            condition: 'Siam and Butchie do not drop in Rookie difficulty',			
             'All Difficulties': [ 41, 42, 43, 45, -16, -14, -15, -13, -1446 ]
         },
 
@@ -965,7 +1041,7 @@ module.exports = {
             nakama: 2006600,
             condition: 'None',
             gamewith: 5852,
-            condition: 'Choo and Kuroobi does not drop in Rookie difficulty',
+            condition: 'Choo and Kuroobi do not drop in Rookie difficulty',
             'All Difficulties': [ 61, 62, 63, 65, -12, -10, -11, -66, -9, -1389 ]
         },
 
@@ -1362,7 +1438,7 @@ module.exports = {
             gamewith: 2191,
             condition: 'You can only bring Fighter and Powerhouse units',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['100,000','1x Purple Elder'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Skullbook, 2x Rainbow Gem']],
+            challengeData: [['100,000','1x Purple Elder'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Final Forbidden Tome, 2x Rainbow Gem']],
             'Japan': [ 796, 798, 799, 800, -800, -639, -628, -562, -1816, -414, -432, -380, -75 ],
             'Global': [ 796, 798, 799, 800, -800, -677, -628, -562, -1816, -414, -432, -380, -75 ]
         },
@@ -1444,8 +1520,8 @@ module.exports = {
             nakama: 2091800,
             gamewith: 23687,
             condition: 'You can only bring DEX units',
-            'Japan': [ 917, 919, 920, -920, -791, -756, -720, -707, -705, -542, -541, -522, -1117 ],
-            'Global': [ 917, 919, 920, -920, -506, -756, -720, -707, -705, -542, -541, -522, -1117 ]
+            'Japan': [ 917, 919, 920, -920, -791, -756, -720, -707, -705, -542, -541, -522, -1117, -1927 ],
+            'Global': [ 917, 919, 920, -920, -506, -756, -720, -707, -705, -542, -541, -522, -1117, -1927 ]
         },
         
         {
@@ -1562,7 +1638,7 @@ module.exports = {
             nakama: 2113700,
             gamewith: 34515,
             condition: 'Only [STR], [QCK], [DEX], [INT], and [PSY] orbs appear',
-            'All Difficulties': [ 1136, 1137, 1138, 1139, -935, -643, -673, -894, -943, -995, -615, -705, -704 ]
+            'All Difficulties': [ 1136, 1137, 1138, 1139, -935, -643, -673, -894, -943, -995, -615, -705, -704, -2066 ]
         },
         
         {
@@ -1601,7 +1677,7 @@ module.exports = {
             nakama: 2124200,
             gamewith: 37425,
             condition: 'Free Spirit Characters have their cooldowns reduced by 10 turns at the start of the fight',
-            'All Difficulties': [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955 ]
+            'All Difficulties': [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955, -1928 ]
         },
         
         {
@@ -1621,7 +1697,7 @@ module.exports = {
             nakama: 2128700,
             gamewith: 39522,
             condition: 'Child-like characters get their ATK and HP boosted by 3.5x, RCV by 1.5x, and cooldowns reduced by 7 turns at the start of the fight',
-            'All Difficulties': [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702 ],
+            'All Difficulties': [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702, -2001 ],
         },
         
         {
@@ -1651,7 +1727,7 @@ module.exports = {
             nakama: 2133200,
             gamewith: 44747,
             condition: 'Striker characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (70% on 30 stamina)',
-            'All Difficulties': [ 1331, 1333, 1334, -720, -1186, -1190, -756, -1188, -1151, -1153, -738 ]
+            'All Difficulties': [ 1331, 1333, 1334, -720, -1186, -1190, -756, -1188, -1151, -1153, -738, -1927 ]
         },
         
         {
@@ -1684,7 +1760,7 @@ module.exports = {
         },
         
         {
-            name: 'Marines! Sengoku the Fleet Admiral!',
+            name: 'Full Defense! Buddha Sengoku!',
             thumb: 1416,
             global: true,
             nakama: 2141600,
@@ -1700,7 +1776,7 @@ module.exports = {
             nakama: 2142600,
             gamewith: 49862,
             condition: 'You can only bring DEX units',
-            'All Difficulties': [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812 ]
+            'All Difficulties': [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812, -2034 ]
         },
         
         {
@@ -1710,7 +1786,7 @@ module.exports = {
             nakama: 2145000,
             gamewith: 50895,
             condition: 'You can only bring STR units',
-            'All Difficulties': [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814 ]
+            'All Difficulties': [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814, -2066 ]
         },
         
         {
@@ -1749,7 +1825,7 @@ module.exports = {
             nakama: 2154700,
             gamewith: 54302,
             condition: 'Strawhat Pirates get ATK, HP, and RCV boosted by 1.5x and reduces cooldown of specials by 9 turns at the start of the fight',
-            'All Difficulties': [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20 ],
+            'All Difficulties': [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20, -1928 ],
         },
         
         {
@@ -1768,7 +1844,7 @@ module.exports = {
             global: true,
             nakama: 2158100,
             gamewith: 56038,
-            'All Difficulties': [ 1580, 1582, -1391, -357, -910, -995, -896, -1436, -1444, -890, -1342, -1551 ],
+            'All Difficulties': [ 1580, 1582, -1391, -357, -910, -995, -896, -1436, -1444, -890, -1342, -1551, -2035 ],
         },
         
         {
@@ -1777,8 +1853,8 @@ module.exports = {
             global: true,
             nakama: 2159700,
             gamewith: 57039,
-            'Japan': [ 1596, 1598, 1599, -1045, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343 ],
-            'Global': [ 1596, 1598, 1599, -1045, -1751, -1922, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343 ],
+            'Japan': [ 1596, 1598, 1599, -1045, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343, -2001 ],
+            'Global': [ 1596, 1598, 1599, -1045, -1751, -1922, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343, -2001 ],
         },
         
         {
@@ -1846,7 +1922,7 @@ module.exports = {
             nakama: 2173500,
             gamewith: 66021,
             condition: 'Limited amount of turns to complete the mission.',
-            'All Difficulties': [ 1734, 1736, -1571, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1351 ]
+            'All Difficulties': [ 1734, 1736, -1571, -2372, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1351 ]
         },
         
         {
@@ -1866,7 +1942,7 @@ module.exports = {
             nakama: 2177400,
             condition: 'Shooter and Free Spirit characters get a boost (1.2x ATK, HP and RCV boost on 30 stamina)',
             gamewith: 68608,
-            'All Difficulties': [ 1773, 1775, -963, -1588, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
+            'All Difficulties': [ 1773, 1775, -963, -1588, -2245, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
         },
         
         {
@@ -1876,16 +1952,16 @@ module.exports = {
             nakama: 2181200,
             condition: 'Powerhouse Characters recieves a 99 turn paralysis and a 90% ATK down from stage 4 onwards on 15 and 30 stamina',
             gamewith: 71416,
-            'All Difficulties': [ 1811, 1809, -1240, -1575, -1658, -1232, -1238, -1117, -522, -1119, -524, -1504, -1503 ]
+            'All Difficulties': [ 1811, 1809, -1240, -1575, -1658, -1232, -1238, -1117, -522, -1119, -524, -1504, -1503, -2034 ]
         },
         
         {
-            name: 'Crisis of the 800 Year Old Kingdom!',
+            name: 'Crisis in the 800 Year Old Kingdom!',
             thumb: 1818,
             global: true,
             nakama: 2181800,
             gamewith: 72655,
-            'All Difficulties': [ 1817, 1819, 1820, -1610, -1656, -1660, -1230, -1236, -1173, -526, -643, -1506, -964 ]
+            'All Difficulties': [ 1817, 1819, 1820, -1610, -2232, -1656, -1660, -1230, -1236, -1173, -526, -643, -1506, -964 ]
         },
         
         {
@@ -1904,37 +1980,41 @@ module.exports = {
             global: true,
             nakama: 2185500,
             gamewith: 79678,
-            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1621, -1702, -1558 ]
+            'All Difficulties': [ 1854, 1856, -1652, -2373, -1272, -1278, -1621, -1702, -1558 ]
         },
         
         {
-            name: 'Supernova! Hawkins and Urouge!',
+            name: 'Oh, Impermanence! Hawkins and Urouge!',
             thumb: 1867,
+            global: true,
             nakama: 2186700,
             gamewith: 80643,
             'All Difficulties': [ 1864, 1866, -1698, -1632, -1706, -1556, -1274, -1276 ]
         },
         
         {
-            name: 'Perona\'s Strange Communal Life!',
+            name: 'Perona\'s Peculiar Living Situation',
             thumb: 1891,
+            global: true,
             nakama: 2189100,
             gamewith: 84032,
-            condition: 'Take heavy damage at the start of the island',
+            condition: '99% health cut at the start of the adventure and an increase rate of RCV orbs until stage 4',
             'All Difficulties': [ 1890, 1892, -1314, -1316, -1322, -1741, -1743, -1559 ]
         },
         
         {
-            name: 'Final Thoughts to my Brother Sanji!',
+            name: 'Last Wish for Sanji!',
             thumb: 1918,
+            global: true,
             nakama: 2191800,
             gamewith: 85780,
             'All Difficulties': [ 1917, 1919, -1922, -1751, -1745, -1665, -1320, -1370, -1560 ]
         },
         
         {
-            name: 'Binding and Bonds!',
+            name: 'Branded in Shackles!',
             thumb: 1933,
+            global: true,
             nakama: 2193300,
             gamewith: 86343,
             condition: 'Take 7% current Health in Environmental Damage every 2 turns',
@@ -1942,57 +2022,64 @@ module.exports = {
         },
         
         {
-            name: 'My Ideal Type!',
+            name: 'I\'m Now Your Ideal Type! I Think',
             thumb: 1947,
+            global: true,
             nakama: 2194700,
             gamewith: 88584,
             'All Difficulties': [ 1946, 1948, -1763, -1796, -1800, -1364, -1678, -1562 ]
         },
         
         {
-            name: 'Devil Oars, Day of the Second Coming',
+            name: 'The Beast\'s Return',
             thumb: 1965,
+            global: true,
             nakama: 2196500,
             gamewith: 91449,
-            'All Difficulties': [ 1964, 1966, -1794, -1368, -1802, -1713, -1840, -1557 ]
+            'All Difficulties': [ 1964, 1966, -1794, -1368, -1802, -1713, -1840, -2142, -1557 ]
         },
         
         {
-            name: 'Supernova! Bonney and Capone!',
+            name: 'Volatile Meal! Bonney and Bege!',
             thumb: 1982,
+            global: true,
             nakama: 2198200,
             gamewith: 93457,
-            'All Difficulties': [ 1979, 1981, -1921, -1362, -1366, -1770, -1834, -1836, -1633 ]
+            'All Difficulties': [ 1979, 1981, -1921, -1362, -1366, -1770, -1834, -2139, -1836, -2140, -1633 ]
         },
         
         {
             name: 'Whitebeard Pirates Commanders! Marco and Vista!',
             thumb: 1997,
+            global: true,
             nakama: 2199700,
             gamewith: 94921,
-            'All Difficulties': [ 1994, 1996, -1832, -1408, -1721, -1871, -1838, -1634 ]
+            'All Difficulties': [ 1994, 1996, -1832, -2138, -1408, -1721, -1871, -1838, -2141, -1634 ]
         },
         
         {
-            name: 'Makino\'s Bar! Shanks and Makino!',
+            name: 'Commotion at Makino\'s Tavern?!',
             thumb: 2021,
+            global: true,
             nakama: 2202100,
             gamewith: 96636,
             'All Difficulties': [ 2018, 2020, -1404, -1593, -1410, -1778, -1873, -1877, -1635 ]
         },
         
         {
-            name: 'Anchoring! Red Hair Pirates!',
+            name: 'Red Hair Pirates at the Harbor!',
             thumb: 2044,
-            nakama: null,
+            global: true,
+            nakama: 2204400,
             gamewith: 98267,
             'All Difficulties': [ 2044, 2045, 2046, -1869, -1406, -1824, -1875, -1904, -2044, -1225 ]
         },
         
         {
-            name: 'Germa\'s Lineage Factor!',
+            name: 'The Germa Bloodline Elements',
             thumb: 2056,
-            nakama: null,
+            global: true,
+            nakama: 2205600,
             gamewith: 99699,
             'All Difficulties': [ 2056, 2057, 2058, -1880, -1434, -1412, -1906, -1908, -1859, -1637 ]
         },
@@ -2000,7 +2087,8 @@ module.exports = {
         {
             name: 'Strawhat Pirates Pizza Party!! Lunch',
             thumb: 2087,
-            nakama: null,
+            global: true,
+            nakama: 2208700,
             gamewith: 102409,
             'All Difficulties': [ 2087, 2088, 2089, 2090, 2091, -1910, -1440, -1442, -1895, -1902, -1714 ]
         },
@@ -2008,9 +2096,102 @@ module.exports = {
         {
             name: 'Strawhat Pirates Pizza Party!! Dinner',
             thumb: 2092,
-            nakama: null,
+            global: true,
+            nakama: 2209200,
             gamewith: 106868,
-            'All Difficulties': [ 2092, 2093, 2094, 2095, -1935, -1436, -1438, -1926, -1955, -1715 ]
+            'All Difficulties': [ 2091, 2092, 2093, 2094, 2095, -1935, -2300, -1436, -1438, -1926, -1955, -1715 ]
+        },
+        
+        {
+            name: 'Brûlée\'s Cauldron Party',
+            thumb: 2127,
+            global: true,
+            nakama: 2212700,
+            gamewith: 108421,
+            'All Difficulties': [ 2127, 2128, 2129, 2130, -1473, -1477, -1974, -1953, -1957, -1717 ]
+        },
+        
+        {
+            name: 'Coliseum Executioner!',
+            thumb: 2146,
+            global: true,
+            nakama: 2214600,
+            gamewith: 109800,
+            'All Difficulties': [ 2143, 2145, -2013, -1991, -1989, -1951, -1718, -1475 ]
+        },
+        
+        {
+            name: 'Baby 5\'s Wedding Plans',
+            thumb: 2165,
+            global: true,
+            nakama: 2216500,
+            gamewith: 111404,
+            'All Difficulties': [ 2166, 2164, -1985, -1987, -1993, -1719, -1479, -1481 ]
+        },
+        
+        {
+            name: 'Let\'s Go See The Cat Viper!',
+            thumb: 2177,
+            global: true,
+            nakama: 2217700,
+            gamewith: 114148,
+            'All Difficulties': [ 2176, 2178, 2179, -2048, -2029, -1883, -1483, -1353, -1785 ]
+        },
+        
+        {
+            name: 'Recover! King of Day Duke Inuarashi',
+            thumb: 2219,
+            nakama: 2221900,
+            gamewith: 116883,
+            'All Difficulties': [ 2218, 2220, 2221, -2007, -2027, -2031, -1783, -1538, -1536 ]
+        },
+        
+        {
+            name: 'Lets Play! The Seducing Woods',
+            thumb: 2253,
+            nakama: 2225300,
+            gamewith: 118916,
+            'All Difficulties': [ 2252, 2254, 2255, -2023, -2025, -1959, -2082, -2080, -2068, -1782, -1781 ]
+        },
+        
+        {
+            name: 'The Genius Jester! Buggy\'s Festival!',
+            thumb: 2277,
+            nakama: null,
+            gamewith: 121547,
+            'All Difficulties': [ 2276, 2278, 2279, -2074, -2363, -2076, -2078, -2072, -2050, -2115, -1784, -2053 ]
+        },
+        
+        {
+            name: 'Forces of Rage - Amande and Bobbin',
+            thumb: 2327,
+            nakama: null,
+            gamewith: 127786,
+            'All Difficulties': [ 2326, 2328, -2099, -2101, -2103, -2113, -2117, -2119, -2002, -2005 ]
+        },
+        
+        {
+            name: 'Banquet! The Best Tea Party Ever!',
+            thumb: 2351,
+            nakama: null,
+            gamewith: 133025,
+            'All Difficulties': [ 2350, 2351, 2352, -2055, -2105, -2107, -2121, -2126, -2004, -2148, -2181, -2350 ]
+        },
+        
+        {
+            name: 'Our Lady\'s Motherly Love',
+            thumb: 2377,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2376, 2378, 2379, -2234, -2201, -2203, -2242, -2161, -2244 ]
+        },
+        
+        {
+            name: 'Cavendish\'s Rose Colored Melancholy',
+            thumb: 2428,
+            nakama: null,
+            gamewith: 141693,
+            'All Difficulties': [ 2427, 2429, -2236, -2265, -2205, -2238, -2267, -2269, -2125, -2240 ]
         },
         
     ],
@@ -2058,6 +2239,16 @@ module.exports = {
             gamewith: 5905,
             slefty: 'raid_bosses/5',
             Master: [ 113, 118, 262, 264, 305 ],
+        },
+
+        {
+            name: 'Clash Neo!! Vice-Admiral Garp',
+            thumb: 2511,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            condition: 'Master: Fighter/Slasher/Shooter Only',
+            Master: [ 2510 ],
         },
 
         {
@@ -2174,9 +2365,10 @@ module.exports = {
         {
             name: 'Clash Neo!! Eneru',
             thumb: 1930,
+            global: true,
             nakama: 4193000,
             gamewith: 86020,
-            condition: 'Take 300 damage per character in Environmental Lightning Damage every 3 turns. Luffy is immune to lightning damage. 1 Expert version, 1 Master version, and 3 different Ultimate versions with different conditions. Expert/Master: Driven/Powerhouse/Cerebral Only. Can only complete 10 times each. Ultimate: Driven Only, Powerhouse Only, and Cerebral Only',
+            condition: 'Take 300 damage per character in Environmental Lightning Damage every 3 turns. Luffy is immune to lightning damage. 1 Expert version, 1 Master version, and 3 different Ultimate versions with different conditions. Expert/Master: Driven/Powerhouse/Cerebral Only. Ultimate: Driven Only, Powerhouse Only, and Cerebral Only',
             Ultimate: [ 85, 111, 118, 301, 1929 ],
             Master: [ 85, 111, 118, 1929 ] ,
             Expert: [ 111, 118, 1929 ]
@@ -2253,7 +2445,8 @@ module.exports = {
         {
             name: 'Clash Neo!! Pirate Empress Hancock',
             thumb: 2070,
-            nakama: null,
+            global: true,
+            nakama: 4207000,
             gamewith: 102084,
             condition: '1 Master version and 3 Ultimate versions with different conditions. Master: Slasher/Free Spirit/Cerebral Only. Ultimate: Slasher Only, Free Spirit Only, and Cerebral Only. Can only complete 7 times each per day. Can drop +10 Cotton Candy and Forbidden Tomes.',
             Ultimate: [ 2069 ],
@@ -2274,6 +2467,7 @@ module.exports = {
         {
             name: 'Clash Neo!! Pica',
             thumb: 1647,
+            global: true,
             nakama: 4164700,
             gamewith: 60095,
             condition: '1 Expert version and 3 different Master versions with different conditions. Expert: Powerhouse/Driven/Slasher Only. Master: Powerhouse Only, Driven Only, and Slasher Only',
@@ -2458,6 +2652,7 @@ module.exports = {
         {
             name: 'Clash!! Caesar',
             thumb: 1830,
+            global: true,
             nakama: 4183000,
             gamewith: 75007,
             condition: 'Take 10% MAX Health in Environmental Damage every 2 turns',
@@ -2489,6 +2684,7 @@ module.exports = {
         {
             name: 'Clash!! Señor Pink',
             thumb: 1943,
+            global: true,
             nakama: 4194300,
             gamewith: 88927,
             Master: [ 1942 ],
@@ -2498,6 +2694,7 @@ module.exports = {
         {
             name: 'Clash!! Rob Lucci',
             thumb: 2015,
+            global: true,
             nakama: 4201500,
             gamewith: 95424,
             Ultimate: [ 2014 ],
@@ -2508,8 +2705,9 @@ module.exports = {
         {
             name: 'Clash!? Luffy',
             thumb: 2033,
+            global: true,
             showManual: true,
-            nakama: null,
+            nakama: 4203300,
             gamewith: 97354,
             Ultimate: [ 2032, -2032 ],
             Master: [ 2032, -2032 ]
@@ -2518,7 +2716,8 @@ module.exports = {
         {
             name: 'Clash!! Zoro',
             thumb: 2097,
-            nakama: null,
+            global: true,
+            nakama: 4209700,
             gamewith: 105734,
             Ultimate: [ 2096 ],
             Master: [ 2096 ],
@@ -2526,13 +2725,84 @@ module.exports = {
         },
         
         {
+            name: 'Clash!! Cracker',
+            thumb: 2158,
+            global: true,
+            nakama: 4215800,
+            gamewith: 110184,
+            Ultimate: [ 2157 ],
+            Master: [ 2157 ],
+            Expert : [ 2157 ],
+        },
+        
+        {
+            name: 'Clash!! "Blackbeard" Teach',
+            thumb: 2197,
+            global: true,
+            nakama: 4219700,
+            gamewith: 115114,
+            Ultimate: [ 2196 ],
+            Master: [ 2196 ]
+        },
+        
+        {
             name: 'Clash!! Heavenly Demon Doflamingo',
-            thumb: 2201,
+            thumb: 2263,
             global: true,
             nakama: 4220100,
+            gamewith: 120331,
+            Ultimate: [ 2262 ],
+            Master: [ 2262 ],
+            Expert: [ 2262 ]
+        },
+        
+        {
+            name: 'Clash!! Judge',
+            thumb: 2281,
+            nakama: null,
+            gamewith: 121664,
+            Ultimate: [ 2280 ],
+            Master: [ 2280 ],
+            Expert: [ 2280 ]
+        },
+        
+        {
+            name: 'Clash!! Arlong',
+            thumb: 2356,
+            nakama: null,
+            gamewith: 134190,
+            Master: [ 2355 ],
+            Expert: [ 2355 ]
+        },
+        
+        {
+            name: 'Clash!! Big Emperor',
+            thumb: 2398,
+            nakama: null,
+            gamewith: 140044,
+            Master: [ 2395, 2396, 2397, -2398 ],
+            Expert: [ 2395, 2396, 2397, -2398 ]
+        },
+        
+        {
+            name: 'Clash!! Sengoku & Garp',
+            thumb: 2507,
+            global: true,
+            nakama: null,
             gamewith: null,
-            Ultimate: [ 2200 ],
-            Master: [ 2200 ]
+            Master: [ 2506 ],
+            Expert: [ 2506 ]
+        },
+        
+        {
+            name: 'Showdown!! Shanks & Mihawk',
+            thumb: 2513,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2512 ],
+            Expert: [ 2512 ],
+            Ultimate: [ 2512 ],
         },
 
     ],
@@ -2541,15 +2811,31 @@ module.exports = {
     'Coliseum': [
 
         {
-            name: 'Yes',
+            name: 'Coliseum',
+            thumb: 779,
+            global: true,
+            gamewith: 17473,
+            slefty: 'coliseums',
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248, 2288, 2322, 2353, 2374, 2415 ],
+            Neo: [ 1862, 1898, 1975, 2016 ]
+        },
+        
+        {
+            name: 'Coliseum',
+            thumb: 779,
+            global: true,
+            gamewith: 17473,
+            slefty: 'coliseums',
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2036, 2110, 2162, 2192, 2248, 2288 ],
+        },
+        
+        {
+            name: 'Coliseum',
             thumb: 779,
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2110 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110 ],
-            Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
     ],
@@ -2587,31 +2873,35 @@ module.exports = {
         {
             name: 'Luffy: Gear 4th',
             thumb: 1916,
+            global: true,
 			nakama: 8191600,
             gamewith: 85567,
-            'Raging Sea': [ 1915 ]
+            'Calm Sea': [ 1915 ]
         },
 
         {
             name: 'Fire Fist Ace',
             thumb: 1941,
+            global: true,
 			nakama: 8194100,
             gamewith: 87389,
-            'Raging Sea': [ 1940 ]
+            'Primordial Sea': [ 1940 ]
         },
 
         {
-            name: 'Fire Fist Sabo',
+            name: 'Sabo',
             thumb: 1972,
+            global: true,
 			nakama: 8197200,
-            gamewith: null,
-            'Raging Sea': [ 1971 ]
+            gamewith: 91382,
+            'Calm Sea': [ 1971 ]
         },
 
         {
             name: 'Sanji and Zoro',
             thumb: 2000,
-            nakama: null,
+            global: true,
+            nakama: 8200000,
             gamewith: 94667,
             'Raging Sea': [ 1998, 1999 ]
         },
@@ -2619,7 +2909,8 @@ module.exports = {
         {
             name: 'Borsalino',
             thumb: 2064,
-            nakama: null,
+            global: true,
+            nakama: 8206400,
             gamewith: 101870,
             'Raging Sea': [ 2063 ]
         },
@@ -2627,9 +2918,77 @@ module.exports = {
         {
             name: 'Big Mom',
             thumb: 2109,
+            global: true,
+            nakama: 8210900,
+            gamewith: 105881,
+            'Sweet Sea': [ 2108 ]
+        },
+
+        {
+            name: 'Crocodile',
+            thumb: 2137,
+            global: true,
+            nakama: 8213700,
+            gamewith: 109127,
+            'Primordial Sea': [ 2136 ]
+        },
+
+        {
+            name: 'Jack',
+            thumb: 2175,
+            global: true,
+            nakama: 8217500,
+            gamewith: 112951,
+            'Raging Sea': [ 2174 ]
+        },
+
+        {
+            name: 'Kami Enel',
+            thumb: 2211,
+            global: true,
+            nakama: 8221100,
+            gamewith: 116377,
+            'Raging Sea': [ 2210 ]
+        },
+
+        {
+            name: 'Red Hair Shanks',
+            thumb: 2261,
+            nakama: 8226100,
+            gamewith: 119738,
+            'Primordial Sea': [ 2260 ]
+        },
+
+        {
+            name: 'Boa Hancock',
+            thumb: 2299,
+            nakama: 8229900,
+            gamewith: 123536,
+            'Raging Sea': [ 2298 ]
+        },
+
+        {
+            name: 'Trafalgar Law',
+            thumb: 2336,
+            nakama: 8233600,
+            gamewith: 128733,
+            'Calm Sea': [ 2335 ]
+        },
+
+        {
+            name: 'Cat Burglar Nami',
+            thumb: 2362,
+            nakama: null,
+            gamewith: 134017,
+            'Winter Sea': [ 2361, 9025 ]
+        },
+
+        {
+            name: 'Kaido',
+            thumb: 2387,
             nakama: null,
             gamewith: null,
-            'Sweet Sea': [ 2108 ]
+            'Raging Sea': [ 2386 ]
         },
         
     ],
@@ -2670,16 +3029,29 @@ module.exports = {
             gamewith: 15440,
             challenge: 'Total number of hits over 30,000',
             challengeData: [['Japan Rewards', ''],['10 Times','#686 Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems'], ['Global Rewards', ''],['10 Times','1x Bind Resistance Forbidden Tome, 1x Despair Resistance Forbidden Tome, 1x Auto-Heal Forbidden Tome, 1x Rainbow Gem'],['35 Times','1x Red Elder Turtle, 1x Blue Elder Turtle, 1x Green Elder Turtle, 1x Yellow Elder Turtle, 1x Black Elder Turtle, 2x Rainbow Gems'],['72 Times','5x Rainbow Gems']],
-            'All Difficulties': [ 659, 680, 682, 684, 1200, 1198, 1708, 1710 ],
+            condition: 'Part 4 drops Shaved Ice Booster Items and Heracles Beetle Items',
+            'Part 1': [ 659, 680, 682, 684 ],
+            'Part 2': [ 659, 1200, 1198 ],
+            'Part 3': [ 1708, 1710 ],
+            'Part 4': [ 2214, 2216 ],
             'Challenge Unit': [ 686 ],
         },
         
         {
-            name: 'Halloween Event Characters',
+            name: 'Dead or Treat!! Monster\'s Party',
             thumb: 1300,
             global: true,
             nakama: 6130000,
+            gamewith: 44161,
             'All Difficulties': [ 1299, 1305, 1325 ],
+        },
+        
+        {
+            name: 'Dead or Treat!! Sweetie Party',
+            thumb: 2292,
+            gamewith: 122996,
+            condition: 'Katakuri: Can not use characters who are both Driven and Powerhouse classes.',
+            'All Difficulties': [ 2291, 2293 ],
         },
         
         {
@@ -2736,7 +3108,7 @@ module.exports = {
             nakama: 6125800,
             gamewith: 38237,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.',
-            'All Difficulties': [ 1257, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1257, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2746,7 +3118,7 @@ module.exports = {
             nakama: 6138000,
             gamewith: 46369,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks.',
-            'All Difficulties': [ 1379, 952, 776, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1379, 952, 776, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2756,7 +3128,7 @@ module.exports = {
             nakama: 6153000,
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
-            'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1529, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2766,7 +3138,25 @@ module.exports = {
             nakama: 6184600,
             gamewith: 75260,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
-            'All Difficulties': [ 1845, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1845, 771, 772, 9010, 9011, 9012, 9013, 9014 ]
+        },
+        
+        {
+            name: 'Invasion! Sengoku',
+            thumb: 2283,
+            nakama: 6228300,
+            gamewith: 122270,
+            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Sengoku.',
+            'All Difficulties': [ 2282, 1845, 9010, 9011, 9012, 9013, 9014 ]
+        },
+        
+        {
+            name: 'Invasion! Charlotte Linlin',
+            thumb: 2381,
+            nakama: null,
+            gamewith: 136823,
+            condition: 'Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the Raid boss to fight Charlotte Linlin.',
+            'All Difficulties': [ 2380, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2840,14 +3230,32 @@ module.exports = {
         },
         
         {
-            name: 'Battle Blitz! Akainu vs Aokiji',
+            name: 'Face Off! Akainu vs Aokiji',
             thumb: 2023,
-            nakama: null,
-            gamewith: null,
+            global: true,
+            nakama: 6202300,
+            gamewith: 98096,
             condition: 'Chance of dropping the Silver Almighty Manual, Traning Potions, Guilding Fragments, Guilding Crystals and Guilding Jewels.',
             'Aokiji': [ -2023 ],
             'Akainu' : [ -2025 ],
             'Chopperman Missions': [ 2042 ],
+        },
+        
+        {
+            name: 'Face Off! Luffy vs Katakuri',
+            thumb: 2363,
+            gamewith: 136731,
+            condition: 'Chance of dropping the Support Medallions.',
+        },
+        
+        {
+            name: 'World Clash!',
+            thumb: 2407,
+            global: true,
+            nakama: null,
+            gamewith: 130091,
+            condition: 'Chance of dropping the Forbidden Tomes and Almighty Manuals.',
+            'Chopperman Missions': [ 2408 ],
         },
         
         {
@@ -2874,7 +3282,7 @@ module.exports = {
             nakama: 6158800,
             gamewith: 56742,
             showManual: true,
-            condition: 'High chance of dropping 6* skillbooks. Only Evolvers and Booster characters will drop posters.',
+            condition: 'High chance of dropping 6* Manuals. Only Evolvers and Booster characters will drop posters.',
             'Black Clad Shanks': [ 301, 101, 96, 79, 90, 348, -530, -1707, -316, -910, -995, -1236, -1364, -465, -590, -967, -813, -888 ],
             'Donquixote Doflamingo': [ 304, 104, 88, 99, 82, 93, 351, -870, -312, -645, -838, -876, -880, -1190, -396, -586, -631, -567 ],
             'Trafalgar Law': [ 300, 100, 84, 95, 78, 89, 347, -964, -1045, -219, -308, -675, -991, -1077, -504, -1159, -212, -892 ],
@@ -2905,20 +3313,32 @@ module.exports = {
         {
             name: 'Champion Challenge! 4th Anniversary',
             thumb: 2076,
-            nakama: null,
+            nakama: 6207600,
             gamewith: null,
             showManual: true,
-            condition: 'High chance of dropping 6* skillbooks.',
+            condition: 'High chance of dropping 6* Manuals.',
             'Blackbeard': [ -261, -649, -1268, -1413, -1698, -251, -255, -259, -449, -455, -647, -1186, -1190, -1270, -1272, -1276, -1278 ],
-            'Zoro': [ -718, -1085, -1362, -1391, -1881, -1921, -2035, 310, -314, -357, -359, -361, -363, -365, -1540, -1612, -1616, -1618, -1706 ],
+            'Zoro': [ -718, -1085, -1362, -1391, -1881, -1921, -2035, -310, -314, -357, -359, -361, -363, -365, -1540, -1612, -1616, -1618, -1706 ],
             'Shirahoshi': [ -720, -935, -1434, -1473, -1880, -1927, -2066, -1436, -1438, -1440, -1442, -1444, -14475, -1477, -1479, -1481, -1483, -1700 ],
-            'Nekomamushi': [ -530, -748, -1571, -1652, -1663, -1707, -524, -1119, -558, -1208, -1370, -16, -1446, -1573, -1828, -1577, -1579, -1660, -1658, -1656, -1654 ],
+            'Nekomamushi': [ -530, -748, -1571, -2372, -1652, -2373, -1663, -1707, -524, -1119, -558, -1208, -1370, -16, -1446, -1573, -1828, -1577, -1579, -1660, -1658, -1656, -1654 ],
             'Trafalgar Law': [ -1001, -1045, -1751, -1763, -1922, -2001, -840, -842, -844, -846, -872, -874, -876, -878, -993, -999, -1749, -1875 ],
             'Akainu': [ -459, -1192, -1240, -1314, -1764, -1847, -2034, -750, -752, -754, -756, -758, -760, -838, -1230, -1316, -1322, -1324, -1614 ],
             'Monkey D. Luffy': [ -416, -1404, -1445, -1532, -1543, -1593, -1747, -671, -673, -906, -910, -520, -1115, -1364, -1368, -1534, -1536, -1741, -1743, -1745 ],
             'Lucy': [ -562, -578, -669, -1121, -1492, -1794, -1816, -641, -1025, -1029, -1033, -1079, -1125, -1129, -1798, -1800, -1802, -1873, -1877 ],
             'Fujitora': [ -870, -1035, -1123, -1869, -1928, -995, -1232, -1234, -1236, -1238, -1318, -1320, -1796, -1871, -1904, -1906, -1908 ],
-            'Judge': [ -367, -1588, -1610, -1619, -1832, -410, -675, -677, -912, -937, -560, -1212, -1542, -1702, -1834, -1836, -1838, -1840 ],
+            'Judge': [ -367, -1588, -2245, -1610, -2232, -1619, -1832, -2138, -410, -675, -677, -912, -937, -560, -1212, -1542, -1702, -1834, -2139, -1836, -2140, -1838, -2141, -1840, -2142 ],
+        },
+        
+        {
+            name: 'Champion Challenge! Charlotte Family',
+            thumb: 2113,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            showManual: true,
+            condition: 'Chance to get Manuals for the first Charlotte Family batch. Only Boosters will drop posters.',
+            Ultimate: [ -2113, -2115, -2117, -2119, -2121 ],
+            Expert: [ -2113, -2115, -2117, -2119, -2121 ],
         },
         
         {
@@ -2977,11 +3397,108 @@ module.exports = {
         {
             name: 'Prepare for Battle! Aokiji and Akainu!',
             thumb: 1280,
-            nakama: null,
+            global: true,
+            nakama: 6128001,
             gamewith: 98232,
-            showManual: true,
             'Aokiji': [ 298, 1225, 1226, 1280, 1281 ],
             'Akainu': [ 1223, 1279, 1283, 1417, 1418 ],
+        },
+        
+        {
+            name: 'Germa Resurrection Plan!',
+            thumb: 2138,
+            global: true,
+            nakama: 6128001,
+            gamewith: 109674,
+            showManual: true,
+            'All Difficulties': [ 9015, 9016, 9017, 9018, 9019, -2142, -2141, -2140, -2139, -2138, -1839, -1838, -1836, -1834, -1832 ],
+        },
+        
+        {
+            name: 'Kami Rises Again',
+            thumb: 2232,
+            global: true,
+            nakama: null,
+            gamewith: 117538,
+            showManual: true,
+            'All Difficulties': [ 9021, 545, -546, 602, -603, 1896, -1897, 1929, -1930 ],
+        },
+        
+        {
+            name: 'Higuma - The Bandit Who Rowed Out to Sea',
+            thumb: 2259,
+            nakama: null,
+            gamewith: 119604,
+            'All Difficulties': [ 9022 ],
+        },
+        
+        {
+            name: 'Push Forward! Straw Hat Crew!',
+            thumb: 2300,
+            nakama: null,
+            gamewith: 124622,
+            showManual: true,
+            'All Difficulties': [ 9023, 9024, -1935, -2300, -1588, -2245, -912, -943, -1364, -1368 ],
+        },
+        
+        {
+            name: 'Clash!! Enel [Extra]',
+            thumb: 603,
+            gamewith: 138206,
+            'All Difficulties': [ 602 ],
+            condition: "Chance of dropping the Support Medallions.",
+        },
+        
+        {
+            name: '21st Anniversary Island',
+            thumb: 1682,
+            nakama: 6168200,
+            gamewith: null,
+            showManual: true,
+            'All Difficulties': [ 2, 5, 9, 13, 17, 21, 629, 708, 895, -1682, -1684, -1686, -1688, -1753, -1755, -1757, -1759, -1761 ],
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Blackbeard',
+            thumb: 447,
+            global: true,
+            nakama: 6044700,
+            gamewith: 99411,
+            condition: "Challenge: Characters with a cost of 50 or below. Crew's Special gauge is maxed",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Jinbe',
+            thumb: 1700,
+            global: true,
+            nakama: 6170000,
+            gamewith: 107881,
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Kyros',
+            thumb: 1873,
+            global: true,
+            nakama: 6187300,
+            gamewith: 111278,
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Sanji',
+            thumb: 912,
+            nakama: null,
+            gamewith: 120486,
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Jack',
+            thumb: 2175,
+            nakama: null,
+            gamewith: 133004,
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
         },
    ],
 
@@ -2990,9 +3507,9 @@ module.exports = {
         {
             name: 'Forest of Training: Hawk',
             thumb: 227,
+            global: true,
             gamewith: 2949,
             slefty: 'forests/1',
-            global: true,
             nakama: 7022700,
             completion: 'Ship: Coffin Boat',
         },
@@ -3000,9 +3517,9 @@ module.exports = {
         {
             name: 'Forest of Training: Flame Fist',
             thumb: 562,
+            global: true,
             gamewith: 15896,
             slefty: 'forests/2',
-            global: true,
             nakama: 7056200,
             completion: 'Ship: Striker',
         },
@@ -3010,9 +3527,9 @@ module.exports = {
         {
             name: 'Forest of Training: Kami',
             thumb: 603,
+            global: true,
             gamewith: 25369,
             slefty: 'forests/7',
-            global: true,
             nakama: 7060300,
             completion: 'Ship: Ark Maxim',
         },
@@ -3020,9 +3537,9 @@ module.exports = {
         {
             name: 'Forest of Training: Sun',
             thumb: 935,
+            global: true,
             gamewith: 32540,
             slefty: 'forests/9',
-            global: true,
             nakama: 7093500,
             completion: 'Ship: Sun Pirates Ship',
         },
@@ -3030,9 +3547,9 @@ module.exports = {
         {
             name: 'Forest of Training: Beard',
             thumb: 261,
+            global: true,
             gamewith: 11685,
             slefty: 'forests/6',
-            global: true,
             nakama: 7026100,
             completion: 'Ship: Moby Dick',
         },
@@ -3040,9 +3557,9 @@ module.exports = {
         {
             name: 'Forest of Training: Pheasant',
             thumb: 575,
+            global: true,
             gamewith: 15617,
             slefty: 'forests/11',
-            global: true,
             nakama: 7057500,
             completion: 'Ship: Aokiji\'s Bicycle',
         },
@@ -3050,9 +3567,9 @@ module.exports = {
         {
             name: 'Forest of Training: Snake',
             thumb: 416,
+            global: true,
             gamewith: 24312,
             slefty: 'forests/8',
-            global: true,
             nakama: 7041600,
             completion: 'Ship: Kuja Pirates Ship',
         },
@@ -3060,9 +3577,9 @@ module.exports = {
         {
             name: 'Forest of Training: Red Hair',
             thumb: 530,
+            global: true,
             gamewith: 27893,
             slefty: 'forests/10',
-            global: true,
             nakama: 7053000,
             completion: 'Ship: Red Force',
         },
@@ -3070,8 +3587,8 @@ module.exports = {
         {
             name: 'Forest of Training: Heavenly Demon',
             thumb: 870,
-            gamewith: 34319,
             global: true,
+            gamewith: 34319,
             nakama: 7087000,
             completion: 'Ship: Doflamingo Pirates Ship',
         },
@@ -3079,8 +3596,8 @@ module.exports = {
         {
             name: 'Forest of Training: ROOM',
             thumb: 1045,
-            gamewith: 44527,
             global: true,
+            gamewith: 44527,
             nakama: 7104500,
             completion: 'Ship: Polar Tang',
         },
@@ -3088,8 +3605,8 @@ module.exports = {
         {
             name: 'Forest of Training: Monkey',
             thumb: 1240,
-            gamewith: 48115,
             global: true,
+            gamewith: 48115,
             nakama: 7124000,
             completion: 'Ship: Kizaru\'s Cannonball',
         },
@@ -3097,6 +3614,7 @@ module.exports = {
         {
             name: 'Forest of Training: Darkness',
             thumb: 1268,
+            global: true,
             nakama: 7126800,
             gamewith: 59779,
             completion: 'Ship: Blackbeard Pirates Ship',
@@ -3104,10 +3622,18 @@ module.exports = {
         
         {
             name: 'Forest of Training: Gang',
-            thumb: 1016,
-            nakama: null,
+            thumb: 2229,
+            nakama: 7101600,
             gamewith: 107299,
             completion: 'Ship: Nostra Castello',
+        },
+        
+        {
+            name: 'Forest of Training: Mother',
+            thumb: 2234,
+            nakama: null,
+            gamewith: 118924,
+            completion: 'Ship: Queen Mama Chanter',
         },
 
    ]
