@@ -2113,15 +2113,15 @@ module.exports = {
     },
     4: {
         evolution: 1387,
-        evolvers: [ 'skullLuffy', 267 ]
+        evolvers: [ , 267 ]
     },
     8: {
         evolution: 1388,
-        evolvers: [ 'skullZoro', 267 ]
+        evolvers: [ , 267 ]
     },
     12: {
         evolution: 1389,
-        evolvers: [ 'skullNami', 267 ]
+        evolvers: [ , 267 ]
     },
     1390: {
         evolution: 1391,
@@ -2165,7 +2165,7 @@ module.exports = {
     },
     261: {
         evolution: 1413,
-        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
+        evolvers: [ , 118, 84, 300, 267 ]
     },
     1415: {
         evolution: 1416,
@@ -2177,7 +2177,7 @@ module.exports = {
     },
     1421: {
         evolution: 1422,
-        evolvers: [ 118, 94, 99, 304, 267 ]
+        evolvers: [ 118, 94, 99, 304, 104 ]
     },
     1425: {
         evolution: 1426,
@@ -2217,19 +2217,19 @@ module.exports = {
     },
     416: {
         evolution: 1445,
-        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
+        evolvers: [ , 118, 85, 301, 267 ]
     },
     16: {
         evolution: 1446,
-        evolvers: [ 'skullUsopp', 267 ]
+        evolvers: [ , 267 ]
     },
     20: {
         evolution: 1447,
-        evolvers: [ 'skullSanji', 267 ]
+        evolvers: [ , 267 ]
     },
     22: {
         evolution: 1448,
-        evolvers: [ 'skullChopper', 267 ]
+        evolvers: [ , 267 ]
     },
     1449: {
         evolution: 1450,
@@ -2313,7 +2313,7 @@ module.exports = {
     },
     669: {
         evolution: 1492,
-        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+        evolvers: [ , 118, 87, 303, 267 ]
     },
     1505: {
         evolution: [ 1506, 1562 ],
@@ -2377,7 +2377,7 @@ module.exports = {
     },
     1532: {
         evolution: 1543,
-        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+        evolvers: [ , 118, 86, 302, 267 ]
     },
     1544: {
         evolution: 1545,
@@ -2389,15 +2389,15 @@ module.exports = {
     },
     709: {
         evolution: 1549,
-        evolvers: [ 'skullRobin', 267 ]
+        evolvers: [ , 267 ]
     },
     739: {
         evolution: 1550,
-        evolvers: [ 'skullFranky', 267 ]
+        evolvers: [ , 267 ]
     },
     896: {
         evolution: 1551,
-        evolvers: [ 'skullBrook', 267 ]
+        evolvers: [ , 267 ]
     },
     1552: {
         evolution: 1553,
@@ -2453,7 +2453,7 @@ module.exports = {
     },
     1404: {
         evolution: 1593,
-        evolvers: [ 'skullQCK', 'skullPSY', 98, 303, 267 ]
+        evolvers: [ , , 98, 303, 267 ]
     },
     1587: {
         evolution: 1588,
@@ -2505,7 +2505,7 @@ module.exports = {
     },
     367: {
         evolution: 1619,
-        evolvers: [ 'skullINT', 118, 304, 99, 267 ]
+        evolvers: [ , 118, 304, 99, 267 ]
     },
     1620: {
         evolution: 1621,
@@ -2565,7 +2565,7 @@ module.exports = {
     },
     748: {
         evolution: 1663,
-        evolvers: [ 'skullSTR', 118, 95, 300, 267 ]
+        evolvers: [ , 118, 95, 300, 267 ]
     },
     1664: {
         evolution: 1665,
@@ -2645,7 +2645,7 @@ module.exports = {
     },
     530: {
         evolution: 1707,
-        evolvers: [ 'skullPSY', 118, 98, 303, 267 ]
+        evolvers: [ , 118, 98, 303, 267 ]
     },
     1708: {
         evolution: 1709,
@@ -2749,7 +2749,7 @@ module.exports = {
     },
     1192: {
         evolution: 1764,
-        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
+        evolvers: [ , 118, 85, 301, 267 ]
     },
     1765: {
         evolution: 1766,
@@ -2829,7 +2829,7 @@ module.exports = {
     },
     562: {
         evolution: 1816,
-        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+        evolvers: [ , 118, 86, 302, 267 ]
     },
     1817: {
         evolution: 1818,
@@ -2889,7 +2889,7 @@ module.exports = {
     },
     459: {
         evolution: 1847,
-        evolvers: [ 'skullINT', 118, 88, 304, 267 ],
+        evolvers: [ , 118, 88, 304, 267 ],
     },
     1848: {
         evolution: 1849,
@@ -2957,11 +2957,11 @@ module.exports = {
     },
     1434: {
         evolution: 1880,
-        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
+        evolvers: [ , 118, 88, 303, 267 ],
     },
     718: {
         evolution: 1881,
-        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
+        evolvers: [ , 118, 88, 303, 267 ],
     },
     1882: {
         evolution: 1883,
@@ -3041,11 +3041,11 @@ module.exports = {
     },
     1362: {
         evolution: 1921,
-        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+        evolvers: [ , 118, 86, 302, 267 ]
     },
     1751: {
         evolution: 1922,
-        evolvers: [ 'skullQCK', 'skullQCK', 96, 301, 267 ]
+        evolvers: [ , , 96, 301, 267 ]
     },
     1923: {
         evolution: 1924,
@@ -3057,11 +3057,11 @@ module.exports = {
     },
     720: {
         evolution: 1927,
-        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
+        evolvers: [ , 118, 84, 300, 267 ]
     },
     1035: {
         evolution: 1928,
-        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
+        evolvers: [ , 118, 85, 301, 267 ]
     },
     1929: {
         evolution: 1930,
@@ -3201,7 +3201,7 @@ module.exports = {
     },
     1045: {
         evolution: 2001,
-        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+        evolvers: [ , 118, 87, 303, 267 ]
     },
     2003: {
         evolution: 2004,
@@ -3265,11 +3265,11 @@ module.exports = {
     },
     1240: {
         evolution: 2034,
-        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+        evolvers: [ , 118, 87, 303, 267 ]
     },
     1391: {
         evolution: 2035,
-        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
+        evolvers: [ , 118, 88, 304, 267 ]
     },
     2036: {
         evolution: 2037,
@@ -3313,7 +3313,7 @@ module.exports = {
     },
     935: {
         evolution: 2066,
-        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
+        evolvers: [ , 118, 88, 304, 267 ]
     },
     2067: {
         evolution: 2068,
@@ -3413,7 +3413,7 @@ module.exports = {
     },
     2004: {
         evolution: 2126,
-        evolvers: [ 'skullDoffy', 89, 95, 95, 300 ]
+        evolvers: [ , 89, 95, 95, 300 ]
     },
     2131: {
         evolution: 2132,
@@ -3429,23 +3429,23 @@ module.exports = {
     },
     1832: {
         evolution: 2138,
-        evolvers: [ 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge' ]
+        evolvers: [ , , , ,  ]
     },
     1834: {
         evolution: 2139,
-        evolvers: [ 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju' ]
+        evolvers: [ , , , ,  ]
     },
     1836: {
         evolution: 2140,
-        evolvers: [ 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji' ]
+        evolvers: [ , , , ,  ]
     },
     1838: {
         evolution: 2141,
-        evolvers: [ 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji' ]
+        evolvers: [ , , , ,  ]
     },
     1840: {
         evolution: 2142,
-        evolvers: [ 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji' ]
+        evolvers: [ , , , ,  ]
     },
     2143: {
         evolution: 2144,
@@ -3481,7 +3481,7 @@ module.exports = {
     },
     1698: {
         evolution: 2159,
-        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+        evolvers: [ , 118, 86, 302, 267 ]
     },
     2160: {
         evolution: 2161,
@@ -3549,7 +3549,7 @@ module.exports = {
     },
     1001: {
         evolution: 2195,
-        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+        evolvers: [ , 118, 86, 302, 267 ]
     },
     2196: {
         evolution: 2197,
@@ -3601,7 +3601,7 @@ module.exports = {
     },
     1610: {
         evolution: 2232,
-        evolvers: [ 'skullEnel', 'skullEnel', 'skullEnel', 'skullEnel', 'skullEnel' ]
+        evolvers: [ , , , ,  ]
     },
     2233: {
         evolution: 2234,
@@ -3629,7 +3629,7 @@ module.exports = {
     },
     1588: {
         evolution: 2245,
-        evolvers: [ 'skullSanji2', 'skullSanji2', 'skullSanji2', 'skullSanji2', 'skullSanji2' ]
+        evolvers: [ , , , ,  ]
     },
     2246: {
         evolution: 2247,
@@ -3649,7 +3649,7 @@ module.exports = {
     },
     2258: {
         evolution: 2259,
-        evolvers: [ 'skullHiguma', 'skullHiguma', 'skullHiguma', 'skullHiguma', 'skullHiguma' ]
+        evolvers: [ , , , ,  ]
     },
     2260: {
         evolution: 2261,
@@ -3725,7 +3725,7 @@ module.exports = {
     },
     1935: {
         evolution: 2300,
-        evolvers: [ 'skullFrankie', 'skullFrankie', 'skullFrankie', 'skullFrankie', 'skullFrankie' ]
+        evolvers: [ , , , ,  ]
     },
     2301: {
         evolution: 2302,
@@ -3813,7 +3813,7 @@ module.exports = {
     },
     1123: {
         evolution: 2357,
-        evolvers: [ 'skullCavendish', 'skullCavendish', 'skullCavendish', 'skullCavendish', 'skullCavendish',]
+        evolvers: [ , , , , ,]
     },
     2361: {
         evolution: 2362,
@@ -3821,7 +3821,7 @@ module.exports = {
     },
     2074: {
         evolution: 2363,
-        evolvers: [ 'skullQCK', 'skullSTR', 95, 300, 267 ]
+        evolvers: [ , , 95, 300, 267 ]
     },
     2364: {
         evolution: 2365,
@@ -3841,11 +3841,11 @@ module.exports = {
     },
     1571: {
         evolution: 2372,
-        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
+        evolvers: [ , 118, 84, 300, 267 ]
     },
     1652: {
         evolution: 2373,
-        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+        evolvers: [ , 118, 87, 303, 267 ]
     },
     2374: {
         evolution: 2375,
@@ -3862,6 +3862,10 @@ module.exports = {
     2386: {
         evolution: 2387,
         evolvers: [ 115, 116, 117, 118, 100 ]
+    },
+    2393: {
+        evolution: 2394,
+        evolvers: [ 118, 84, 266, 300, 100 ]
     },
     2395: {
         evolution: 2398,
@@ -3935,28 +3939,684 @@ module.exports = {
         evolution: 2431,
         evolvers: [ 118, 87, 98, 303, 103 ]
     },
-    2502: {
-        evolution: 2503,
-        evolvers: [ 118, 86, 266, 302, 267 ]
+    2432: {
+        evolution: 2433,
+        evolvers: [ 118, 266, 95, 300, 267 ]
     },
-    2506: {
-        evolution: 2507,
+    1747: {
+        evolution: 2434,
+        evolvers: [ , , , ,  ]
+    },
+    2551: {
+        evolution: 2552,
         evolvers: [ 104, 102, 267, 1180, 118 ]
     },
-    1763: {
+    2440: {
+        evolution: 2441,
+        evolvers: [ 118, 86, 266, 302, 1180 ]
+    },
+    2442: {
+        evolution: 2443,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    870: {
+        evolution: 2444,
+        evolvers: [ , , , , , ]
+    },
+    2445: {
+        evolution: 2446,
+        evolvers: [ 118, 103, 98, 303, 267 ]
+    },
+    2447: {
+        evolution: 2448,
+        evolvers: [ , , , ,  ]
+    },
+    2449: {
+        evolution: 2450,
+        evolvers: [ , , , ,  ]
+    },
+    2451: {
+        evolution: 2452,
+        evolvers: [ , , , ,  ]
+    },
+    2453: {
+        evolution: 2454,
+        evolvers: [ , , , ,  ]
+    },
+    2456: {
+        evolution: 2457,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    2462: {
+        evolution: 2463,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    2464: {
+        evolution: 2465,
+        evolvers: [ 118, 266, 94, 1180, 267 ]
+    },
+    2468: {
+        evolution: 2469,
+        evolvers: [ 116, 117, 118, 101, 103 ]
+    },
+    2470: {
+        evolution: 2471,
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    2472: {
+        evolution: 2473,
+        evolvers: [ 118, 85, 266, 301, 101 ]
+    },
+    2474: {
+        evolution: 2475,
+        evolvers: [ 118, 102, 1180, 302, 267 ]
+    },
+    2476: {
+        evolution: 2477,
+        evolvers: [ 118, 104, 1180, 304, 267 ]
+    },
+    2478: {
+        evolution: 2479,
+        evolvers: [ 94, 1180, 303, 303, 103 ]
+    },
+    2480: {
+        evolution: 2481,
+        evolvers: [ 94, 1180, 302, 302, 102 ]
+    },
+    2482: {
+        evolution: 2483,
+        evolvers: [ 94, 1180, 301, 301, 101 ]
+    },
+    2484: {
+        evolution: 2485,
+        evolvers: [ 94, 1180, 300, 300, 100 ]
+    },
+    2486: {
+        evolution: 2487,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2488: {
+        evolution: 2489,
+        evolvers: [ 118, 98, 1180, 303, 103 ]
+    },
+    2490: {
+        evolution: 2491,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    2495: {
+        evolution: 2496,
+        evolvers: [ 118, 87, 98, 303, 103 ]
+    },
+    2497: {
+        evolution: 2498,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2549: {
+        evolution: 2550,
+        evolvers: [ 116, 117, 118, 100, 102 ]
+    },
+    2234: {
+        evolution: 2500,
+        evolvers: [ , 118, 84, 300, 267 ]
+    },
+    2503: {
+        evolution: 2504,
+        evolvers: [ 118, 84, 266, 300, 100 ]
+    },
+    1869: {
         evolution: 2505,
-        evolvers: [ 'skullQCK', 'skullQCK', 'skullQCK', 1180, 301 ]
+        evolvers: [ , 118, 88, 304, 267 ],
     },
-    2508: {
-        evolution: 2509,
-        evolvers: [  ]
+    2509: {
+        evolution: 2510,
+        evolvers: [ 115, 116, 117, 118, 103 ]
     },
-    2510: {
-        evolution: 2511,
+    2511: {
+        evolution: 2512,
+        evolvers: [ 118, 83, 84, 87, 100 ]
+    },
+    2514: {
+        evolution: 2515,
+        evolvers: [ 118, 87, 98, 303, 103 ]
+    },
+    2516: {
+        evolution: 2517,
+        evolvers: [ 116, 117, 118, 101, 104 ]
+    },
+    2528: {
+        evolution: 2529,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    2533: {
+        evolution: 2534,
+        evolvers: [ 118, 118, 102, 101, 267 ]
+    },
+    2535: {
+        evolution: 2536,
+        evolvers: [ 118, 104, 93, 304, 267 ]
+    },
+    2537: {
+        evolution: 2538,
+        evolvers: [ 84, 86, 266, 300, 302 ]
+    },
+    2539: {
+        evolution: 2540,
+        evolvers: [ 98, 95, 1180, 303, 300 ]
+    },
+    2541: {
+        evolution: 2542,
+        evolvers: [ 79, 81, 83, 101, 103 ]
+    },
+    2543: {
+        evolution: 2544,
+        evolvers: [ 91, 93, 94, 102, 104 ]
+    },
+    2545: {
+        evolution: 2546,
+        evolvers: [ 83, 85, 1180, 301, 101 ]
+    },
+    2547: {
+        evolution: 2548,
+        evolvers: [ 83, 86, 1180, 302, 102 ]
+    },
+    2556: {
+        evolution: 2557,
+        evolvers: [ 116, 117, 118, 102, 104 ]
+    },
+    2558: {
+        evolution: 2559,
+        evolvers: [ 117, 117, 117 ]
+    },
+    2560: {
+        evolution: 2561,
+        evolvers: [ 118, 118, 300, 304, 267 ]
+    },
+    2562: {
+        evolution: 2563,
+        evolvers: [ 83, 266, 97, 302, 102 ]
+    },
+    2564: {
+        evolution: 2565,
+        evolvers: [ 83, 266, 98, 303, 103 ]
+    },
+    2566: {
+        evolution: 2567,
+        evolvers: [ 83, 266, 96, 301, 101 ]
+    },
+    2568: {
+        evolution: 2569,
+        evolvers: [ 118, 95, 1180, 300, 100 ]
+    },
+    2570: {
+        evolution: 2571,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    2574: {
+        evolution: 2575,
+        evolvers: [ 118, 87, 98, 303, 103 ]
+    },
+    2576: {
+        evolution: 2577,
+        evolvers: [ 118, 300, 303, 1180, 267 ]
+    },
+    1314: {
+        evolution: 2578,
+        evolvers: [ , 118, 95, 300, 267 ]
+    },
+    2582: {
+        evolution: 2583,
+        evolvers: [ 115, 116, 117, 118, 104 ]
+    },
+    2584: {
+        evolution: 2585,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    2586: {
+        evolution: 2587,
+        evolvers: [ 118, 87, 98, 303, 103 ]
+    },
+    2076: {
+        evolution: 2588,
+        evolvers: [ , , , ,  ]
+    },
+    2229: {
+        evolution: 2597,
+        evolvers: [ , 83, 88, 99, 104 ]
+    },
+    2600: {
+        evolution: 2601,
+        evolvers: [ 118, 102, 100, 83, 267 ]
+    },
+    2602: {
+        evolution: 2603,
+        evolvers: [ 118, 104, 103, 94, 267 ]
+    },
+    2604: {
+        evolution: 2605,
+        evolvers: [ 266, 89, 95, 300, 100 ]
+    },
+    2606: {
+        evolution: 2607,
+        evolvers: [ 266, 93, 99, 304, 104 ]
+    },
+    2608: {
+        evolution: 2609,
+        evolvers: [ 266, 90, 96, 90, 101 ]
+    },
+    2610: {
+        evolution: 2611,
+        evolvers: [ 118, 96, 1180, 301, 101 ]
+    },
+    2616: {
+        evolution: 2618,
+        evolvers: [ 115, 116, 117, 118, 2617 ]
+    },
+    2617: {
+        evolution: 2618,
+        evolvers: [ 115, 116, 117, 118, 2616 ]
+    },
+    2619: {
+        evolution: 2620,
+        evolvers: [ 118, 88, 93, 99, 104 ]
+    },
+    2621: {
+        evolution: 2622,
+        evolvers: [ 118, 87, 92, 98, 103 ]
+    },
+    2623: {
+        evolution: 2624,
+        evolvers: [ 118, 86, 91, 97, 102 ]
+    },
+    2625: {
+        evolution: 2626,
+        evolvers: [ 118, 84, 89, 95, 100 ]
+    },
+    2627: {
+        evolution: 2628,
+        evolvers: [ 116, 117, 80, 86, 97 ]
+    },
+    2629: {
+        evolution: 2630,
+        evolvers: [ 116, 117, 79, 85, 96 ]
+    },
+    1473: {
+        evolution: 2631,
+        evolvers: [ , 118, 98, 303, 267 ]
+    },
+    2648: {
+        evolution: 2649,
+        evolvers: [ 118, 98, 1180, 303, 103 ]
+    },
+    2650: {
+        evolution: 2651,
+        evolvers: [ 118, 300, 2662, 100, 267 ]
+    },
+    2652: {
+        evolution: 2653,
+        evolvers: [ 94, 2662, 300, 300, 100 ]
+    },
+    2654: {
+        evolution: 2655,
+        evolvers: [ 94, 2662, 304, 304, 104 ]
+    },
+    2656: {
+        evolution: 2657,
+        evolvers: [ 94, 2662, 301, 301, 101 ]
+    },
+    2658: {
+        evolution: 2659,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    2660: {
+        evolution: 2661,
+        evolvers: [ 94, 2662, 304, 304, 104 ]
+    },
+    2667: {
+        evolution: 2668,
+        evolvers: [ 96, 96, 2662, 301, 101 ]
+    },
+    2669: {
+        evolution: 2670,
+        evolvers: [ 118, 100, 84, 300, 2662 ]
+    },
+    2671: {
+        evolution: 2672,
+        evolvers: [ 118, 303, 2662, 103, 267 ]
+    },
+    2673: {
+        evolution: 2674,
+        evolvers: [ 94, 2662, 302, 302, 102 ]
+    },
+    2675: {
+        evolution: 2676,
+        evolvers: [ 94, 2662, 303, 303, 103 ]
+    },
+    2677: {
+        evolution: 2678,
+        evolvers: [ 94, 2662, 302, 302, 102 ]
+    },
+    2679: {
+        evolution: 2680,
+        evolvers: [ 116, 117, 78, 84, 95 ]
+    },
+    2651: {
+        evolution: 2681,
+        evolvers: [ , , , ,  ]
+    },
+    2683: {
+        evolution: 2684,
+        evolvers: [ 118, 87, 266, 303, 103 ]
+    },
+    2685: {
+        evolution: 2686,
+        evolvers: [ 118, 79, 1180, 301, 267 ]
+    },
+    2689: {
+        evolution: 2690,
+        evolvers: [ 115, 116, 117, 118, 104 ]
+    },
+    2691: {
+        evolution: 2692,
+        evolvers: [ 117, 81, 86, 97, 102 ]
+    },
+    2695: {
+        evolution: 2696,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    2697: {
+        evolution: 2698,
+        evolvers: [ 118, 102, 86, 302, 2662 ]
+    },
+    2699: {
+        evolution: 2700,
+        evolvers: [ 118, 302, 2662, 102, 267 ]
+    },
+    2701: {
+        evolution: 2702,
+        evolvers: [ 94, 2662, 302, 302, 102 ]
+    },
+    2703: {
+        evolution: 2704,
+        evolvers: [ 94, 1180, 98, 303, 103 ]
+    },
+    2705: {
+        evolution: 2706,
+        evolvers: [ 94, 1180, 301, 96, 101 ]
+    },
+    2708: {
+        evolution: 2709,
+        evolvers: [ 118, 102, 86, 302, 2662 ]
+    },
+    2710: {
+        evolution: 2711,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    2713: {
+        evolution: 2714,
+        evolvers: [ 117, 81, 87, 98, 103 ]
+    },
+    2720: {
+        evolution: 2721,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    2722: {
+        evolution: 2723,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    2728: {
+        evolution: 2729,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    2730: {
+        evolution: 2731,
+        evolvers: [ 118, 88, 99, 304, 104 ]
+    },
+    2732: {
+        evolution: 2733,
+        evolvers: [ 118, 93, 94, 304, 104 ]
+    },
+    2737: {
+        evolution: 2738,
+        evolvers: [ 117, 117, 117 ]
+    },
+    2113: {
+        evolution: 2739,
+        evolvers: [ , , , ,  ]
+    },
+    2740: {
+        evolution: 2741,
+        evolvers: [ 118, 304, 2662, 104, 267 ]
+    },
+    2742: {
+        evolution: 2743,
+        evolvers: [ 94, 2662, 303, 98, 103 ]
+    },
+    2744: {
+        evolution: 2745,
+        evolvers: [ 94, 1180, 98, 303, 103 ]
+    },
+    2746: {
+        evolution: 2747,
+        evolvers: [ 94, 1180, 304, 99, 104 ]
+    },
+    2748: {
+        evolution: 2749,
+        evolvers: [ 267, 104, 104, 304, 88 ]
+    },
+    2750: {
+        evolution: 2751,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    2754: {
+        evolution: 2755,
+        evolvers: [ 118, 96, 1180, 301, 101 ]
+    },
+    2757: {
+        evolution: 2758,
+        evolvers: [ 118, 88, 266, 304, 104 ]
+    },
+    2762: {
+        evolution: 2763,
+        evolvers: [ 115, 116, 117, 118, 104 ]
+    },
+    2766: {
+        evolution: 2767,
+        evolvers: [ 97, 97, 2662, 302, 102 ]
+    },
+    2768: {
+        evolution: 2769,
+        evolvers: [ 117, 83, 89, 95, 100 ]
+    },
+    2770: {
+        evolution: 2771,
+        evolvers: [ 117, 83, 93, 99, 104 ]
+    },
+    2773: {
+        evolution: 2774,
+        evolvers: [ 118, 301, 1180, 101, 267 ]
+    },
+    2775: {
+        evolution: 2776,
+        evolvers: [ 118, 301, 2662, 101, 267 ]
+    },
+    2777: {
+        evolution: 2778,
+        evolvers: [ 94, 1180, 96, 301, 101 ]
+    },
+    2779: {
+        evolution: 2780,
+        evolvers: [ 94, 1180, 304, 99, 104 ]
+    },
+    1763: {
+        evolution: 2784,
+        evolvers: [ , , , 1180, 301 ]
+    },
+    2786: {
+        evolution: 2787,
+        evolvers: [ 118, 301, 2662, 101, 267 ]
+    },
+    2788: {
+        evolution: 2789,
+        evolvers: [ 94, 2662, 304, 304, 104 ]
+    },
+    2791: {
+        evolution: 2792,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    2796: {
+        evolution: 2797,
+        evolvers: [ 118, 303, 2662, 103, 267 ]
+    },
+    2801: {
+        evolution: 2802,
+        evolvers: [ 118, 118, 100, 102, 267 ]
+    },
+    2803: {
+        evolution: 2804,
+        evolvers: [ 118, 101, 301, 2662, 267 ]
+    },
+    2805: {
+        evolution: 2806,
+        evolvers: [ 266, 89, 95, 300, 100 ]
+    },
+    2807: {
+        evolution: 2808,
+        evolvers: [ 266, 93, 99, 304, 104 ]
+    },
+    2809: {
+        evolution: 2810,
+        evolvers: [ 266, 91, 97, 302, 102 ]
+    },
+    2811: {
+        evolution: 2812,
+        evolvers: [ 117, 84, 95, 300, 100 ]
+    },
+    1794: {
+        evolution: 2814,
+        evolvers: [ , , 96, 301, 267 ]
+    },
+    2818: {
+        evolution: 2819,
+        evolvers: [ 118, 96, 1180, 83, 104 ]
+    },
+    2824: {
+        evolution: 2825,
+        evolvers: [ 118, 86, 97, 302, 102 ]
+    },
+    2826: {
+        evolution: 2827,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    2828: {
+        evolution: 2829,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    1951: {
+        evolution: 2830,
+        evolvers: [ , , 99, 304, 267 ]
+    },
+    2834: {
+        evolution: 2835,
+        evolvers: [ 118, 118, 104, 102, 267 ]
+    },
+    2836: {
+        evolution: 2837,
+        evolvers: [ 118, 104, 304, 2662, 267 ]
+    },
+    2838: {
+        evolution: 2839,
+        evolvers: [ 266, 91, 97, 302, 102 ]
+    },
+    2840: {
+        evolution: 2841,
+        evolvers: [ 266, 93, 99, 304, 104 ]
+    },
+    2842: {
+        evolution: 2843,
+        evolvers: [ 117, 86, 94, 97, 102 ]
+    },
+    2844: {
+        evolution: 2845,
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    2859: {
+        evolution: 2860,
+        evolvers: [ 118, 100, 95, 300, 267 ]
+    },
+    2861: {
+        evolution: 2862,
+        evolvers: [ 118, 118, 103, 101, 267 ]
+    },
+    2863: {
+        evolution: 2864,
+        evolvers: [ 84, 85, 266, 300, 301 ]
+    },
+    2865: {
+        evolution: 2866,
+        evolvers: [ 96, 97, 1180, 301, 302 ]
+    },
+    649: {
+        evolution: 2868,
+        evolvers: [ , 118, 96, 301, 267 ]
+    },
+    3333: {
+        evolution: 3334,
+        evolvers: [ 118, 86, 266, 302, 267 ]
+    },
+    3339: {
+        evolution: 3340,
         evolvers: [ 118, 84, 300, 100, 266 ]
     },
-    2512: {
-        evolution: 2513,
-        evolvers: [ 118, 96, 1180, 83, 104 ]
+    3347: {
+        evolution: 3348,
+        evolvers: [ 117, 83, 86, 302, 102 ]
+    },
+    3349: {
+        evolution: 3350,
+        evolvers: [ 117, 83, 84, 300, 100 ]
+    },
+    3351: {
+        evolution: 3352,
+        evolvers: [ 118, 86, 266, 302, 102 ]
+    },
+    3353: {
+        evolution: 3354,
+        evolvers: [ 118, 86, 266, 97, 267 ]
+    },
+    3356: {
+        evolution: 3357,
+        evolvers: [ 118, 85, 266, 301, 101 ]
+    },
+    3358: {
+        evolution: 3359,
+        evolvers: [ 118, 84, 266, 300, 100 ]
+    },
+    3360: {
+        evolution: 3361,
+        evolvers: [ 117, 79, 90, 96, 101 ]
+    },
+    3366: {
+        evolution: 3367,
+        evolvers: [ 116, 117, 79, 90, 96 ]
+    },
+    3367: {
+        evolution: [3368, 3368],
+        evolvers: [[ 118, 85, 266, 96, 101 ], [ 18 ]]
+    },
+    3371: {
+        evolution: 3372,
+        evolvers: [ 117, 84, 95, 95, 300 ]
+    },
+    3375: {
+        evolution: 3376,
+        evolvers: [ 118, 88, 266, 304, 104 ]
+    },
+    3377: {
+        evolution: 3378,
+        evolvers: [ 118, 266, 301, 101, 267 ]
+    },
+    2686: {
+        evolution: 3379,
+        evolvers: [ , , , ,  ]
     },
 };
