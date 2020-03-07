@@ -3,4 +3,8 @@ optcdb_bot/public.pem
 optcdb_bot/cert/private.key
 optcdb_bot/cert/private.key
 optcdb_bot/private.key
-optcdb_bot/bots/gem-dev/bin/utils/node_modules/fs-extra/CHANGELOG_2.md
+optcdb_bot/bots/gem-dev/
+optcdb_bot/.bash_history
+optcdb_bot/.bash_logout
+optcdb_bot/.bashrc
+optcdb_bot/.profile
