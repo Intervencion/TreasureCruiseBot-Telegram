@@ -724,7 +724,7 @@ module.exports = {
         },
         
         {
-            name: 'King Neptune\'s Execution Site - Noah\'s Ark',
+            name: 'Execution Platform of the King to Ark of Noah',
             dropID: 'story31',
             shortName: 'Fishman Island 2',
             thumb: 1562,
@@ -749,7 +749,7 @@ module.exports = {
         },
         
         {
-            name: 'Punk Hazard - Burning Lands to Laboratory',
+            name: 'Burning Island to Research Lab Entrance',
             dropID: 'story32',
             shortName: 'Punk Hazard 1',
             thumb: 1637,
@@ -775,7 +775,7 @@ module.exports = {
         },
         
         {
-            name: 'Punk Hazard - Ice Lands to First Floor Room R',
+            name: 'Land of Ice to Lab R-1',
             dropID: 'story33',
             shortName: 'Punk Hazard 2',
             thumb: 1716,
@@ -800,7 +800,7 @@ module.exports = {
         },
         
         {
-            name: 'Dressrosa - Port Town Acacia to Coliseum',
+            name: 'Port Town Acacia to Coliseum',
             dropID: 'story34',
             shortName: 'Dressrosa 1',
             thumb: 1782,
@@ -823,7 +823,7 @@ module.exports = {
         },
         
         {
-            name: 'Dressrosa - Coliseum Lodging to Executive Tower',
+            name: 'Coliseum Lodging to Officer’s Tower',
             dropID: 'story35',
             shortName: 'Dressrosa 2',
             thumb: 2004,
@@ -879,7 +879,7 @@ module.exports = {
             gamewith: 111173,
             '01': [ 2003 ],
             '02': [  ],
-            '03': [  ],
+            '03': [ 1627 ],
             '04': [ 1292 ],
             '05': [ 1400 ],
             '06': [  ],
@@ -939,7 +939,7 @@ module.exports = {
         },
         
         {
-            name: 'Outside of Town - Bege\'s Hideout',
+            name: 'Town Outskirts to Bege\'s Hideout',
             dropID: 'story40',
             shortName: 'Whole Cake 2',
             thumb: 2597,
@@ -957,6 +957,28 @@ module.exports = {
             '08': [ 2596 ],
             '09': [  ],
             '10': [ 2597, 2598, 2599 ],
+        },
+        
+        {
+            name: 'Tea Ceremony Venue to Southwest Coast',
+            dropID: 'story41',
+            shortName: 'Whole Cake 3',
+            thumb: 2597,
+            global: true,
+            nakama: null,
+            completion: '5x Rainbow Gems',
+            gamewith: 210836,
+            '01': [  ],
+            '02': [ 3001 ],
+            '03': [ 3002 ],
+            '04': [ 3002, 2374, 2248 ],
+            '05': [ 3001 ],
+            '06': [ 3001 ],
+            '07': [  ],
+            '08': [  ],
+            '09': [  ],
+            '10': [ 3003 ],
+            '11': [ 3002, 3003 ],
         },
     ], 
 
@@ -1711,7 +1733,7 @@ module.exports = {
             nakama: 2103700,
             gamewith: 29442,
             condition: 'Only [DEX], [RCV] and [TND] orbs appear',
-            'All Dificulties': [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566, -1175 ]
+            'All Difficulties': [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566, -1175 ]
         },
         
         {
@@ -2458,7 +2480,7 @@ module.exports = {
         },
         
         {
-            name: 'Hell\'s Past! Young Doflamingo',
+            name: 'Doflamingo\'s Childhood',
             dropID: 'event121',
             global: true,
             thumb: 2571,
@@ -2519,7 +2541,7 @@ module.exports = {
         
         {
             name: 'Revenge of the Assassins! Galette',
-            dropID: 'event126',
+            dropID: 'event127',
             thumb: 2751,
             nakama: null,
             gamewith: 174577,
@@ -2528,7 +2550,7 @@ module.exports = {
         
         {
             name: 'The Charming Tea House Owner',
-            dropID: 'event127',
+            dropID: 'event128',
             thumb: 2782,
             nakama: null,
             gamewith: 178712,
@@ -2783,7 +2805,7 @@ module.exports = {
             condition: '4 Master versions with different conditions. Slasher/Striker/Free Spirit Only, Slasher Only, Striker Only and Free Spirit Only',
             thumb: 3368,
             global: true,
-            nakama: null,
+            nakama: 4065400,
             gamewith: null,
             Master: [ 3366 ],
         },
@@ -2818,7 +2840,7 @@ module.exports = {
             dropID: 'clashneo14',
             thumb: 3357,
             global: true,
-            nakama: null,
+            nakama: 4335700,
             gamewith: null,
             condition: 'Take 10% current Health in Environmental Damage every 2 turns. Master: Free Spirit/Driven/Cerebral Only',
             Expert: [ 3356 ]
@@ -3342,7 +3364,7 @@ module.exports = {
         },
         
         {
-            name: 'Showdown!! Lucci',
+            name: 'Clash!! Lucci',
             dropID: 'clash48',
             thumb: 2670,
             nakama: 4267000,
@@ -3462,6 +3484,62 @@ module.exports = {
         },
         
         {
+            name: '"Freedom" vs "Strongest"',
+            dropID: 'clash59',
+            thumb: 2883,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2883 ]
+        },
+        
+        {
+            name: 'Clash!! CP9',
+            dropID: 'clash60',
+            thumb: 2885,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2885 ],
+            'Ambush': [ 9036 ]
+        },
+        
+        {
+            name: 'Clash!! Jinbe',
+            dropID: 'clash61',
+            thumb: 2893,
+            nakama: null,
+            gamewith: 193895,
+            'All Difficulties': [ 2893 ]
+        },
+        
+        {
+            name: 'Clash!! Kaido',
+            dropID: 'clash62',
+            thumb: 2922,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2922 ],
+            'Ambush': [ 9037 ]
+        },
+        
+        {
+            name: 'Clash!! Mr. 0',
+            dropID: 'clash63',
+            thumb: 2956,
+            nakama: null,
+            gamewith: 201909,
+            'All Difficulties': [ 2956 ],
+        },
+        
+        {
+            name: 'Clash!! Sobamask',
+            dropID: 'clash64',
+            thumb: 2987,
+            nakama: null,
+            gamewith: 205055,
+            'All Difficulties': [ 2987 ],
+        },
+        
+        {
             name: 'Showdown!! Usopp & Chopper',
             thumb: 3370,
             global: true,
@@ -3470,39 +3548,22 @@ module.exports = {
             Expert: [ 3370 ],
             Ultimate: [ 3370 ],
         },
+        
+        {
+            name: 'Co-op!! Local Sea Monster',
+            thumb: 3382,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            Master: [ 3382 ],
+            Expert: [ 3382 ],
+            Ultimate: [ 3382 ],
+        },
 
     ],
 
             
     'Coliseum': [
-
-        {
-            name: 'Coliseum',
-            thumb: 779,
-            global: true,
-            gamewith: 17473,
-            slefty: 'coliseums',
-            Chaos: [ 832, 834, 859, 925, 952, 984, 1040, 1042, 1086, 1088, 1090, 1195, 1250, 1252, 1293, 1311, 1340, 1488, 1528 ],
-            Neo: [ 1862, 1898, 1975, 2016 ],
-        },
-        
-        {
-            name: 'Coliseum',
-            thumb: 779,
-            global: true,
-            gamewith: 17473,
-            slefty: 'coliseums',
-            Underground: [ 832, 834, 859, 904, 925, 927, 952, 984, 1019, 1195, 1197, 1252, 1293, 1311, 1340, 1424, 1459, 1488, 1528 ],
-        },
-        
-        {
-            name: 'Coliseum',
-            thumb: 779,
-            global: true,
-            gamewith: 17473,
-            slefty: 'coliseums',
-            Exhibition: [ 832, 834, 859, 904, 925, 927, 952, 984, 1019, 1195, 1197, 1252, 1293, 1311, 1340, 1424, 1459, 1488, 1528 ],
-        },
 
         {
             name: 'Red-Hair Pirates Gunner',
@@ -3575,6 +3636,45 @@ module.exports = {
             gamewith: 19419,
             slefty: 'coliseums',
             Chaos: [ 830, -831 ],
+        },
+
+        {
+            name: 'War-Devil\'s Assault',
+            thumb: 833,
+            showManual: true,
+            global: true,
+            nakama: 5083201,
+            gamewith: 19420,
+            slefty: 'coliseums',
+            Chaos: [ 832, -833 ],
+            Underground: [ 832, -833 ],
+            Exebition: [ 832, -833 ],
+        },
+
+        {
+            name: 'Syncronized Sniper Pair',
+            thumb: 834,
+            showManual: true,
+            global: true,
+            nakama: 5083401,
+            gamewith: 19421,
+            slefty: 'coliseums',
+            Chaos: [ 834, -834 ],
+            Underground: [ 834, -834 ],
+            Exebition: [ 834, -834 ],
+        },
+
+        {
+            name: 'Young Officer\'s Challenge',
+            thumb: 860,
+            showManual: true,
+            global: true,
+            nakama: 5085901,
+            gamewith: 20491,
+            slefty: 'coliseums',
+            Chaos: [ 859, -860 ],
+            Underground: [ 859, -860 ],
+            Exebition: [ 859, -860 ],
         },
 
         {
@@ -3662,6 +3762,31 @@ module.exports = {
         },
 
         {
+            name: 'Security Chief\'s Punishment',
+            thumb: 926,
+            showManual: true,
+            global: true,
+            nakama: 5092501,
+            gamewith: 24039,
+            slefty: 'coliseums',
+            Chaos: [ 925, -926 ],
+            Underground: [ 925, -926 ],
+            Exebition: [ 925, -926 ],
+        },
+
+        {
+            name: 'Wounded Vice Admiral',
+            thumb: 927,
+            showManual: true,
+            global: true,
+            nakama: 5092701,
+            gamewith: 24040,
+            slefty: 'coliseums',
+            Underground: [ 927, -927 ],
+            Exebition: [ 927, -927 ],
+        },
+
+        {
             name: 'Fire Fist Blaze',
             thumb: 951,
             showManual: true,
@@ -3673,6 +3798,19 @@ module.exports = {
         },
 
         {
+            name: 'Red-Hair Pirates Go-To Guy',
+            thumb: 953,
+            showManual: true,
+            global: true,
+            nakama: 5095201,
+            gamewith: 25143,
+            slefty: 'coliseums',
+            Chaos: [ 952, -953 ],
+            Underground: [ 952, -953 ],
+            Exebition: [ 952, -953 ],
+        },
+
+        {
             name: 'Flower Sword\'s Master Move',
             thumb: 983,
             showManual: true,
@@ -3681,6 +3819,19 @@ module.exports = {
             gamewith: 26492,
             slefty: 'coliseums',
             Chaos: [ 982, -983 ],
+        },
+
+        {
+            name: 'Artisan\'s Rope Action',
+            thumb: 984,
+            showManual: true,
+            global: true,
+            nakama: 5098401,
+            gamewith: 26493,
+            slefty: 'coliseums',
+            Chaos: [ 984, -984 ],
+            Underground: [ 984, -984 ],
+            Exebition: [ 984, -984 ],
         },
 
         {
@@ -3707,6 +3858,51 @@ module.exports = {
             Exebition: [ 1017, -1018 ],
         },
 
+        {
+            name: 'Artisan\'s Dandyism',
+            thumb: 1019,
+            showManual: true,
+            global: true,
+            nakama: 5101901,
+            gamewith: 27623,
+            slefty: 'coliseums',
+            Underground: [ 1019, -1019 ],
+            Exebition: [ 1019, -1019 ],
+        },
+
+        {
+            name: 'Diamond Giant',
+            thumb: 1041,
+            showManual: true,
+            global: true,
+            nakama: 5104001,
+            gamewith: 29616,
+            slefty: 'coliseums',
+            Chaos: [ 1040, -1041 ],
+        },
+
+        {
+            name: 'Massacre Mask',
+            thumb: 1043,
+            showManual: true,
+            global: true,
+            nakama: 5104201,
+            gamewith: 29617,
+            slefty: 'coliseums',
+            Chaos: [ 1042, -1043 ],
+        },
+
+        {
+            name: 'Coliseum Neo Vs. Killer',
+            thumb: 1899,
+            showManual: true,
+            global: true,
+            nakama: 5189801,
+            gamewith: 84586,
+            slefty: 'coliseums',
+            Chaos: [ 1898, -1899 ],
+        },
+
 
         {
             name: 'Exiled Spore Man',
@@ -3717,6 +3913,39 @@ module.exports = {
             gamewith: 30801,
             slefty: 'coliseums',
             Chaos: [ 1086, -1087 ],
+        },
+
+        {
+            name: 'Shichiseiken-Smitten Swordsman',
+            thumb: 1089,
+            showManual: true,
+            global: true,
+            nakama: 5108801,
+            gamewith: 30800,
+            slefty: 'coliseums',
+            Chaos: [ 1088, -1089 ],
+        },
+
+        {
+            name: 'Red Flag of Resistance',
+            thumb: 1091,
+            showManual: true,
+            global: true,
+            nakama: 5109001,
+            gamewith: 30799,
+            slefty: 'coliseums',
+            Chaos: [ 1090, -1091 ],
+        },
+
+        {
+            name: 'Coliseum Neo Vs. X Drake',
+            thumb: 1976,
+            showManual: true,
+            global: true,
+            nakama: 5197501,
+            gamewith: 92469,
+            slefty: 'coliseums',
+            Chaos: [ 1975, -1976 ],
         },
 
         {
@@ -3814,6 +4043,31 @@ module.exports = {
         },
 
         {
+            name: 'Knight and Kami Anew',
+            thumb: 1196,
+            showManual: true,
+            global: true,
+            nakama: 5119501,
+            gamewith: 35523,
+            slefty: 'coliseums',
+            Chaos: [ 1195, -1196 ],
+            Underground: [ 1195, -1196 ],
+            Exebition: [ 1195, -1196 ],
+        },
+
+        {
+            name: 'Salvation-Slinging Priest',
+            thumb: 1197,
+            showManual: true,
+            global: true,
+            nakama: 5119701,
+            gamewith: 35524,
+            slefty: 'coliseums',
+            Underground: [ 1197, -1197 ],
+            Exebition: [ 1197, -1197 ],
+        },
+
+        {
             name: 'Gentle Devil-Blood Warrior',
             thumb: 1222,
             showManual: true,
@@ -3824,6 +4078,30 @@ module.exports = {
             Chaos: [ 1221, -1222 ],
             Underground: [ 1221, -1222 ],
             Exebition: [ 1221, -1222 ],
+        },
+
+        {
+            name: 'Immortal Blue Flame',
+            thumb: 1251,
+            showManual: true,
+            global: true,
+            nakama: 5125001,
+            gamewith: 38056,
+            slefty: 'coliseums',
+            Chaos: [ 1250, -1251 ],
+        },
+
+        {
+            name: 'Reverse Two Sword Style',
+            thumb: 1252,
+            showManual: true,
+            global: true,
+            nakama: 5125201,
+            gamewith: 38055,
+            slefty: 'coliseums',
+            Chaos: [ 1252, -1252 ],
+            Underground: [ 1252, -1252 ],
+            Exebition: [ 1252, -1252 ],
         },
 
         {
@@ -3850,6 +4128,19 @@ module.exports = {
         },
 
         {
+            name: 'Second Gorgon Sister',
+            thumb: 1294,
+            showManual: true,
+            global: true,
+            nakama: 5129301,
+            gamewith: 39533,
+            slefty: 'coliseums',
+            Chaos: [ 1293, -1294 ],
+            Underground: [ 1293, -1294 ],
+            Exebition: [ 1293, -1294 ],
+        },
+
+        {
             name: 'Foxfire-Style Samurai',
             thumb: 1310,
             showManual: true,
@@ -3858,6 +4149,30 @@ module.exports = {
             gamewith: 43749,
             slefty: 'coliseums',
             Chaos: [ 1309, -1310 ],
+        },
+
+        {
+            name: 'Coliseum Neo Vs. Kinemon',
+            thumb: 1863,
+            showManual: true,
+            global: true,
+            nakama: 5186201,
+            gamewith: 80292,
+            slefty: 'coliseums',
+            Chaos: [ 1862, -1863 ],
+        },
+
+        {
+            name: 'Third Gorgon Sister',
+            thumb: 1312,
+            showManual: true,
+            global: true,
+            nakama: 5131101,
+            gamewith: 43750,
+            slefty: 'coliseums',
+            Chaos: [ 1311, -1312 ],
+            Underground: [ 1311, -1312 ],
+            Exebition: [ 1311, -1312 ],
         },
 
         {
@@ -3882,6 +4197,19 @@ module.exports = {
             Chaos: [ 1339, -1339 ],
             Underground: [ 1339, -1339 ],
             Exebition: [ 1339, -1339 ],
+        },
+
+        {
+            name: 'Forgetful Sky Boss',
+            thumb: 1341,
+            showManual: true,
+            global: true,
+            nakama: 5134001,
+            gamewith: 44767,
+            slefty: 'coliseums',
+            Chaos: [ 1340, -1341 ],
+            Underground: [ 1340, -1341 ],
+            Exebition: [ 1340, -1341 ],
         },
 
         {
@@ -3967,6 +4295,18 @@ module.exports = {
         },
 
         {
+            name: 'Battle Commander of the Krieg Fleet',
+            thumb: 1424,
+            showManual: true,
+            global: true,
+            nakama: 5142401,
+            gamewith: 48805,
+            slefty: 'coliseums',
+            Underground: [ 1424, -1424 ],
+            Exebition: [ 1424, -1424 ],
+        },
+
+        {
             name: '12th Leader of the Happosui Army',
             thumb: 1456,
             showManual: true,
@@ -3991,6 +4331,18 @@ module.exports = {
         },
 
         {
+            name: 'Love is 1-10,000kg',
+            thumb: 1459,
+            showManual: true,
+            global: true,
+            nakama: 5145901,
+            gamewith: 50807,
+            slefty: 'coliseums',
+            Underground: [ 1459, -1459 ],
+            Exebition: [ 1459, -1459 ],
+        },
+
+        {
             name: 'Lonely XXX-Weight Boxer',
             thumb: 1487,
             showManual: true,
@@ -3999,6 +4351,19 @@ module.exports = {
             gamewith: 52185,
             slefty: 'coliseums',
             Chaos: [ 1486, -1487 ],
+        },
+
+        {
+            name: 'Don of the East Blue',
+            thumb: 1489,
+            showManual: true,
+            global: true,
+            nakama: 5148801,
+            gamewith: 52211,
+            slefty: 'coliseums',
+            Chaos: [ 1488, -1489 ],
+            Underground: [ 1488, -1489 ],
+            Exebition: [ 1488, -1489 ],
         },
 
         {
@@ -4421,6 +4786,7 @@ module.exports = {
             name: 'Those Who Pull the Strings Behind Dresssrosa',
             thumb: 2550,
             showManual: true,
+            global: true,
             nakama: 5254901,
             gamewith: 150550,
             slefty: 'coliseums',
@@ -4431,6 +4797,7 @@ module.exports = {
             name: 'Ewww! Leave Me Alone, Boys!!',
             thumb: 2569,
             showManual: true,
+            global: true,
             nakama: 5256801,
             gamewith: 152008,
             slefty: 'coliseums',
@@ -4442,6 +4809,7 @@ module.exports = {
             name: 'Invincible Ship Guardsman',
             thumb: 2611,
             showManual: true,
+            global: true,
             nakama: null,
             gamewith: 156226,
             slefty: 'coliseums',
@@ -4453,6 +4821,7 @@ module.exports = {
             name: 'Surgeon of Death\'s Operation',
             thumb: 2649,
             showManual: true,
+            global: true,
             nakama: null,
             gamewith: 160900,
             slefty: 'coliseums',
@@ -4460,9 +4829,10 @@ module.exports = {
         },
 
         {
-            name: 'Hody Jones',
+            name: 'Monster Made from Hatred',
             thumb: 2721,
             showManual: true,
+            global: true,
             nakama: null,
             gamewith: 170522,
             slefty: 'coliseums',
@@ -4470,9 +4840,10 @@ module.exports = {
         },
 
         {
-            name: 'Devil Oars',
+            name: 'Legend of the Continent Puller: The Beast',
             thumb: 2755,
             showManual: true,
+            global: true,
             nakama: null,
             gamewith: 174652,
             slefty: 'coliseums',
@@ -4480,7 +4851,7 @@ module.exports = {
         },
 
         {
-            name: 'Kyoshiro',
+            name: 'Samurai\'s Mercy Towards the Guilty',
             thumb: 2785,
             showManual: true,
             nakama: null,
@@ -4490,7 +4861,7 @@ module.exports = {
         },
 
         {
-            name: 'Shutenmaru',
+            name: 'Chief, Atamayama Thieves Brigade',
             thumb: 2813,
             showManual: true,
             nakama: null,
@@ -4500,13 +4871,73 @@ module.exports = {
         },
 
         {
-            name: 'Sangoro',
+            name: 'Famous Soba Cart Cook in the Flower Capital',
             thumb: 2845,
             showManual: true,
             nakama: null,
             gamewith: 185012,
             slefty: 'coliseums',
             Chaos: [ 2844, -2845 ],
+        },
+
+        {
+            name: 'Komurasaki',
+            thumb: 2869,
+            showManual: true,
+            nakama: null,
+            gamewith: null,
+            slefty: 'coliseums',
+            Chaos: [ 2869, -2869 ],
+        },
+
+        {
+            name: 'Inuarashi',
+            thumb: 2908,
+            showManual: true,
+            nakama: null,
+            gamewith: 194224,
+            slefty: 'coliseums',
+            Chaos: [ 2908, -2908 ],
+        },
+
+        {
+            name: 'Kizaru',
+            thumb: 2953,
+            showManual: true,
+            nakama: null,
+            gamewith: 199860,
+            slefty: 'coliseums',
+            Chaos: [ 2953, -2953 ],
+        },
+
+        {
+            name: 'King',
+            thumb: 2990,
+            showManual: true,
+            nakama: null,
+            gamewith: null,
+            slefty: 'coliseums',
+            Chaos: [ 2990, -2990 ],
+        },
+
+        {
+            name: 'Gyukimaru',
+            thumb: 3017,
+            showManual: true,
+            nakama: null,
+            gamewith: null,
+            slefty: 'coliseums',
+            Chaos: [ 3017, -3017 ],
+        },
+
+        {
+            name: 'Orochi',
+            thumb: 3049,
+            showManual: true,
+            nakama: null,
+            gamewith: null,
+            slefty: 'coliseums',
+            Chaos: [ 3049, -3049 ],
         },
 
         {
@@ -4777,7 +5208,7 @@ module.exports = {
             thumb: 2729,
             nakama: null,
             gamewith: 171580,
-            'Raging Sea': [ 2728 ]
+            'Coast of Wano': [ 2728 ]
         },
 
         {
@@ -4813,7 +5244,61 @@ module.exports = {
             thumb: 2850,
             nakama: null,
             gamewith: 186492,
-            'Raging Sea': [ 2850 ]
+            'Sea of Celebration': [ 2850 ]
+        },
+
+        {
+            name: 'Vivi',
+            dropID: 'treasuremap31',
+            thumb: 2879,
+            nakama: null,
+            gamewith: 189792,
+            'Primordial Sea': [ 2879, 2880 ]
+        },
+
+        {
+            name: 'Shirahoshi',
+            dropID: 'treasuremap32',
+            thumb: 2913,
+            nakama: null,
+            gamewith: 194893,
+            'Calm Sea': [ 2913 ]
+        },
+
+        {
+            name: '6th Anniversary Luffy',
+            dropID: 'treasuremap33',
+            thumb: 2977,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 2977 ]
+        },
+
+        {
+            name: 'Zorojuro',
+            dropID: 'treasuremap34',
+            thumb: 2995,
+            nakama: null,
+            gamewith: 207706,
+            'Coast of Wano': [ 2995 ]
+        },
+
+        {
+            name: 'Vinsmoke Reiju',
+            dropID: 'treasuremap35',
+            thumb: 3022,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 3022 ]
+        },
+
+        {
+            name: 'Nami & Sanji',
+            dropID: 'treasuremap36',
+            thumb: 3060,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 3060 ]
         },
         
     ],
@@ -4898,6 +5383,17 @@ module.exports = {
             'All Difficulties': [ 2380, 9010, 9011, 9012, 9013, 9014 ]
         },
         
+        {
+            name: 'Ambush!? Condoriano',
+            //dropID: 'ambush',
+            thumb: 3380,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            condition: 'Has a chance of appearing at the end of something. You MUST use the same team that you just used to complete the Raid boss to fight Condoriano.',
+            'All Difficulties': [ 3380 ]
+        },
+        
     ],
 
             
@@ -4915,7 +5411,7 @@ module.exports = {
             'Round 2': [ 2615 ],
             'Round 3': [ 2629 ],
             'Round 5': [ 2682 ],
-            'Round 6': [ 2733 ],
+            'Round 6': [ 2732 ],
         },
         
         {
@@ -4953,6 +5449,101 @@ module.exports = {
             gamewith: 148537,
             'All Difficulties': [ 2831 ],
             'Round 2': [ 2854 ],
+        },
+        
+        {
+            name: 'Moria',
+            dropID: 'bond7',
+            thumb: 2890,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2890, 2891 ],
+        },
+        
+        {
+            name: 'Big Mom',
+            dropID: 'bond8',
+            thumb: 2920,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2920 ],
+        },
+        
+        {
+            name: 'Carrot',
+            dropID: 'bond9',
+            thumb: 2955,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2955 ],
+        },
+        
+        {
+            name: 'Luffy & Hancock',
+            dropID: 'bond10',
+            thumb: 2999,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2999 ],
+        },
+        
+        {
+            name: 'Kaido',
+            dropID: 'bond11',
+            thumb: 3036,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 3036 ],
+        },
+        
+        {
+            name: 'Buggy',
+            dropID: 'bond12',
+            thumb: 3052,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 3052 ],
+        },
+        
+    ],
+
+            
+    'Pirate Festival': [
+        
+        {
+            name: 'Round One',
+            dropID: 'piratefestival1',
+            thumb: 2934,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2934 ],
+        },
+        
+        {
+            name: 'Round Two',
+            dropID: 'piratefestival2',
+            thumb: 2989,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2989 ],
+        },
+        
+        {
+            name: 'Round Three',
+            dropID: 'piratefestival3',
+            thumb: 3016,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 3016 ],
+        },
+        
+        {
+            name: 'Round Four',
+            dropID: 'piratefestival4',
+            thumb: 3047,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 3047 ],
         },
         
     ],
@@ -4998,7 +5589,9 @@ module.exports = {
             'Part 2': [ 659, 1200, 1198 ],
             'Part 3': [ 1708, 1710 ],
             'Part 4': [ 2214, 2216 ],
+            'Part 5': [ 3045, 3046 ],
             'Challenge Unit': [ 686 ],
+            'Chopperman Missions': [ 3050 ],
         },
         
         {
@@ -5054,7 +5647,9 @@ module.exports = {
             nakama: null,
             gamewith: [ 183973, 186699 ],
             'Round 1': [ 2833 ],
-            'Round 2': [ 2852 ]
+            'Round 2': [ 2852 ],
+            'Round 3': [ 2921 ],
+            'Round 4': [ 3053 ],
         },
 
         {
@@ -5063,6 +5658,15 @@ module.exports = {
             global: true,
             nakama: 6138700,
             'All Difficulties': [ 2, 5, 9, 13, 17, 21, 708, 629, 895 ],
+        },
+
+        {
+            name: 'Straw Hat Pirates Adventure',
+            thumb: 2936,
+            global: true,
+            nakama: 6138700,
+            'All Difficulties': [ 2937, 2943, 2947, 2951 ],
+            'Chopperman Missions': [ 2935, 2939, 2941, 2945, 2949 ],
         },
         
         {
@@ -5095,7 +5699,7 @@ module.exports = {
             name: 'Memories of Marineford',
             thumb: 1985,
             global: true,
-            nakama: null,
+            nakama: 6198500,
             gamewith: 100030,
             condition: 'Available for 30 minutes after starting, drops +10 Cotton Candy.',
         },
@@ -5104,7 +5708,7 @@ module.exports = {
             name: 'Beginner Adventure: Whole Cake Island Special Edition',
             thumb: 2532,
             global: true,
-            nakama: null,
+            nakama: 6253200,
             gamewith: 149693,
             'All Difficulties': [ 2532 ]
         },
@@ -5207,6 +5811,14 @@ module.exports = {
             gamewith: 158510,
             'Chopperman Missions': [ 2627 ],
         },
+
+        {
+            name: 'Blitz Battle: Four Emperors',
+            thumb: 2734,
+            global: true,
+            nakama: null,
+            gamewith: 173429,
+        },
         
         {
             name: 'World Clash!',
@@ -5219,8 +5831,9 @@ module.exports = {
         },
         
         {
-            name: 'Outpost Battle! Four Emperors on the Move!',
+            name: 'Emperor in Action',
             thumb: 2738,
+            global: true,
             gamewith: 173400,
             'All Difficulties': [ 2737 ],
         },
@@ -5417,7 +6030,7 @@ module.exports = {
         },
         
         {
-            name: 'Higuma - The Bandit Who Rowed Out to Sea',
+            name: 'Higuma - Mountain Bandit at Sea',
             thumb: 2259,
             global: true,
             nakama: 6225900,
@@ -5478,12 +6091,22 @@ module.exports = {
         
         {
             name: 'The Great Pirate\'s Legacy',
-            thumb: 3379,
+            thumb: 2909,
             global: true,
             nakama: null,
             gamewith: null,
             showManual: true,
-            'All Difficulties': [ 9035, -261, -1413, -2686, -3379 ],
+            'All Difficulties': [ 9035, -261, -1413, -2686, -2909 ],
+        },
+        
+        {
+            name: 'Perfect Superhuman',
+            thumb: 2739,
+            global: true,
+            nakama: null,
+            gamewith: 173943,
+            showManual: true,
+            'All Difficulties': [ 9034, -2739, -2113, -2471 ],
         },
         
         {
@@ -5497,10 +6120,22 @@ module.exports = {
         },
         
         {
+            name: 'Proof of "The World\'s Strongest"',
+            thumb: 2674,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            condition: 'Certain Stampede units have boosted stats',
+            challenge: 'Damage in one turn',
+            challengeData: [['15,000,000','3x Rainbow Gems'],['30,000,000','10x Rainbow Gems'],['55,000,000','6x Buena Festa']],
+            'Challenge Unit': [ 2884 ],
+        },
+        
+        {
             name: 'Black Blade Training',
             thumb: 2475,
             global: true,
-            nakama: null,
+            nakama: 6247500,
             gamewith: 147515,
             condition: 'Certain units stats boosted by 1.25x and 8 turns special cooldown reduction. Challenge Difficulty: Total Crew Cost must be 180 Cost or less.\nChance to drop the 「Old Sword, Swordsman\'s Loot」, 「Baboon Sword, Swordsman\'s Loot」, and 「Muggy Kingdom Sword, Swordsman\'s Loot」.',
             'Chopperman Missions': [ 2499 ],
@@ -5509,7 +6144,8 @@ module.exports = {
         {
             name: 'Breakthrough the Marine Seige',
             thumb: 2668,
-            nakama: null,
+            global: true,
+            nakama: 626680,
             gamewith: 162504,
             condition: 'Certain units stats boosted by 1.5x and 5 turns special cooldown reduction. Some units will increase drop chance of items.\nChance to drop the 「Simple Pistol, Swordsman\'s Loot」, 「Heavy Pistol, Swordsman\'s Loot」, and 「Luxorious Pistol, Marine\'s Loot」.',
             'Chopperman Missions': [ 2667 ],
@@ -5561,6 +6197,14 @@ module.exports = {
         },
         
         {
+            name: 'Overwhelming Smile - Delightful Soba',
+            thumb: 2988,
+            nakama: null,
+            gamewith: 205053,
+            'All Difficulties': [ 2988, -2988 ],
+        },
+        
+        {
             name: 'Anniversary Party',
             thumb: 2843,
             nakama: null,
@@ -5572,7 +6216,8 @@ module.exports = {
         {
             name: 'World Journey Mission',
             thumb: 2825,
-            nakama: null,
+            global: true,
+            nakama: 6282500,
             condition: 'Mihawk: Slasher or Cerebral only. Hancock: Shooter or Free Spirit only. Crocodile: Striker or Driven only',
             gamewith: 183779,
         },
@@ -5582,6 +6227,44 @@ module.exports = {
             thumb: 2857,
             gamewith: 187864,
             'Chopperman Missions': [ 2855 ],
+        },
+        
+        {
+            name: 'The Truth of the Mera Mera - Competition Semifinal Battle',
+            thumb: 2915,
+            nakama: null,
+            gamewith: null,
+            condition: 'Limit Break material for Rebecca and Jesus Burgess will be available',
+            'Competition Semifinal Battle': [ 2915 ],
+            'Competition 2nd Round': [ 2917 ],
+            'Competition VS Diamante': [ 2918 ],
+            'Chopperman Missions': [ 2916 ],
+        },
+        
+        {
+            name: 'Treasure Hunt!',
+            thumb: 2957,
+            nakama: null,
+            gamewith: null,
+            condition: 'Drops portions of a Log Pose map and a Treasure Key map to fullfil community rewards.',
+            'Chopperman Missions': [ 2975, 2976 ],
+        },
+        
+        {
+            name: 'Warlords at Thriller Bark!',
+            thumb: 3004,
+            nakama: null,
+            gamewith: null,
+            'vs Kuma': [ 3004 ],
+            'vs Moria': [ 3005 ],
+        },
+        
+        {
+            name: 'Gather! Strawhat Pirates',
+            thumb: 3033,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 3032, 3033, 3034, 3035 ],
         },
         
         {
@@ -5773,6 +6456,24 @@ module.exports = {
             nakama: 7223400,
             gamewith: 118924,
             completion: 'Ship: Queen Mama Chanter',
+        },
+        
+        {
+            name: 'Forest of Training: Straw',
+            thumb: 2729,
+            global: true,
+            nakama: null,
+            gamewith: 184394,
+            completion: 'Ship: Grudge Dolph',
+        },
+        
+        {
+            name: 'Forest of Training: Magnetic Field',
+            thumb: 2980,
+            global: true,
+            nakama: null,
+            gamewith: 207708,
+            completion: 'Ship: Victoria Punk',
         },
 
    ]

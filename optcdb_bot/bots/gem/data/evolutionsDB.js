@@ -2113,15 +2113,15 @@ module.exports = {
     },
     4: {
         evolution: 1387,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullLuffy', 267 ]
     },
     8: {
         evolution: 1388,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullZoro', 267 ]
     },
     12: {
         evolution: 1389,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullNami', 267 ]
     },
     1390: {
         evolution: 1391,
@@ -2165,7 +2165,7 @@ module.exports = {
     },
     261: {
         evolution: 1413,
-        evolvers: [ , 118, 84, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     1415: {
         evolution: 1416,
@@ -2217,19 +2217,19 @@ module.exports = {
     },
     416: {
         evolution: 1445,
-        evolvers: [ , 118, 85, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
     },
     16: {
         evolution: 1446,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullUsopp', 267 ]
     },
     20: {
         evolution: 1447,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullSanji', 267 ]
     },
     22: {
         evolution: 1448,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullChopper', 267 ]
     },
     1449: {
         evolution: 1450,
@@ -2313,7 +2313,7 @@ module.exports = {
     },
     669: {
         evolution: 1492,
-        evolvers: [ , 118, 87, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
     },
     1505: {
         evolution: [ 1506, 1562 ],
@@ -2377,7 +2377,7 @@ module.exports = {
     },
     1532: {
         evolution: 1543,
-        evolvers: [ , 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     1544: {
         evolution: 1545,
@@ -2389,15 +2389,15 @@ module.exports = {
     },
     709: {
         evolution: 1549,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullRobin', 267 ]
     },
     739: {
         evolution: 1550,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullFranky', 267 ]
     },
     896: {
         evolution: 1551,
-        evolvers: [ , 267 ]
+        evolvers: [ 'skullBrook', 267 ]
     },
     1552: {
         evolution: 1553,
@@ -2453,7 +2453,7 @@ module.exports = {
     },
     1404: {
         evolution: 1593,
-        evolvers: [ , , 98, 303, 267 ]
+        evolvers: [ 'skullQCK', 'skullPSY', 98, 303, 267 ]
     },
     1587: {
         evolution: 1588,
@@ -2505,7 +2505,7 @@ module.exports = {
     },
     367: {
         evolution: 1619,
-        evolvers: [ , 118, 304, 99, 267 ]
+        evolvers: [ 'skullINT', 118, 304, 99, 267 ]
     },
     1620: {
         evolution: 1621,
@@ -2565,7 +2565,7 @@ module.exports = {
     },
     748: {
         evolution: 1663,
-        evolvers: [ , 118, 95, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 95, 300, 267 ]
     },
     1664: {
         evolution: 1665,
@@ -2645,7 +2645,7 @@ module.exports = {
     },
     530: {
         evolution: 1707,
-        evolvers: [ , 118, 98, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 98, 303, 267 ]
     },
     1708: {
         evolution: 1709,
@@ -2749,7 +2749,7 @@ module.exports = {
     },
     1192: {
         evolution: 1764,
-        evolvers: [ , 118, 85, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
     },
     1765: {
         evolution: 1766,
@@ -2829,7 +2829,7 @@ module.exports = {
     },
     562: {
         evolution: 1816,
-        evolvers: [ , 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     1817: {
         evolution: 1818,
@@ -2889,7 +2889,7 @@ module.exports = {
     },
     459: {
         evolution: 1847,
-        evolvers: [ , 118, 88, 304, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ],
     },
     1848: {
         evolution: 1849,
@@ -2957,11 +2957,11 @@ module.exports = {
     },
     1434: {
         evolution: 1880,
-        evolvers: [ , 118, 88, 303, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
     },
     718: {
         evolution: 1881,
-        evolvers: [ , 118, 88, 303, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
     },
     1882: {
         evolution: 1883,
@@ -3041,11 +3041,11 @@ module.exports = {
     },
     1362: {
         evolution: 1921,
-        evolvers: [ , 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     1751: {
         evolution: 1922,
-        evolvers: [ , , 96, 301, 267 ]
+        evolvers: [ 'skullQCK', 'skullQCK', 96, 301, 267 ]
     },
     1923: {
         evolution: 1924,
@@ -3057,11 +3057,11 @@ module.exports = {
     },
     720: {
         evolution: 1927,
-        evolvers: [ , 118, 84, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     1035: {
         evolution: 1928,
-        evolvers: [ , 118, 85, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
     },
     1929: {
         evolution: 1930,
@@ -3201,7 +3201,7 @@ module.exports = {
     },
     1045: {
         evolution: 2001,
-        evolvers: [ , 118, 87, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
     },
     2003: {
         evolution: 2004,
@@ -3265,11 +3265,11 @@ module.exports = {
     },
     1240: {
         evolution: 2034,
-        evolvers: [ , 118, 87, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
     },
     1391: {
         evolution: 2035,
-        evolvers: [ , 118, 88, 304, 267 ]
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
     },
     2036: {
         evolution: 2037,
@@ -3313,7 +3313,7 @@ module.exports = {
     },
     935: {
         evolution: 2066,
-        evolvers: [ , 118, 88, 304, 267 ]
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
     },
     2067: {
         evolution: 2068,
@@ -3413,7 +3413,7 @@ module.exports = {
     },
     2004: {
         evolution: 2126,
-        evolvers: [ , 89, 95, 95, 300 ]
+        evolvers: [ 'skullDoffy', 89, 95, 95, 300 ]
     },
     2131: {
         evolution: 2132,
@@ -3429,23 +3429,23 @@ module.exports = {
     },
     1832: {
         evolution: 2138,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge' ]
     },
     1834: {
         evolution: 2139,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju' ]
     },
     1836: {
         evolution: 2140,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji' ]
     },
     1838: {
         evolution: 2141,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji' ]
     },
     1840: {
         evolution: 2142,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji' ]
     },
     2143: {
         evolution: 2144,
@@ -3481,7 +3481,7 @@ module.exports = {
     },
     1698: {
         evolution: 2159,
-        evolvers: [ , 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     2160: {
         evolution: 2161,
@@ -3549,7 +3549,7 @@ module.exports = {
     },
     1001: {
         evolution: 2195,
-        evolvers: [ , 118, 86, 302, 267 ]
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
     },
     2196: {
         evolution: 2197,
@@ -3601,7 +3601,7 @@ module.exports = {
     },
     1610: {
         evolution: 2232,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullEnel', 'skullEnel', 'skullEnel', 'skullEnel', 'skullEnel' ]
     },
     2233: {
         evolution: 2234,
@@ -3629,7 +3629,7 @@ module.exports = {
     },
     1588: {
         evolution: 2245,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullSanji2', 'skullSanji2', 'skullSanji2', 'skullSanji2', 'skullSanji2' ]
     },
     2246: {
         evolution: 2247,
@@ -3649,7 +3649,7 @@ module.exports = {
     },
     2258: {
         evolution: 2259,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullHiguma', 'skullHiguma', 'skullHiguma', 'skullHiguma', 'skullHiguma' ]
     },
     2260: {
         evolution: 2261,
@@ -3725,7 +3725,7 @@ module.exports = {
     },
     1935: {
         evolution: 2300,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullFrankie', 'skullFrankie', 'skullFrankie', 'skullFrankie', 'skullFrankie' ]
     },
     2301: {
         evolution: 2302,
@@ -3813,7 +3813,7 @@ module.exports = {
     },
     1123: {
         evolution: 2357,
-        evolvers: [ , , , , ,]
+        evolvers: [ 'skullCavendish', 'skullCavendish', 'skullCavendish', 'skullCavendish', 'skullCavendish',]
     },
     2361: {
         evolution: 2362,
@@ -3821,7 +3821,7 @@ module.exports = {
     },
     2074: {
         evolution: 2363,
-        evolvers: [ , , 95, 300, 267 ]
+        evolvers: [ 'skullQCK', 'skullSTR', 95, 300, 267 ]
     },
     2364: {
         evolution: 2365,
@@ -3841,11 +3841,11 @@ module.exports = {
     },
     1571: {
         evolution: 2372,
-        evolvers: [ , 118, 84, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     1652: {
         evolution: 2373,
-        evolvers: [ , 118, 87, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
     },
     2374: {
         evolution: 2375,
@@ -3945,7 +3945,7 @@ module.exports = {
     },
     1747: {
         evolution: 2434,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullHancock', 'skullHancock', 'skullHancock', 'skullHancock', 'skullHancock' ]
     },
     2551: {
         evolution: 2552,
@@ -3961,7 +3961,7 @@ module.exports = {
     },
     870: {
         evolution: 2444,
-        evolvers: [ , , , , , ]
+        evolvers: [ 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', ]
     },
     2445: {
         evolution: 2446,
@@ -3969,19 +3969,19 @@ module.exports = {
     },
     2447: {
         evolution: 2448,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullIchiji2', 'skullIchiji2', 'skullIchiji2', 'skullIchiji2', 'skullIchiji2' ]
     },
     2449: {
         evolution: 2450,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullNiji2', 'skullNiji2', 'skullNiji2', 'skullNiji2', 'skullNiji2' ]
     },
     2451: {
         evolution: 2452,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullYonji2', 'skullYonji2', 'skullYonji2', 'skullYonji2', 'skullYonji2' ]
     },
     2453: {
         evolution: 2454,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullReiju2', 'skullReiju2', 'skullReiju2', 'skullReiju2', 'skullReiju2' ]
     },
     2456: {
         evolution: 2457,
@@ -4057,7 +4057,7 @@ module.exports = {
     },
     2234: {
         evolution: 2500,
-        evolvers: [ , 118, 84, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     2503: {
         evolution: 2504,
@@ -4065,7 +4065,7 @@ module.exports = {
     },
     1869: {
         evolution: 2505,
-        evolvers: [ , 118, 88, 304, 267 ],
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ],
     },
     2509: {
         evolution: 2510,
@@ -4161,7 +4161,7 @@ module.exports = {
     },
     1314: {
         evolution: 2578,
-        evolvers: [ , 118, 95, 300, 267 ]
+        evolvers: [ 'skullSTR', 118, 95, 300, 267 ]
     },
     2582: {
         evolution: 2583,
@@ -4177,11 +4177,11 @@ module.exports = {
     },
     2076: {
         evolution: 2588,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullNami2', 'skullNami2', 'skullNami2', 'skullNami2', 'skullNami2' ]
     },
     2229: {
         evolution: 2597,
-        evolvers: [ , 83, 88, 99, 104 ]
+        evolvers: [ 'skullINT', 83, 88, 99, 104 ]
     },
     2600: {
         evolution: 2601,
@@ -4241,7 +4241,7 @@ module.exports = {
     },
     1473: {
         evolution: 2631,
-        evolvers: [ , 118, 98, 303, 267 ]
+        evolvers: [ 'skullPSY', 118, 98, 303, 267 ]
     },
     2648: {
         evolution: 2649,
@@ -4301,7 +4301,7 @@ module.exports = {
     },
     2651: {
         evolution: 2681,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullBullet', 'skullBullet', 'skullBullet', 'skullBullet', 'skullBullet' ]
     },
     2683: {
         evolution: 2684,
@@ -4381,7 +4381,7 @@ module.exports = {
     },
     2113: {
         evolution: 2739,
-        evolvers: [ , , , ,  ]
+        evolvers: [ 'skullKatakuri', 'skullKatakuri', 'skullKatakuri', 'skullKatakuri', 'skullKatakuri' ]
     },
     2740: {
         evolution: 2741,
@@ -4449,7 +4449,7 @@ module.exports = {
     },
     1763: {
         evolution: 2784,
-        evolvers: [ , , , 1180, 301 ]
+        evolvers: [ 'skullQCK', 'skullQCK', 'skullQCK', 1180, 301 ]
     },
     2786: {
         evolution: 2787,
@@ -4493,7 +4493,7 @@ module.exports = {
     },
     1794: {
         evolution: 2814,
-        evolvers: [ , , 96, 301, 267 ]
+        evolvers: [ 'skullSTR', 'skullQCK', 96, 301, 267 ]
     },
     2818: {
         evolution: 2819,
@@ -4513,7 +4513,7 @@ module.exports = {
     },
     1951: {
         evolution: 2830,
-        evolvers: [ , , 99, 304, 267 ]
+        evolvers: [ 'skullPSY', 'skullINT', 99, 304, 267 ]
     },
     2834: {
         evolution: 2835,
@@ -4557,7 +4557,199 @@ module.exports = {
     },
     649: {
         evolution: 2868,
-        evolvers: [ , 118, 96, 301, 267 ]
+        evolvers: [ 'skullQCK', 118, 96, 301, 267 ]
+    },
+    2885: {
+        evolution: 2886,
+        evolvers: [ 'skullCP9', 'skullCP9', 'skullCP9', 'skullCP9', 'skullCP9' ]
+    },
+    2894: {
+        evolution: 2895,
+        evolvers: [ 118, 100, 103, 1180, 267 ]
+    },
+    2896: {
+        evolution: 2897,
+        evolvers: [ 118, 303, 2662, 103, 267 ]
+    },
+    2898: {
+        evolution: 2899,
+        evolvers: [ 117, 81, 83, 87, 98 ]
+    },
+    2900: {
+        evolution: 2901,
+        evolvers: [ 84, 266, 95, 300, 100 ]
+    },
+    2902: {
+        evolution: 2903,
+        evolvers: [ 117, 87, 266, 98, 1180 ]
+    },
+    2686: {
+        evolution: 2909,
+        evolvers: [ 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard' ]
+    },
+    2922: {
+        evolution: 2923,
+        evolvers: [ 'skullRaidKaido', 'skullRaidKaido', 'skullRaidKaido', 'skullRaidKaido', 'skullRaidKaido' ]
+    },
+    2929: {
+        evolution: 2930,
+        evolvers: [ 118, 266, 301, 101, 267 ]
+    },
+    2935: {
+        evolution: 2936,
+        evolvers: [ 118, 103, 98, 92, 267 ]
+    },
+    2937: {
+        evolution: 2938,
+        evolvers: [ 81, 117, 103, 87, 1180 ]
+    },
+    2939: {
+        evolution: 2940,
+        evolvers: [ 117, 98, 87, 266, 303 ]
+    },
+    2941: {
+        evolution: 2942,
+        evolvers: [ 303, 117, 81, 2662, 92 ]
+    },
+    2943: {
+        evolution: 2944,
+        evolvers: [ 81, 117, 103, 87, 1180 ]
+    },
+    2945: {
+        evolution: 2946,
+        evolvers: [ 117, 98, 87, 266, 303 ]
+    },
+    2947: {
+        evolution: 2948,
+        evolvers: [ 303, 117, 81, 2662, 92 ]
+    },
+    2949: {
+        evolution: 2950,
+        evolvers: [ 81, 117, 103, 87, 1180 ]
+    },
+    2951: {
+        evolution: 2952,
+        evolvers: [ 117, 98, 87, 266, 303 ]
+    },
+    1085: {
+        evolution: 2954,
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
+    },
+    2957: {
+        evolution: 2958,
+        evolvers: [ 118, 300, 266, 100, 267 ]
+    },
+    2959: {
+        evolution: 2960,
+        evolvers: [ 118, 84, 266, 100, 267 ]
+    },
+    2961: {
+        evolution: 2962,
+        evolvers: [ 118, 88, 1180, 104, 267 ]
+    },
+    2963: {
+        evolution: 2964,
+        evolvers: [ 118, 304, 1180, 104, 267 ]
+    },
+    2965: {
+        evolution: 2966,
+        evolvers: [ 117, 83, 84, 95, 100 ]
+    },
+    2967: {
+        evolution: 2968,
+        evolvers: [ 117, 94, 89, 300, 100 ]
+    },
+    2969: {
+        evolution: 2970,
+        evolvers: [ 117, 83, 88, 99, 104 ]
+    },
+    2971: {
+        evolution: 2972,
+        evolvers: [ 117, 94, 93, 304, 104 ]
+    },
+    2979: {
+        evolution: 2980,
+        evolvers: [ 118, 302, 1180, 102, 267 ]
+    },
+    2981: {
+        evolution: 2982,
+        evolvers: [ 118, 86, 266, 102, 267 ]
+    },
+    2983: {
+        evolution: 2984,
+        evolvers: [ 83, 266, 97, 302, 102 ]
+    },
+    2985: {
+        evolution: 2986,
+        evolvers: [ 94, 1180, 91, 302, 102 ]
+    },
+    2251: {
+        evolution: 2991,
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+    },
+    3006: {
+        evolution: 3007,
+        evolvers: [ 118, 301, 2662, 101, 267 ]
+    },
+    3008: {
+        evolution: 3009,
+        evolvers: [ 118, 96, 1180, 101, 267 ]
+    },
+    3010: {
+        evolution: 3011,
+        evolvers: [ 83, 266, 96, 301, 101 ]
+    },
+    3012: {
+        evolution: 3013,
+        evolvers: [ 117, 85, 266, 301, 101 ]
+    },
+    3014: {
+        evolution: 3015,
+        evolvers: [ 117, 90, 94, 96, 101 ]
+    },
+    1883: {
+        evolution: 3018,
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+    },
+    3026: {
+        evolution: 3027,
+        evolvers: [ 118, 266, 303, 103, 267 ]
+    },
+    3028: {
+        evolution: 3029,
+        evolvers: [ 117, 83, 87, 98, 103 ]
+    },
+    3030: {
+        evolution: 3031,
+        evolvers: [ 117, 83, 92, 98, 103 ]
+    },
+    3037: {
+        evolution: 3038,
+        evolvers: [ 118, 266, 94, 303, 267 ]
+    },
+    3039: {
+        evolution: 3040,
+        evolvers: [ 83, 266, 98, 303, 103 ]
+    },
+    3041: {
+        evolution: 3042,
+        evolvers: [ 117, 87, 1180, 303, 103 ]
+    },
+    3043: {
+        evolution: 3044,
+        evolvers: [ 83, 266, 92, 303, 103 ]
+    },
+    2265: {
+        evolution: 3048,
+        evolvers: [  ]
+    },
+    3056: {
+        evolution: 3057,
+        evolvers: [  ]
+    },
+    3058: {
+        evolution: 3059,
+        evolvers: [  ]
     },
     3333: {
         evolution: 3334,
@@ -4610,13 +4802,5 @@ module.exports = {
     3375: {
         evolution: 3376,
         evolvers: [ 118, 88, 266, 304, 104 ]
-    },
-    3377: {
-        evolution: 3378,
-        evolvers: [ 118, 266, 301, 101, 267 ]
-    },
-    2686: {
-        evolution: 3379,
-        evolvers: [ , , , ,  ]
     },
 };

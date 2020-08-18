@@ -126,21 +126,18 @@ function getDetail(id, detail) {
 		return unit_captain.replaceEntities() || false;
 	}
 	if (detail === 'sailor') {
-		var unit_sailor = unit_details && unit_details.sailor || '';
-		if (unit_sailor != '' && unit_sailor.hasOwnProperty('japan')) {
-			unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global;
-		}
-		else if (unit_sailor != '' && unit_sailor.hasOwnProperty('base')) {
-			unit_sailor = unit_sailor.base;
-		}
-		return unit_sailor.replaceEntities() || false;
-	}
-	if (detail === 'special') {
-		var unit_special = unit_details && unit_details.special || '';
-		if (unit_special && unit_special.hasOwnProperty('japan')) {
-			unit_special = unit_special.japan + ' ' + unit_special.global;
-		}
-		return unit_special.replaceEntities() || false;
+    var unit_sailor = unit_details && unit_details.sailor || ''; //se declara unit_sailor como boleano
+		var toLog = typeof unit_details;		
+		var base = path.join(__dirname, '../..');
+		fs.writeFile(base + "sailorlog.txt", toLog, "utf8", function(err){});
+    if (unit_sailor != '' && unit_sailor.hasOwnProperty('japan')) { //unit_sailor es un booleano y se compara con un string, como eso da false y sigue && no hace la segunda comprobación
+      unit_sailor = unit_sailor.japan + ' ' + unit_sailor.global; //esto nunca se ejecuta
+    }
+
+    else if (unit_sailor != '' && unit_sailor.hasOwnProperty('base')) { //lo mismo que antes
+      unit_sailor = unit_sailor.base;
+    }
+    return unit_sailor.replaceEntities() || false;
 	}
 }
 
@@ -361,6 +358,38 @@ function getPotential(id) {
 	return false;
 }
 
+
+function getSwap(id) {
+	var unit_details = details[id],
+	unit_swap = unit_details && unit_details.swap,
+	response;
+	if(unit_swap && Array.isArray(unit_details.swap)){
+
+		response = '<b>Swap:</b>\n';
+
+		unit_swap.forEach(function(swap){
+			response += (unit_swap) ? '\t<code>'+swap.Name.replaceEntities() +'</code>\n':'\n';
+			var desc = swap.description;
+			desc.forEach(function(liv,index,array){
+				if(index === array.length - 1)
+					response += liv ? '\t\t<i>'+liv.replaceEntities() +'</i>\n':'\n';
+			});
+			response+='\n\n';
+		});
+
+		return response;
+	}
+
+	else if(unit_swap){
+		response = '<b>Swap:</b>\n';
+		response+= unit_swap.replaceEntities();
+		response+='\n\n';
+
+		return response;
+	}
+	return false;
+}
+
 function getSupport(id) {
 	var unit_details = details[id],
 	unit_support = unit_details && unit_details.support,
@@ -405,7 +434,8 @@ function getEvolutions(id, type) {
 			unit_evolution.forEach(function(evolution, evolver) {
 				unit_evolution_paths.push([evolution, unit_evolvers[evolver]]);
 			});
-		} else {
+		}
+		else {
 			//Remove skull evolver
 			unit_evolvers.forEach(function(evolver,index){
 				if (typeof evolver === 'string' || evolver instanceof String){
@@ -543,6 +573,7 @@ function getUnitInfo(id, type) {
 	unit_special_notes = getNotes(details[id] && details[id].specialNotes, type),
 	unit_cooldown = getCooldowns(id, type),
 	unit_sailor = getSailorAbility(id),
+	unit_swap = getSwap(id),
 	unit_potential = getPotential(id),
 	unit_support = getSupport(id),
 	unit_drops = getDrops(id, type),
@@ -553,6 +584,7 @@ function getUnitInfo(id, type) {
 		response += unit_captain || '';
 		response += unit_captain_notes || '';
 		response += unit_sailor || '';
+		response += unit_swap || '\n';
 		response += unit_special || '';
 		response += unit_special_notes || '';
 		response += unit_cooldown || '';
@@ -588,6 +620,9 @@ module.exports = {
 	},
 	getSupport:function(){
 		return support;
+	},
+	getSwap:function(){
+		return swap;
 	},
 	getDetail: function(id, detail) {
 		return getDetail(id, detail);

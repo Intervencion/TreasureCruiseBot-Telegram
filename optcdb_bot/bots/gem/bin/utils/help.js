@@ -45,7 +45,7 @@ function getHelpText() {
   response += 'Developed by trashbytes\n';
   response += 'Maintained by @Intervencion and @stereo89\n\n';
   /*  response += '<b>Note:</b> This bot is under heavy development so bugs may appear every now and then.\n\n';*/
-  response += 'Database: 2019-2-13\n';
+  response += 'Database: 2020-8-18\n';
   return response;
 }
 
@@ -245,26 +245,31 @@ function downloadFile(fileName, message){
 }
 
 function getFixDBFiles(cmd, arg, message) {
-  if(message.from.id === global.admin && message.text){ 
-    module.status.addRequest('fixfiles');
+  if (message.from.id === global.admin && message.text) {
+    module.status.addRequest("fixfiles");
 
     //REPLACING window.units with module.exports
     var numFiles = 0;
-    arrayFiles.forEach(function(item){
-      if(replaceString(item)){
+    arrayFiles.forEach(function (item) {
+      if (replaceString(item)) {
         numFiles++;
+      } else {
+        console.err("Error: " + item + " not fixed.");
       }
-      else{
-        console.err("Error: "+item +" not fixed.")
-      }
-    }); 
+    });
 
-    var response = '<b>F I X  F I L E S</b>\n\n';
-    response += '#'+numFiles+' files fixed';
+    var response = "<b>F I X  F I L E S</b>\n\n";
+    response += "#" + numFiles + " files fixed";
+
+    //MrNemo64 start
+    // fixDetails();
+    // response += "\ndetailsDB modified";
+    //MrNemo64 end
+
     return {
       text: response,
       disable_web_page_preview: true,
-      chat_id: message.chat.id
+      chat_id: message.chat.id,
     };
   }
 }
@@ -285,6 +290,73 @@ function replaceString(fileName){
 
   return true;
 }
+
+// MrNemo64 start
+function fixDetails() {
+  //   /updates/detailsDB.js -- cambia
+  var fs = require("fs");
+  changeDetailsDB(base + "/updates/" + "detailsDB.js", fs);
+}
+
+function changeDetailsDB(path, fs) {
+  fs.readFile(path, "utf8", function (err, detailsdata) {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    detailsdata = detailsdata.replace(/character1/g, "base");
+    detailsdata = detailsdata.replace(/character2/g, "level1");
+    detailsdata = detailsdata.replace(/combined/g, "level2");
+
+    fs.writeFile(path, detailsdata, "utf8", function (err) {
+      if (err) {
+        console.error(err);
+        return;
+      }
+    });
+  });
+}
+
+function getFixEvolutions(cmd, arg, message) {
+  if (message.from.id === global.admin && message.text) {
+    module.status.addRequest("fixevolutions");
+    //MrNemo64 start
+    fixEvolutions();
+    var response = "\nevolutionsDB modified";
+    //MrNemo64 end
+
+    return {
+      text: response,
+      disable_web_page_preview: true,
+      chat_id: message.chat.id,
+    };
+  }
+}
+
+function fixEvolutions() {
+  //   /updates/evolutionsDB.js -- comillas
+  var fs = require("fs");
+  fixQuotes(base + "/updates/" + "evolutionsDB.js", fs);
+}
+
+function fixQuotes(path, fs) {
+  fs.readFile(path, "utf8", function (err, skullsdata) {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    skullsdata = skullsdata.replace(/'(.*?)'/g, "base");
+
+    fs.writeFile(path, skullsdata, "utf8", function (err) {
+      if (err) {
+        console.error(err);
+        return;
+      }
+    });
+  });
+}
+// MrNemo64 end
+
 
 function getBackupCurrentDB(cmd, arg, message){
   if(message.from.id === global.admin && message.text){ 
@@ -434,6 +506,8 @@ exports.getReply = function(cmd, arg, message) {
       return getDownloadUpdates(cmd, arg, message);
     case 'fixfiles':
       return getFixDBFiles(cmd, arg, message);
+    case 'fixevolutions':
+      return getFixEvolutions(cmd, arg, message);
     case 'backup':
       return getBackupCurrentDB(cmd, arg, message);
     case 'restore':
@@ -443,4 +517,4 @@ exports.getReply = function(cmd, arg, message) {
   }
 };
 
-exports.commands = ['help', 'start', 'inline', 'command', 'filter', 'notice', 'supergroup', 'github','download','fixfiles','backup','restore','updatedb'];
+exports.commands = ['help', 'start', 'inline', 'command', 'filter', 'notice', 'supergroup', 'github','download','fixfiles','fixevolutions','backup','restore','updatedb'];

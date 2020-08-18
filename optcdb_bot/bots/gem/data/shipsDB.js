@@ -84,7 +84,7 @@ module.exports = [
     },
 
     { // 6
-        name: 'Merry Go Flying',
+        name: 'Going Merry - Flying Model',
         thumb: 'ship_0007_c.png',
         description: 'Boosts ATK by 1.2x, recovers 350 HP at the end of the turn',
         atk: function(p) {
@@ -217,7 +217,7 @@ module.exports = [
     },
     
     { // 17
-        name: '2nd Anniversary Thousand Sunny',
+        name: 'Thousand Sunny - 2nd Anniversary Model',
         thumb: 'ship_0018_c1.png',
         //description: 'Boosted Ability: Boosts ATK by 1.5x. At the start of the adventure, all specials start at MAX charge. Base Ability: Boosts ATK by 1.2x.',
         description: 'Boosts ATK by 1.2x.',
@@ -240,7 +240,7 @@ module.exports = [
     },
     
     { // 19
-        name: "Doflamingo Ship",
+        name: "Donquixote Pirates Ship",
         thumb: 'ship_0020_c.png',
         description: 'Boosts ATK of Driven Characters by 1.5x and their HP by 1.35x. Makes PERFECTs easier to Hit for Driven characters. Special: Adds 0.2 to Chain  (cooldown MAX: 15 Turns)',
         atk: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.5][p.boatLevel - 1]},
@@ -248,7 +248,7 @@ module.exports = [
     },
     
     { // 19.2
-        name: "Doflamingo Ship - Special ACTIVATED",
+        name: "Donquixote Pirates Ship - Special ACTIVATED",
         thumb: 'ship_0020_c.png',
         description: 'Boosts ATK of Driven Characters by 1.5x and their HP by 1.35x. Makes PERFECTs easier to Hit for Driven characters. ACTIVATED Special: Adds 0.2 to Chain  (cooldown MAX: 15 Turns)',
         atk: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.5][p.boatLevel - 1]},
@@ -256,7 +256,7 @@ module.exports = [
     },
     
     { // 20
-        name: 'The Rocket Man',
+        name: 'Rocketman',
         thumb: 'ship_0021_c.png',
         description: 'Boosts ATK of Powerhouse characters by 1.55x, and heals at the end of every turn for a variable amount depending on the number of Powerhouse characters on the team. (At MAX, heals 900 per turn with 6 Powerhouse characters) Sharply reduces HP of non-Powerhouse characters. Special: Deals 99,999 typeless damage to one unit.  (cooldown MAX: 17 Turns)',
         atk: function(p) {
@@ -272,7 +272,7 @@ module.exports = [
     },
     
     { // 21
-        name: 'Burning Moby Dick',
+        name: 'Moby Dick - Paramount War Version',
         thumb: 'ship_0022_c.png',
         //description: 'Boosted Ability: Boosts ATK by 1.5x and HP by 1.4x, reduces HP by 7% at the end of the turn. Special: Cuts the current HP of each enemy by 20% (Cooldown: 18 turns). Base Ability: Boosts HP by 1.3x.',
         description: 'Boosts HP by 1.3x.',
@@ -288,7 +288,7 @@ module.exports = [
     },
     
     { // 22
-        name: 'Garp Ship',
+        name: 'Garp\'s Battleship',
         thumb: 'ship_0023_c.png',
         description: 'Boosts ATK of [STR] and [PSY] characters by 1.5x, and their HP by 1.25x',
         atk: function(p) {
@@ -311,7 +311,7 @@ module.exports = [
         },
     },
     { // 24
-        name: 'New Year\'s Big Top',
+        name: 'Big Top - Grand Line Feast',
         thumb: 'ship_0025_c.png',
         //description: 'Boosted Ability: Boosts ATK of all characters by 1.5x. Boosts EXP gained by 1.5x and Beli gained by 1.5x.  Base Ability: Boosts ATK of characters with 20 cost or less by 1.2x',
         description: 'Boosts ATK of characters with 20 cost or less by 1.2x',
@@ -320,7 +320,7 @@ module.exports = [
         }
     },
     { // 25
-        name: 'Thousand Sunny: Coated',
+        name: 'Thousand Sunny - Coated Vessel',
         thumb: 'ship_0026_c.png',
         description: 'Boosts ATK by 1.5x. Special: reduces damage received by 50% for 1 turn (Cooldown: 16 turns).',
         atk: function(p) {
@@ -340,7 +340,7 @@ module.exports = [
     },
     
     { // 27
-        name: 'Going Luffy SENPAI!',
+        name: 'Mister Luffy Go',
         thumb: 'ship_0028_c.png',
         description: 'Boosts ATK of Striker characters by 1.5x and their HP by 1.2x if there are 6 Striker characters in your crew. Reduces special cooldown of Striker characters by 1 at the start of the adventure.  Special: Reduces any damage received above 10,000 HP by 97% (Cooldown: 17 turns).',
         atk: function(p) {
@@ -396,7 +396,7 @@ module.exports = [
     
     
     { //30
-        name: "3rd Anniversary Thousand Sunny",
+        name: "Thousand Sunny - Special Anniversary Model",
         thumb: 'ship_0032_c.png',
         //description: 'Boosted Ability 1: Boosts ATK by 1.5x. At the start of the adventure, all specials start at MAX charge. Boosted Ability 2: Boosts ATK by 1.5x. Boosts EXP gained by 3x . Base Ability: Boosts ATK by 1.2x.',
         description: 'Boosts ATK by 1.2x.',
@@ -487,8 +487,8 @@ module.exports = [
     
     
     
-    { //38
-        name: "4th Anniversary Thousand Sunny",
+    { //37
+        name: "Thousand Sunny - 4th Anniversary Model",
         thumb: 'ship_0039_c.png',
         description: 'Boosted Ability 1: Boosts ATK of all characters by 1.5x. Boosts EXP gained by 3x and Beli gained by 3x. Boosted Ability 2: Boosts ATK of all characters by 1.5x. At the start of the adventure, all specials start at MAX charge.',
         atk: function(p) {
@@ -553,7 +553,7 @@ module.exports = [
     
     
     { //41
-        name: "5th Anniversary Thousand Sunny",
+        name: "Going Merry - 5th Anniversary Model",
         thumb: 'ship_0043_c.png',
         description: 'Boosted Ability 1: Boosts ATK of all characters by 1.5x. Boosts EXP gained by 3x and Beli gained by 3x. Boosted Ability 2: Boosts ATK of all characters by 1.5x. At the start of the adventure, all specials start at MAX charge.',
         atk: function(p) {
@@ -577,7 +577,7 @@ module.exports = [
     { //43
         name: "Megalo",
         thumb: 'ship_0045_c.png',
-        description: 'Boosts HP of all characters by 1.25x. If your Captain is [PSY] or [INT], boosts ATK of all characters by 1.5x, boosts captain\'s RCV by 200 and reduces damage received by 10%. Special: Locks all orbs for 1 turn (Cooldown: 8 turns).',
+        description: 'Boosts HP of all characters by 1.25x. If your Captain is a [PSY] or [INT] character, boosts ATK of all characters by 1.5x, boosts captain\'s RCV by 200 and reduces damage received by 10%. Special: Locks all orbs for 1 turn (Cooldown: 8 turns).',
         atk: function(p) {
             return (p.captain.type == "PSY" || p.captain.type == "INT") ? [ 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.5, 1.5, 1.5, 1.5 ][p.boatLevel - 1] : 1;
         },
@@ -601,7 +601,7 @@ module.exports = [
     
     { //45
         name: "Piece of Spadille",
-        thumb: null,
+        thumb: 'ship_0047_c.png',
         description: 'Boosts ATK of Fighter, Powerhouse and Free Spirit characters by 1.5x and their HP by 1.2x. If HP is below 30% at the start of the turn, boosts ATK of Fighter, Powerhouse and Free Spirit characters by 1.6x.',
         atk: function(p) {
             return p.unit.class.has('Fighter') || p.unit.class.has('Powerhouse') || p.unit.class.has('Free Spirit') ? (p.p.percHP <= 30.0) ? [ 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.5, 1.5, 1.6 ][p.boatLevel - 1] : [ 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5 ][p.boatLevel - 1] : 1;
@@ -613,9 +613,9 @@ module.exports = [
     
     
     
-    { //45
-        name: "Koi",
-        thumb: null,
+    { //46
+        name: "Giant Koi",
+        thumb: 'ship_0048_c.png',
         description: 'Boosts ATK of [QCK] and [INT] characters by 1.5x and their HP by 1.2x. Makes [RCV] orbs beneficial for [QCK] and [INT] characters. If HP is above 99% at the start of the turn, boosts ATK of [QCK] and [INT] characters by 1.6x.',
         atk: function(p) {
             return p.unit.type == "QCK" || p.unit.type == "INT" ? (p.p.percHP > 99.0) ? [ 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.5, 1.5, 1.6 ][p.boatLevel - 1] : [ 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5 ][p.boatLevel - 1] : 1;
@@ -627,9 +627,9 @@ module.exports = [
     
     
     
-    { //46
+    { //47
         name: "Grudge Dolph",
-        thumb: null,
+        thumb: 'ship_0049_c.png',
         description: 'Reduces cooldown of all specials by 1 turn, boosts HP of Slasher and Striker by 1.25x and recovers 1,000 HP at the end of the turn. If a Striker or Slasher character has a Matching, [WANO] or [RAINBOW] orb, boosts ATK by 1.6x, by 1.5x otherwise.',
         atk: function(p) {
             return p.unit.class.has('Slasher') || p.unit.class.has('Striker') ? (p.p.orb == 2 || p.p.orb == 'rainbow' || p.p.orb == 'wano') ? [ 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.5, 1.5, 1.6 ][p.boatLevel - 1] : [ 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5 ][p.boatLevel - 1] : 1;
@@ -639,6 +639,72 @@ module.exports = [
         },
         heal: function(p) {
             return [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000 ][p.boatLevel - 1];
+        }
+    },
+    
+    
+    
+    { //48
+        name: "Merry Go Goodbye",
+        thumb: 'ship_0050_c.png',
+        description: 'Boosted Ability 1: Boosts ATK of all characters by 1.5x, reduces cooldown of all specials by 5 turns at the start of the fight and makes PERFECTs earier to hit. Special: Recovers 32% of crew\'s MAX HP (Cooldown: 12 turns).',
+        atk: function(p) {
+            return 1.5;
+        },
+    },
+    
+    
+    
+    { //49
+        name: "Shark Superb",
+        thumb: 'ship_0051_c.png',
+        description: 'If your Captain is a [STR], [DEX] or [QCK] character, boosts ATK of all characters by 2x, reduces cooldown of all specials by 1 turn at the start of the fight, makes PERFECTs easier to hit and reduces ATK boost at the end of each turn until ATK boost is 1.3x after 10 turns.',
+        atk: function(p) {
+            if (p.captain) return (p.captain.type == "STR" || p.captain.type == "DEX" || p.captain.type == "QCK") ? [ 1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 1.85, 1.9, 2 ][p.boatLevel - 1] - Math.min([0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.7][p.boatLevel - 1]*p.p.turnCounter/10,[0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.7][p.boatLevel - 1]) : 1;
+            else return 1;
+        },
+    },
+    
+    
+    
+    { //50
+        name: "Thousand Sunny - Treasure Cruise 6th Anniversary Model",
+        thumb: 'ship_0052_c.png',
+        description: 'Boosted Ability 1: Boosts ATK of all characters by 1.5x. Boosts EXP and Beli gained by 3x. Boosted Ability 2: Boosts ATK of all characters by 1.5x. At the start of the adventure, all specials start at MAX charge.',
+        atk: function(p) {
+            return 1.5;
+        },
+    },
+    
+    
+    
+    { //51
+        name: "Victoria Punk",
+        thumb: null,
+        description: 'Boosts HP by 1.2x and slightly increases the appearance rate of TND orbs. If your captain is a [STR] or [DEX] character, boosts ATK of all characters by 1.55x. If a character has a [TND], [BOMB], [WANO] or [SUPERBOMB] orb, boost their ATK by 1.65x instead. Special: Reduces all enemies\' Barrier duration by 1 turn (Cooldown: 10 turns).',
+        atk: function(p) {
+            if (p.captain) return (p.captain.type == "STR" || p.captain.type == "DEX") ? (p.p.orb == 'superbomb' || p.p.orb == 'meat' || p.p.orb == 'wano') ? [ 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.55, 1.6, 1.65 ][p.boatLevel - 1] : [ 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.55 ][p.boatLevel - 1] : 1;
+            else return 1;
+        },
+        hp: function(p) {
+            return [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.2 ][p.boatLevel - 1];
+        },
+    },
+    
+    
+    
+    { //52
+        name: "Liberal Hind",
+        thumb: null,
+        description: 'Reduces cooldown of all specials by 1 turn, boosts captain\'s RCV by 500, recovers 1,000 HP at the end of the turn. If your captain is a Free Spirit, Slasher or Cerebral character, boosts ATK of all characters by 1.6x. If there is 6 [PSY] characters in your crew, boosts ATK by 1.1x additionaly. Special: Reduces Special Cooldown of [PSY] characters by 1 turn (Cooldown: 10 turns).',
+        atk: function(p) {
+            var mult = 1;
+            if (p.colorCount.PSY>=6) mult = [ 1, 1, 1, 1.05, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1 ][p.boatLevel - 1];
+            if (p.captain) return (p.captain.class.has("Free Spirit") || p.captain.class.has("Slasher") || p.captain.class.has("Cerebral")) ? mult*[ 1.2, 1.25, 1.3, 1.3, 1.3, 1.3, 1.35, 1.4, 1.5, 1.6 ][p.boatLevel - 1] : mult;
+            else return mult;
+        },
+        heal: function(p) {
+            return [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 ][p.boatLevel - 1];
         }
     },
 
